@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Components on Dewey design system</title>
+    <link>http://localhost:1313/components/</link>
+    <description>Recent content in Components on Dewey design system</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <atom:link href="http://localhost:1313/components/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breakpoints and columns</title>
+      <link>http://localhost:1313/components/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/components/buttons/</guid>
+      <description>Breakpoints and columns Breakpoints The Dewey design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.&#xA;Breakpoint Class infix Dimensions X-Small None &amp;lt;576px Small sm ≥576px Medium md ≥768px Large lg ≥992px Extra large xl ≥1200px Extra extra large xxl ≥1400px For screens &amp;lt;768px width (i.e. Small and X-small breakpoints), both the typography and spacing systems use smaller sizes. An example:</description>
+    </item>
+  </channel>
+</rss>

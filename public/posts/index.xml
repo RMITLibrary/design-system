@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Blog on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Sun, 03 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I like to roar</title>
+      <link>http://localhost:1313/posts/post1/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post1/</guid>
+      <description>Hi, quick update from me. I just want to let everyone know that I like roaring.</description>
+    </item>
+    <item>
+      <title>Today I made friends</title>
+      <link>http://localhost:1313/posts/post2/</link>
+      <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post2/</guid>
+      <description>I got lost in the woods today. Two friends, a Meerkat and a Warthog, found me, sung a song with me and gave my life new meaning. Today was a good day.</description>
+    </item>
+    <item>
+      <title>Vegan experiment</title>
+      <link>http://localhost:1313/posts/post3/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post3/</guid>
+      <description>I tried to become a vegan today. I made it to lunch time and couldn&amp;rsquo;t bear the sight of another green leaf. Yuck!</description>
+    </item>
+  </channel>
+</rss>

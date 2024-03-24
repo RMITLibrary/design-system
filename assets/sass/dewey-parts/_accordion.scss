@@ -1,0 +1,124 @@
+.accordion {
+    @include do-space(margin-top, lg); 
+    @include do-space(margin-bottom, lg); 
+}
+
+.accordion-item {
+    border-color: $interface-grey;
+    border-left: 0px;
+    border-right: 0px;
+    
+    .accordion-header {
+        margin: 0px;    //suppress the 40px margin-top found by default
+    }
+
+    .accordion-button {
+
+        color: $blue;
+        font-size: 1.125rem;
+
+        padding: 1rem 0 1rem 0;
+
+        @include media-breakpoint-up(md) { 
+            font-size: 1.25rem;
+        }  
+    }
+
+    .accordion-button:hover, .accordion-button:not(.collapsed):hover {
+        @include media-breakpoint-up(md) { color: $blue-hover; }
+    }
+
+
+    .accordion-button:not(.collapsed) {
+        background-color: #fff;
+        box-shadow: inset 0 0px;
+    }
+
+    .accordion-button::before {
+        flex-shrink: 0;
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
+        content: "";
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%23E61E2A'%3e%3cpath fill-rule='evenodd' d='M9.33329 11C9.7065 11 10.0765 11.1557 10.3399 11.4585L16.0063 17.9844L21.661 11.4713C22.144 10.9158 22.9864 10.8561 23.5409 11.3391C24.0965 11.8221 24.1562 12.6635 23.6742 13.219L17.0129 20.8912C16.5075 21.4745 15.5062 21.4755 14.9997 20.8912L8.32668 13.2073C7.84364 12.6517 7.90335 11.8093 8.45891 11.3274C8.71162 11.1077 9.02299 11 9.33329 11Z'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-size: 2rem;
+        transition: transform .2s ease-in-out;
+    }
+
+    .accordion-button::after {
+        display: none;
+    }
+
+    .accordion-button:not(.collapsed)::before {
+
+        transform: rotate(-180deg);
+    }
+
+    .accordion-body {
+        padding: 0.5rem 0 0 0;
+        @include do-space(margin-bottom, lg); 
+
+        :first-child {
+            @include do-space(margin-top, zero);   
+        }
+    }
+}
+
+.accordion-item:first-of-type, 
+.accordion-item:last-of-type {
+    border-radius: 0px;
+}
+
+
+.transcript {
+    margin-top: 0.5rem;
+    
+    .accordion-button {
+
+        font-size: 1rem !important;
+        text-decoration: underline;
+
+        padding: 0rem 0 1rem 0;
+
+        @include media-breakpoint-up(md) { 
+            font-size: 1.125rem !important;
+        } 
+    }
+        
+    .accordion-button::before {
+        margin-right: 0.5rem !important;
+    }
+    
+    .accordion-body p {
+        font-size: 0.9375rem !important;
+    }
+
+}
+
+
+.nav-accordion {
+    border: 0;
+    
+    .accordion-button {
+        background-color: $underlay-grey !important;
+        font-size: 1.125rem !important;
+
+        padding: 0.75rem 0 0.75rem 0;
+
+        @include media-breakpoint-up(md) { 
+            font-size: 1.25rem !important;
+        }   
+    }
+        
+    .accordion-button::before {
+        margin-left: 0.5rem !important;
+        margin-right: 0.5rem !important;
+    }
+    
+    .accordion-body {
+        padding: 0 0 0.5rem 0;
+        margin: 0;
+        background-color: $underlay-grey;
+    }
+}

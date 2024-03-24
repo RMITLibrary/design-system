@@ -1,0 +1,109 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-au'
+title = 'Dewey design system'
+
+[params]
+name = 'Simba'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[menu]
+    [[menu.main]]
+        name = "Introduction"
+        url = "/introduction/"
+        weight = 100
+    [[menu.main]]
+        name = "Getting Started"
+        parent = "Introduction"
+        url = "/"
+        weight = 102
+    [[menu.main]]
+        name = "Accessibility"
+        parent = "Introduction"
+        url = "/introduction/accessibility/"
+        weight = 103
+    [[menu.main]]
+        name = "Help"
+        parent = "Introduction"
+        url = "/introduction/help/"
+        weight = 104   
+        
+    [[menu.main]]
+        name = "Visual Language"
+        url = "/visual/"
+        weight = 200 
+    [[menu.main]]
+        name = "Breakpoints and columns"
+        url = "/visual/breakpoints/"
+        parent = "Visual Language"
+        weight = 206
+    [[menu.main]]
+        id = "colour"
+        name = "Colour"
+        url = "/visual/colour/"
+        parent = "Visual Language"
+        weight = 207
+    [[menu.main]]
+        name = "Icons"
+        url = "/visual/icons/"
+        parent = "Visual Language"
+        weight = 208
+    [[menu.main]]
+        name = "Spacing"
+        url = "/visual/spacing/"
+        parent = "Visual Language"
+        weight = 209
+    [[menu.main]]
+        name = "Typography"
+        url = "/visual/typography/"
+        parent = "Visual Language"
+        weight = 210 
+        
+    [[menu.main]]
+        name = "Simple Components"
+        url = "/components-simple/"
+        weight = 300
+    [[menu.main]]
+        name = "Accordions"
+        url = "/components-simple/accordions/"
+        parent = "Simple Components"
+        weight = 312
+    [[menu.main]]
+        name = "Blockquotes"
+        url = "/components-simple/blockquotes/"
+        parent = "Simple Components"
+        weight = 313
+    [[menu.main]]
+        name = "Buttons"
+        url = "/components-simple/buttons/"
+        parent = "Simple Components"
+        weight = 314
+    
+    [[menu.main]]
+        name = "Footer"
+        url = "/components-complex/blockquotes/"
+        parent = "Complex Components"
+        weight = 413
+    [[menu.main]]
+        name = "Images"
+        url = "/components-complex/images/"
+        parent = "Complex Components"
+        weight = 514
+        
+    [[menu.main]]
+        name = "Anatomy of a page"
+        url = "/examples/anatomy/"
+        parent = "Examples"
+        weight = 501
+    [[menu.main]]
+        name = "Example 1"
+        url = "/examples/example-1/"
+        parent = "Examples"
+        weight = 502
+    [[menu.main]]
+        name = "Example 2"
+        url = "/examples/example-2/"
+        parent = "Examples"
+        weight = 503
+    

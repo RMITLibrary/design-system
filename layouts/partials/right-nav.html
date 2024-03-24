@@ -1,0 +1,38 @@
+{{ $pageName := .Params.name }}
+{{ $pageParent := .Params.parent  }}
+
+<nav>
+    <!-- <h4><a href="blergh.html">Section title</a></h4>-->
+{{ range .Site.Menus.main.ByWeight }}
+    <!-- START accordion -->
+        {{ if .HasChildren }}
+        {{ $showContent := "hide" }}
+        {{ $buttonState := "collapsed" }}
+        {{ if eq $pageParent .Name }}
+            {{ $showContent = "show" }}
+            {{ $buttonState = "" }}
+        {{ end }}
+    <div class="accordion-item nav-accordion">
+        <h5 class="accordion-header" id="nav-accord-head-{{ replaceRE "(\\s)" "" .Name }}">
+            <button class="accordion-button {{ $buttonState }}" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-{{ replaceRE "(\\s)" "" .Name }}" aria-expanded="false" aria-controls="nav-accord-body-{{ replaceRE "(\\s)" "" .Name }}">
+            {{ .Name }}
+            </button>
+        </h5>
+        <div id="nav-accord-body-{{ replaceRE "(\\s)" "" .Name }}" class="accordion-collapse collapse {{ $showContent }}" aria-labelledby="nav-accord-head-{{ replaceRE "(\\s)" "" .Name }}">
+            <div class="accordion-body">
+                <ul>
+                    {{ range .Children }}
+                        {{ if eq $pageName .Name }}
+                            <li class="selected">{{ .Name }}</li>
+                        {{ else }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+    <!-- END accordion -->
+{{ end }}
+</nav>

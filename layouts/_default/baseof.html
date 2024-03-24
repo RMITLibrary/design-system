@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    {{ partial "meta.html" . }}
+</head>
+<body>
+{{ partial "top-nav.html" }}
+
+<div class="container main-content">
+    <div class="row ">
+        <!-- START content -->
+        <div class="col-xl-8">
+            {{ block "main" . }}
+            {{ end }}
+            {{ partial "prev-next" . }}
+        </div>
+        <!-- END content -->
+
+        <!-- START right nav -->
+        <div class="col-xl-4">
+            {{ partial "right-nav" . }}
+        </div>
+        <!-- END right nav -->
+    </div>
+</div>
+
+{{ partial "footer.html" . }}
+</body>
+</html>

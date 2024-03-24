@@ -1,0 +1,121 @@
+/* Styles specific to the design system go here */
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/functions";
+
+// 2. Include any default variable overrides here
+
+/* START COLOUR */
+
+/* core design system colours */
+
+$dark-grey: #333;               //primary text colour
+$text-alt: #525252;             //Not in use - due to Triple AAA accessibility requirement?
+$interface-grey: #BFBFBF;
+$underlay-selected: #E6E6E6;    //use sparingly
+$underlay-grey: #f5f5f5;
+$underlay-hover: #EDEDED;
+
+$rmit-blue: #000054;
+$blue-70: #4D4D88;
+$blue-hover: #0F2699;
+$rmit-red: #E61E2A;
+$correct-green: #009969;
+
+
+/* map our colours to bootstrap variables - is it worth mapping all grey vars? */
+
+$gray-100: $underlay-grey;
+$gray-300: $interface-grey;
+$gray-400: $interface-grey;
+$gray-600: $interface-grey;   //Do we need this???
+$gray-900: $dark-grey;
+
+$blue: $rmit-blue;
+$green: $correct-green;
+$red: $rmit-red;
+
+
+/* link colours */
+$link-hover-color: $blue-hover;
+$link-hover-decoration: none;
+
+/* tables */
+$table-striped-bg:            $underlay-grey;
+
+/* END COLOUR */
+
+/* START TYPOGRAPHY variables */
+
+$font-family-sans-serif: "Helvetica Neue", Arial, system-ui, -apple-system, "Segoe UI", Roboto,  "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$font-family-serif: "Museo700", Museo700, serif;
+
+$lead-font-weight: 500;
+$enable-rfs: false;             //turn off responsive font scaling
+
+
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// 4. Include optional Bootstrap components (decide what to omit)
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/accordion";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/toasts";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/spinners";
+@import "bootstrap/offcanvas";
+@import "bootstrap/utilities";
+
+
+// 5. Add additional custom code here
+
+@import "dewey-parts/space";
+@import "dewey-parts/typography";
+@import "dewey-parts/accordion";
+@import "dewey-parts/navigation";
+@import "dewey-parts/top-nav";
+@import 'dewey-parts/table';
+@import 'dewey-parts/video-image';
+@import 'dewey-parts/button';
+@import 'dewey-parts/footer';
+
+
+
+
+
+
+// 5. Styles specific to documentation go here (might be worth having a completely seperate stylesheet)
+
+@import "app-specific/code-examples";
+@import "app-specific/colour-swatch";
+@import "app-specific/sidebar";
+    
+
+

@@ -1,0 +1,45 @@
+$content-max-width: 44rem !default;
+
+.video-wrapper {
+    @include do-space(margin-top, lg); 
+    @include do-space(margin-bottom, lg); 
+    
+    max-width: $content-max-width;
+}
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.responsive-video iframe, .responsive-video object, .responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+figure {
+    @include do-space(margin-top, lg); 
+    @include do-space(margin-bottom, lg); 
+    margin-left: 0;
+    margin-right: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+img.border {
+    box-sizing: border-box;
+    border: 1px solid $interface-grey;
+}
+
+.limit-width {
+    max-width: $content-max-width;
+}
