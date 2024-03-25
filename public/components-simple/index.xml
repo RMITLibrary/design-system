@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simple Components on Dewey design system</title>
-    <link>http://localhost:1313/components-simple/</link>
+    <link>http://localhost:1313/dewey-design/components-simple/</link>
     <description>Recent content in Simple Components on Dewey design system</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <atom:link href="http://localhost:1313/components-simple/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/dewey-design/components-simple/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accordions</title>
-      <link>http://localhost:1313/components-simple/accordions/</link>
+      <link>http://localhost:1313/dewey-design/components-simple/accordions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/components-simple/accordions/</guid>
+      <guid>http://localhost:1313/dewey-design/components-simple/accordions/</guid>
       <description>Accordions The Dewey design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.</description>
     </item>
     <item>
       <title>Blockquotes</title>
-      <link>http://localhost:1313/components-simple/blockquotes/</link>
+      <link>http://localhost:1313/dewey-design/components-simple/blockquotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/components-simple/blockquotes/</guid>
+      <guid>http://localhost:1313/dewey-design/components-simple/blockquotes/</guid>
       <description>Blockquotes The Dewey design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.</description>
     </item>
     <item>
       <title>Buttons</title>
-      <link>http://localhost:1313/components-simple/buttons/</link>
+      <link>http://localhost:1313/dewey-design/components-simple/buttons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/components-simple/buttons/</guid>
+      <guid>http://localhost:1313/dewey-design/components-simple/buttons/</guid>
       <description>Buttons The Dewey design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.&#xA;Link Button Submit Link This is a previous button This is a next button </description>
     </item>
   </channel>

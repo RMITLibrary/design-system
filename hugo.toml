@@ -1,4 +1,4 @@
-baseURL = 'https://rmitlibrary.github.io/dewey-design/public/'
+baseURL = 'https://rmitlibrary.github.io/dewey-design/'
 languageCode = 'en-au'
 title = 'Dewey design system'
 
