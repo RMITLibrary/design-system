@@ -1,6 +1,6 @@
 @import "fonts/museo";
 
-//do we need this???? - used in buttons
+//These mixins can be useful to save us repeating code
 @mixin type-default {
     font-size: 1rem;
     line-height: 1.5;
@@ -25,6 +25,10 @@ body {
     @include media-breakpoint-up(md) { font-size: 1.125rem; } 
 }
 
+/*
+It's debatable whether to include margin top for p, ul, ol etc.
+Worth consideringsome css trickery to remove margin if p is the first element???
+*/
 p {
     @include media-breakpoint-up(md) { font-size: 1.125rem; } 
     @include do-space(margin-top, xs);      //should we have margin-top?
@@ -37,6 +41,7 @@ small, .small {
     
     letter-spacing: 0.02rem;    //to increase readability
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     color: $primary;
@@ -74,7 +79,7 @@ li > ul {
     margin-bottom: 1rem !important;
 }
 
-//As we are usign bootstrap default sizes for headings, it makes sense to go down here
+//As we are using bootstrap default sizes for headings, it makes sense to go down here
 @include media-breakpoint-down(md) { 
     
     h1 { font-size: 2rem; }

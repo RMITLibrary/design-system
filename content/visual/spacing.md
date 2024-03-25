@@ -57,7 +57,7 @@ hide_footer: false
 	<li>Other headings use <strong>space-lg</strong> for margin-top and <strong>space-sm</strong> for margin-bottom.</li>
 </ul>
 <figure>
-    <img src="/images/spacing-example.png" alt="" class="limit-width" />
+    <img src="../../images/spacing-example.png" alt="" class="limit-width" />
 </figure>
 <h2>Usage</h2>
 <p>When working in scss, a mixin is available, <code>do-space</code>. Simply send the desired property (usually <strong class="nowrap">margin-top</strong> or <strong>margin-bottom</strong>) and the desired space unit (<strong>xs, sm, md, lg, xl</strong>). The value zero can also be passed to set the property to zero.</p>

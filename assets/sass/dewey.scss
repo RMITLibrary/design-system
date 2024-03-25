@@ -28,7 +28,7 @@ $correct-green: #009969;
 $gray-100: $underlay-grey;
 $gray-300: $interface-grey;
 $gray-400: $interface-grey;
-$gray-600: $interface-grey;   //Do we need this???
+$gray-600: $interface-grey;
 $gray-900: $dark-grey;
 
 $blue: $rmit-blue;
@@ -41,7 +41,7 @@ $link-hover-color: $blue-hover;
 $link-hover-decoration: none;
 
 /* tables */
-$table-striped-bg:            $underlay-grey;
+$table-striped-bg: $underlay-grey;
 
 /* END COLOUR */
 
@@ -96,15 +96,21 @@ $enable-rfs: false;             //turn off responsive font scaling
 
 // 5. Add additional custom code here
 
+//Visual language
 @import "dewey-parts/space";
 @import "dewey-parts/typography";
+
+//Simple components
 @import "dewey-parts/accordion";
+@import 'dewey-parts/button';
+@import 'dewey-parts/table';
+
+//Complex components
+@import 'dewey-parts/footer';
 @import "dewey-parts/navigation";
 @import "dewey-parts/top-nav";
-@import 'dewey-parts/table';
 @import 'dewey-parts/video-image';
-@import 'dewey-parts/button';
-@import 'dewey-parts/footer';
+
 
 
 

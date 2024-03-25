@@ -7,14 +7,14 @@ $space-lg: 2.5rem;  //40px
 $space-xl: 3rem;    //48px
 $space-xxl: 4rem;   //64px
 
-//space applied to breakoints xsmall and small (width < 768px)
+//space applied to breakpoints xsmall and small (screen width < 768px)
 $space-sm-xs:  $space-xs;   //16px
 $space-sm-sm:  $space-xs;   //16px, still
 $space-sm-md:  $space-sm;   //24px
 $space-sm-lg:  $space-md;   //32px
 $space-sm-xl:  $space-xl;   //48px
 
-//space applied to breakpoints medium through xxlarge (width ≥ 768px)
+//space applied to breakpoints medium through xxlarge (screen width ≥ 768px)
 $space-md-xs:  $space-xs;   //16px
 $space-md-sm:  $space-sm;   //24px
 $space-md-md:  $space-md;   //32px
@@ -129,6 +129,10 @@ offered. Append a bootstrap size unit on the end to get the desired spacing.
 .padding-bot {
     @include set-prop(".padding-bot", padding-bottom);
 }
+
+/*
+Some basic hr clases to provide addiitional seperation
+*/
 
 hr {
     @include do-space(margin-top, lg); 

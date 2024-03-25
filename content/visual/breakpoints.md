@@ -51,7 +51,7 @@ hide_footer: false
 
 <p>For screens &lt;768px width (i.e. Small and X-small breakpoints), both the typography and spacing systems use smaller sizes. An example:</p>
 <figure>
-    <img src="/images/heading-example.png" alt="" class="border" />
+    <img src="../../images/heading-example.png" alt="" class="border" />
 </figure>
 <p>More detail is available on the <a href="/visual/typography/">Typography</a> and <a href="/visual/spacing/">Spacing</a> pages.</p>
 <p>Analytics for the Learning lab website revealed the following for calendar year of 2023:</p>
@@ -62,11 +62,11 @@ hide_footer: false
 <p>The development focus should be on Extra extra large, Extra large and X-small breakpoints (95% of all users use these breakpoints)</p>
 <h2>Columns</h2>
 <p>The Dewey design system uses Bootstrap 5’s column grid: 12 columns with 24px gutters (12px left and right)</p>
-<img src="/images/columns.png" alt="" class="limit-width" />
+<img src="../../images/columns.png" alt="" class="limit-width" />
 <h3>Screens ≥1200px width</h3>
 <p>At breakpoints Extra Large and Extra extra large, a two column layout is used for content and navigation. It’s recommended to restrict page content to 8 columns wide even if no right navigation is present. This keeps the line length readable and easily scannable.</p>
 <figure>
-    <img src="/images/columns-more-1200px.png" alt="" class="limit-width" />
+    <img src="../../images/columns-more-1200px.png" alt="" class="limit-width" />
 </figure>
 <div class="highlight">
 <pre class="chroma">
@@ -86,7 +86,7 @@ hide_footer: false
 <h3>Screens &lt;1200px</h3>
 <p>At breakpoints X-Small, Small, Medium, Large, the optional right nav drops below page content.</p>
 <figure>
-    <img src="/images/columns-more-1200px.png" alt="" class="limit-width" />
+    <img src="../../images/columns-more-1200px.png" alt="" class="limit-width" />
 </figure>
 <table class="table table-striped">
   <thead>
