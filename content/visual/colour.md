@@ -265,8 +265,8 @@ hide_footer: false
 </tbody>
 </table>
 </div>
-<h2>Hightlighted text</h2>
-<p>It may be neccesary to mark text to highlight certian words or phrases. It's important to remember to never use colour alone to convey information, due to visual impairments such as colour blindness.</p>
+<h2>Highlighted text</h2>
+<p>It may be neccesary to mark text to highlight certain words or phrases. It's important to remember to never use colour alone to convey information, due to visual impairments such as colour blindness.</p>
 <p>If you want a sequence of colours more distinguishable to people with colour-blindness, follow this pattern:</p>
 <p><span class="color-teal">teal</span>, <span class="color-pink">pink</span>, <span class="color-green">green</span>, <span class="color-purple">purple</span>, <span class="color-brown">brown</span>, <span class="color-blue">blue</span>, <span class="color-red">red</span>, <span class="color-yellow">yellow</span></p>
 <div class="table-responsive">

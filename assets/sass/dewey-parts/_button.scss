@@ -1,7 +1,23 @@
-.btn-outline-secondary {
+.btn-primary {
+    position: relative;
+    
+    @include type-default;
+    
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-primary:hover {
+    background-color: $blue-hover;
+}
+
+.btn-outline-secondary, button {
     position: relative;
     color: $rmit-blue;
-    background-color: white;
+    background-color: $white;
+    
+    border-style: solid;
+    border-width: 1px;
     border-color: $rmit-blue;
     border-radius: 0.25rem;
     
@@ -10,11 +26,11 @@
     @include type-default;
     
     margin-right: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 7px 1rem;
 }
 
 
-.btn-outline-secondary:hover {
+.btn-outline-secondary:hover, button:hover {
     color: $blue-hover;
     background-color: $underlay-grey;
     border-color: $rmit-blue;

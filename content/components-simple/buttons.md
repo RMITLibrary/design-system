@@ -9,6 +9,11 @@ parent: "Simple Components"
 <a class="btn btn-primary" href="#" role="button">Link</a>
 <button class="btn btn-primary" type="submit">Button</button>
 <hr>
+<button type="submit">Submit</button>
+<br />
+<br />
+<button type="submit" class="btn">Submit</button>
+<hr />
 <button type="submit" class="btn btn-outline-secondary">Submit</button>
 <a class="btn btn-outline-secondary" href="#" role="button">Link</a>
 <hr>
