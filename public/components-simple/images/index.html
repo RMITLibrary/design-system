@@ -1,11 +1,10 @@
 <!doctype html>
 <html>
-<head>
-	<meta name="generator" content="Hugo 0.124.1"><script src="/dewey-design/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dewey-design/livereload" data-no-instant defer></script>
+<head><script src="/dewey-design/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dewey-design/livereload" data-no-instant defer></script>
         <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-        <title>Getting Started</title>
+        <title>Images</title>
     
     
     <link rel="stylesheet" href="http://localhost:1313/dewey-design/sass/dewey.min.css">
@@ -41,8 +40,36 @@
         
         <div class="col-xl-8">
             
- <h1 class="margin-top-zero">Getting started</h1>
-Page content to be written.
+ <h1 class="margin-top-zero">Images</h1>
+<p class="lead">Dewey offers various options in displaying images including  borders, alignment, sizing and adding captions and transcript accordions.
+</p>
+<h2>Markup</h2>
+<p>For images used in page content, wrap all <code>&lt;img&gt;</code> tags in a <code>&lt;figure&gt;</code> tag. Remember to include an alt tag.</p>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;figure&gt;
+   &lt;img src=&rdquo;my-image.jpg&rdquo; alt=&rdquo;An example image&rdquo; / &gt;
+&lt;/figure&gt;</code>
+</pre></div>
+<h2>Border</h2>
+<p>Add a border to your image using the class <code>border</code>. his can be useful for diagram images on a white background. The border colour used is interface-grey.</p>
+<figure>
+    <img src="../../images/img-example-graph.png" alt="An example image" class="border" />
+</figure>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;figure&gt;
+   &lt;img src=&rdquo;my-image.jpg&rdquo; alt=&rdquo;An example image&rdquo;  class=&rdquo;border&rdquo; / &gt;
+&lt;/figure&gt;</code>
+</pre></div>
+<button class="btn btn-primary">Primary button</button>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;button class=&quot;btn btn-primary&quot; &gt;Primary button&lt;/button&gt;</code>
+</pre></div>
+<h2>Other</h2>
+<p>The prev and next links at the bottom of the page need to be visually prominent. While they take some styling cues from buttons to achieve this, they are in fact links. Visit the <a href="/visual/links/">links</a> page for more information.</p>
+
 
             
 
@@ -64,12 +91,6 @@ Page content to be written.
         
             
             
-                
-                <a class="btn btn-nav-next" href="/dewey-design/introduction/accessibility/">Accessibility</a> 
-                
-                
-                
-            
             
             
                 
@@ -195,6 +216,8 @@ Page content to be written.
                 
                 
                 
+                    <a class="btn btn-nav-prev" href="/dewey-design/components-complex/blockquotes/">Footer</a>
+                
             
         
     
@@ -202,6 +225,12 @@ Page content to be written.
     
         
             
+            
+                
+                <a class="btn btn-nav-next" href="/dewey-design/examples/anatomy/">Anatomy of a page</a> 
+                
+                
+                
             
             
             
@@ -250,21 +279,18 @@ Page content to be written.
         
         
         
-            
-            
-        
     <div class="accordion-item nav-accordion">
         <h5 class="accordion-header" id="nav-accord-head-Introduction">
-            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-Introduction" aria-expanded="false" aria-controls="nav-accord-body-Introduction">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-Introduction" aria-expanded="false" aria-controls="nav-accord-body-Introduction">
             Introduction
             </button>
         </h5>
-        <div id="nav-accord-body-Introduction" class="accordion-collapse collapse show" aria-labelledby="nav-accord-head-Introduction">
+        <div id="nav-accord-body-Introduction" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-Introduction">
             <div class="accordion-body">
                 <ul>
                     
                         
-                            <li class="selected">Getting Started</li>
+                        <li><a href="/dewey-design/">Getting Started</a></li>
                         
                     
                         
@@ -333,13 +359,16 @@ Page content to be written.
         
         
         
+            
+            
+        
     <div class="accordion-item nav-accordion">
         <h5 class="accordion-header" id="nav-accord-head-SimpleComponents">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-SimpleComponents" aria-expanded="false" aria-controls="nav-accord-body-SimpleComponents">
+            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-SimpleComponents" aria-expanded="false" aria-controls="nav-accord-body-SimpleComponents">
             Simple Components
             </button>
         </h5>
-        <div id="nav-accord-body-SimpleComponents" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-SimpleComponents">
+        <div id="nav-accord-body-SimpleComponents" class="accordion-collapse collapse show" aria-labelledby="nav-accord-head-SimpleComponents">
             <div class="accordion-body">
                 <ul>
                     
@@ -382,7 +411,7 @@ Page content to be written.
                         
                     
                         
-                        <li><a href="/dewey-design/components-complex/images/">Images</a></li>
+                            <li class="selected">Images</li>
                         
                     
                 </ul>

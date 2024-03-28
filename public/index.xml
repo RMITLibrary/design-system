@@ -19,7 +19,7 @@
       <link>http://localhost:1313/dewey-design/components-simple/accordions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/components-simple/accordions/</guid>
-      <description>Accordions The Dewey design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.</description>
+      <description>Accordions Accordions can be a useful tool in dividing and segmenting information, if used judiciously. The design system features three variants, the transcript variant is used to provide accessible content for videos and images, the navigation option (featured on the right) allows for collapsible navigation.&#xA;Default Each accordion item is controlled by the user, they decide when each item opens and closes. While there is facility to have an accordion item open by default (see bootstrap docs), this begs the question, &#34;</description>
     </item>
     <item>
       <title>Blockquotes</title>
@@ -40,7 +40,7 @@
       <link>http://localhost:1313/dewey-design/components-simple/buttons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/components-simple/buttons/</guid>
-      <description>Buttons The Dewey design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.&#xA;Link Button Submit Link This is a previous button This is a next button </description>
+      <description>Buttons Two different varieties of button are available in the design system. Default state The button state hews closely to Bootstrap&#39;s btn-outline-secondary style. When multiple buttons are used on a page, almost all of them should in this style.&#xA;Default button Default button &amp;lt;button class=&amp;quot;btn btn-outline-secondary&amp;quot;&amp;gt;Button label&amp;lt;/button&amp;gt; or simply &amp;lt;button&amp;gt;Button label&amp;lt;/button&amp;gt; Primary button This style should be used sparingly, ideally only one occurrence on each page. It should action something important, like submitting a form.</description>
     </item>
     <item>
       <title>Colour</title>
@@ -62,6 +62,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/visual/icons/</guid>
       <description>Icons Icons are used sparingly in the design system. Where icons are used, they should be designed to fit into one of two sizes, small (2rem square), large (6rem square).&#xA;Look to minimise the amount of colour used in icon designs, using $rmit-blue as a base colour. $rmit-red can be used either to indicate a clickable icon or as a minimal accent colour.&#xA;Large Currently, large size icons are used in certain variations of blockquotes.</description>
+    </item>
+    <item>
+      <title>Images</title>
+      <link>http://localhost:1313/dewey-design/components-simple/images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/components-simple/images/</guid>
+      <description>Images Dewey offers various options in displaying images including borders, alignment, sizing and adding captions and transcript accordions. Markup For images used in page content, wrap all &amp;lt;img&amp;gt; tags in a &amp;lt;figure&amp;gt; tag. Remember to include an alt tag.&#xA;&amp;lt;figure&amp;gt; &amp;lt;img src=&amp;rdquo;my-image.jpg&amp;rdquo; alt=&amp;rdquo;An example image&amp;rdquo; / &amp;gt; &amp;lt;/figure&amp;gt; Border Add a border to your image using the class border. his can be useful for diagram images on a white background. The border colour used is interface-grey.</description>
+    </item>
+    <item>
+      <title>Links</title>
+      <link>http://localhost:1313/dewey-design/visual/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/visual/links/</guid>
+      <description>Links Links occurring within paragraph text are displayed in RMIT Blue with an underline. The extra visibility the underline provides is important due the lack of contrast between RMIT Blue and the main text colour, Dark Grey. On hover, the colour changes to Blue Hover. The underline is removed in certain situations, such as in navigation, where the intent of a link is clear and the repetition of the underlines would appear aesthetically unappealing and visually &#34;</description>
     </item>
     <item>
       <title>Sandbox</title>

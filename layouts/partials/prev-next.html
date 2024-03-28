@@ -10,7 +10,7 @@
             <!-- if $matchFound is yes, we've gone one past matched item -->
             {{ if eq $matchFound  "yes" }}
                 <!-- pump out next button -->
-                <a class="btn btn-nav-next" role="button" href="{{ .URL }}">{{ .Name }}</a> 
+                <a class="btn btn-nav-next" href="{{ .URL }}">{{ .Name }}</a> 
                 {{ $pageName = "break out of the loop" }}
                 <!-- if lieu of a break func, set $matchfound, to vals which won't trigger code -->
                 {{ $matchFound = "complete" }}
@@ -20,7 +20,7 @@
                 {{ $matchFound = "yes" }}
                 <!-- Create Prev button if prevUrl is not blank - first item in menu will be -->
                 {{if ne $prevUrl "blank" }}
-                    <a class="btn btn-nav-prev" role="button" href="{{ $prevUrl }}">{{ $prevName }}</a>
+                    <a class="btn btn-nav-prev" href="{{ $prevUrl }}">{{ $prevName }}</a>
                 {{ end }}
             {{ else }}
                 <!-- if there was no match, record previous url + name -->

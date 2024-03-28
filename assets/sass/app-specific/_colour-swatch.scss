@@ -21,7 +21,7 @@
     p { margin: 0; }
 }
 
-.colour-sm {
+.colour-bg-sm {
 	display: inline-block;
 	width: 1.5rem;
     height: 1.5rem;
@@ -29,7 +29,7 @@
     margin-right: 0.25rem;
 }
 
-.colour {
+.colour-bg {
 	&-dark-grey { background-color: $dark-grey; }
     &-text-alt { background-color: $text-alt; }
     &-interface-grey { background-color: $interface-grey; }
@@ -48,6 +48,21 @@
         background-color: $white;
         border: 1px solid $interface-grey;
     }   
+}
+
+.colour {
+	&-dark-grey { color: $dark-grey; }
+    &-text-alt { color: $text-alt; }
+    &-interface-grey { color: $interface-grey; }
+    &-underlay-selected { color: $underlay-selected; }
+    &-underlay-grey { color: $underlay-grey; }
+    
+    &-rmit-blue { color: $rmit-blue; }
+    &-blue-70 { color: $blue-70; }
+    &-blue-hover { color: $blue-hover; }
+    
+    &-rmit-red { color: $rmit-red; }
+    &-correct-green { color: $correct-green; }
 }
 
 @mixin set-colours($text-col, $bg-col: $white) { 

@@ -29,6 +29,13 @@
       <description>Icons Icons are used sparingly in the design system. Where icons are used, they should be designed to fit into one of two sizes, small (2rem square), large (6rem square).&#xA;Look to minimise the amount of colour used in icon designs, using $rmit-blue as a base colour. $rmit-red can be used either to indicate a clickable icon or as a minimal accent colour.&#xA;Large Currently, large size icons are used in certain variations of blockquotes.</description>
     </item>
     <item>
+      <title>Links</title>
+      <link>http://localhost:1313/dewey-design/visual/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/visual/links/</guid>
+      <description>Links Links occurring within paragraph text are displayed in RMIT Blue with an underline. The extra visibility the underline provides is important due the lack of contrast between RMIT Blue and the main text colour, Dark Grey. On hover, the colour changes to Blue Hover. The underline is removed in certain situations, such as in navigation, where the intent of a link is clear and the repetition of the underlines would appear aesthetically unappealing and visually &#34;</description>
+    </item>
+    <item>
       <title>Spacing</title>
       <link>http://localhost:1313/dewey-design/visual/spacing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

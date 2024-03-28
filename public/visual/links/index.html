@@ -1,11 +1,10 @@
 <!doctype html>
 <html>
-<head>
-	<meta name="generator" content="Hugo 0.124.1"><script src="/dewey-design/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dewey-design/livereload" data-no-instant defer></script>
+<head><script src="/dewey-design/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dewey-design/livereload" data-no-instant defer></script>
         <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-        <title>Getting Started</title>
+        <title>Links</title>
     
     
     <link rel="stylesheet" href="http://localhost:1313/dewey-design/sass/dewey.min.css">
@@ -41,8 +40,36 @@
         
         <div class="col-xl-8">
             
- <h1 class="margin-top-zero">Getting started</h1>
-Page content to be written.
+ <h1 class="margin-top-zero">Links</h1>
+<p><a href="">Links</a> occurring within paragraph text are displayed in <strong class="colour-rmit-blue">RMIT Blue</strong> with an underline. The extra visibility the underline provides is important due the lack of contrast between <strong class="colour-rmit-blue">RMIT Blue</strong> and the main text colour, <strong class="colour-dark-grey">Dark Grey</strong>. On hover, the colour changes to <strong class="colour-blue-hover">Blue Hover</strong>.
+</p>
+<p>The underline is removed in certain situations, such as in navigation, where the intent of a link is clear and the repetition of the underlines would appear aesthetically unappealing and visually "heavy". A red carat is sometimes used in these situations to help denote that a link is present</p>
+<p>Due to contrast ratio constraints, links should only be presented on white or <strong class="colour-bg-underlay-grey" style="border: 0">Underlay Grey</strong> backgrounds.</p>
+<h2>Headings</h2>
+<p>Headings should not be used as links, the exception being in navigation. Here we rely on context and the change in colour on hover to indicate the link.</p>
+<h2>Link large</h2>
+<p>Link Large can be used to provide emphasis at the end of a paragraph. Only one Link Large should be used at a time, if multiple links are going to be presented, use the link panel(???? think about the name doc in navigation page) component.</p>
+<a href="" class="link-large">Find out more</a>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;a href=&quot;enter-link-here&quot; class=&quot;link-large&quot;&gt;Find out more&lt;/a&gt;</code>
+</pre></div>
+<h2>Prev and next links</h2>
+<p>These can be used at he bottom of pages to provide page to page navigation. They can be useful if other forms of navigation are used at the top of pages (e.g. <a href="">breadcrumbs</a>) and the user scrolls through content to the bottom of a page. They avoid excessive scrolling or repeat navigation and allow the user to progress through the site easily.</p>
+<div class="btn-nav-container">
+    <a class="btn btn-nav-prev" href="">Previous page</a>
+    <a class="btn btn-nav-next" href="">Next page</a>
+</div>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;div class=&quot;btn-nav-container&quot;&gt;
+    &lt;a class=&quot;btn btn-nav-prev&quot; href=&quot;prev-link-here&quot;&gt;Previous page&lt;/a&gt;
+    &lt;a class=&quot;btn btn-nav-next&quot; href=&quot;next-link-here&quot;&gt;Next page&lt;/a&gt;
+&lt;/div&gt;</code>
+</pre></div>
+<h2>More information</h2>
+<p>Have a look at the <a href="/compontent-complex/navigation/">navigation page</a> to view more complex examples of links being used in the design system.</p>
+
 
             
 
@@ -64,12 +91,6 @@ Page content to be written.
         
             
             
-                
-                <a class="btn btn-nav-next" href="/dewey-design/introduction/accessibility/">Accessibility</a> 
-                
-                
-                
-            
             
             
                 
@@ -142,6 +163,8 @@ Page content to be written.
                 
                 
                 
+                    <a class="btn btn-nav-prev" href="/dewey-design/visual/typography/">Typography</a>
+                
             
         
     
@@ -149,6 +172,12 @@ Page content to be written.
     
         
             
+            
+                
+                <a class="btn btn-nav-next" href="/dewey-design/components-simple/accordions/">Accordions</a> 
+                
+                
+                
             
             
             
@@ -250,21 +279,18 @@ Page content to be written.
         
         
         
-            
-            
-        
     <div class="accordion-item nav-accordion">
         <h5 class="accordion-header" id="nav-accord-head-Introduction">
-            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-Introduction" aria-expanded="false" aria-controls="nav-accord-body-Introduction">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-Introduction" aria-expanded="false" aria-controls="nav-accord-body-Introduction">
             Introduction
             </button>
         </h5>
-        <div id="nav-accord-body-Introduction" class="accordion-collapse collapse show" aria-labelledby="nav-accord-head-Introduction">
+        <div id="nav-accord-body-Introduction" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-Introduction">
             <div class="accordion-body">
                 <ul>
                     
                         
-                            <li class="selected">Getting Started</li>
+                        <li><a href="/dewey-design/">Getting Started</a></li>
                         
                     
                         
@@ -287,13 +313,16 @@ Page content to be written.
         
         
         
+            
+            
+        
     <div class="accordion-item nav-accordion">
         <h5 class="accordion-header" id="nav-accord-head-VisualLanguage">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-VisualLanguage" aria-expanded="false" aria-controls="nav-accord-body-VisualLanguage">
+            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-VisualLanguage" aria-expanded="false" aria-controls="nav-accord-body-VisualLanguage">
             Visual Language
             </button>
         </h5>
-        <div id="nav-accord-body-VisualLanguage" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-VisualLanguage">
+        <div id="nav-accord-body-VisualLanguage" class="accordion-collapse collapse show" aria-labelledby="nav-accord-head-VisualLanguage">
             <div class="accordion-body">
                 <ul>
                     
@@ -318,7 +347,7 @@ Page content to be written.
                         
                     
                         
-                        <li><a href="/dewey-design/visual/links/">Links</a></li>
+                            <li class="selected">Links</li>
                         
                     
                 </ul>

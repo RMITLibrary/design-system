@@ -13,6 +13,8 @@ $content-max-width: 44rem !default;
     height: 0;
     overflow: hidden;
     width: 100%;
+    
+    //max-width: $content-max-width;
 }
 
 .responsive-video iframe, .responsive-video object, .responsive-video embed {

@@ -59,6 +59,11 @@ unsafe = true
         url = "/visual/typography/"
         parent = "Visual Language"
         weight = 210 
+    [[menu.main]]
+        name = "Links"
+        url = "/visual/links/"
+        parent = "Visual Language"
+        weight = 211 
         
     [[menu.main]]
         name = "Simple Components"
