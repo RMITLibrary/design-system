@@ -1,10 +1,14 @@
-$content-max-width: 44rem !default;
+$img-width-xl: 100%;
+$img-width-lg: 40rem;
+$img-width-md: 25rem;
+$img-width-sm: 18.5rem;
+
 
 .video-wrapper {
     @include do-space(margin-top, lg); 
     @include do-space(margin-bottom, lg); 
     
-    max-width: $content-max-width;
+    max-width: $img-width-lg;
 }
 
 .responsive-video {
@@ -28,8 +32,11 @@ $content-max-width: 44rem !default;
 figure {
     @include do-space(margin-top, lg); 
     @include do-space(margin-bottom, lg); 
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+    max-width: $img-width-lg;
 }
 
 img {
@@ -42,6 +49,31 @@ img.border {
     border: 1px solid $interface-grey;
 }
 
+figure.img-left {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+//Get rid of this
 .limit-width {
-    max-width: $content-max-width;
+    max-width: 44rem;
+}
+
+.img-width- {
+    &full {
+        max-width: $img-width-xl !important;
+    }
+    
+    &lg {
+        max-width: $img-width-lg !important;
+    }
+    
+    &md {
+        max-width: $img-width-md !important;
+    }
+    
+    &sm {
+        max-width: $img-width-sm !important;
+    }
 }
