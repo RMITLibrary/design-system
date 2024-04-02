@@ -9,6 +9,7 @@ $img-width-sm: 18.5rem;
     @include do-space(margin-bottom, lg); 
     
     max-width: $img-width-lg;
+	border-bottom: 1px solid $interface-grey;
 }
 
 .responsive-video {
@@ -29,14 +30,21 @@ $img-width-sm: 18.5rem;
     height: 100%;
 }
 
+/* Figures are centred, limit to 40rem width by default*/
 figure {
     @include do-space(margin-top, lg); 
     @include do-space(margin-bottom, lg); 
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
     
     width: 100%;
     max-width: $img-width-lg;
+}
+
+/* Use this class to align leeft rather than centre */
+figure.img-left {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 img {
@@ -44,36 +52,107 @@ img {
     height: auto;
 }
 
+/* A border can be added */
 img.border {
     box-sizing: border-box;
     border: 1px solid $interface-grey;
 }
 
-figure.img-left {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-
-//Get rid of this
-.limit-width {
-    max-width: 44rem;
-}
-
+/* img width classes to override default max-width */
 .img-width- {
     &full {
-        max-width: $img-width-xl !important;
+        max-width: $img-width-xl;
     }
     
     &lg {
-        max-width: $img-width-lg !important;
+        max-width: $img-width-lg;
     }
     
     &md {
-        max-width: $img-width-md !important;
+        max-width: $img-width-md;
     }
     
     &sm {
-        max-width: $img-width-sm !important;
+        max-width: $img-width-sm;
     }
 }
+
+/* 
+For portrait images, wrap img tag in another div to limit img width 
+while maintaining width for captions, transcripts etc.
+*/
+figure {
+	.portrait {
+		max-width: $img-width-md;
+		margin: 0px auto;
+	}
+	
+	.portrait-sm {
+		max-width: $img-width-sm;
+		margin: 0px auto;
+	}
+}
+
+//Replicates above behaviour, insurance if class applied to image rather than creating new div.
+figure.portrait {
+	max-width: $img-width-md;
+	margin: 0px auto;
+}
+
+
+//reduce type size, add border to the bottom by default
+figcaption {
+	@include type-small;
+	margin-top: 0.25rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid $interface-grey;
+}
+
+
+
+//if threre's a transcript, add border bottom to the figure, remove from figcaption
+figure.img-transcript {
+	
+	padding-bottom: 0rem;
+	border-bottom: 1px solid $interface-grey;
+	
+	figcaption {
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+
+//caption-side allows to present portrait images side by side with a caption
+.caption-side {
+	
+	//make the div fill whole contianer
+	max-width: $img-width-xl !important;
+	
+	//add border bottom to the figure
+	padding-bottom: 1rem;
+	border-bottom: 1px solid $interface-grey;
+	
+	//for sceens > 768px, so image and caption side by side
+	.img-caption-wrap {
+		@include media-breakpoint-up(md) { 
+
+			display: flex;
+			align-items: flex-end;
+			gap: 24px;
+			flex: 1 0 0;
+			align-self: stretch;
+
+			.portrait {
+				width: $img-width-md;
+				margin: 0;
+			}		
+		} 
+	}
+	
+	//remove border, padding from caption
+	figcaption {
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+

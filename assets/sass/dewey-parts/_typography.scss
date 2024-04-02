@@ -1,6 +1,13 @@
 @import "fonts/museo";
 
 //These mixins can be useful to save us repeating code
+@mixin type-small {
+    font-size: 0.8125rem;
+    @include media-breakpoint-up(md) { font-size: 0.9375rem; }
+    
+    letter-spacing: 0.02rem;    //to increase readability
+}
+
 @mixin type-default {
     font-size: 1rem;
     line-height: 1.5;
@@ -36,10 +43,7 @@ p {
 }
 
 small, .small {
-    font-size: 0.8125rem;
-    @include media-breakpoint-up(md) { font-size: 0.9375rem; }
-    
-    letter-spacing: 0.02rem;    //to increase readability
+    @include type-small;
 }
 
 

@@ -28,12 +28,5 @@
       <guid>http://localhost:1313/dewey-design/components-simple/buttons/</guid>
       <description>Buttons Two different varieties of button are available in the design system. Default state The button state hews closely to Bootstrap&#39;s btn-outline-secondary style. When multiple buttons are used on a page, almost all of them should in this style.&#xA;Default button Default button &amp;lt;button class=&amp;quot;btn btn-outline-secondary&amp;quot;&amp;gt;Button label&amp;lt;/button&amp;gt; or simply &amp;lt;button&amp;gt;Button label&amp;lt;/button&amp;gt; Primary button This style should be used sparingly, ideally only one occurrence on each page. It should action something important, like submitting a form.</description>
     </item>
-    <item>
-      <title>Images</title>
-      <link>http://localhost:1313/dewey-design/components-simple/images/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dewey-design/components-simple/images/</guid>
-      <description>Images Dewey offers various options in displaying images including borders, alignment, sizing and adding captions and transcript accordions. Markup For images used in page content, wrap all &amp;lt;img&amp;gt; tags in a &amp;lt;figure&amp;gt; tag. Remember to include an alt tag.&#xA;&amp;lt;figure&amp;gt; &amp;lt;img src=&amp;rdquo;my-image.jpg&amp;rdquo; alt=&amp;rdquo;An example image&amp;rdquo; / &amp;gt; &amp;lt;/figure&amp;gt; Spacing By default, each image has a margin of space-large applied top and bottom&#xA;Border Add a border to your image using the class border.</description>
-    </item>
   </channel>
 </rss>

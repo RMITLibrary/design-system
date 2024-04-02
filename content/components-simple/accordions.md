@@ -96,11 +96,12 @@ parent: "Simple Components"
 </pre></div>
 <!-- END Code -->
 <h2>Transcript</h2>
-<p>The transcript variant is only ever used as one item in isolation, supporting either a piece of video or image content. Currently, the transcript width maches the video or image width. Text within the transcript accordion is presented in font size small. (Should we change this??? Extra divs)</p>
-<p>More information is available both on the <a href="">Images</a> and <a href="">Video</a> pages. An example of the transcript accordion is presented below.</p>
+<p>The transcript variant is only ever used as one item in isolation, supporting either a piece of video or image content. Currently, the transcript width maches the video or image width. Text within the transcript accordion is presented in font size small.</p>
+<p>More information is available both on the <a href="../../components-complex/images">Images</a> and <a href="../../components-complex/video">Video</a> pages. An example of the transcript accordion and the code is presented below.</p>
 <!-- START video -->
 <div class="video-wrapper">
     <div class="responsive-video"><iframe src="https://www.youtube.com/embed/U5LBp4E-zWU" frameborder="0" allowfullscreen=""></iframe></div>
+	<!-- RcRnspPP5PE -->
 <!-- START accordion item -->
 <div class="accordion-item transcript">
     <p class="accordion-header" id="Transcript-headingTwo">
@@ -126,3 +127,28 @@ parent: "Simple Components"
 <!-- END accordion item -->
 </div>
 <!-- END video -->
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;!-- START video --&gt;
+&lt;div class=&quot;video-wrapper&quot;&gt;
+    &lt;div class=&quot;responsive-video&quot;&gt;
+		&lt;iframe src=&quot;https://www.youtube.com/embed/video-id&quot; frameborder=&quot;0&quot; 
+		allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+	&lt;!-- START accordion item --&gt;
+	&lt;div class=&quot;accordion-item transcript&quot;&gt;
+		&lt;p class=&quot;accordion-header&quot; id=&quot;Transcript-head&quot;&gt;
+		  &lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#Transcript-body&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;Transcript-body&quot;&gt;
+			Transcript
+		  &lt;/button&gt;
+		&lt;/p&gt;
+		&lt;div id=&quot;Transcript-body&quot; class=&quot;accordion-collapse collapse&quot; aria-labelledby=&quot;Transcript-head&quot;&gt;
+		  &lt;div class=&quot;accordion-body&quot;&gt;
+			 &lt;!-- content goes here --&gt;
+		  &lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;!-- END accordion item --&gt;
+&lt;/div&gt;
+&lt;!-- END video --&gt;</code>
+</pre></div>
