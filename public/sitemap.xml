@@ -16,13 +16,15 @@
   </url><url>
     <loc>http://localhost:1313/dewey-design/visual/colour/</loc>
   </url><url>
+    <loc>http://localhost:1313/dewey-design/components-complex/</loc>
+  </url><url>
     <loc>http://localhost:1313/dewey-design/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/introduction/help/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/visual/icons/</loc>
   </url><url>
-    <loc>http://localhost:1313/dewey-design/components-simple/images/</loc>
+    <loc>http://localhost:1313/dewey-design/components-complex/images/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/introduction/</loc>
   </url><url>
@@ -39,6 +41,8 @@
     <loc>http://localhost:1313/dewey-design/test/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/visual/typography/</loc>
+  </url><url>
+    <loc>http://localhost:1313/dewey-design/components-complex/video/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/visual/</loc>
   </url>

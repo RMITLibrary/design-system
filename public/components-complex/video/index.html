@@ -4,7 +4,7 @@
         <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-        <title>Spacing</title>
+        <title>Video</title>
     
     
     <link rel="stylesheet" href="http://localhost:1313/dewey-design/sass/dewey.min.css">
@@ -40,86 +40,139 @@
         
         <div class="col-xl-8">
             
- <h1 class="margin-top-zero">Spacing</h1>
-<p class="lead">Dewey aims to create a generic spacing system, in an attempt to maintain consistency across different components. Hopefully, the system will also allow for flexibility in the future.</p>
-<h2>Base units</h2>
-<p><strong>Default unit (1rem = 16px)</strong></p>
-<p>A series of units created to space elements in the page content. This system allows for responsiveness, having different values for smaller and larger screen widths.</p>
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Small (width &lt; 768px)</th>
-      <th>Medium, large etc. (width ≥ 768px)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>space-xs</td>
-      <td>1rem (16px)</td>
-      <td>1rem (16px)</td>
-    </tr>
-    <tr>
-      <td>space-sm</td>
-      <td>1rem (16px)</td>
-      <td>1.5rem (24px)</td>
-    </tr>
-	<tr>
-      <td>space-md</td>
-      <td>1.5rem (24px)</td>
-      <td>2rem (32px)</td>
-    </tr>
-	<tr>
-      <td>space-lg</td>
-      <td>2rem (32px)</td>
-      <td>2.5rem (40px)</td>
-    </tr>
-	<tr>
-      <td>space-xl</td>
-      <td>3rem (48px)</td>
-      <td>4rem (64px)</td>
-    </tr>
-	<tr>
-      <td>space-zero</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-<h2>Base units</h2>
-<p>For headings</p>
-<ul>
-	<li>h1 uses <strong>space-xl</strong> for margin-top and <strong>space-sm</strong> for margin-bottom. </li>
-	<li>Other headings use <strong>space-lg</strong> for margin-top and <strong>space-sm</strong> for margin-bottom.</li>
-</ul>
-<figure class="img-width-full">
-    <img src="../../images/spacing-example.png" alt="" />
+ <h1 class="margin-top-zero">Video</h1>
+<p class="lead">Video is displayed via a responsive iFrame, a transcript of the video should be displayed via an accordion to assist visually impaired users. These examples show YouTube content, it should be possible to show content from other providers with some adjustments.
+</p>
+<h2>Landscape</h2>
+<p>The default aspect ratio is 16:9, content in other ratios (4:3 for instance) will be pillarboxed. The iframe is sized so as to retain the aspect ratio while remaining responsive. A max-width value is set to <span class="nowrap"><strong>44rem</strong> (704px).</span></p>
+<figure class="video">
+    <div class="responsive-video"><iframe src="https://www.youtube.com/embed/U5LBp4E-zWU" frameborder="0" allowfullscreen=""></iframe></div>
+<!-- START accordion item -->
+<div class="accordion-item transcript">
+    <p class="accordion-header" id="Transcript-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Transcript-collapseTwo" aria-expanded="false" aria-controls="Transcript-collapseTwo">
+        Transcript
+      </button>
+    </p>
+    <div id="Transcript-collapseTwo" class="accordion-collapse collapse" aria-labelledby="Transcript-headingTwo">
+      <div class="accordion-body">
+<p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
+<p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
+<p>By doing this, your introduction should start broad and become more specific, focusing in on your essay topic. Basically, you’re letting the reader know what you’re going to discuss throughout the essay. Let’s have a look at this introduction as an example:</p>
+<p>Self-confidence means possessing a positive, yet realistic, view of one’s self and abilities. Self-confident people have trust and faith in their abilities. Self-confidence can be affected by a variety of factors. This essay will argue that self-confidence develops through a complex interaction between a range of factors. The essay will firstly define self-confidence, and then analyse the interaction between various factors that affect the confidence of an individual. In particular, these are personality style, situational factors/life experiences self-efficacy and self-esteem.</p>
+<p>Notice the structure: The topic and context at the start of the paragraph; the argument in the middle, and what will be covered in the essay at the end of the paragraph.</p>
+<p>How do I write an essay body? An essay body is a series of paragraphs that support the main argument.</p>
+<p>How do I write an essay conclusion? Your essay conclusion is written in the opposite way to the introduction: it starts narrow and becomes broad. Begin with the detail of the essay, and expand out to the bigger picture. Here’s an example of how to structure a conclusion:</p>
+<p>Self-confidence is not ingrained within individuals and can be influenced by a variety of factors. The personality style of an individual can determine whether the individual is an introvert or an extrovert, which will affect self-confidence. Life experiences and situational factors have a large impact on the stability of personalities and confidence. Self-efficacy and self-esteem are major factors that can contribute to a lack of self-confidence. Self-confidence is essential for effective and positive engagement in all professional and personal activities.</p>
+<p>For more information about essay writing, try the tutorials.</p>
+<p>Thanks for watching.</p>
+        </div>
+      </div>
+</div>
+<!-- END accordion item -->
 </figure>
-<h2>Usage</h2>
-<p>When working in scss, a mixin is available, <code>do-space</code>. Simply send the desired property (usually <strong class="nowrap">margin-top</strong> or <strong>margin-bottom</strong>) and the desired space unit (<strong>xs, sm, md, lg, xl</strong>). The value zero can also be passed to set the property to zero.</p>
+<!-- END video -->
 <div class="highlight">
 <pre class="chroma">
-<code class="language-scss">@include do-space(margin-top, xl);    
-@include do-space(margin-bottom, xl);</code>
-</pre>
+<code class="language-html">&lt;figure class=&quot;video-wrapper&quot;&gt;
+	&lt;div class=&quot;responsive-video&quot;&gt;
+		&lt;iframe src=&quot;https://www.youtube.com/embed/video-id&quot; frameborder=&quot;0&quot; 
+		allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;accordion-item transcript&quot;&gt;
+		&lt;!-- lots of additional accordion code goes here --&gt;	
+	&lt;/div&gt;
+&lt;/figure&gt;</code>
+</pre></div>
+<!-- Portrait -->
+<h2>Portrait</h2>
+<p>To change the aspect ratio to portrait, wrap the responsive-video div in a div with class <code>portrait-video</code>. This will display videos in a 9:16 aspect ratio. This responsive-video div has a width of <strong>80%</strong>, with the max width limited to <strong>25rem</strong> (400px). This ensures the whole video is visible along with browser chrome at smaller screen sizes.</p>
+<figure class="video">
+	<div class="portrait-video">
+		    <div class="responsive-video"><iframe src="https://www.youtube.com/embed/RcRnspPP5PE" frameborder="0" allowfullscreen=""></iframe></div>
+	</div>
+<!-- START accordion item -->
+<div class="accordion-item transcript">
+    <p class="accordion-header" id="Transcript-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Transcript-collapseTwo" aria-expanded="false" aria-controls="Transcript-collapseTwo">
+        Transcript
+      </button>
+    </p>
+    <div id="Transcript-collapseTwo" class="accordion-collapse collapse" aria-labelledby="Transcript-headingTwo">
+      <div class="accordion-body">
+<p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
+<p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
+<p>By doing this, your introduction should start broad and become more specific, focusing in on your essay topic. Basically, you’re letting the reader know what you’re going to discuss throughout the essay. Let’s have a look at this introduction as an example:</p>
+<p>Self-confidence means possessing a positive, yet realistic, view of one’s self and abilities. Self-confident people have trust and faith in their abilities. Self-confidence can be affected by a variety of factors. This essay will argue that self-confidence develops through a complex interaction between a range of factors. The essay will firstly define self-confidence, and then analyse the interaction between various factors that affect the confidence of an individual. In particular, these are personality style, situational factors/life experiences self-efficacy and self-esteem.</p>
+<p>Notice the structure: The topic and context at the start of the paragraph; the argument in the middle, and what will be covered in the essay at the end of the paragraph.</p>
+<p>How do I write an essay body? An essay body is a series of paragraphs that support the main argument.</p>
+<p>How do I write an essay conclusion? Your essay conclusion is written in the opposite way to the introduction: it starts narrow and becomes broad. Begin with the detail of the essay, and expand out to the bigger picture. Here’s an example of how to structure a conclusion:</p>
+<p>Self-confidence is not ingrained within individuals and can be influenced by a variety of factors. The personality style of an individual can determine whether the individual is an introvert or an extrovert, which will affect self-confidence. Life experiences and situational factors have a large impact on the stability of personalities and confidence. Self-efficacy and self-esteem are major factors that can contribute to a lack of self-confidence. Self-confidence is essential for effective and positive engagement in all professional and personal activities.</p>
+<p>For more information about essay writing, try the tutorials.</p>
+<p>Thanks for watching.</p>
+        </div>
+      </div>
 </div>
-<p>Utility classes are also available for inline use, these can be useful if elements need to wrapped in container divs and the ability to collapse margins is lost, resulting in unwanted extra margins. These are available for both margin-top and bottom and padding top and bottom at each of the space units. These classes replicate the responsiveness detailed above.</p>
-<code>[margin|padding]-[top|bottom]-[xs|sm|md|lg|xl|zero]</code>
+<!-- END accordion item -->
+</figure>
+<!-- END video -->
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;h1 class=&rdquo;margin-top-zero&rdquo;&gt;
-&lt;p class=&rdquo;margin-top-xs&rdquo;&gt;
-&lt;p class=&rdquo;padding-bottom-sm&rdquo;&gt;
-&lt;p class=&rdquo;padding-top-xl&rdquo;&gt;</code>
-</pre>
+<code class="language-html">&lt;figure class=&quot;video&quot;&gt;
+	&lt;div class="portrait-video"&gt;
+		&lt;div class=&quot;responsive-video&quot;&gt;
+			&lt;iframe src=&quot;https://www.youtube.com/embed/video-id&quot; frameborder=&quot;0&quot; 
+			allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;accordion-item transcript&quot;&gt;
+		&lt;!-- lots of additional accordion code goes here --&gt;	
+	&lt;/div&gt;
+&lt;/figure&gt;</code>
+</pre></div>
+<h2>Captions</h2>
+<p>Though less likely than <a href="../images/">images</a> to require a caption, it is easy to display. Just add <code>figcaption</code> tag after the <code>responsive-video</code> tag.</p>
+<figure class="video">
+    <div class="responsive-video"><iframe src="https://www.youtube.com/embed/U5LBp4E-zWU" frameborder="0" allowfullscreen=""></iframe></div>
+	<figcaption>An example caption for this image.</figcaption>
+<!-- START accordion item -->
+<div class="accordion-item transcript">
+    <p class="accordion-header" id="Transcript-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Transcript-collapseThree" aria-expanded="false" aria-controls="Transcript-collapseThree">
+        Transcript
+      </button>
+    </p>
+    <div id="Transcript-collapseThree" class="accordion-collapse collapse" aria-labelledby="Transcript-headingThree">
+      <div class="accordion-body">
+<p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
+<p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
+<p>By doing this, your introduction should start broad and become more specific, focusing in on your essay topic. Basically, you’re letting the reader know what you’re going to discuss throughout the essay. Let’s have a look at this introduction as an example:</p>
+<p>Self-confidence means possessing a positive, yet realistic, view of one’s self and abilities. Self-confident people have trust and faith in their abilities. Self-confidence can be affected by a variety of factors. This essay will argue that self-confidence develops through a complex interaction between a range of factors. The essay will firstly define self-confidence, and then analyse the interaction between various factors that affect the confidence of an individual. In particular, these are personality style, situational factors/life experiences self-efficacy and self-esteem.</p>
+<p>Notice the structure: The topic and context at the start of the paragraph; the argument in the middle, and what will be covered in the essay at the end of the paragraph.</p>
+<p>How do I write an essay body? An essay body is a series of paragraphs that support the main argument.</p>
+<p>How do I write an essay conclusion? Your essay conclusion is written in the opposite way to the introduction: it starts narrow and becomes broad. Begin with the detail of the essay, and expand out to the bigger picture. Here’s an example of how to structure a conclusion:</p>
+<p>Self-confidence is not ingrained within individuals and can be influenced by a variety of factors. The personality style of an individual can determine whether the individual is an introvert or an extrovert, which will affect self-confidence. Life experiences and situational factors have a large impact on the stability of personalities and confidence. Self-efficacy and self-esteem are major factors that can contribute to a lack of self-confidence. Self-confidence is essential for effective and positive engagement in all professional and personal activities.</p>
+<p>For more information about essay writing, try the tutorials.</p>
+<p>Thanks for watching.</p>
+        </div>
+      </div>
 </div>
-<p>These classes should be used sparingly. As mentioned above, using padding should be avoided unless absolutely neccessary.</p>
-<h2>Dividers</h2>
-<p>If more space is required than the above options allow, consider using a hr tag to divide content.</p>
-<ul>
-	<li><code>&lt;hr /&gt;</code> uses <strong>space-lg</strong> for margins top and bottom.</li>
-	<li><code>&lt;hr class=&rdquo;xl&rdquo; /&gt;</code> uses <strong>space-xl</strong> for margins top and bottom.</li>
-</ul>
+<!-- END accordion item -->
+</figure>
+<!-- END video -->
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;figure class=&quot;video-wrapper&quot;&gt;
+	&lt;div class=&quot;responsive-video&quot;&gt;
+		&lt;iframe src=&quot;https://www.youtube.com/embed/video-id&quot; frameborder=&quot;0&quot; 
+		allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;An example caption for this image.&lt;/figcaption&gt;
+	&lt;div class=&quot;accordion-item transcript&quot;&gt;
+		&lt;!-- lots of additional accordion code goes here --&gt;	
+	&lt;/div&gt;
+&lt;/figure&gt;</code>
+</pre></div>
 
             
 
@@ -195,45 +248,6 @@
                 
                 
                 
-                    <a class="btn btn-nav-prev" href="/dewey-design/visual/icons/">Icons</a>
-                
-            
-        
-            
-            
-                
-                <a class="btn btn-nav-next" href="/dewey-design/visual/typography/">Typography</a> 
-                
-                
-                
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-    
-
-    
-        
-            
-            
-            
-            
-                
-                
-                
             
         
             
@@ -290,6 +304,45 @@
     
         
             
+            
+            
+            
+                
+                
+                
+            
+        
+            
+            
+            
+            
+                
+                
+                
+            
+        
+            
+            
+            
+            
+                
+                
+                
+                    <a class="btn btn-nav-prev" href="/dewey-design/components-complex/images/">Images</a>
+                
+            
+        
+    
+
+    
+        
+            
+            
+                
+                <a class="btn btn-nav-next" href="/dewey-design/examples/anatomy/">Anatomy of a page</a> 
+                
+                
+                
             
             
             
@@ -372,16 +425,13 @@
         
         
         
-            
-            
-        
     <div class="accordion-item nav-accordion">
         <h5 class="accordion-header" id="nav-accord-head-VisualLanguage">
-            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-VisualLanguage" aria-expanded="false" aria-controls="nav-accord-body-VisualLanguage">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-VisualLanguage" aria-expanded="false" aria-controls="nav-accord-body-VisualLanguage">
             Visual Language
             </button>
         </h5>
-        <div id="nav-accord-body-VisualLanguage" class="accordion-collapse collapse show" aria-labelledby="nav-accord-head-VisualLanguage">
+        <div id="nav-accord-body-VisualLanguage" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-VisualLanguage">
             <div class="accordion-body">
                 <ul>
                     
@@ -398,7 +448,7 @@
                         
                     
                         
-                            <li class="selected">Spacing</li>
+                        <li><a href="/dewey-design/visual/spacing/">Spacing</a></li>
                         
                     
                         
@@ -455,13 +505,16 @@
         
         
         
+            
+            
+        
     <div class="accordion-item nav-accordion">
         <h5 class="accordion-header" id="nav-accord-head-ComplexComponents">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-ComplexComponents" aria-expanded="false" aria-controls="nav-accord-body-ComplexComponents">
+            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-ComplexComponents" aria-expanded="false" aria-controls="nav-accord-body-ComplexComponents">
             Complex Components
             </button>
         </h5>
-        <div id="nav-accord-body-ComplexComponents" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-ComplexComponents">
+        <div id="nav-accord-body-ComplexComponents" class="accordion-collapse collapse show" aria-labelledby="nav-accord-head-ComplexComponents">
             <div class="accordion-body">
                 <ul>
                     
@@ -474,7 +527,7 @@
                         
                     
                         
-                        <li><a href="/dewey-design/components-complex/video/">Video</a></li>
+                            <li class="selected">Video</li>
                         
                     
                 </ul>

@@ -4,32 +4,6 @@ $img-width-md: 25rem;
 $img-width-sm: 18.5rem;
 
 
-.video-wrapper {
-    @include do-space(margin-top, lg); 
-    @include do-space(margin-bottom, lg); 
-    
-    max-width: $img-width-lg;
-	border-bottom: 1px solid $interface-grey;
-}
-
-.responsive-video {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    width: 100%;
-    
-    //max-width: $content-max-width;
-}
-
-.responsive-video iframe, .responsive-video object, .responsive-video embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 /* Figures are centred, limit to 40rem width by default*/
 figure {
     @include do-space(margin-top, lg); 
@@ -45,6 +19,50 @@ figure {
 figure.img-left {
     margin-left: 0;
     margin-right: 0;
+}
+
+.video {
+	border-bottom: 1px solid $interface-grey;
+	
+	.responsive-video {
+		position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+		width: 100%;
+	}
+	
+	figcaption {
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+
+.portrait-video {
+	margin-left: auto;
+	margin-right: auto;
+	
+	width: 80%;
+    max-width: $img-width-md;
+	
+	.responsive-video {
+		position: relative;
+		padding-bottom: 177%;
+		height: 0;
+		overflow: hidden;
+		width: 100%;
+	}
+}
+
+
+
+
+.responsive-video iframe, .responsive-video object, .responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 img {
