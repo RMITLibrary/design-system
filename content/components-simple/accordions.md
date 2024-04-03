@@ -99,7 +99,7 @@ parent: "Simple Components"
 <p>The transcript variant is only ever used as one item in isolation, supporting either a piece of video or image content. Currently, the transcript width maches the video or image width. Text within the transcript accordion is presented in font size small.</p>
 <p>More information is available both on the <a href="../../components-complex/images">Images</a> and <a href="../../components-complex/video">Video</a> pages. An example of the transcript accordion and the code is presented below. Note that the bottom border is provided by the wrapper classes rather than the transcript itself.</p>
 <!-- START video -->
-<div class="video-wrapper">
+<figure class="video">
     <div class="responsive-video"><iframe src="https://www.youtube.com/embed/U5LBp4E-zWU" frameborder="0" allowfullscreen=""></iframe></div>
 	<!-- RcRnspPP5PE -->
 <!-- START accordion item -->
@@ -125,7 +125,7 @@ parent: "Simple Components"
       </div>
 </div>
 <!-- END accordion item -->
-</div>
+</figure>
 <!-- END video -->
 <div class="highlight">
 <pre class="chroma">

@@ -1,0 +1,106 @@
+
+
+blockquote {
+    //set responsive padding and margins for blockquote
+    @include do-space(margin-top, md); 
+    @include do-space(margin-bottom, md);
+    
+    @include do-space(padding-top, sm); 
+    @include do-space(padding-bottom, sm); 
+    
+    @include do-space(padding-left, md); 
+    @include do-space(padding-right, md); 
+    
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-left: 0.25rem solid $rmit-red;
+    background: $underlay-grey;
+    
+    a { text-decoration:none; }
+    a:hover {
+        h4 {
+            color: $blue-hover;
+        }
+    }
+    
+    /* add margin for smaller screens */
+    .img-wrap {
+        margin-bottom: 0.5rem;
+    }
+    
+    .content {
+        position: relative;
+        h4, p, small {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            text-decoration: none;
+        }
+        
+        h4::after {
+            @include carat;
+            position: absolute;
+            width: 2rem;
+            height: 2rem;
+            //top: 2.28rem;
+            margin-left: 0.5rem;
+            transform: rotate(-90deg);
+        }
+        
+        p, small {
+             color: $dark-grey;
+        }
+        
+        p.category {
+            @include type-small;
+            font-weight: 500;   
+        }
+        
+        @include media-breakpoint-up(md) { 
+            h4, p, small {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    
+    /* 
+    Ensure the first child has no top margin 
+    and last child has no margin bottom 
+    */
+    .content > *:first-child {
+        margin-top: 0px;
+    }
+
+    .content > *:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+blockquote, blockquote a {
+   /* At medium screen sizes swap to two column layout*/
+    @include media-breakpoint-up(md) { 
+
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        //align-self: stretch;
+
+        .img-wrap {
+            width: 196px;
+            margin: 0;
+        }
+    } 
+}
+
+blockquote a {
+   /* At medium screen sizes swap to two column layout*/
+    @include media-breakpoint-up(md) {
+        width: 100%;
+        gap: 40px;
+        justify-content: space-between;
+        .icon-wrap {
+            width: 9rem;
+        }
+    } 
+}
+
+

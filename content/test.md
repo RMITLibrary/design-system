@@ -216,7 +216,7 @@ hide_footer: false
 </select>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a eros id augue cursus eleifend vel ut felis. Morbi nibh eros, eleifend id neque in, consectetur pulvinar turpis. Donec luctus fringilla diam, nec condimentum turpis blandit eu. Sed dapibus posuere justo. Quisque mattis sem sagittis mattis iaculis.</p>
 <!-- START video -->
-<div class="video-wrapper">
+<figure class="video">
     <div class="responsive-video"><iframe src="https://www.youtube.com/embed/U5LBp4E-zWU" frameborder="0" allowfullscreen=""></iframe></div>
 <!-- START accordion item -->
 <div class="accordion-item transcript">
@@ -242,7 +242,7 @@ hide_footer: false
       </div>
 </div>
 <!-- END accordion item -->
-</div>
+</figure>
 <!-- END video -->
 <ul>
     <li>Nunc at commodo est. Sed ex sem, lobortis id leo finibus, gravida posuere est.</li> 
