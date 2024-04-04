@@ -25,7 +25,7 @@
     }
 
     .accordion-button:hover, .accordion-button:not(.collapsed):hover {
-         color: $blue-hover; 
+		background-color: $underlay-hover;
     }
 
 
@@ -117,6 +117,11 @@
     .accordion-button::before {
         margin-left: 0.5rem !important;
         margin-right: 0.5rem !important;
+    }
+	
+	.accordion-button:hover, .accordion-button:not(.collapsed):hover {
+        //color: $blue-hover; 
+		background-color: $underlay-hover !important;
     }
     
     .accordion-body {

@@ -44,6 +44,11 @@
     &-rmit-red { background-color: $rmit-red; }
     &-correct-green { background-color: $correct-green; }
     
+	&-underlay-hover { 
+        background-color: $underlay-hover;
+        border: 1px solid $interface-grey;
+    }   
+	
     &-white { 
         background-color: $white;
         border: 1px solid $interface-grey;
@@ -56,6 +61,7 @@
     &-interface-grey { color: $interface-grey; }
     &-underlay-selected { color: $underlay-selected; }
     &-underlay-grey { color: $underlay-grey; }
+	&-underlay-hover { color: $underlay-hover; }
     
     &-rmit-blue { color: $rmit-blue; }
     &-blue-70 { color: $blue-70; }

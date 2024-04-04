@@ -147,13 +147,30 @@ hide_footer: false
 		<div class="swatch">
 			<div class="colour colour-bg-underlay-selected"></div>
 			<div class="description">
-				<h5>Underlay Seelcted</h5>
+				<h5>Underlay Selected</h5>
 				<p class="small">
 					<code>#E6E6E6</code><br />Right navigation, selected section. Rollover colour for buttons.
 				</p>
 			</div>
 		</div>
 		<!-- END swatch right -->
+	</div>
+</div>
+<!-- END row -->
+<!-- START row -->
+<div class="row">
+	<div class="col-md-6">
+		<!-- START swatch left -->
+		<div class="swatch">
+			<div class="colour colour-bg-underlay-hover"></div>
+			<div class="description">
+				<h5>Underlay Hover</h5>
+				<p class="small">
+					<code>#FAFAFA</code><br />Hover state for underlay-grey.
+				</p>
+			</div>
+		</div>
+		<!-- END swatch left -->
 	</div>
 </div>
 <!-- END row -->
@@ -215,10 +232,17 @@ hide_footer: false
 	<td>
 		<span class="colour-bg-sm colour-bg-rmit-blue">&nbsp;</span>
 		<span class="colour-bg-sm colour-bg-underlay-grey">&nbsp;</span>
-		RMIT Blue on Underlay Selected</td>
+		RMIT Blue on Underlay Grey</td>
 	<td><a href="https://www.siegemedia.com/contrast-ratio#%23000054-on-%23f5f5f5">17.07</a></td>
 </tr> 
-	<tr>
+<tr>
+	<td>
+		<span class="colour-bg-sm colour-bg-rmit-blue">&nbsp;</span>
+		<span class="colour-bg-sm colour-bg-underlay-hover">&nbsp;</span>
+		RMIT Blue on Underlay Hover</td>
+	<td><a href="https://www.siegemedia.com/contrast-ratio#%23000054-on-%23fafafa">17.83</a></td>
+</tr> 
+<tr>
 	<td>
 		<span class="colour-bg-sm colour-bg-rmit-blue">&nbsp;</span>
 		<span class="colour-bg-sm colour-bg-underlay-selected">&nbsp;</span>
@@ -231,15 +255,22 @@ hide_footer: false
 		<span class="colour-bg-sm colour-bg-blue-hover">&nbsp;</span>
 		<span class="colour-bg-sm colour-bg-white">&nbsp;</span>
 		Blue Hover on White</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%230056b3-on-white">7.65</a></td>
+	<td><a href="https://www.siegemedia.com/contrast-ratio#%230051A8-on-white">7.65</a></td>
 </tr>
 <tr>
 	<td>
 		<span class="colour-bg-sm colour-bg-blue-hover">&nbsp;</span>
 		<span class="colour-bg-sm colour-bg-underlay-grey">&nbsp;</span>
 		Blue Hover on Underlay Grey</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%230056b3-on-%23f5f5f5">7.02</a></td>
+	<td><a href="https://www.siegemedia.com/contrast-ratio#%230051A8-on-%23f5f5f5">7.02</a></td>
 </tr> 
+<tr>
+	<td>
+		<span class="colour-bg-sm colour-bg-blue-hover">&nbsp;</span>
+		<span class="colour-bg-sm colour-bg-underlay-hover">&nbsp;</span>
+		Blue Hover on Underlay Hover</td>
+	<td><a href="https://www.siegemedia.com/contrast-ratio#%230051A8-on-%23fafafa">7.33</a></td>
+</tr>
 <!--
 <tr>
 	<td>

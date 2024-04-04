@@ -19,7 +19,7 @@
       <link>http://localhost:1313/dewey-design/components-simple/blockquotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/components-simple/blockquotes/</guid>
-      <description>Blockquotes The Dewey design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.</description>
+      <description>Blockquotes Blockquotes can be useful to highlight sections of text and can also function as a navigation device. Visually, they are obviously separate from the rest of the content and can provide prominent for the information contained within.&#xA;Basic The basic blockquote just contains text. The suggested content limit is XXX characters. The blockquote&#xA;By default, each image has a margin of space-small applied top and bottom&#xA;This is a blockquote.</description>
     </item>
     <item>
       <title>Buttons</title>

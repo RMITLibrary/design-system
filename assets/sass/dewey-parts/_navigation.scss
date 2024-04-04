@@ -20,6 +20,11 @@ nav {
     a {
         text-decoration: none;
     }
+	
+	a:hover {
+		color: $rmit-blue;
+        background-color: $underlay-hover;
+    }
     
     h4, h5 {
         margin: 0;
@@ -28,10 +33,6 @@ nav {
             display: inline-block;
             width: 100%;   
             padding: 1rem 1.5rem 1rem 1.5rem;
-        }
-        
-        a:hover {
-            text-decoration: underline;
         }
     }
     
@@ -57,10 +58,6 @@ nav {
             display: inline-block;
             width: 100%;
             padding: 0.75rem 1.5rem 0.75rem 3rem;
-        }
-        
-        a:hover {
-            text-decoration: underline;
         }
     }
 
