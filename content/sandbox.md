@@ -21,8 +21,6 @@ hide_footer: false
 <p>Blerghness one</p>
 
 <nav>
-    <!-- <h4><a href="blergh.html">Section title</a></h4>-->
-    <!-- START accordion -->
     <div class="accordion-item nav-accordion">
         <h5 class="accordion-header" id="nav-accord-intro-head">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-intro-body" aria-expanded="false" aria-controls="nav-accord-intro-body">

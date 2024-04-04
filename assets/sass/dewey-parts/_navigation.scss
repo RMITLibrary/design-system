@@ -1,19 +1,40 @@
+/* Preserve rounded corners for first item */
+nav > *:first-child {
+	
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	
+	a { 
+		border-top-left-radius: 0.5rem;
+		border-top-right-radius: 0.5rem;
+		padding-top: 1rem; 
+	}
+	
+	h5 .accordion-button {
+		border-top-left-radius: 0.5rem !important;
+		border-top-right-radius: 0.5rem !important;
+	}
+}
+
 nav {
     box-sizing: border-box; 
     max-width: 36rem;   
     
-    padding: 0.25rem 0 1.25rem 0;
+    padding: 0rem 0 1.25rem 0;
     border-radius: 0.5rem;
     background-color: $underlay-grey;
-    
+	
+    //Provide a gap while menu is sits underneath content
     @include do-space(margin-top, lg);
     
+	//Set a narrower max-width once a 2 col layout is displayed
     @include media-breakpoint-up(lg) { 
         max-width: 24.5rem;  
     }
     
+	//At largest breakpoint, increae gap to the left, default bootstrap gap is to0 small
     @include media-breakpoint-up(xl) { 
-         margin-left: 1.5rem; 
+        margin-left: 1.5rem; 
         margin-top: 0;
     }
     
@@ -35,13 +56,13 @@ nav {
             padding: 1rem 1.5rem 1rem 1.5rem;
         }
     }
-    
-    h5 {
-        a { padding-bottom: 0.5rem; }
+	
+	h4 {
+        border-bottom: 1px solid $interface-grey;
     }
     
-    h4 {
-        border-bottom: 1px solid $interface-grey;
+    h5 {
+        a { padding-bottom: 0.75rem; }
     }
     
     ul {
@@ -64,7 +85,7 @@ nav {
     
     li.selected {
         border-left: 0.25rem solid $red;
-        padding: 0.75rem 1.5rem 0.75rem 2.75rem;
+        padding: 0.75rem 1.5rem 0.75rem 2.75rem;	//less 0.25rem to account for border
         background-color: $underlay-selected;
     }
     
