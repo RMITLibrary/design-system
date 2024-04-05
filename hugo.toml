@@ -95,11 +95,16 @@ unsafe = true
         url = "/components-complex/images/"
         parent = "Complex Components"
         weight = 414
+    [[menu.main]]
+        name = "Navigation"
+        url = "/components-complex/navigation/"
+        parent = "Complex Components"
+        weight = 415
 	[[menu.main]]
         name = "Video"
         url = "/components-complex/video/"
         parent = "Complex Components"
-        weight = 415
+        weight = 416
         
     [[menu.main]]
         name = "Anatomy of a page"

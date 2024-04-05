@@ -109,29 +109,3 @@
     transform: rotate(90deg);
 }
 
-/* Move to links.scss */
-
-.link-large {
-    display: block;
-    @include type-lead;
-    text-decoration: none;
-    margin-top: 1.25rem;
-    
-    padding: 0;
-    border: 0;
-}
-
-.link-large:hover {
-    background: none; 
-}
-
-
-.link-large::after {
-    @include carat;
-    position: absolute;
-    width: 2rem;
-    height: 2rem;
-    margin-left: 0.75rem;
-    transform: rotate(-90deg);
-}
-

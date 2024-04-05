@@ -1,0 +1,64 @@
+.link-large {
+    display: block;
+    @include type-lead;
+    text-decoration: none;
+    margin-top: 1.25rem;
+    
+    padding: 0;
+    border: 0;
+}
+
+.link-large:hover {
+    background: none; 
+}
+
+
+.link-large::after {
+    @include carat;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.75rem;
+    transform: rotate(-90deg);
+}
+
+
+.list-of-links {
+	border-top: 1px solid $interface-grey;
+	
+	@include do-space(margin-top, lg);
+	@include do-space(margin-bottom, lg);
+	
+	h3 {
+		@include do-space(margin-top, sm);	
+	}
+	
+	ul {
+		padding: 0;
+        list-style-type: none;
+		
+		li {
+			@include type-lead;
+            padding: 0;
+            margin-bottom: 0.63rem;
+		}
+		
+		li::before {
+			@include carat;
+			position: absolute;
+			margin-right: 3rem;
+			width: 2rem;
+			height: 2rem;
+			transform: rotate(-90deg);	
+		}
+		
+		a {
+			text-decoration: none;
+            padding-left: 2.5rem;
+		}
+        
+        a:hover {
+            color: $blue-hover;
+        }
+	}
+}
