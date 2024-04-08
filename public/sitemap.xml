@@ -6,6 +6,8 @@
   </url><url>
     <loc>http://localhost:1313/dewey-design/components-simple/accordions/</loc>
   </url><url>
+    <loc>http://localhost:1313/dewey-design/examples/anatomy/</loc>
+  </url><url>
     <loc>http://localhost:1313/dewey-design/components-simple/blockquotes/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/visual/breakpoints/</loc>
@@ -17,6 +19,10 @@
     <loc>http://localhost:1313/dewey-design/visual/colour/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/components-complex/</loc>
+  </url><url>
+    <loc>http://localhost:1313/dewey-design/examples/example-1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/dewey-design/examples/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/</loc>
   </url><url>
@@ -37,6 +43,8 @@
     <loc>http://localhost:1313/dewey-design/components-simple/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/visual/spacing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/dewey-design/components-simple/tables/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/tags/</loc>
   </url><url>

@@ -22,7 +22,7 @@ parent: "Simple Components"
 &lt;/blockquote&gt;</code>
 </pre></div>
 <h2>Featuring an image</h2>
-The image width is 12.25rem (196px). Portrait images are supported but are best used sparingly. At X-Small and Small breakpoints, the image is stacked on top of the text.
+<p>The image width is 12.25rem (196px). Portrait images are supported but are best used sparingly. At X-Small and Small breakpoints, the image is stacked on top of the text.</p>
 <blockquote>
     <div class="img-wrap"><img src="../../images/img-example-graph.png" alt="An example image" /></div>
     <div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare consectetur tellus. Aenean non posuere tortor, pretium accumsan augue. </p></div>

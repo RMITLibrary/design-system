@@ -53,7 +53,7 @@ hide_footer: false
 <figure class="img-width-full">
     <img src="../../images/heading-example.png" alt="" class="border" />
 </figure>
-<p>More detail is available on the <a href="/visual/typography/">Typography</a> and <a href="/visual/spacing/">Spacing</a> pages.</p>
+<p>More detail is available on the <a href="../typography">Typography</a> and <a href="../spacing">Spacing</a> pages.</p>
 <p>Analytics for the Learning lab website revealed the following for calendar year of 2023:</p>
 <ul>
     <li>75% of users are on desktop, 25% mobile</li>

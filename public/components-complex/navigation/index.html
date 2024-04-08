@@ -41,8 +41,7 @@
         <div class="col-xl-8">
             
  <h1 class="margin-top-zero">Navigation</h1>
-<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare elit nec metus dapibus sollicitudin. Pellentesque vel eros ac erat placerat cursus vel a velit. Phasellus mattis aliquam arcu eget iaculis.
-</p>
+<p class="lead">There are several recommended approaches to providing navigation. Using breadcrumbs at the top of the page is a simple and compact way of showing the user the website hierarchy. The right nav offers several options for providing more detailed navigation and could be useful for larger, more complex sites.</p>
 <h2>Breadcrumbs</h2>
 <p>Breadcrumbs are usually placed at the top of the page, close to the page title, to help navigate sites with multiple content levels. A disabled 'page title' breadcrumb is unnecessary unless an image or other interface separates the breadcrumbs from the page title.</p>
 <ul class="breadcrumbs">
@@ -65,51 +64,21 @@
 &lt;/ul&gt;</code>
 </pre></div>
 <p>For space reasons, at small and x-small breakpoints, only the last breadcrumb is displayed, along with a back arrow. Resize your browser to see this in action.</p>
-<h2>List links</h2>
-<p>An option to display a list of links while giving the list more prominence than a standard unordered list.</p>
-<div class="list-of-links">
-	<h3>Optional title</h3>
-	<ul>
-		<li><a href="">Link 1</a></li>
-		<li><a href="">Link 2</a></li>
-		<li><a href="">Link 3</a></li>
-		<li><a href="">Link 4</a></li>
-		<li><a href="">Link 5</a></li>
-	</ul>
-</div>
-<div class="highlight">
-<pre class="chroma">
-<code class="language-html">&lt;div class=&quot;list-of-links&quot;&gt;
-	&lt;h3&gt;Optional title&lt;/h3&gt;
-	&lt;ul&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 5&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/div&gt;</code>
-</pre></div>
-<p>By default, the component has a border at the top and a title. The title can be easily removed while the border can be removed by adding the class <code>no-border-top</code>.</p>
-<div class="highlight">
-<pre class="chroma">
-<code class="language-html">&lt;div class=&quot;list-of-links no-border-top&quot;&gt;
-	&lt;ul&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 5&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/div&gt;</code>
-</pre></div>
 <h2>Right nav</h2>
-<p>gfdgdf dgdf dfg fffdgdf</p>
+<p>The right nav is designed to be displayed on content pages.</p>
+<ul>
+	<li>A link to the page's section (grandparent).</li>
+	<li>A link to the page's subsection (parent).</li>
+	<li>The current page and all of its subpages.</li>
+	<li>The other content pages in the section ( the current page's siblings).
+</li>
+</ul>
+<p>On section (parent) and subsection pages, it might not be necessary to display the right nav as these pages might be dedicated to showing the navigation as page content. </p>
 <figure class="img-width-full">
    <img src="../../images/navigation-diagram.png" alt="" class="border" /> 
     <figcaption>A diagram demonstrating the hierarchy whith an example from Learning Lab for context.</figcaption>
 </figure>
-<nav>
+<nav class="margin-left-zero">
     <h4><a href="">Section title</a></h4>
     <h5><a href="">Subsection title</a></h5>
     <ul>
@@ -149,10 +118,10 @@
 &lt;/nav&gt;</code>
 </pre></div>
 <p>It's possible to not include the subsection and still use this navigation:</p>
-<nav>
+<nav class="margin-left-zero">
     <h4><a href="">Section title</a></h4>
     <ul>
-        <li><a href="">Content page</a></li>
+        <li class="selected">Content page</li>
         <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>
@@ -172,8 +141,8 @@
     &lt;/ul&gt;
 &lt;/nav&gt;</code>
 </pre></div>
-<p>There's also a variant that uses accordions to hide navigation. It allows the user to quickly access the whole site from any page. This format only suits smaller sites with a relatively balanced structure. The section that contains the viewed page should be expanded by default.</p>
-<nav>
+<p>There's also a variant that uses accordions to hide navigation. It allows the user to quickly access the whole site from any page. This format only suits smaller sites with a relatively balanced structure. The section that contains the page that is currently being viewed should be expanded by default.</p>
+<nav class="margin-left-zero">
     <div class="accordion-item nav-accordion">
         <h5 class="accordion-header" id="nav-section1-head">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#nav-section1-body" aria-expanded="true" aria-controls="nav-section1-body">
@@ -282,213 +251,223 @@
 &lt;/nav&gt;</code>
 </pre></div>
 
-            
+			
 
 
 
 
-<div class="btn-nav-container">
 
-    
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-    
-
-    
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-    
-
-    
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-    
-
-    
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-                    <a class="btn btn-nav-prev" href="/dewey-design/components-complex/images/">Images</a>
-                
-            
-        
-            
-            
-                
-                <a class="btn btn-nav-next" href="/dewey-design/components-complex/video/">Video</a> 
-                
-                
-                
-            
-            
-            
-                
-                
-                
-            
-        
-    
-
-    
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                
-            
-        
-    
-
-</div>
+	<div class="btn-nav-container">
+	
+		
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+		
+	
+		
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+		
+	
+		
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+		
+	
+		
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+						<a class="btn btn-nav-prev" href="/dewey-design/components-complex/images/">Images</a>
+					
+				
+			
+				
+				
+					
+					<a class="btn btn-nav-next" href="/dewey-design/components-complex/video/">Video</a> 
+					
+					
+					
+				
+				
+				
+					
+					
+					
+				
+			
+		
+	
+		
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+		
+	
+	</div>
 
 
 
@@ -565,15 +544,15 @@
                         
                     
                         
+                        <li><a href="/dewey-design/visual/links/">Links</a></li>
+                        
+                    
+                        
                         <li><a href="/dewey-design/visual/spacing/">Spacing</a></li>
                         
                     
                         
                         <li><a href="/dewey-design/visual/typography/">Typography</a></li>
-                        
-                    
-                        
-                        <li><a href="/dewey-design/visual/links/">Links</a></li>
                         
                     
                 </ul>
@@ -608,6 +587,10 @@
                     
                         
                         <li><a href="/dewey-design/components-simple/buttons/">Buttons</a></li>
+                        
+                    
+                        
+                        <li><a href="/dewey-design/components-simple/tables/">Tables</a></li>
                         
                     
                 </ul>

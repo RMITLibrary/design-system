@@ -1,6 +1,6 @@
 {{ $pageName := .Params.name }}
 {{ $pageParent := .Params.parent  }}
-
+{{ if ne .Params.hide_buttons true }}
 <nav>
     <!-- <h4><a href="blergh.html">Section title</a></h4>-->
 {{ range .Site.Menus.main.ByWeight }}
@@ -36,3 +36,6 @@
     <!-- END accordion -->
 {{ end }}
 </nav>
+{{ else }}
+<!-- No buttons here! -->Put example nav here
+{{ end}}

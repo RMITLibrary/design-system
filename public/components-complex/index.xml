@@ -19,7 +19,7 @@
       <link>http://localhost:1313/dewey-design/components-complex/navigation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/components-complex/navigation/</guid>
-      <description>Navigation Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare elit nec metus dapibus sollicitudin. Pellentesque vel eros ac erat placerat cursus vel a velit. Phasellus mattis aliquam arcu eget iaculis. Breadcrumbs Breadcrumbs are usually placed at the top of the page, close to the page title, to help navigate sites with multiple content levels. A disabled &#39;page title&#39; breadcrumb is unnecessary unless an image or other interface separates the breadcrumbs from the page title.</description>
+      <description>Navigation There are several recommended approaches to providing navigation. Using breadcrumbs at the top of the page is a simple and compact way of showing the user the website hierarchy. The right nav offers several options for providing more detailed navigation and could be useful for larger, more complex sites.&#xA;Breadcrumbs Breadcrumbs are usually placed at the top of the page, close to the page title, to help navigate sites with multiple content levels.</description>
     </item>
     <item>
       <title>Video</title>

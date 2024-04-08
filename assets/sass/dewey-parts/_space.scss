@@ -122,6 +122,14 @@ offered. Append a bootstrap size unit on the end to get the desired spacing.
     @include set-prop(".margin-bot", margin-bottom);
 }
 
+.margin-left {
+    @include set-prop(".margin-left", margin-left);
+}
+
+.margin-right {
+    @include set-prop(".margin-right", margin-right);
+}
+
 .padding-top {
     @include set-prop(".padding-top", padding-top);
 }

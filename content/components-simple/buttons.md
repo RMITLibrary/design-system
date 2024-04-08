@@ -23,5 +23,5 @@ or simply
 <code class="language-html">&lt;button class=&quot;btn btn-primary&quot; &gt;Primary button&lt;/button&gt;</code>
 </pre></div>
 <h2>Other</h2>
-<p>The prev and next links at the bottom of the page need to be visually prominent. While they take some styling cues from buttons to achieve this, they are in fact links. Visit the <a href="/visual/links/">links</a> page for more information.</p>
+<p>The prev and next links at the bottom of the page need to be visually prominent. While they take some styling cues from buttons to achieve this, they are in fact links. Visit the <a href="../../visual/links/">links</a> page for more information.</p>
 

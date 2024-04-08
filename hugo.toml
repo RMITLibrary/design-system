@@ -49,21 +49,21 @@ unsafe = true
         url = "/visual/icons/"
         parent = "Visual Language"
         weight = 208
+	[[menu.main]]
+        name = "Links"
+        url = "/visual/links/"
+        parent = "Visual Language"
+        weight = 209
     [[menu.main]]
         name = "Spacing"
         url = "/visual/spacing/"
         parent = "Visual Language"
-        weight = 209
+        weight = 210
     [[menu.main]]
         name = "Typography"
         url = "/visual/typography/"
         parent = "Visual Language"
-        weight = 210 
-    [[menu.main]]
-        name = "Links"
-        url = "/visual/links/"
-        parent = "Visual Language"
-        weight = 211 
+        weight = 211
         
     [[menu.main]]
         name = "Simple Components"
@@ -84,6 +84,11 @@ unsafe = true
         url = "/components-simple/buttons/"
         parent = "Simple Components"
         weight = 314
+	[[menu.main]]
+        name = "Tables"
+        url = "/components-simple/tables/"
+        parent = "Simple Components"
+        weight = 315
     
     [[menu.main]]
         name = "Footer"

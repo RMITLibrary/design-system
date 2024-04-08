@@ -28,5 +28,12 @@
       <guid>http://localhost:1313/dewey-design/components-simple/buttons/</guid>
       <description>Buttons Two different varieties of button are available in the design system. Default state The button state hews closely to Bootstrap&#39;s btn-outline-secondary style. When multiple buttons are used on a page, almost all of them should in this style.&#xA;Default button &amp;lt;button class=&amp;quot;btn btn-outline-secondary&amp;quot;&amp;gt;Button label&amp;lt;/button&amp;gt; or simply &amp;lt;button&amp;gt;Button label&amp;lt;/button&amp;gt; Primary button This style should be used sparingly, ideally only one occurrence on each page. It should action something important, like submitting a form.</description>
     </item>
+    <item>
+      <title>Tables</title>
+      <link>http://localhost:1313/dewey-design/components-simple/tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/components-simple/tables/</guid>
+      <description>Tables Tables allow data to be displayed with a structure. Be sure that the information being presented warrants being displayed in a table. Often, regular paragraphs of text are better way to communicate.&#xA;Default By default, tables feature a simple one pixel border. Each table is wrapped in a div, responsive-table, which allows for wide tables to horizontally scroll at smaller screen sizes.&#xA;Evidence Problem Relevant theory Solution CEO Office location on top floor &#39;mythical figure&#39; Focussed on results HealthCo is &#39;his baby&#39; CEO leadership style &#39;autocratic&#39; Weber (Bureaucratic management)</description>
+    </item>
   </channel>
 </rss>

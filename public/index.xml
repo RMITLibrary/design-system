@@ -12,7 +12,7 @@
       <link>http://localhost:1313/dewey-design/introduction/accessibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/introduction/accessibility/</guid>
-      <description>Accessibility COntent to be written</description>
+      <description>Accessibility Content to be written</description>
     </item>
     <item>
       <title>Accordions</title>
@@ -20,6 +20,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/components-simple/accordions/</guid>
       <description>Accordions Accordions can be a useful tool in dividing and segmenting information, if used judiciously. The design system features three variants, the transcript variant is used to provide accessible content for videos and images, the navigation option (featured on the right) allows for collapsible navigation.&#xA;Default Each accordion item is controlled by the user, they decide when each item opens and closes. While there is facility to have an accordion item open by default (see bootstrap docs), this begs the question, &#34;</description>
+    </item>
+    <item>
+      <title>Anatomy of a page</title>
+      <link>http://localhost:1313/dewey-design/examples/anatomy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/examples/anatomy/</guid>
+      <description>Anatomy of a page Content to be written</description>
     </item>
     <item>
       <title>Blockquotes</title>
@@ -50,11 +57,18 @@
       <description>Colour The Dewey design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.&#xA;Primary text Dark Grey #333333&#xA;Primary colour for all text. RMIT Blue #000054&#xA;Used for links and titles Blue 70 #4D4D88</description>
     </item>
     <item>
+      <title>Example 1</title>
+      <link>http://localhost:1313/dewey-design/examples/example-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/examples/example-1/</guid>
+      <description>Example 1 Content to be written</description>
+    </item>
+    <item>
       <title>Help</title>
       <link>http://localhost:1313/dewey-design/introduction/help/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/introduction/help/</guid>
-      <description>Help COntent to be written</description>
+      <description>Help Content to be written</description>
     </item>
     <item>
       <title>Icons</title>
@@ -82,7 +96,7 @@
       <link>http://localhost:1313/dewey-design/components-complex/navigation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/components-complex/navigation/</guid>
-      <description>Navigation Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare elit nec metus dapibus sollicitudin. Pellentesque vel eros ac erat placerat cursus vel a velit. Phasellus mattis aliquam arcu eget iaculis. Breadcrumbs Breadcrumbs are usually placed at the top of the page, close to the page title, to help navigate sites with multiple content levels. A disabled &#39;page title&#39; breadcrumb is unnecessary unless an image or other interface separates the breadcrumbs from the page title.</description>
+      <description>Navigation There are several recommended approaches to providing navigation. Using breadcrumbs at the top of the page is a simple and compact way of showing the user the website hierarchy. The right nav offers several options for providing more detailed navigation and could be useful for larger, more complex sites.&#xA;Breadcrumbs Breadcrumbs are usually placed at the top of the page, close to the page title, to help navigate sites with multiple content levels.</description>
     </item>
     <item>
       <title>Sandbox</title>
@@ -97,6 +111,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/visual/spacing/</guid>
       <description>Spacing Dewey aims to create a generic spacing system, in an attempt to maintain consistency across different components. Hopefully, the system will also allow for flexibility in the future.&#xA;Base units Default unit (1rem = 16px)&#xA;A series of units created to space elements in the page content. This system allows for responsiveness, having different values for smaller and larger screen widths.&#xA;Name Small (width &amp;lt; 768px) Medium, large etc. (width ≥ 768px) space-xs 1rem (16px) 1rem (16px) space-sm 1rem (16px) 1.</description>
+    </item>
+    <item>
+      <title>Tables</title>
+      <link>http://localhost:1313/dewey-design/components-simple/tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/components-simple/tables/</guid>
+      <description>Tables Tables allow data to be displayed with a structure. Be sure that the information being presented warrants being displayed in a table. Often, regular paragraphs of text are better way to communicate.&#xA;Default By default, tables feature a simple one pixel border. Each table is wrapped in a div, responsive-table, which allows for wide tables to horizontally scroll at smaller screen sizes.&#xA;Evidence Problem Relevant theory Solution CEO Office location on top floor &#39;mythical figure&#39; Focussed on results HealthCo is &#39;his baby&#39; CEO leadership style &#39;autocratic&#39; Weber (Bureaucratic management)</description>
     </item>
     <item>
       <title>Test</title>
