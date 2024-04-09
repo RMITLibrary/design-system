@@ -1,11 +1,30 @@
+html {
+	scroll-padding-top: 6rem;
+	@include media-breakpoint-down(md) { scroll-padding-top: 4rem; }
+}
+
+.main-content {
+	/* If nav-bar is not fixed */
+	padding-top: 7.5rem;
+	@include media-breakpoint-down(md) { padding-top: 5.5rem; }
+	
+	/* If nav-bar is not fixed */
+	//padding-top: 4rem;
+	//@include media-breakpoint-down(md) { padding-top: 2.5rem; }
+}
+
 /* START TOP NAV */
 
 .top-nav {
     color: $white;
     background-color: $blue;
     height: $space-sm-xl;
+	position: fixed;
+	width: 100%;
+	
+	z-index: 5;
     
-    margin-bottom: 2.5rem;
+    //margin-bottom: 2.5rem;
     
     .rmit-logo {
         background-color: $red;
@@ -53,7 +72,7 @@
         
         overflow: visible;      //RMIT red tab overhangs blue bar
         height: 3.5rem;
-        margin-bottom: 4rem;    //increase margin
+        //margin-bottom: 4rem;    //increase margin
         
         .top-nav-left { 
             margin-left: 0;  
@@ -75,5 +94,6 @@
         }
     }
 }
+
 
 /* END TOP NAV */

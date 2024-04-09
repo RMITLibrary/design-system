@@ -77,3 +77,32 @@ hide_footer: false
 To control how phrases or hypenated words are wrapped over lines, use the nowrap class rather than a line break. This accounts for multiple screen widths. Try to limit the number of words that are wrapped in the tag. 
 <div class="margin-top-xs highlight"><pre class="chroma">
 <code class="language-html">&lt;span class=&quot;nowrap&quot;&gt;RMIT Library&lt;/span&gt;</code></pre></div>
+<hr />
+<h2>Pseudo headings</h2>
+<p>Use sparingly, when you eant to display a certain size heading without disrupting the symantics.</p>
+<p class="h1">This is h1 heading</p>
+<div class="margin-top-xs highlight"><pre class="chroma">
+<code class="language-html">&lt;p class=&quot;h1&quot;&gt;This is h1 heading&lt;/p&gt;</code>
+</pre></div>
+<p class="h2">This is h2 heading</p>
+<div class="margin-top-xs highlight"><pre class="chroma">
+<code class="language-html">&lt;p class=&quot;h2&quot;&gt;This is h2 heading&lt;/p&gt;</code>
+</pre></div>
+<p class="h3">This is h3 heading</p>
+<div class="margin-top-xs highlight"><pre class="chroma">
+<code class="language-html">&lt;p class=&quot;h3&quot;&gt;This is h3 heading&lt;/p&gt;</code>
+</pre></div>
+<p class="h4">This is h4 heading</p>
+<div class="margin-top-xs highlight"><pre class="chroma">
+<code class="language-html">&lt;p class=&quot;h4&quot;&gt;This is h4 heading&lt;/p&gt;</code>
+</pre></div>
+<p class="h5">This is h5 heading</p>
+<p>Sized to be the same size as Lead paragraph</p>
+<div class="margin-top-xs highlight"><pre class="chroma">
+<code class="language-html">&lt;p class=&quot;h5&quot;&gt;This is h5 heading&lt;/p&gt;</code>
+</pre></div>
+<p class="h6">This is h6 heading</p>
+<p>Same size as h5, use sparingly.</p>
+<div class="margin-top-xs highlight"><pre class="chroma">
+<code class="language-html">&lt;p class=&quot;h6&quot;&gt;This is h6 heading&lt;/p&gt;</code>
+</pre></div>

@@ -163,20 +163,20 @@ parent: "Complex Components"
 		</div>
 		<figcaption>An example caption for this image.</figcaption>
 		<!-- START accordion item -->
-<div class="accordion-item transcript">
-    <p class="accordion-header" id="Transcript-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Transcript-collapseOne" aria-expanded="false" aria-controls="Transcript-collapseOne">
-        Transcript
-      </button>
-    </p>
-    <div id="Transcript-collapseOne" class="accordion-collapse collapse" aria-labelledby="Transcript-headingOne">
-      <div class="accordion-body">
-<p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
-<p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
-        </div>
-      </div>
-</div>
-<!-- END accordion item -->
+		<div class="accordion-item transcript">
+			<p class="accordion-header" id="Transcript-headingOne">
+			  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Transcript-collapseOne" aria-expanded="false" aria-controls="Transcript-collapseOne">
+				Transcript
+			  </button>
+			</p>
+			<div id="Transcript-collapseOne" class="accordion-collapse collapse" aria-labelledby="Transcript-headingOne">
+			  <div class="accordion-body">
+		<p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
+		<p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
+				</div>
+			  </div>
+		</div>
+		<!-- END accordion item -->
 	</div>
 </figure>
 
@@ -198,25 +198,25 @@ parent: "Complex Components"
 <figure class="img-transcript caption-side">
 	<div class="img-caption-wrap">
 		<div class="portrait">
-			<img src="https://learninglab.rmit.edu.au/sites/default/files/maths-a11-01.jpg" alt="An example image" class="border" />
+			<img src="../../images/img-example-portrait.png" alt="An example image" class="border" />
 		</div>
 		<figcaption>An example caption for this image.</figcaption>
 	</div>
 	<!-- START accordion item -->
-<div class="accordion-item transcript">
-    <p class="accordion-header" id="Transcript-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Transcript-collapseTwo" aria-expanded="false" aria-controls="Transcript-collapseTwo">
-        Transcript
-      </button>
-    </p>
-    <div id="Transcript-collapseTwo" class="accordion-collapse collapse" aria-labelledby="Transcript-headingTwo">
-      <div class="accordion-body">
-<p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
-<p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
-        </div>
-      </div>
-</div>
-<!-- END accordion item -->
+	<div class="accordion-item transcript">
+		<p class="accordion-header" id="Transcript-headingTwo">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Transcript-collapseTwo" aria-expanded="false" aria-controls="Transcript-collapseTwo">
+			Transcript
+		  </button>
+		</p>
+		<div id="Transcript-collapseTwo" class="accordion-collapse collapse" aria-labelledby="Transcript-headingTwo">
+			<div class="accordion-body">
+				<p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
+				<p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
+			</div>
+		</div>
+	</div>
+	<!-- END accordion item -->
 </figure>
 <div class="highlight">
 <pre class="chroma">

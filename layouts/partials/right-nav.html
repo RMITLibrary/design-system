@@ -37,5 +37,24 @@
 {{ end }}
 </nav>
 {{ else }}
-<!-- No buttons here! -->Put example nav here
+	{{if eq $pageName "Anatomy of a page" }}
+<nav>
+    <h4><a href="">Section</a></h4>
+    <h5><a href="">Subsection</a></h5>
+    <ul>
+        <li>
+            <a href="">Content page</a>
+            <ul>
+                <li class="selected">Content subpage</li>
+                <li><a href="">Content subpage</a></li>
+                <li><a href="">Content subpage</a></li>
+            </ul>
+        </li>
+        <li><a href="">Content page</a></li>
+        <li><a href="">Content page</a></li>
+        <li><a href="">Content page</a></li>
+        <li><a href="">Content page</a></li>
+    </ul>
+</nav>
+	{{ end }}
 {{ end}}

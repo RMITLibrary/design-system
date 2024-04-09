@@ -48,6 +48,7 @@ parent: "Complex Components"
 &lt;/figure&gt;</code>
 </pre></div>
 <!-- Portrait -->
+<a name="portrait"></a>
 <h2>Portrait</h2>
 <p>To change the aspect ratio to portrait, wrap the responsive-video div in a div with class <code>portrait-video</code>. This will display videos in a 9:16 aspect ratio. This responsive-video div has a width of <strong>80%</strong>, with the max width limited to <strong>25rem</strong> (400px). This ensures the whole video is visible along with browser chrome at smaller screen sizes.</p>
 <figure class="video">

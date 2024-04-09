@@ -8,7 +8,7 @@ footer {
     color: $white;
     @include do-space(padding-top, lg);
     
-    a { color: $white; }
+    a, a:hover { color: $white; }
     
     .logo svg {
         width: 100px;

@@ -103,11 +103,13 @@ figure {
 	.portrait {
 		max-width: $img-width-md;
 		margin: 0px auto;
+		flex-shrink: 0;
 	}
 	
 	.portrait-sm {
 		max-width: $img-width-sm;
 		margin: 0px auto;
+		flex-shrink: 0;
 	}
 }
 

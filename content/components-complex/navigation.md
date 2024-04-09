@@ -27,6 +27,7 @@ parent: "Complex Components"
 &lt;/ul&gt;</code>
 </pre></div>
 <p>For space reasons, at small and x-small breakpoints, only the last breadcrumb is displayed, along with a back arrow. Resize your browser to see this in action.</p>
+<a name="right-nav"></a>
 <h2>Right nav</h2>
 <p>The right nav is designed to be displayed on content pages.</p>
 <ul>

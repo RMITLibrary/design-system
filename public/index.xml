@@ -26,7 +26,7 @@
       <link>http://localhost:1313/dewey-design/examples/anatomy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/examples/anatomy/</guid>
-      <description>Anatomy of a page Content to be written</description>
+      <description>Home Section Subsection Content page Anatomy of a page Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the Dewey design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. This example shows both page content here on the left and a right hand navigation.</description>
     </item>
     <item>
       <title>Blockquotes</title>
@@ -99,13 +99,6 @@
       <description>Navigation There are several recommended approaches to providing navigation. Using breadcrumbs at the top of the page is a simple and compact way of showing the user the website hierarchy. The right nav offers several options for providing more detailed navigation and could be useful for larger, more complex sites.&#xA;Breadcrumbs Breadcrumbs are usually placed at the top of the page, close to the page title, to help navigate sites with multiple content levels.</description>
     </item>
     <item>
-      <title>Sandbox</title>
-      <link>http://localhost:1313/dewey-design/sandbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dewey-design/sandbox/</guid>
-      <description>Let&#39;s adjust these for nav bar?&#xA;Transcript Thanks for watching.&#xA;Blerghness one&#xA;Introduction Getting started Accessibility Help Visual language Breakpoints and columns Colour Icons Spacing Typography Components Accordions Blockquotes Breadcrumbs Buttons Footer H5P interactives Images and video Navigation Tables Top Navigation Example pages Anatomy of a page Example 2 Example 3 Wim Wenders forever&#xA;Section title Subsection title Stage 1: Analyse the task Read the case Identify key issues Stage 2: Research and link to theory Stage 3: Developing solutions Stage 4: Go crazy Stage 5: Stay crazy Stage 6: Stay crazy Heading 1 This is the content 1 Heading 2 This is the content 2 Heading 3 This is the content 3 </description>
-    </item>
-    <item>
       <title>Spacing</title>
       <link>http://localhost:1313/dewey-design/visual/spacing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -118,13 +111,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/components-simple/tables/</guid>
       <description>Tables Tables allow data to be displayed with a structure. Be sure that the information being presented warrants being displayed in a table. Often, regular paragraphs of text are better way to communicate.&#xA;Default By default, tables feature a simple one pixel border. Each table is wrapped in a div, responsive-table, which allows for wide tables to horizontally scroll at smaller screen sizes.&#xA;Evidence Problem Relevant theory Solution CEO Office location on top floor &#39;mythical figure&#39; Focussed on results HealthCo is &#39;his baby&#39; CEO leadership style &#39;autocratic&#39; Weber (Bureaucratic management)</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/dewey-design/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dewey-design/test/</guid>
-      <description>This is h1 heading This is h2 heading This is h3 heading This is h4 heading This is h5 heading This is h6 heading Type use default bootstrap scaling (1rem = 16px). On smaller screens, sizes downscale based on desktop sizes: mobile h1 takes desktop h2 values, mobile lead takes desktop lead. Intermediate heading sizes are scaled as per desktop.&#xA;Body text is set in Helvetica Neue, Dark Grey (#333333) at font-weight 400.</description>
     </item>
     <item>
       <title>Typography</title>

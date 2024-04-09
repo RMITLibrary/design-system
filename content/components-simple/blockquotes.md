@@ -37,6 +37,7 @@ parent: "Simple Components"
 &lt;/blockquote&gt;</code>
 </pre></div>
 <hr class="xl" />
+<a name="nav"></a>
 <h2>Blockquotes as navigation</h2>
 <p>Blockquotes can be useful to highlight sections of text and can also function as a navigation device. Visually, they are obviously separate from the rest of the content and can provide prominent for the information contained within.
 </p>

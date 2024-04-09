@@ -31,6 +31,7 @@ hide_footer: false
     &lt;a class=&quot;btn btn-nav-next&quot; href=&quot;next-link-here&quot;&gt;Next page&lt;/a&gt;
 &lt;/div&gt;</code>
 </pre></div>
+<a name="list-links"></a>
 <h2>List links</h2>
 <p>An option to display a list of links while giving the list more prominence than a standard unordered list.</p>
 <div class="list-of-links">
