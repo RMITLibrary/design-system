@@ -92,7 +92,7 @@ unsafe = true
     
     [[menu.main]]
         name = "Footer"
-        url = "/components-complex/blockquotes/"
+        url = "/components-complex/footer/"
         parent = "Complex Components"
         weight = 413
     [[menu.main]]
@@ -106,10 +106,15 @@ unsafe = true
         parent = "Complex Components"
         weight = 415
 	[[menu.main]]
+        name = "Top navigation"
+        url = "/components-complex/top-nav/"
+        parent = "Complex Components"
+        weight = 417
+	[[menu.main]]
         name = "Video"
         url = "/components-complex/video/"
         parent = "Complex Components"
-        weight = 416
+        weight = 417
         
     [[menu.main]]
         name = "Anatomy of a page"

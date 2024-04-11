@@ -22,6 +22,13 @@
       <description>Navigation There are several recommended approaches to providing navigation. Using breadcrumbs at the top of the page is a simple and compact way of showing the user the website hierarchy. The right nav offers several options for providing more detailed navigation and could be useful for larger, more complex sites.&#xA;Breadcrumbs Breadcrumbs are usually placed at the top of the page, close to the page title, to help navigate sites with multiple content levels.</description>
     </item>
     <item>
+      <title>Top navigation</title>
+      <link>http://localhost:1313/dewey-design/components-complex/top-nav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/components-complex/top-nav/</guid>
+      <description>Top navigation Video is displayed via a responsive iFrame, a transcript of the video should be displayed via an accordion to assist visually impaired users. These examples show YouTube content, it should be possible to show content from other providers with some adjustments. The default aspect ratio is 16:9, content in other ratios (4:3 for instance) will be pillarboxed. The iframe is sized so as to retain the aspect ratio while remaining responsive.</description>
+    </item>
+    <item>
       <title>Video</title>
       <link>http://localhost:1313/dewey-design/components-complex/video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

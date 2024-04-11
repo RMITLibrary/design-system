@@ -79,7 +79,7 @@ To control how phrases or hypenated words are wrapped over lines, use the nowrap
 <code class="language-html">&lt;span class=&quot;nowrap&quot;&gt;RMIT Library&lt;/span&gt;</code></pre></div>
 <hr />
 <h2>Pseudo headings</h2>
-<p>Use sparingly, when you eant to display a certain size heading without disrupting the symantics.</p>
+<p>Use sparingly, when you want to display a certain size heading without disrupting the symantics.</p>
 <p class="h1">This is h1 heading</p>
 <div class="margin-top-xs highlight"><pre class="chroma">
 <code class="language-html">&lt;p class=&quot;h1&quot;&gt;This is h1 heading&lt;/p&gt;</code>
