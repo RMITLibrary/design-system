@@ -41,9 +41,9 @@
     }
     
     &:hover {
-        color: $blue-hover;
-        background-color: $underlay-hover;
-        border-color: $rmit-blue;
+        @include link-feature-hover;
+		background-color: $white;
+        border-color: $blue-hover;
     }
 }
 

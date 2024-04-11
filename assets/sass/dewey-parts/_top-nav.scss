@@ -101,7 +101,9 @@ html.nav-fixed {
         justify-content: flex-end;
         align-items: center;
 		
-		margin: 0.5rem 0 0 0 !important;
+		height: 3rem;
+		
+		margin: 0 !important;
 		padding: 0;
 		
 		font-size: 1rem;
@@ -109,7 +111,7 @@ html.nav-fixed {
 		
 		text-align: right;
 		
-		@include media-breakpoint-up(md) { margin-top: 12px !important; }
+		@include media-breakpoint-up(md) { height: 3.5rem; }
 		
 		li {
 			display: block; 
@@ -170,7 +172,7 @@ html.nav-fixed {
             border: 0;
             border-radius: 0;
       
-            text-indent: 10000px;
+            text-indent: -10000px;
             
             background-color: $rmit-blue;
         }

@@ -1,7 +1,37 @@
+@mixin link-feature {
+	text-decoration: none;
+	color: $rmit-blue;
+}
+
+@mixin link-feature-hover {
+	text-decoration: underline;
+	color: $blue-hover;
+}
+
+@mixin link-normal {
+	text-decoration: underline;
+	color: $rmit-blue;
+}
+
+@mixin link-normal-hover {
+	text-decoration: none;
+	color: $blue-hover;
+}
+
+a {
+	 @include link-normal;
+}
+		
+a:hover {
+	 @include link-normal-hover;
+}
+
+
+
 .link-large {
     display: block;
     @include type-lead;
-    text-decoration: none;
+    @include link-feature;
     margin-top: 1.25rem;
     
     padding: 0;
@@ -10,6 +40,7 @@
 
 .link-large:hover {
     background: none; 
+	 @include link-feature-hover;
 }
 
 
@@ -53,12 +84,12 @@
 		}
 		
 		a {
-			text-decoration: none;
+			@include link-feature;
             padding-left: 2.5rem;
 		}
         
         a:hover {
-            color: $blue-hover;
+            @include link-feature-hover;
         }
 	}
 }
@@ -82,7 +113,11 @@
 		}
 
 		a {
-			text-decoration: none;
+			 @include link-feature;
+		}
+		
+		a:hover {
+			 @include link-feature-hover;
 		}
 	}
 }

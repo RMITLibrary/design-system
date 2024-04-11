@@ -39,12 +39,11 @@ nav {
     }
     
     a {
-        text-decoration: none;
+        @include link-feature;
     }
 	
 	a:hover {
-		color: $rmit-blue;
-        background-color: $underlay-hover;
+		@include link-feature-hover;
     }
     
     h4, h5 {

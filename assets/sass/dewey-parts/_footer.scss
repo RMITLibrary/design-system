@@ -164,10 +164,12 @@ footer * {
 .ask-container {
 	border-top: 1px solid $interface-grey;
 	
-	a {text-decoration: none !important; }
+	a { @include link-feature; }
 	
 	a:hover {
-		p.lead { color: $blue-hover;}
+		p.lead { 
+			@include link-feature-hover;
+		}
 	}
 }
 
@@ -199,14 +201,16 @@ footer * {
 	}
 	
 	@include media-breakpoint-up(md) {
-		display: flex;
-		max-width: 728px;
-		padding: 40px 48px;
-		justify-content: center;
-		align-items: center;
-		gap: 32px;
-		
-		.ask-logo { margin: 0; }
+		a {
+			display: flex;
+			max-width: 728px;
+			padding: 40px 48px;
+			justify-content: center;
+			align-items: center;
+			gap: 32px;
+
+			.ask-logo { margin: 0; }
+		}
 	}
 }
 

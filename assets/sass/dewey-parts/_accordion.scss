@@ -14,7 +14,7 @@
 
     .accordion-button {
 
-        color: $blue;
+        @include link-feature;
         font-size: 1.125rem;
 
         padding: 1rem 0 1rem 0;
@@ -25,7 +25,7 @@
     }
 
     .accordion-button:hover, .accordion-button:not(.collapsed):hover {
-		background-color: $underlay-hover;
+		@include link-feature-hover;
     }
 
 
@@ -76,7 +76,7 @@
     .accordion-button {
 
         font-size: 1rem !important;
-        text-decoration: underline;
+        @include link-normal;
 
         padding: 0rem 0 1rem 0;
 
@@ -86,6 +86,7 @@
         
         &:hover {
             background-color: $white !important;
+			@include link-normal-hover;
         }
     }
         
@@ -120,8 +121,7 @@
     }
 	
 	.accordion-button:hover, .accordion-button:not(.collapsed):hover {
-        //color: $blue-hover; 
-		background-color: $underlay-hover !important;
+        @include link-feature-hover;
     }
     
     .accordion-body {

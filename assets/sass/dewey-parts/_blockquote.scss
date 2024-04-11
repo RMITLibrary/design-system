@@ -54,8 +54,7 @@ blockquote.link {
 	
 	//replicate padding on the a tag to accommodate hover state :(
 	a { 
-		display: block;
-		text-decoration:none; 
+		@include link-feature;
 		
 		@include do-space(padding-top, sm); 
     	@include do-space(padding-bottom, sm); 
@@ -134,9 +133,8 @@ blockquote.link {
 	}
 	
     a:hover {
-		background: $underlay-hover;
         h4 {
-            color: $blue-hover;
+           @include link-feature-hover;
         }
     }
 	
