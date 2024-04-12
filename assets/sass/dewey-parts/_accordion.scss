@@ -30,7 +30,7 @@
 
 
     .accordion-button:not(.collapsed) {
-        background-color: #fff;
+        background-color: $white;
         box-shadow: inset 0 0px;
     }
 
@@ -63,9 +63,36 @@
     }
 }
 
-.accordion-item:first-of-type, 
-.accordion-item:last-of-type {
+.accordion-item:first-of-type .accordion-button, 
+.accordion-item:last-of-type  .accordion-button {
     border-radius: 0px;
+}
+
+//.accordion-item:last-of-type .accordion-button.collapsed
+
+.accordion-white {
+    .accordion-item {
+        border-color: $white;
+        background-color: $rmit-blue;
+    }
+    
+    .accordion-button, .accordion-button:hover, .accordion-button:not(.collapsed):hover {
+        color: $white;
+        background-color: $rmit-blue;
+    }
+    
+    .accordion-button::before {
+        @include carat-white;
+    }
+    
+    .accordion-button:not(.collapsed) {
+        background-color: $rmit-blue;
+    }
+    
+    .accordion-body {
+        background-color: $rmit-blue;
+        color: $white;
+    }
 }
 
 

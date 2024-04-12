@@ -61,6 +61,8 @@ blockquote.link {
     
     	@include do-space(padding-left, md); 
     	@include do-space(padding-right, md); 
+        
+        display: block;
 		
 		//hide icon on small screens
 		.icon-wrap { display: none; }
