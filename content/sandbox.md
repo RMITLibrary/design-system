@@ -30,6 +30,7 @@
         </div>
     </div>
     <!-- END content -->
+</div>  
 </div>
 </div>
 <!-- END Item Two -->
