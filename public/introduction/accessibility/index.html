@@ -16,10 +16,12 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/html.min.js"></script>
+
+
 </head>
 <body>
 <div class="top-nav">
-    <div class="container nav-container">
+    <div class="container">
         <div class="row">
             <div class="col-auto">
                 <div class="top-nav-left">
@@ -29,7 +31,7 @@
             </div>
             <div class="col">       
                 <ul>
-					<li class="menu"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">Menu</button></li>
+					<li class="menu"><button id="menu-button" class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">Menu</button></li>
                 </ul>
             </div>   
         </div>
@@ -37,10 +39,11 @@
 </div>
 <div id="nav-menu" class="collapse">
 
-    <div class="container">
+    <div class="container nav-container">
         <div class="row ">
             
             <div class="col-xl-8">
+                
                 
                 <div class="accordion accordion-white" id="accordionExample2">
                 
@@ -69,7 +72,7 @@
                      
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <ul>
                                     <li><a href="">Academic style</a></li>
                                     <li><a href="">Academic word lists</a></li>
@@ -78,7 +81,7 @@
                                     <li><a href="">Understanding your audience</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <ul>
                                     <li><a href="">Writing sentences</a></li>
                                     <li><a href="">Writing for coursework</a></li>
@@ -166,16 +169,16 @@
         </div>
     </div>
 </div>
-
-<div class="container main-content">
-    <div class="row ">
-        
-        <div class="col-xl-8">
+<div id="page-content">
+    <div class="container main-content">
+        <div class="row ">
             
+            <div class="col-xl-8">
+                
  <h1 class="margin-top-zero">Accessibility</h1>
 <p>Content to be written</p>
 
-			
+                
 
 
 
@@ -404,12 +407,12 @@
 
 
 
-        </div>
-        
-
-        
-        <div class="col-xl-4">
+            </div>
             
+
+            
+            <div class="col-xl-4">
+                
 
 
 <nav>
@@ -614,12 +617,12 @@
 
 </nav>
 
+            </div>
+            
         </div>
-        
     </div>
-</div>
 
-
+    
 <div class="footer-container">
 	<div class="container">
         <div class="row">
@@ -734,5 +737,40 @@
 
 
 <script>hljs.highlightAll();</script>
+</div>
+<script>
+
+
+
+var menuCover = true;   
+    
+ 
+var menuButton = document.getElementById("menu-button");
+var pageContent = document.getElementById("page-content"); 
+  
+ 
+var menuDisplay = false;
+
+ 
+if(menuCover) menuButton.addEventListener("click", showHideMenu);
+
+
+
+
+function showHideMenu() {
+    if(menuDisplay == false)
+    {
+        menuDisplay = true;
+        pageContent.style.display = "none";        
+    }
+    else
+    {
+        menuDisplay = false;
+        pageContent.style.display = "block"; 
+       
+    }
+}
+
+</script>
 </body>
 </html>

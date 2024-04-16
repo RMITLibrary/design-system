@@ -1,3 +1,7 @@
+body {
+  overflow-y: scroll;
+}
+
 /* Space between top nav and content if top nav is NOT fixed */
 .main-content {
 	padding-top: 4rem;

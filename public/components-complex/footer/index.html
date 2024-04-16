@@ -16,6 +16,8 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/html.min.js"></script>
+
+
 </head>
 <body>
 <div class="top-nav">
@@ -29,7 +31,7 @@
             </div>
             <div class="col">       
                 <ul>
-					<li class="menu"><button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">Menu</button></li>
+					<li class="menu"><button id="menu-button" class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">Menu</button></li>
                 </ul>
             </div>   
         </div>
@@ -41,6 +43,7 @@
         <div class="row ">
             
             <div class="col-xl-8">
+                
                 
                 <div class="accordion accordion-white" id="accordionExample2">
                 
@@ -166,12 +169,12 @@
         </div>
     </div>
 </div>
-
-<div class="container main-content">
-    <div class="row ">
-        
-        <div class="col-xl-8">
+<div id="page-content">
+    <div class="container main-content">
+        <div class="row ">
             
+            <div class="col-xl-8">
+                
  <h1 class="margin-top-zero">Footer</h1>
 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam felis eros, tincidunt ac imperdiet vel, vehicula ut mauris. Aliquam ante tellus, vehicula vel orci elementum, hendrerit maximus enim. Suspendisse congue ex pellentesque nisi mollis, sit amet rhoncus erat tincidunt. Ut luctus tincidunt elementum. Ut aliquet accumsan nulla.
 </p>
@@ -224,7 +227,7 @@
 <!-- END Example -->
 </div>
 
-			
+                
 
 
 
@@ -453,12 +456,12 @@
 
 
 
-        </div>
-        
-
-        
-        <div class="col-xl-4">
+            </div>
             
+
+            
+            <div class="col-xl-4">
+                
 
 
 <nav>
@@ -663,12 +666,12 @@
 
 </nav>
 
+            </div>
+            
         </div>
-        
     </div>
-</div>
 
-
+    
 <div class="footer-container">
 	<div class="container">
         <div class="row">
@@ -783,5 +786,40 @@
 
 
 <script>hljs.highlightAll();</script>
+</div>
+<script>
+
+
+
+var menuCover = true;   
+    
+ 
+var menuButton = document.getElementById("menu-button");
+var pageContent = document.getElementById("page-content"); 
+  
+ 
+var menuDisplay = false;
+
+ 
+if(menuCover) menuButton.addEventListener("click", showHideMenu);
+
+
+
+
+function showHideMenu() {
+    if(menuDisplay == false)
+    {
+        menuDisplay = true;
+        pageContent.style.display = "none";        
+    }
+    else
+    {
+        menuDisplay = false;
+        pageContent.style.display = "block"; 
+       
+    }
+}
+
+</script>
 </body>
 </html>
