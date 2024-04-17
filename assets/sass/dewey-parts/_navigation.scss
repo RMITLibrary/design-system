@@ -1,5 +1,6 @@
 /* Preserve rounded corners for first item */
-nav > *:first-child {
+.right-nav > *:first-child, 
+.right-nav-accordion > *:first-child {
 	
 	border-top-left-radius: 0.5rem;
 	border-top-right-radius: 0.5rem;
@@ -10,13 +11,13 @@ nav > *:first-child {
 		padding-top: 1rem; 
 	}
 	
-	h5 .accordion-button {
+	h2 .accordion-button {
 		border-top-left-radius: 0.5rem !important;
 		border-top-right-radius: 0.5rem !important;
 	}
 }
 
-nav {
+.right-nav, .right-nav-accordion {
     box-sizing: border-box; 
     max-width: 36rem;   
     
@@ -32,7 +33,7 @@ nav {
         max-width: 24.5rem;  
     }
     
-	//At largest breakpoint, increae gap to the left, default bootstrap gap is to0 small
+	//At largest breakpoint, increae gap to the left, default bootstrap gap is too small
     @include media-breakpoint-up(xl) { 
         margin-left: 1.5rem; 
         margin-top: 0;
@@ -46,7 +47,7 @@ nav {
 		@include link-feature-hover;
     }
     
-    h4, h5 {
+    h2, h3 {
         margin: 0;
         
         a {
@@ -56,11 +57,16 @@ nav {
         }
     }
 	
-	h4 {
-        border-bottom: 1px solid $interface-grey;
+	h2 {
+        /* h4 fontsize */
+        font-size: 1.25rem;
+        @include media-breakpoint-up(md) { font-size: 1.5rem; }
     }
     
-    h5 {
+    h3 {
+        /* h5 fontsize */
+        font-size: 1.125rem;
+        @include media-breakpoint-up(md) { font-size: 1.25rem; }
         a { padding-bottom: 0.75rem; }
     }
     
@@ -97,5 +103,12 @@ nav {
         li.selected {
             padding-left: 5rem;   //less 0.25rem to account for border
         }
+    }
+}
+
+/*Add border bototm to non accordion right nav only */
+.right-nav {
+    h2 {
+        border-bottom: 1px solid $interface-grey;
     }
 }

@@ -16,7 +16,7 @@ parent: "Complex Components"
             <div class="col-auto">
                 <div class="top-nav-left">
                     <div class="rmit-logo"></div>
-                    <h4><a href="/dewey-design/">Site title</a></h4>
+                    <h2><a href="">Optional site title</a></h2>
                 </div> 
             </div>
             <div class="col">       
@@ -27,8 +27,21 @@ parent: "Complex Components"
 </div>
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;code class=&quot;put in here&quot;&gt;
-&lt;/code&gt;</code>
+<code class="language-html">&lt;nav class=&quot;top-nav&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-auto&quot;&gt;
+                &lt;div class=&quot;top-nav-left&quot;&gt;
+                    &lt;div class=&quot;rmit-logo&quot;&gt;&lt;/div&gt;
+                    &lt;h2&gt;&lt;a href=&quot;&quot;&gt;Optional site title&lt;/a&gt;&lt;/h2&gt;
+                &lt;/div&gt; 
+            &lt;/div&gt;
+            &lt;div class=&quot;col&quot;&gt;       
+                &lt;!-- navigation elements could be placed here --&gt; 
+            &lt;/div&gt;   
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;</code>
 </pre></div>
 <h2>Text links</h2>
 <p>
@@ -65,13 +78,13 @@ parent: "Complex Components"
             <div class="col-auto">
                 <div class="top-nav-left">
                     <div class="rmit-logo"></div>
-                    <h4><a href="/dewey-design/">Learning Lab</a></h4>
+                    <h2><a href="/dewey-design/">Learning Lab</a></h2>
                 </div> 
             </div>
             <div class="col">       
                 <ul>
-					<li class="menu"><button type="button" aria-expanded="false" aria-label="Toggle navigation">Menu</button></li>
-                </ul> 
+					<li class="menu"><button id="menu-button" class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu2" aria-expanded="false" aria-controls="nav-menu">Click for main menu</button></li>
+                </ul>
             </div>   
         </div>
     </div>
@@ -89,7 +102,7 @@ parent: "Complex Components"
             <div class="col-auto">
                 <div class="top-nav-left">
                     <div class="rmit-logo"></div>
-                    <h4><a href="/dewey-design/">Learning Lab</a></h4>
+                    <h2><a href="/dewey-design/">Learning Lab</a></h2>
                 </div> 
             </div>
             <div class="col">       
@@ -101,7 +114,7 @@ parent: "Complex Components"
 							<div class="mag-glass"></div>
 						</a>
 					</li>
-					<li class="menu"><button type="button" aria-expanded="false" aria-label="Toggle navigation">Menu</button></li>
+					<li class="menu"><button id="menu-button" class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu2" aria-expanded="false" aria-controls="nav-menu">Click for main menu</button></li>
                 </ul> 
             </div>   
         </div>

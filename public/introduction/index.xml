@@ -15,6 +15,20 @@
       <description>Accessibility Content to be written</description>
     </item>
     <item>
+      <title>Anatomy of a page</title>
+      <link>http://localhost:1313/dewey-design/introduction/anatomy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/introduction/anatomy/</guid>
+      <description>Home Section Subsection Content page Anatomy of a page Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the Dewey design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. This example shows both page content here on the left and a right hand navigation.</description>
+    </item>
+    <item>
+      <title>Anatomy of a page</title>
+      <link>http://localhost:1313/dewey-design/introduction/headings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/introduction/headings/</guid>
+      <description>Home Section Subsection Content page h1 - Heading Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae ullamcorper sapien, et ornare justo. Aliquam fringilla felis consectetur, scelerisque neque ac, sagittis leo.&#xA;Vivamus lobortis nisl lobortis ipsum porttitor, vitae venenatis mauris hendrerit. Donec vitae lacus et lorem molestie fringilla. Donec at erat vitae est placerat condimentum sit amet vitae urna. Phasellus finibus quis ex ut cursus. Sed at odio velit.</description>
+    </item>
+    <item>
       <title>Help</title>
       <link>http://localhost:1313/dewey-design/introduction/help/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -28,7 +28,16 @@ unsafe = true
         parent = "Introduction"
         url = "/introduction/help/"
         weight = 104   
-        
+    [[menu.main]]
+        name = "Anatomy of a page"
+        url = "/introduction/anatomy/"
+        parent = "Introduction"
+        weight = 105
+    [[menu.main]]
+        name = "Headings"
+        url = "/introduction/headings/"
+        parent = "Introduction"
+        weight = 106
     [[menu.main]]
         name = "Visual Language"
         url = "/visual/"
@@ -39,7 +48,6 @@ unsafe = true
         parent = "Visual Language"
         weight = 206
     [[menu.main]]
-        id = "colour"
         name = "Colour"
         url = "/visual/colour/"
         parent = "Visual Language"
@@ -115,12 +123,6 @@ unsafe = true
         url = "/components-complex/video/"
         parent = "Complex Components"
         weight = 417
-        
-    [[menu.main]]
-        name = "Anatomy of a page"
-        url = "/examples/anatomy/"
-        parent = "Examples"
-        weight = 501
     [[menu.main]]
         name = "Example 1"
         url = "/examples/example-1/"

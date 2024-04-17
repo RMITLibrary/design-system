@@ -1,7 +1,7 @@
 {{ $pageName := .Params.name }}
 {{ $pageParent := .Params.parent  }}
 {{ if ne .Params.hide_buttons true }}
-<nav>
+<nav class="right-nav-accordion">
     <!-- <h4><a href="blergh.html">Section title</a></h4>-->
 {{ range .Site.Menus.main.ByWeight }}
     <!-- START accordion -->
@@ -13,11 +13,11 @@
             {{ $buttonState = "" }}
         {{ end }}
     <div class="accordion-item nav-accordion">
-        <h5 class="accordion-header" id="nav-accord-head-{{ replaceRE "(\\s)" "" .Name }}">
+        <h2 class="accordion-header" id="nav-accord-head-{{ replaceRE "(\\s)" "" .Name }}">
             <button class="accordion-button {{ $buttonState }}" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-{{ replaceRE "(\\s)" "" .Name }}" aria-expanded="false" aria-controls="nav-accord-body-{{ replaceRE "(\\s)" "" .Name }}">
             {{ .Name }}
             </button>
-        </h5>
+        </h2>
         <div id="nav-accord-body-{{ replaceRE "(\\s)" "" .Name }}" class="accordion-collapse collapse {{ $showContent }}" aria-labelledby="nav-accord-head-{{ replaceRE "(\\s)" "" .Name }}">
             <div class="accordion-body">
                 <ul>
@@ -38,9 +38,9 @@
 </nav>
 {{ else }}
 	{{if eq $pageName "Anatomy of a page" }}
-<nav>
-    <h4><a href="">Section</a></h4>
-    <h5><a href="">Subsection</a></h5>
+<nav class="right-nav" aria-label="Section Menu">
+    <h2><a href="">Section</a></h2>
+    <h3><a href="">Subsection</a></h3>
     <ul>
         <li>
             <a href="">Content page</a>

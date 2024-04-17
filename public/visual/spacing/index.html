@@ -16,31 +16,33 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/html.min.js"></script>
+
+
 </head>
 <body>
 <div class="top-nav">
-    <div class="container nav-container">
+    <div class="container">
         <div class="row">
             <div class="col-auto">
                 <div class="top-nav-left">
                     <div class="rmit-logo"></div>
-                    <h4><a href="/dewey-design/">Dewey Design System</a></h4>
+                    <h2><a href="/dewey-design/">Dewey Design System</a></h2>
                 </div> 
             </div>
             <div class="col">       
                 <ul>
-					<li class="menu"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">Menu</button></li>
+					<li class="menu"><button id="menu-button" class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">Click for main menu</button></li>
                 </ul>
             </div>   
         </div>
     </div>
 </div>
-<div id="nav-menu" class="collapse">
-
-    <div class="container">
+<nav id="nav-menu" class="collapse"  aria-label="Main Menu">
+    <div class="container nav-container">
         <div class="row ">
             
             <div class="col-xl-8">
+                
                 
                 <div class="accordion accordion-white" id="accordionExample2">
                 
@@ -69,7 +71,7 @@
                      
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <ul>
                                     <li><a href="">Academic style</a></li>
                                     <li><a href="">Academic word lists</a></li>
@@ -78,7 +80,7 @@
                                     <li><a href="">Understanding your audience</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <ul>
                                     <li><a href="">Writing sentences</a></li>
                                     <li><a href="">Writing for coursework</a></li>
@@ -164,14 +166,14 @@
             </div>
             
         </div>
-    </div>
-</div>
+</nav>
 
-<div class="container main-content">
-    <div class="row ">
-        
-        <div class="col-xl-8">
+<div id="page-content">
+    <div class="container main-content">
+        <div class="row ">
             
+            <div class="col-xl-8">
+                
  <h1 class="margin-top-zero">Spacing</h1>
 <p class="lead">Dewey aims to create a generic spacing system, in an attempt to maintain consistency across different components. Hopefully, the system will also allow for flexibility in the future.</p>
 <h2>Base units</h2>
@@ -253,150 +255,13 @@
 	<li><code>&lt;hr class=&rdquo;xl&rdquo; /&gt;</code> uses <strong>space-xl</strong> for margins top and bottom.</li>
 </ul>
 
-			
+                
 
 
 
 
 
-	<div class="btn-nav-container">
-	
-		
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-		
-	
-		
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-				
-				
-				
-				
-					
-					
-					
-						<a class="btn btn-nav-prev" href="/dewey-design/visual/links/">Links</a>
-					
-				
-			
-				
-				
-					
-					<a class="btn btn-nav-next" href="/dewey-design/visual/typography/">Typography</a> 
-					
-					
-					
-				
-				
-				
-					
-					
-					
-				
-			
-		
-	
-		
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-				
-				
-				
-				
-					
-					
-					
-				
-			
-		
+	<nav class="btn-nav-container" aria-label="Previous and next pages">
 	
 		
 			
@@ -476,21 +341,167 @@
 					
 				
 			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+						<a class="btn btn-nav-prev" aria-label="Previous page" href="/dewey-design/visual/links/">Links</a>
+					
+				
+			
+				
+				
+					
+					<a class="btn btn-nav-next" aria-label="Next page" href="/dewey-design/visual/typography/">Typography</a> 
+					
+					
+					
+				
+				
+				
+					
+					
+					
+				
+			
 		
 	
-	</div>
+		
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+		
+	
+		
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+		
+	
+		
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+				
+				
+				
+				
+					
+					
+					
+				
+			
+		
+	
+	</nav>
 
 
 
-        </div>
-        
-
-        
-        <div class="col-xl-4">
+            </div>
             
 
+            
+            <div class="col-xl-4">
+                
 
-<nav>
+
+<nav class="right-nav-accordion">
     
 
     
@@ -499,11 +510,11 @@
         
         
     <div class="accordion-item nav-accordion">
-        <h5 class="accordion-header" id="nav-accord-head-Introduction">
+        <h2 class="accordion-header" id="nav-accord-head-Introduction">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-Introduction" aria-expanded="false" aria-controls="nav-accord-body-Introduction">
             Introduction
             </button>
-        </h5>
+        </h2>
         <div id="nav-accord-body-Introduction" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-Introduction">
             <div class="accordion-body">
                 <ul>
@@ -518,6 +529,14 @@
                     
                         
                         <li><a href="/dewey-design/introduction/help/">Help</a></li>
+                        
+                    
+                        
+                        <li><a href="/dewey-design/introduction/anatomy/">Anatomy of a page</a></li>
+                        
+                    
+                        
+                        <li><a href="/dewey-design/introduction/headings/">Headings</a></li>
                         
                     
                 </ul>
@@ -536,11 +555,11 @@
             
         
     <div class="accordion-item nav-accordion">
-        <h5 class="accordion-header" id="nav-accord-head-VisualLanguage">
+        <h2 class="accordion-header" id="nav-accord-head-VisualLanguage">
             <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-VisualLanguage" aria-expanded="false" aria-controls="nav-accord-body-VisualLanguage">
             Visual Language
             </button>
-        </h5>
+        </h2>
         <div id="nav-accord-body-VisualLanguage" class="accordion-collapse collapse show" aria-labelledby="nav-accord-head-VisualLanguage">
             <div class="accordion-body">
                 <ul>
@@ -582,11 +601,11 @@
         
         
     <div class="accordion-item nav-accordion">
-        <h5 class="accordion-header" id="nav-accord-head-SimpleComponents">
+        <h2 class="accordion-header" id="nav-accord-head-SimpleComponents">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-SimpleComponents" aria-expanded="false" aria-controls="nav-accord-body-SimpleComponents">
             Simple Components
             </button>
-        </h5>
+        </h2>
         <div id="nav-accord-body-SimpleComponents" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-SimpleComponents">
             <div class="accordion-body">
                 <ul>
@@ -620,11 +639,11 @@
         
         
     <div class="accordion-item nav-accordion">
-        <h5 class="accordion-header" id="nav-accord-head-ComplexComponents">
+        <h2 class="accordion-header" id="nav-accord-head-ComplexComponents">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-ComplexComponents" aria-expanded="false" aria-controls="nav-accord-body-ComplexComponents">
             Complex Components
             </button>
-        </h5>
+        </h2>
         <div id="nav-accord-body-ComplexComponents" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-ComplexComponents">
             <div class="accordion-body">
                 <ul>
@@ -662,18 +681,14 @@
         
         
     <div class="accordion-item nav-accordion">
-        <h5 class="accordion-header" id="nav-accord-head-Examples">
+        <h2 class="accordion-header" id="nav-accord-head-Examples">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-Examples" aria-expanded="false" aria-controls="nav-accord-body-Examples">
             Examples
             </button>
-        </h5>
+        </h2>
         <div id="nav-accord-body-Examples" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-Examples">
             <div class="accordion-body">
                 <ul>
-                    
-                        
-                        <li><a href="/dewey-design/examples/anatomy/">Anatomy of a page</a></li>
-                        
                     
                         
                         <li><a href="/dewey-design/examples/example-1/">Example 1</a></li>
@@ -692,12 +707,12 @@
 
 </nav>
 
+            </div>
+            
         </div>
-        
     </div>
-</div>
 
-
+    
 <div class="footer-container">
 	<div class="container">
         <div class="row">
@@ -734,7 +749,7 @@
                             <img alt="aboriginal flag" src="https://www.rmit.edu.au/content/dam/rmit/au/en/news/homepage/flag-red.png" />
                             <img alt="torres strait flag" src="https://www.rmit.edu.au/content/dam/rmit/au/en/news/homepage/flag-green.png">
                             
-                            <h4 class="margin-top-zero">Acknowledgement of Country</h4>
+                            <h2 class="h4 margin-top-zero">Acknowledgement of Country</h2>
                             <p>RMIT University acknowledges the people of the Woi wurrung and Boon wurrung language groups of the eastern Kulin Nation on whose unceded lands we conduct the business of the University. RMIT University respectfully acknowledges their Ancestors and Elders, past and present. RMIT also acknowledges the Traditional Custodians and their Ancestors of the lands and waters across Australia where we conduct our business - Artwork 'Luwaytini' by Mark Cleaver, Palawa.</p>
                             <a href="#" class="link-large">More information</a>
                         </div>
@@ -812,5 +827,40 @@
 
 
 <script>hljs.highlightAll();</script>
+</div>
+<script>
+
+
+
+var menuCover = false;   
+    
+ 
+var menuButton = document.getElementById("menu-button");
+var pageContent = document.getElementById("page-content"); 
+  
+ 
+var menuDisplay = false;
+
+ 
+if(menuCover) menuButton.addEventListener("click", showHideMenu);
+
+
+
+
+function showHideMenu() {
+    if(menuDisplay == false)
+    {
+        menuDisplay = true;
+        pageContent.style.display = "none";        
+    }
+    else
+    {
+        menuDisplay = false;
+        pageContent.style.display = "block"; 
+       
+    }
+}
+
+</script>
 </body>
 </html>

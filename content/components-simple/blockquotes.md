@@ -53,7 +53,7 @@ parent: "Simple Components"
 	<a href="../../visual/links">
         <div class="content">
             <p class="category">Category</p>
-            <h4>This is a title </h4>
+            <h3>This is a title </h3>
             <p>This is a blockquote. The suggested limit is XXX characters.</p>
             <small>Extra information</small>
         </div>
@@ -66,7 +66,7 @@ parent: "Simple Components"
 	&lt;a href=&quot;mylink&quot;&gt;
 		&lt;div class=&quot;content&quot;&gt;
 			&lt;p class=&quot;category&quot;&gt;Category&lt;/p&gt;
-			&lt;h4&gt;This is a title &lt;/h4&gt;
+			&lt;h3&gt;This is a title &lt;/h3&gt;
 			&lt;p&gt;This is the blockquote content.&lt;/p&gt;
 			&lt;small&gt;Extra information&lt;/small&gt;
 		&lt;/div&gt;
@@ -82,7 +82,7 @@ parent: "Simple Components"
 	<a href="../../visual/links">
         <div class="content">
             <p class="category">Tool</p>
-            <h4>Assignment planner</h4>
+            <h3>Assignment planner</h3>
             <p>The library has a great assignment planning tool that is easy to use and provides you with <span class="nowrap">step-by-step</span> plan, withs links to lots of resources to help you stay on task.</p>
         </div>
     </a>
@@ -93,7 +93,7 @@ parent: "Simple Components"
 	<a href="../../visual/links">
         <div class="content">
             <p class="category">PDF</p>
-            <h4>Understanding an assignment topic</h4>
+            <h3>Understanding an assignment topic</h3>
         </div>
     </a>
 </blockquote>
@@ -102,7 +102,7 @@ parent: "Simple Components"
 <blockquote class="link">
 	<a href="../../visual/links">
         <div class="content">
-            <h4>Starting your first assignment</h4>
+            <h3>Starting your first assignment</h3>
             <p>Planning and organising your first assignment may seem daunting to students who are new to academic study. This tutorial gives you an overview of how to analyse the assessment task and plan the assignment.</p>
             <small>6 pages / 20 mins</small>
         </div>
@@ -113,7 +113,7 @@ parent: "Simple Components"
 <blockquote class="link">
 	<a href="../../visual/links">
         <div class="content">
-            <h4>Assignment slammer</h4>
+            <h3>Assignment slammer</h3>
             <p>This short tutorial walks you through the process of preparing, planning and writing an assignment with quick links to the resources you can use at each stage.</p>
         </div>
     </a>
@@ -123,7 +123,7 @@ parent: "Simple Components"
 <blockquote class="link">
 	<a href="../../visual/links">
         <div class="content">
-            <h4>Evaluating market information</h4>
+            <h3>Evaluating market information</h3>
             <p>Explore these skills in a real world context.</p>
         </div>
         <div class="icon-wrap"><img src="../../images/icon-llcc-large.svg" alt="" /></div>

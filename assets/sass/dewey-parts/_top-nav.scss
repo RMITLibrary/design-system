@@ -68,10 +68,14 @@ html.nav-fixed {
         
     }
     
-    h4 {
+    h2 {
         color: $white;
         font-size: 4.5vw;			//scale title depending on small screen width
         margin: 0; 
+        
+        a:hover {
+            text-decoration: underline;
+        }
 		
 		@include media-breakpoint-up(sm) {
         	font-size: 1.25rem;		//Once we have enough space, fix the title
@@ -108,7 +112,7 @@ html.nav-fixed {
         }
         
 		//Increase font size, adjust margin accordingly
-        h4 {
+        h2 {
             margin-top: -6px; 
             font-size: 1.5rem;
         }
@@ -200,6 +204,11 @@ html.nav-fixed {
            background-color: $rmit-blue; 
         }
         
+        button:focus {
+            box-shadow: 0 0 !important;
+            border: 1px solid $white;
+        }
+        
         button.collapsed {
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%23fff'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 5H30V9H2V5ZM30 14H2V18H30V14ZM30 23H2V27H30V23Z'/%3e%3c/svg%3e");
         }
@@ -247,5 +256,9 @@ html.nav-fixed {
                 margin-bottom: 0 !important;
             }
         }
+    }
+    
+    .push-down {
+        min-height: auto;
     }
 }

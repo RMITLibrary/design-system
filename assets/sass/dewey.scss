@@ -40,7 +40,9 @@ $red: $rmit-red;
 $link-hover-color: $blue-hover;
 $link-hover-decoration: none;
 
+//$focus-color: rgba(13, 110, 253, 0.5);
 $focus-color: rgba(13, 110, 253, 0.5);
+
 
 /* tables */
 $table-striped-bg: $underlay-grey;
@@ -98,6 +100,7 @@ $enable-rfs: false;             //turn off responsive font scaling
 
 // 5. Add additional custom code here
 
+
 .no-border-top {
 	border-top: 0 !important;
 }
@@ -120,9 +123,9 @@ $enable-rfs: false;             //turn off responsive font scaling
 @import "dewey-parts/links";
 
 //Simple components
+@import 'dewey-parts/button';
 @import "dewey-parts/accordion";
 @import "dewey-parts/blockquote";
-@import 'dewey-parts/button';
 @import 'dewey-parts/table';
 
 //Complex components

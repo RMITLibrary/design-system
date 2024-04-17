@@ -83,14 +83,20 @@ blockquote.link {
 		//format the text in the content div
 		.content {
         
-			h4, p, small {
+			h3, p, small {
 				margin-top: 0.5rem;
 				margin-bottom: 0.5rem;
 				text-decoration: none;
 			}
+            
+            h3 {
+                /* h4 fontsize */
+                font-size: 1.25rem;
+                @include media-breakpoint-up(md) { font-size: 1.5rem; }
+            }
 
 			//display arrow after title
-			h4::after {
+			h3::after {
 				@include carat(background-image);
 				content: '';
 				position: absolute;
@@ -135,7 +141,7 @@ blockquote.link {
 	}
 	
     a:hover {
-        h4 {
+        h3 {
            @include link-feature-hover;
         }
     }

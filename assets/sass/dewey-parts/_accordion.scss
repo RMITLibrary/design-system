@@ -52,6 +52,16 @@
 
         transform: rotate(-180deg);
     }
+    
+    /* 
+    Change background colour and add text unerline. 
+    Focus state is retained when accordion is expanded until user clicks elsewhere.
+    */
+    .accordion-button:focus {
+        background-color: $underlay-grey;
+        text-decoration:underline;
+        box-shadow: 0 0 !important;
+    }
 
     .accordion-body {
         padding: 0.5rem 0 0 0;
@@ -65,10 +75,8 @@
 
 .accordion-item:first-of-type .accordion-button, 
 .accordion-item:last-of-type  .accordion-button {
-    border-radius: 0px;
+    border-radius: 0px !important;
 }
-
-//.accordion-item:last-of-type .accordion-button.collapsed
 
 .accordion-white {
     .accordion-item {
@@ -83,6 +91,16 @@
     
     .accordion-button::before {
         @include carat-white;
+    }
+    
+    /* 
+    Just change text underline. 
+    Focus state is retained when accordion is expanded until user clicks elsewhere.
+    */
+    .accordion-button:focus {
+        background-color: $rmit-blue;
+        text-decoration:underline;
+        box-shadow: 0 0 !important;
     }
     
     .accordion-button:not(.collapsed) {

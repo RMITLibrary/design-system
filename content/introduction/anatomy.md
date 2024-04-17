@@ -1,185 +1,17 @@
-<!doctype html>
-<html class="nav-fixed">
-<head><script src="/dewey-design/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dewey-design/livereload" data-no-instant defer></script>
-        <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <title>Anatomy of a page</title>
-    
-    
-    <link rel="stylesheet" href="http://localhost:1313/dewey-design/sass/dewey.min.css">
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/html.min.js"></script>
-
-
-</head>
-<body>
-<div class="top-nav">
-    <div class="container">
-        <div class="row">
-            <div class="col-auto">
-                <div class="top-nav-left">
-                    <div class="rmit-logo"></div>
-                    <h2><a href="/dewey-design/">Dewey Design System</a></h2>
-                </div> 
-            </div>
-            <div class="col">       
-                <ul>
-					<li class="menu"><button id="menu-button" class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">Click for main menu</button></li>
-                </ul>
-            </div>   
-        </div>
-    </div>
-</div>
-<nav id="nav-menu" class="collapse"  aria-label="Main Menu">
-    <div class="container nav-container">
-        <div class="row ">
-            
-            <div class="col-xl-8">
-                
-                
-                <div class="accordion accordion-white" id="accordionExample2">
-                
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="whiteHeadingOne">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#whiteCollapseOne" aria-expanded="false" aria-controls="whiteCollapseOne">
-                        University essentials
-                      </button>
-                    </h2>
-                    <div id="whiteCollapseOne" class="accordion-collapse collapse" aria-labelledby="whiteHeadingOne">
-                      <div class="accordion-body">
-                        This is the first item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus ipsum, semper sit amet sollicitudin sit amet, interdum et nisi. Morbi in ullamcorper nisi. Fusce eget magna vitae lacus eleifend malesuada vel eu metus. Integer eget pellentesque magna, sit amet dignissim leo. Suspendisse potenti. Cras nec eros convallis, pretium ipsum eu, luctus magna.
-                      </div>
-                    </div>
-                  </div>
-                
-                
-                <div class="accordion-item">
-                <h2 class="accordion-header" id="whiteHeadingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#whiteCollapseTwo" aria-expanded="false" aria-controls="whiteCollapseTwo">
-                    Writing Fundamentals
-                  </button>
-                </h2>
-                <div id="whiteCollapseTwo" class="accordion-collapse collapse" aria-labelledby="whiteHeadingTwo">
-                  <div class="accordion-body">
-                     
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <ul>
-                                    <li><a href="">Academic style</a></li>
-                                    <li><a href="">Academic word lists</a></li>
-                                    <li><a href="">Paragraph Structure</a></li>
-                                    <li><a href="">Spelling tips</a></li>
-                                    <li><a href="">Understanding your audience</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul>
-                                    <li><a href="">Writing sentences</a></li>
-                                    <li><a href="">Writing for coursework</a></li>
-                                    <li><a href="">Writing for the workplace</a></li>
-                                    <li><a href="">Writing paragraphs</a></li>
-                                </ul>              
-                            </div>  
-                        </div>
-                    </div>
-                    
-                </div>  
-                </div>
-                </div>
-                
-                
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="whiteHeadingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#whiteCollapseThree" aria-expanded="false" aria-controls="whiteCollapseThree">
-                        Assignments
-                      </button>
-                    </h2>
-                    <div id="whiteCollapseThree" class="accordion-collapse collapse" aria-labelledby="whiteHeadingThree">
-                      <div class="accordion-body">
-                        This is the third item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Nulla lacinia, lacus egestas egestas varius, eros tortor varius sem, sit amet blandit nunc enim ut nisi. Praesent non nulla neque. Vivamus non erat mattis turpis ultricies efficitur.
-                      </div>
-                    </div>
-                  </div>
-                
-                
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="whiteHeadingFour">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#whiteCollapseFour" aria-expanded="false" aria-controls="whiteCollapseFour">
-                        Referencing
-                      </button>
-                    </h2>
-                    <div id="whiteCollapseFour" class="accordion-collapse collapse" aria-labelledby="whiteHeadingFour">
-                      <div class="accordion-body">
-                        This is the first item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus ipsum, semper sit amet sollicitudin sit amet, interdum et nisi. Morbi in ullamcorper nisi. Fusce eget magna vitae lacus eleifend malesuada vel eu metus. Integer eget pellentesque magna, sit amet dignissim leo. Suspendisse potenti. Cras nec eros convallis, pretium ipsum eu, luctus magna.
-                      </div>
-                    </div>
-                  </div>
-                
-                
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="whiteHeadingFive">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#whiteCollapseFive" aria-expanded="false" aria-controls="whiteCollapseFive">
-                        Subject support
-                      </button>
-                    </h2>
-                    <div id="whiteCollapseFive" class="accordion-collapse collapse" aria-labelledby="whiteHeadingFive">
-                        <div class="accordion-body">
-                             
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <ul>
-                                            <li><a href="">Academic style</a></li>
-                                            <li><a href="">Academic word lists</a></li>
-                                            <li><a href="">Paragraph Structure</a></li>
-                                            <li><a href="">Spelling tips</a></li>
-                                            <li><a href="">Understanding your audience</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <ul>
-                                            <li><a href=""></a></li>
-                                            <li><a href=""></a></li>
-                                            <li><a href=""></a></li>
-                                            <li><a href=""></a></li>
-                                            <li><a href=""></a></li>
-                                        </ul> 
-                                    </div>  
-                                </div>
-                            </div>
-                            
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                
-                </div>
-                
-            </div>
-            
-        </div>
+---
+title: Anatomy of a page
+name: Anatomy of a page
+parent: "Introduction"
+hide_buttons: true
+---
+<nav aria-label="breadcrumbs">
+    <ul class="breadcrumbs">
+        <li><a href="/dewey-design/">Home</a></li>
+        <li><a href="">Section</a></li>
+        <li><a href="">Subsection</a></li>
+        <li><a href="">Content page</a></li>
+    </ul>
 </nav>
-
-<div id="page-content">
-    <div class="container main-content">
-        <div class="row ">
-            
-            <div class="col-xl-8">
-                
- <ul class="breadcrumbs">
-	<li><a href="/dewey-design/">Home</a></li>
-	<li><a href="">Section</a></li>
-	<li><a href="">Subsection</a></li>
-	<li><a href="">Content page</a></li>
-</ul>
 <h1 class="margin-top-zero">Anatomy of a page</h1>
 <p class="lead">Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the Dewey design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. </p>
 <p>This example shows both page content here on the left and a right hand navigation. Here the page content occupies 8 bootstrap columns, while the optional navigation takes up 4 columns. Extra margin is added on the left of the navigation as the default space between columns is visually a little tight.</p>
@@ -503,16 +335,16 @@
 <p>These are particularly useful for pages featuring lots of pages, they give the user an easy and logical way of progressing through the site. They are especially useful if the right hand navigation scrolls with content. </p>
 <h3>Footer</h3>
 <p>In this example the footer has two sections, <!-- Ask the library,--> Acknowledgement of country and the RMIT footer itself. In certain contexts it may be appropriate to omit the Ask the library and the Acknowledgement of country sections. The RMIT footer may also contain links such as About or Contact us specific to the relevant in addition to the global Terms and Privacy links.</p>
-<div class="btn-nav-container">
-    <a class="btn btn-nav-prev" href="prev-link-here">Previous page</a>
-    <a class="btn btn-nav-next" href="next-link-here">Next page</a>
-</div>
-<h3 class="margin-top-xl">Additional links</h3>
+<nav class="btn-nav-container" aria-label="Previous and next buttons">
+    <a class="btn btn-nav-prev" href="" aria-label="Previous page">Previous page</a>
+    <a class="btn btn-nav-next" href="" aria-label="Next page">Next page</a>
+</nav>
+<h2 class="h3 margin-top-xl">Additional links</h2>
 <blockquote class="link margin-top-xs">
 	<a href="../../components-simple/blockquotes#nav">
         <div class="content">
             <p class="category">Category</p>
-            <h4>Blockquote with link</h4>
+            <h3>Blockquote with link</h3>
             <p>Not all of these elements need to be displayed at once. View the page for more information.</p>
             <small>Extra information</small>
         </div>
@@ -520,7 +352,7 @@
     </a>
 </blockquote>
 <div class="keywords">
-	<h5>Keywords</h5>
+	<h2 class="h5">Keywords</h2>
 	<ul>
 		<li><a href="">Keyword 1</a></li>
 		<li><a href="">Keyword 2</a></li>
@@ -529,200 +361,3 @@
 		<li><a href="">Keyword 5</a></li>
 	</ul>
 </div>
-
-                
-
-
-
-
-
- 
-
-
-
-            </div>
-            
-
-            
-            <div class="col-xl-4">
-                
-
-
-	
-<nav class="right-nav" aria-label="Section Menu">
-    <h2><a href="">Section</a></h2>
-    <h3><a href="">Subsection</a></h3>
-    <ul>
-        <li>
-            <a href="">Content page</a>
-            <ul>
-                <li class="selected">Content subpage</li>
-                <li><a href="">Content subpage</a></li>
-                <li><a href="">Content subpage</a></li>
-            </ul>
-        </li>
-        <li><a href="">Content page</a></li>
-        <li><a href="">Content page</a></li>
-        <li><a href="">Content page</a></li>
-        <li><a href="">Content page</a></li>
-    </ul>
-</nav>
-	
-
-            </div>
-            
-        </div>
-    </div>
-
-    
-<div class="footer-container">
-	<div class="container">
-        <div class="row">
-            <div class="col">
-				
-				<div class="ask-container">
-					
-					<div class="ask-the-library">
-						<a href="https://www.rmit.edu.au/library/about-and-contacts/ask-the-library">
-							<img src="/dewey-design/images/ask-the-library.svg" class="ask-logo" />
-							<div class="ask-text">
-								<p class="lead">Still can't find what you need?</p>
-								<p>The RMIT University Library provides study support, one-on-one consultations and peer mentoring to RMIT students.</p>
-							</div>
-						</a>
-					</div>
-			
-				</div>
-				
-			</div>
- 		</div>
-	</div>
-    
-    <div class="acknowledgement">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="acknowledgement-container">
-                        <div class="acknowledgement-image">
-                            <img src="https://www.rmit.edu.au/content/dam/rmit/images/luwaytini.png" alt="" />
-                        </div>
-
-                        <div class="content">
-                            <img alt="aboriginal flag" src="https://www.rmit.edu.au/content/dam/rmit/au/en/news/homepage/flag-red.png" />
-                            <img alt="torres strait flag" src="https://www.rmit.edu.au/content/dam/rmit/au/en/news/homepage/flag-green.png">
-                            
-                            <h2 class="h4 margin-top-zero">Acknowledgement of Country</h2>
-                            <p>RMIT University acknowledges the people of the Woi wurrung and Boon wurrung language groups of the eastern Kulin Nation on whose unceded lands we conduct the business of the University. RMIT University respectfully acknowledges their Ancestors and Elders, past and present. RMIT also acknowledges the Traditional Custodians and their Ancestors of the lands and waters across Australia where we conduct our business - Artwork 'Luwaytini' by Mark Cleaver, Palawa.</p>
-                            <a href="#" class="link-large">More information</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>    
-    
-    
-    <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                    
-                <a aria-label="Royal Melbourne Institute of Technology University Logo" href="/">
-					<div aria-hidden="true" class="logo"><span class="no-focus" tabindex="-1"><img src="/dewey-design/images/rmit-logo.svg" style="width: 100px" alt="" /></span>
-					</div>
-				</a>
-                
-                
-
-                
-                
-                <div class="footerlegalShareItems">
-                    
-                    <div class="footer-legal">
-                    <ul>
-                        <li>Copyright © 2024 RMIT University<span> | </span></li>
-                        <li><a href="https://www.rmit.edu.au/utilities/terms"><span class="no-focus" tabindex="-1">Terms</span></a><span> | </span></li>
-                        <li><a href="https://www.rmit.edu.au/utilities/privacy"><span class="no-focus" tabindex="-1">Privacy</span></a><span> | </span></li>
-                        <li><a href="https://www.rmit.edu.au/utilities/accessibility"><span class="no-focus" tabindex="-1">Accessibility</span></a> <span> | </span></li>
-                        <li><a data-analytics-type="footerlink" data-analytics-value="Website feedback" href="https://www.rmit.edu.au/utilities/website-feedback"><span class="no-focus" tabindex="-1">Website feedback</span></a><span> | </span></li>
-                        <li><a data-analytics-type="footerlink" data-analytics-value="Complaints" href="https://www.rmit.edu.au/utilities/complaints"><span class="no-focus" tabindex="-1">Complaints</span></a><span> | </span></li>
-                        <li>ABN 49 781 030 034<span> | </span></li>
-                        <li>CRICOS provider number: 00122A<span> | </span></li>
-                        <li>TEQSA provider number: PRV12145<span> | </span></li>
-                        <li>RTO Code: 3046<span> | </span></li>
-                        <li><a href="https://www.open.edu.au/online-courses/rmit-university"><span class="no-focus" tabindex="-1">Open Universities Australia</span></a> </li>
-                      </ul>
-                    </div>
-                    
-                    
-                    <div class="social-nav">
-                    <ul> 
-                        
-                        <li><a aria-label="For Facebook"  href="https://www.facebook.com/RMITuniversity/"> <span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/facebook.svg" alt="" /></span></a></li>
-                        
-                        
-                        <li><a href="https://twitter.com/rmit"> <span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/twitter.svg" alt="" /></span></a></li>
-                        
-                        
-                        <li><a aria-label="For Instagram" href="https://www.instagram.com/rmituniversity/"> <span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/instagram.svg" alt="" /></span> </a></li>
-                                      
-                        
-                        <li><a aria-label="For LinkedIn" data-analytics-type="socialshare" data-analytics-value="LinkedIn" href="https://www.linkedin.com/school/rmit-university/"><span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/linkedin.svg" alt="" /></span></a></li>
-                        
-                        
-                        <li><a aria-label="For Youtube" href="https://www.youtube.com/user/rmitmedia"> <span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/youtube.svg" alt="" /></span></a></li>
-                             
-                                  
-                        <li><a aria-label="For Weibo" href="https://www.weibo.com/rmituni"> <span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/weibo.svg" alt="" /></span></a></li>
-                                        
-                                    </ul>
-                                </div>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <footer>
-    
-</div>
-
-
-<script>hljs.highlightAll();</script>
-</div>
-<script>
-
-
-
-var menuCover = false;   
-    
- 
-var menuButton = document.getElementById("menu-button");
-var pageContent = document.getElementById("page-content"); 
-  
- 
-var menuDisplay = false;
-
- 
-if(menuCover) menuButton.addEventListener("click", showHideMenu);
-
-
-
-
-function showHideMenu() {
-    if(menuDisplay == false)
-    {
-        menuDisplay = true;
-        pageContent.style.display = "none";        
-    }
-    else
-    {
-        menuDisplay = false;
-        pageContent.style.display = "block"; 
-       
-    }
-}
-
-</script>
-</body>
-</html>

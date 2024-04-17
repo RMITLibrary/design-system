@@ -106,3 +106,5 @@ To control how phrases or hypenated words are wrapped over lines, use the nowrap
 <div class="margin-top-xs highlight"><pre class="chroma">
 <code class="language-html">&lt;p class=&quot;h6&quot;&gt;This is h6 heading&lt;/p&gt;</code>
 </pre></div>
+<h2>Referencing</h2>
+<p class="apa">Solomon, L.J., &amp; Rothblum, E.D. (1984). Academic procrastination: Frequency and cognitive-behavioral correlates. Journal of Counseling Psychology, 31(4), 503-509. https://doi.org/10.1037/0022-0167.31.4.503</p>
