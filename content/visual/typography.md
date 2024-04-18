@@ -107,4 +107,10 @@ To control how phrases or hypenated words are wrapped over lines, use the nowrap
 <code class="language-html">&lt;p class=&quot;h6&quot;&gt;This is h6 heading&lt;/p&gt;</code>
 </pre></div>
 <h2>Referencing</h2>
-<p class="apa">Solomon, L.J., &amp; Rothblum, E.D. (1984). Academic procrastination: Frequency and cognitive-behavioral correlates. Journal of Counseling Psychology, 31(4), 503-509. https://doi.org/10.1037/0022-0167.31.4.503</p>
+<p>When displaying references, it might be appropriate to use the class <code>small</code> to reduce to the text size. To display the reference in asa format, simply use the class <code>asa</code>. This will display the reference with a hanging indent.</p>
+<p class="small">Cherrington DJ and England JL (1980) 'The desire for an enriched job as a moderator of the enrichment-satisfaction relationship', <em>Organizational Behavior and Human Performance</em>, 25(1)139-159, doi:10.1016/0030-5073(80)90030-6.</p>
+<p class="apa small">Solomon, L.J., &amp; Rothblum, E.D. (1984). Academic procrastination: Frequency and cognitive-behavioral correlates. Journal of Counseling Psychology, 31(4), 503-509. https://doi.org/10.1037/0022-0167.31.4.503</p>
+<div class="highlight"><pre class="chroma">
+<code class="language-html">&lt;p class=&quot;small&quot;&gt;Reference goes here&lt;/p&gt;
+&lt;p class=&quot;apa small&quot;&gt;Reference goes here&lt;/p&gt;
+</code></pre></div>

@@ -232,12 +232,9 @@
             <div class="col-xl-8">
                 
  <h1 class="margin-top-zero">Top navigation</h1>
-<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam felis eros, tincidunt ac imperdiet vel, vehicula ut mauris. Aliquam ante tellus, vehicula vel orci elementum, hendrerit maximus enim. Suspendisse congue ex pellentesque nisi mollis, sit amet rhoncus erat tincidunt. Ut luctus tincidunt elementum. Ut aliquet accumsan nulla.
-</p>
+<p class="lead">As a component, top navigation will require a more customisation according to the context of the site. Options are available for fixing the navigation to the top of screen, hamburger menus and more.</p>
 <h2>Simple</h2>
-<p>
-	Suspendisse congue ex pellentesque nisi mollis, sit amet rhoncus erat tincidunt. Ut luctus tincidunt elementum.
-</p>
+<p>The optional site name provides a link to the home page. At small screen sizes (width &lt; 768px), this type is scaled to fit the available space. That being said, site titles should remain relatively short. The nav options displayed on the right should take precedence.</p>
 <div class="top-nav" style="position: relative; z-index: 2;">
     <div class="container">
         <div class="row">
@@ -273,7 +270,7 @@
 </pre></div>
 <h2>Text links</h2>
 <p>
-	Suspendisse congue ex pellentesque nisi mollis, sit amet rhoncus erat tincidunt. Ut luctus tincidunt elementum.
+	This example omits the site title and shows three basic text links. Text links can be hidden at small screens by adding the class <code>hide-sm</code> to the element.
 </p>
 <div class="top-nav" style="position: relative; z-index: 2;">
     <div class="container">
@@ -295,23 +292,41 @@
 </div>
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;code class=&quot;put in here&quot;&gt;
-&lt;/code&gt;</code>
+<code class="language-html">&lt;div class=&quot;top-nav&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-auto&quot;&gt;
+                &lt;div class=&quot;top-nav-left&quot;&gt;
+                    &lt;div class=&quot;rmit-logo&quot;&gt;&lt;/div&gt;    
+                &lt;/div&gt; 
+            &lt;/div&gt;
+            &lt;div class=&quot;col&quot;&gt;       
+                &lt;ul&gt;
+			&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt; 
+            &lt;/div&gt;   
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code>
 </pre></div>
 <h2>Hamburger</h2>
-<p>Proin condimentum libero turpis, sit amet porttitor sem consequat tincidunt. Maecenas in velit augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla maximus, urna ut tincidunt cursus, diam orci molestie velit, at dignissim eros erat vel orci. Etiam luctus odio lorem, et condimentum ipsum tempus non. Proin finibus, lacus efficitur facilisis ultrices, erat nibh suscipit velit, at elementum nisi ex a eros.</p>
+<p>A hamburger menu can be a good way of hiding large and complex navigation menus. Attention must be paid to accessibility to ensure a good experience for visually impaired users. In this example. additional text, is added to the button, "Click for main menu". It is hidden from display but available to screen readers.</p>
 <div class="top-nav" style="position: relative; z-index: 2;">
     <div class="container">
         <div class="row">
             <div class="col-auto">
                 <div class="top-nav-left">
                     <div class="rmit-logo"></div>
-                    <h2><a href="/dewey-design/">Learning Lab</a></h2>
+                    <h2><a href="/dewey-design/">Optional site title</a></h2>
                 </div> 
             </div>
             <div class="col">       
                 <ul>
-					<li class="menu"><button id="menu-button" class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu2" aria-expanded="false" aria-controls="nav-menu">Click for main menu</button></li>
+					<li class="menu">
+						<button id="menu-button" class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu2" aria-expanded="false" aria-controls="nav-menu">Click for main menu</button>
+					</li>
                 </ul>
             </div>   
         </div>
@@ -319,11 +334,38 @@
 </div>
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;code class=&quot;put in here&quot;&gt;
-&lt;/code&gt;</code>
+<code class="language-html">&lt;div class=&quot;top-nav&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-auto&quot;&gt;
+                &lt;div class=&quot;top-nav-left&quot;&gt;
+                    &lt;div class=&quot;rmit-logo&quot;&gt;&lt;/div&gt;
+                    &lt;h2&gt;&lt;a href=&quot;&quot;&gt;Optional site title&lt;/a&gt;&lt;/h2&gt;
+                &lt;/div&gt; 
+            &lt;/div&gt;
+            &lt;div class=&quot;col&quot;&gt;       
+                &lt;ul&gt;
+			&lt;li class=&quot;menu&quot;&gt;
+				&lt;button id=&quot;menu-button&quot; 
+				class=&quot;btn btn-primary collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; 
+				data-bs-target=&quot;#nav-menu&quot; aria-expanded=&quot;false&quot; 
+				aria-controls=&quot;nav-menu&quot;&gt;Click for main menu&lt;/button&gt;
+			&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;   
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code>
 </pre></div>
+<p>Bootstrap controls the expansion of the target div and the design system uses the addition and subtraction of class <code>collapsed</code> to toggle between the hamburger and close icons. Some additional script, located at the bottom of the page, is used to allow more control over how the menu is displayed. The variable <code>menuCover</code>, when set to true, hides the page content and allows the menu to take over the entire screen.</p>
+<p>When set to false, the menu merely pushes the page content down the page. This is suitable for simpler, shorter menus.</p>
+<h2>Expanded menu format</h2>
+<p>How the menu is displayed is very much dependent on the context the site it sits in. For now, this site is showing an example used in the Learning Lab website, where 5 accordions hold up to 10 links each. This is quite a detailed nav.</p>
+<h2>Fixed menus</h2>
+<p>To fix the menu to the top of the screen as the user scrolls, add the class <code>nav-fixed </code> to the html tag.
+</p>
 <h2>Learning Lab example</h2>
-<p>Proin condimentum libero turpis, sit amet porttitor sem consequat tincidunt. Maecenas in velit augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla maximus, urna ut tincidunt cursus, diam orci molestie velit, at dignissim eros erat vel orci. Etiam luctus odio lorem, et condimentum ipsum tempus non. Proin finibus, lacus efficitur facilisis ultrices, erat nibh suscipit velit, at elementum nisi ex a eros.</p>
+<p>Here, we are presenting three individual links. "Library", linking back to the library home page, is hidden on mobile via <code>hide-sm</code> class due to space reasons. The search link comprises two elements, the text is hidden on smaller screens for space reasons, while the icon is always present. The hamburger menu is always present.</p>
 <div class="top-nav" style="position: relative; z-index: 2;">
     <div class="container">
         <div class="row">
@@ -350,8 +392,37 @@
 </div>
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;code class=&quot;put in here&quot;&gt;
-&lt;/code&gt;</code>
+<code class="language-html">&lt;div class=&quot;top-nav&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-auto&quot;&gt;
+                &lt;div class=&quot;top-nav-left&quot;&gt;
+                    &lt;div class=&quot;rmit-logo&quot;&gt;&lt;/div&gt;
+                    &lt;h2&gt;&lt;a href=&quot;&quot;&gt;Optional site title&lt;/a&gt;&lt;/h2&gt;
+                &lt;/div&gt; 
+            &lt;/div&gt;
+            &lt;div class=&quot;col&quot;&gt;       
+                &lt;ul&gt;
+			&lt;li class=&quot;hide-sm&quot;&gt;
+				&lt;a href=&quot;https://www.rmit.edu.au/library&quot;&gt;Library&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li class=&quot;search&quot;&gt;
+				&lt;a href=&quot;https://www.rmit.edu.au/library&quot;&gt;
+					&lt;div class=&quot;hide-sm&quot;&gt;Search&lt;/div&gt;
+					&lt;div class=&quot;mag-glass&quot;&gt;&lt;/div&gt;
+				&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li class=&quot;menu&quot;&gt;
+				&lt;button id=&quot;menu-button&quot; 
+				class=&quot;btn btn-primary collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; 
+				data-bs-target=&quot;#nav-menu&quot; aria-expanded=&quot;false&quot; 
+				aria-controls=&quot;nav-menu&quot;&gt;Click for main menu&lt;/button&gt;
+			&lt;/li&gt;
+                &lt;/ul&gt; 
+            &lt;/div&gt;   
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code>
 </pre></div>
 
                 
@@ -812,6 +883,7 @@
     </div>
 
     
+ 
 <div class="footer-container">
 	<div class="container">
         <div class="row">
@@ -864,13 +936,18 @@
         <div class="row">
             <div class="col">
                     
-                <a aria-label="Royal Melbourne Institute of Technology University Logo" href="/">
-					<div aria-hidden="true" class="logo"><span class="no-focus" tabindex="-1"><img src="/dewey-design/images/rmit-logo.svg" style="width: 100px" alt="" /></span>
+                <a aria-label="Royal Melbourne Institute of Technology University Logo" href="https://www.rmit.edu.au/">
+					<div aria-hidden="true" class="logo"><span class="no-focus" tabindex="-1"><img src="https://rmitlibrary.github.io/cdn/image/svg/rmit-logo.svg" style="width: 100px" alt="" /></span>
 					</div>
 				</a>
                 
                 
-
+				<ul class="footer-links">
+					<li><a href="">Link 1</a></li>
+					<li><a href="">Link 2</a></li>
+					<li><a href="">Link 3</a></li>
+					<li><a href="">Link 4</a></li>
+				</ul>
                 
                 
                 <div class="footerlegalShareItems">
@@ -895,32 +972,32 @@
                     <div class="social-nav">
                     <ul> 
                         
-                        <li><a aria-label="For Facebook"  href="https://www.facebook.com/RMITuniversity/"> <span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/facebook.svg" alt="" /></span></a></li>
+                        <li><a aria-label="For Facebook"  href="https://www.facebook.com/RMITuniversity/"> <span class="no-focus" tabindex="-1"><img src="https://rmitlibrary.github.io/cdn/image/svg/social/facebook.svg" alt="" /></span></a></li>
                         
                         
-                        <li><a href="https://twitter.com/rmit"> <span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/twitter.svg" alt="" /></span></a></li>
+                        <li><a href="https://twitter.com/rmit"> <span class="no-focus" tabindex="-1"><img src="https://rmitlibrary.github.io/cdn/image/svg/social/twitter.svg" alt="" /></span></a></li>
                         
                         
-                        <li><a aria-label="For Instagram" href="https://www.instagram.com/rmituniversity/"> <span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/instagram.svg" alt="" /></span> </a></li>
+                        <li><a aria-label="For Instagram" href="https://www.instagram.com/rmituniversity/"> <span class="no-focus" tabindex="-1"><img src="https://rmitlibrary.github.io/cdn/image/svg/social/instagram.svg" alt="" /></span> </a></li>
                                       
                         
-                        <li><a aria-label="For LinkedIn" data-analytics-type="socialshare" data-analytics-value="LinkedIn" href="https://www.linkedin.com/school/rmit-university/"><span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/linkedin.svg" alt="" /></span></a></li>
+                        <li><a aria-label="For LinkedIn" data-analytics-type="socialshare" data-analytics-value="LinkedIn" href="https://www.linkedin.com/school/rmit-university/"><span class="no-focus" tabindex="-1"><img src="https://rmitlibrary.github.io/cdn/image/svg/social/linkedin.svg" alt="" /></span></a></li>
                         
                         
                         <li><a aria-label="For Youtube" href="https://www.youtube.com/user/rmitmedia"> <span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/youtube.svg" alt="" /></span></a></li>
                              
                                   
-                        <li><a aria-label="For Weibo" href="https://www.weibo.com/rmituni"> <span class="no-focus" tabindex="-1"><img src="/dewey-design/images/social/weibo.svg" alt="" /></span></a></li>
+                        <li><a aria-label="For Weibo" href="https://www.weibo.com/rmituni"> <span class="no-focus" tabindex="-1"><img src="https://rmitlibrary.github.io/cdn/image/svg/social/weibo.svg" alt="" /></span></a></li>
                                         
-                                    </ul>
-                                </div>
+					</ul>
+					</div>
                     
                 </div>
                 
             </div>
         </div>
     </div>
-    <footer>
+	</footer>
     
 </div>
 

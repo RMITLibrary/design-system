@@ -82,7 +82,14 @@
       <link>http://localhost:1313/dewey-design/examples/example-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/examples/example-1/</guid>
-      <description>Example 1 Content to be written</description>
+      <description>Home Referencing Integrating ideas with reporting words Whether you are paraphrasing or quoting, integrating the ideas of others with your own argument is an important part of clear, cohesive communication. It’s easy to become repetitive, using ‘this author said’ and ‘that author said’ over and over. Reporting words tell your audience more about a person’s position on a topic, not just that they ‘said’ something.&#xA;Reporting words Reporting words are verbs that help us describe an author’s position on a topic.</description>
+    </item>
+    <item>
+      <title>Example 2</title>
+      <link>http://localhost:1313/dewey-design/examples/example-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/examples/example-2/</guid>
+      <description>Home Referencing Quoting When you are researching a topic, sometimes you want to include the exact words of another author or speaker in your own work. Using someone’s words in their original form is called quoting, or including a direct quote.&#xA;When to quote Quoting is the way to include the exact words of others in our own work. You might want to use a quote when the specific words that an author or speaker has used are important, such as when someone offers a new definition for a term or presents a new theory.</description>
     </item>
     <item>
       <title>Footer</title>
@@ -145,7 +152,7 @@
       <link>http://localhost:1313/dewey-design/components-complex/top-nav/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/components-complex/top-nav/</guid>
-      <description>Top navigation Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam felis eros, tincidunt ac imperdiet vel, vehicula ut mauris. Aliquam ante tellus, vehicula vel orci elementum, hendrerit maximus enim. Suspendisse congue ex pellentesque nisi mollis, sit amet rhoncus erat tincidunt. Ut luctus tincidunt elementum. Ut aliquet accumsan nulla. Simple Suspendisse congue ex pellentesque nisi mollis, sit amet rhoncus erat tincidunt. Ut luctus tincidunt elementum. Optional site title &amp;lt;nav class=&amp;quot;top-nav&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col-auto&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;top-nav-left&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;rmit-logo&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;h2&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;Optional site title&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col&amp;quot;&amp;gt; &amp;lt;!</description>
+      <description>Top navigation As a component, top navigation will require a more customisation according to the context of the site. Options are available for fixing the navigation to the top of screen, hamburger menus and more.&#xA;Simple The optional site name provides a link to the home page. At small screen sizes (width &amp;lt; 768px), this type is scaled to fit the available space. That being said, site titles should remain relatively short.</description>
     </item>
     <item>
       <title>Typography</title>
