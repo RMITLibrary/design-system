@@ -1,36 +1,38 @@
-<!-- START Item Two -->
-<div class="accordion-item">
-<h2 class="accordion-header" id="whiteHeadingTwo">
-  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#whiteCollapseTwo" aria-expanded="false" aria-controls="whiteCollapseTwo">
-    Writing Fundamentals
-  </button>
-</h2>
-<div id="whiteCollapseTwo" class="accordion-collapse collapse" aria-labelledby="whiteHeadingTwo">
-  <div class="accordion-body">
-    <!-- START content --> 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <ul>
-                    <li><a href="">Academic style</a></li>
-                    <li><a href="">Academic word lists</a></li>
-                    <li><a href="">Paragraph Structure</a></li>
-                    <li><a href="">Spelling tips</a></li>
-                    <li><a href="">Understanding your audience</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul>
-                    <li><a href="">Writing sentences</a></li>
-                    <li><a href="">Writing for coursework</a></li>
-                    <li><a href="">Writing for the workplace</a></li>
-                    <li><a href="">Writing paragraphs</a></li>
-                </ul>              
-            </div>  
-        </div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
+<div class="two-col">
+    <figure>
+       <img src="../images/img-example-graph.png" alt="An example image" class="border" />
+    </figure>
+    <div class="content">
+        <figcaption>An example caption for this image.</figcaption>
+        <h2>This is a title</h2>
+        <p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
     </div>
-    <!-- END content -->
-</div>  
 </div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
+<div class="two-col align-top img-lef img-xs">
+    <figure>
+       <img src="../images/img-example-graph.png" alt="An example image" class="border" />
+    </figure>
+    <div class="content">
+        <figcaption>An example caption for this image.</figcaption>
+        <h2>This is a title</h2>
+        <p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts.</p>
+        <p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
+    </div>
 </div>
-<!-- END Item Two -->
+<figure class="float-right">
+    <img src="https://learninglab.rmit.edu.au/sites/default/files/quoting-blockquote.png" class="borde" alt="An example image" />
+    <figcaption>An example caption for this image.</figcaption>
+</figure>
+<h2>This is an issue</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
+<figure class="float-left">
+    <img src="../images/img-example-graph.png" class="border" alt="An example image" />
+    <figcaption>An example caption for this image.</figcaption>
+</figure>
+<h2>He never does</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>

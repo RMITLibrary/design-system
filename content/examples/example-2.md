@@ -26,6 +26,9 @@ parent: "Examples"
 <p>If you are reading a direct quote as part of an oral or multimedia presentation, you'll want to include the same citation information. You might say something like the example below.</p>
 <h3>Spoken example</h3>
 <blockquote><div class="content"><p>While no single description exists for the concept of procrastination, Solomon and Rothblum defined the concept in their 1984 study, page 503, as "the act of needlessly delaying tasks to the point of experiencing subjective discomfort".</p></div></blockquote>
+<figure class="float-right">
+    <img src="https://learninglab.rmit.edu.au/sites/default/files/quoting-blockquote.png" class="borde" alt="blockquote example with illustrated quotation" />
+</figure>
 <h2>Using a block quote</h2>
 <!--
 <img src="../sites/default/files/quoting-blockquote.png" style="float: right; margin-left: 20px; max-width: 30% !important;

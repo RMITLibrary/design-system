@@ -14,7 +14,7 @@ unsafe = true
         url = "/introduction/"
         weight = 100
     [[menu.main]]
-        name = "Getting Started"
+        name = "Getting started"
         parent = "Introduction"
         url = "/"
         weight = 102
@@ -39,89 +39,89 @@ unsafe = true
         parent = "Introduction"
         weight = 106
     [[menu.main]]
-        name = "Visual Language"
+        name = "Visual language"
         url = "/visual/"
         weight = 200 
     [[menu.main]]
         name = "Breakpoints and columns"
         url = "/visual/breakpoints/"
-        parent = "Visual Language"
+        parent = "Visual language"
         weight = 206
     [[menu.main]]
         name = "Colour"
         url = "/visual/colour/"
-        parent = "Visual Language"
+        parent = "Visual language"
         weight = 207
     [[menu.main]]
         name = "Icons"
         url = "/visual/icons/"
-        parent = "Visual Language"
+        parent = "Visual language"
         weight = 208
 	[[menu.main]]
         name = "Links"
         url = "/visual/links/"
-        parent = "Visual Language"
+        parent = "Visual language"
         weight = 209
     [[menu.main]]
         name = "Spacing"
         url = "/visual/spacing/"
-        parent = "Visual Language"
+        parent = "Visual language"
         weight = 210
     [[menu.main]]
         name = "Typography"
         url = "/visual/typography/"
-        parent = "Visual Language"
+        parent = "Visual language"
         weight = 211
         
     [[menu.main]]
-        name = "Simple Components"
+        name = "Simple components"
         url = "/components-simple/"
         weight = 300
     [[menu.main]]
         name = "Accordions"
         url = "/components-simple/accordions/"
-        parent = "Simple Components"
+        parent = "Simple components"
         weight = 312
     [[menu.main]]
         name = "Blockquotes"
         url = "/components-simple/blockquotes/"
-        parent = "Simple Components"
+        parent = "Simple components"
         weight = 313
     [[menu.main]]
         name = "Buttons"
         url = "/components-simple/buttons/"
-        parent = "Simple Components"
+        parent = "Simple components"
         weight = 314
 	[[menu.main]]
         name = "Tables"
         url = "/components-simple/tables/"
-        parent = "Simple Components"
+        parent = "Simple components"
         weight = 315
     
     [[menu.main]]
         name = "Footer"
         url = "/components-complex/footer/"
-        parent = "Complex Components"
+        parent = "Complex components"
         weight = 413
     [[menu.main]]
         name = "Images"
         url = "/components-complex/images/"
-        parent = "Complex Components"
+        parent = "Complex components"
         weight = 414
     [[menu.main]]
         name = "Navigation"
         url = "/components-complex/navigation/"
-        parent = "Complex Components"
+        parent = "Complex components"
         weight = 415
 	[[menu.main]]
         name = "Top navigation"
         url = "/components-complex/top-nav/"
-        parent = "Complex Components"
+        parent = "Complex components"
         weight = 417
 	[[menu.main]]
         name = "Video"
         url = "/components-complex/video/"
-        parent = "Complex Components"
+        parent = "Complex components"
         weight = 417
     [[menu.main]]
         name = "Example 1"
