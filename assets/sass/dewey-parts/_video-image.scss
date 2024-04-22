@@ -1,7 +1,7 @@
 $img-width-xl: 100%;
-$img-width-lg: 40rem;
-$img-width-md: 25rem;
-$img-width-sm: 18.5rem;
+$img-width-lg: 40rem;       //640px
+$img-width-md: 25rem;       //400px
+$img-width-sm: 18.5rem;     //296px
 
 
 /* Figures are centred, limit to 40rem width by default*/
@@ -175,4 +175,32 @@ figure.img-transcript {
 		padding-bottom: 0;
 	}
 }
+
+
+//floaty floaty
+.float-right, .float-left {
+    
+    @include media-breakpoint-up(md) { 
+        width: 16rem;
+        
+        figcaption {
+            border-bottom: 0;
+            padding-bottom: 0;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) { 
+    .float-right {   
+        float: right;
+        margin: 0.25rem 0 1.5rem 1.5rem !important;
+    }
+    
+    .float-left {   
+        float: left;
+        margin: 0.25rem 1.5rem 1.5rem 0 !important;
+    }
+}
+
+    
 
