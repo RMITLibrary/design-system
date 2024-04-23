@@ -40,7 +40,6 @@ $red: $rmit-red;
 $link-hover-color: $blue-hover;
 $link-hover-decoration: none;
 
-//$focus-color: rgba(13, 110, 253, 0.5);
 $focus-color: rgba(13, 110, 253, 0.5);
 
 
@@ -58,48 +57,15 @@ $font-family-serif: "Museo700", Museo700, serif;
 $lead-font-weight: 500;
 $enable-rfs: false;             //turn off responsive font scaling
 
-
-
-// 3. Include remainder of required Bootstrap stylesheets
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
-
-// 4. Include optional Bootstrap components (decide what to omit)
-@import "bootstrap/root";
-@import "bootstrap/reboot";
-@import "bootstrap/type";
-@import "bootstrap/images";
-@import "bootstrap/containers";
-@import "bootstrap/grid";
-@import "bootstrap/tables";
-@import "bootstrap/forms";
-@import "bootstrap/buttons";
-@import "bootstrap/transitions";
-@import "bootstrap/dropdown";
-@import "bootstrap/button-group";
-@import "bootstrap/nav";
-@import "bootstrap/navbar";
-@import "bootstrap/card";
-@import "bootstrap/accordion";
-@import "bootstrap/breadcrumb";
-@import "bootstrap/pagination";
-@import "bootstrap/badge";
-@import "bootstrap/alert";
-@import "bootstrap/progress";
-@import "bootstrap/list-group";
-@import "bootstrap/close";
-@import "bootstrap/toasts";
-@import "bootstrap/modal";
-@import "bootstrap/tooltip";
-@import "bootstrap/popover";
-@import "bootstrap/carousel";
-@import "bootstrap/spinners";
-@import "bootstrap/offcanvas";
-@import "bootstrap/utilities";
+@import "bootstrap/bootstrap";
 
 
 // 5. Add additional custom code here
 
+//Used to hide links that we don't want at xs and sm breakpoints
+.hide-sm {
+	@include media-breakpoint-down(md) {  display: none; }
+}
 
 .no-border-top {
 	border-top: 0 !important;

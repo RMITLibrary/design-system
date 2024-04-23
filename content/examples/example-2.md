@@ -3,12 +3,11 @@ title: Example 2
 name: Example 2
 parent: "Examples"
 ---
-<nav aria-label="breadcrumbs">
-    <ul class="breadcrumbs">
-        <li><a href="/dewey-design/">Home</a></li>
-        <li><a href="">Referencing</a></li>
-    </ul>
-</nav>
+<ul class="breadcrumbs">
+	<li><a href="/dewey-design/" tabindex="-1">Home</a></li>
+	<li><a href="" tabindex="-1">Referencing</a></li>
+</ul>
+<a id="main-content"></a>
 <h1 class="margin-top-zero">Quoting</h1>
 <p class="lead">When you are researching a topic, sometimes you want to include the exact words of another author or speaker in your own work. Using someone’s words in their original form is called quoting, or including a direct quote.</p>
 <h2>When to quote</h2>

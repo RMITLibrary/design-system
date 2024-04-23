@@ -1,7 +1,7 @@
 ---
 title: Navigation
 name: Navigation
-parent: "Complex Components"
+parent: "Complex components"
 ---
 <h1 class="margin-top-zero">Navigation</h1>
 <p class="lead">There are several recommended approaches to providing navigation. Using breadcrumbs at the top of the page is a simple and compact way of showing the user the website hierarchy. The right nav offers several options for providing more detailed navigation and could be useful for larger, more complex sites.</p>

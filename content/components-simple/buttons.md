@@ -1,7 +1,7 @@
 ---
 title: Buttons
 name: Buttons
-parent: "Simple Components"
+parent: "Simple components"
 ---
 <h1 class="margin-top-zero">Buttons</h1>
 <p class="lead">Two different varieties of button are available in the design system. 

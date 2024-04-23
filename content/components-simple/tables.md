@@ -1,7 +1,7 @@
 ---
 title: Tables
 name: Tables
-parent: "Simple Components"
+parent: "Simple components"
 ---
 <h1 class="margin-top-zero">Tables</h1>
 <p class="lead">Tables allow data to be displayed with a structure. Be sure that the information being presented warrants being displayed in a table. Often, regular paragraphs of text are  better way to communicate.</p>

@@ -202,5 +202,13 @@ figure.img-transcript {
     }
 }
 
+.image-sm {
+	width: 12rem;
+	
+	@include media-breakpoint-up(md) { 
+        width: 12rem;
+    }
+}
+
     
 

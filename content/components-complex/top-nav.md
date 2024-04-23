@@ -1,7 +1,7 @@
 ---
 title: Top navigation
 name: Top navigation
-parent: "Complex Components"
+parent: "Complex components"
 ---
 <h1 class="margin-top-zero">Top navigation</h1>
 <p class="lead">As a component, top navigation will require a more customisation according to the context of the site. Options are available for fixing the navigation to the top of screen, hamburger menus and more.</p>
@@ -13,7 +13,7 @@ parent: "Complex Components"
             <div class="col-auto">
                 <div class="top-nav-left">
                     <div class="rmit-logo"></div>
-                    <h2><a href="">Optional site title</a></h2>
+                    <h2><a href="" aria-label="Link to home">Optional site title</a></h2>
                 </div> 
             </div>
             <div class="col">       

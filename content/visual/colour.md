@@ -1,7 +1,7 @@
 ---
 title: Colour
 name: Colour
-parent: "Visual Language"
+parent: "Visual language"
 hide_footer: false
 ---
 <h1 class="margin-top-zero">Colour</h1>

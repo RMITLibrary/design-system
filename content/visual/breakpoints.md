@@ -1,7 +1,7 @@
 ---
 title: Breakpoints and columns
 name: Breakpoints and columns
-parent: "Visual Language"
+parent: "Visual language"
 hide_footer: false
 ---
 <h1 class="margin-top-zero">Breakpoints and columns</h1>

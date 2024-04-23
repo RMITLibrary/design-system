@@ -1,7 +1,7 @@
 ---
 title: Spacing
 name: Spacing
-parent: "Visual Language"
+parent: "Visual language"
 hide_footer: false
 ---
 <h1 class="margin-top-zero">Spacing</h1>

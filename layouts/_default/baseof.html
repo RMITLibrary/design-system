@@ -8,22 +8,20 @@
 <div id="page-content">
     <div class="container main-content">
         <div class="row ">
+			<!-- START right nav -->
+            <div class="col-xl-4 order-last">
+                {{ partial "right-nav" . }}
+            </div>
+            <!-- END right nav -->
             <!-- START content -->
-            <div class="col-xl-8">
+            <div class="col-xl-8 order-first">
                 {{ block "main" . }}
                 {{ end }}
                 {{ partial "prev-next" . }}
             </div>
-            <!-- END content -->
-
-            <!-- START right nav -->
-            <div class="col-xl-4">
-                {{ partial "right-nav" . }}
-            </div>
-            <!-- END right nav -->
+            <!-- END content -->   
         </div>
     </div>
-
     {{ partial "footer.html" . }}
 </div>
 {{ partial "script.html" . }}

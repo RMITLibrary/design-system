@@ -3,12 +3,11 @@ title: Example 1
 name: Example 1
 parent: "Examples"
 ---
-<nav aria-label="breadcrumbs">
-    <ul class="breadcrumbs">
-        <li><a href="/dewey-design/">Home</a></li>
-        <li><a href="">Referencing</a></li>
-    </ul>
-</nav>
+<ul class="breadcrumbs">
+	<li><a href="/dewey-design/" tabindex="-1">Home</a></li>
+	<li><a href="" tabindex="-1">Referencing</a></li>
+</ul>
+<a id="main-content"></a>
 <h1 class="margin-top-zero">Integrating ideas with reporting words</h1>
 <p class="lead">Whether you are paraphrasing or quoting, integrating the ideas of others with your own argument is an important part of clear, cohesive communication. It’s easy to become repetitive, using ‘this author said’ and ‘that author said’ over and over. Reporting words tell your audience more about a person’s position on a topic, not just that they ‘said’ something.</p>
 <h2>Reporting words</h2>

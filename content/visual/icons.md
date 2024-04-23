@@ -1,7 +1,7 @@
 ---
 title: Icons
 name: Icons
-parent: "Visual Language"
+parent: "Visual language"
 hide_footer: false
 ---
 <h1 class="margin-top-zero">Icons</h1>

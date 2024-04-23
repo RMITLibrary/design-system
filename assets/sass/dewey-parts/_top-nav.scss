@@ -152,11 +152,7 @@ html.nav-fixed {
 			}
 		}
 		
-		//Used to hide links that we don't want at xs and sm breakpoints
-		.hide-sm {
-			display: none;
-			@include media-breakpoint-up(md) {  display: inline; }
-		}
+		
 		
 		a {
             color: $white;

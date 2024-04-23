@@ -1,7 +1,7 @@
 ---
 title: Typography
 name: Typography
-parent: "Visual Language"
+parent: "Visual language"
 hide_footer: false
 ---
 <h1 class="margin-top-zero">Typography</h1>

@@ -1,7 +1,7 @@
 ---
 title: Blockquotes
 name: Blockquotes
-parent: "Simple Components"
+parent: "Simple components"
 ---
 <h1 class="margin-top-zero">Blockquotes</h1>
 <p class="lead">Blockquotes can be useful to highlight sections of text and can also function as a navigation device. Visually, they are obviously separate from the rest of the content and can provide prominent for the information contained within.</p>

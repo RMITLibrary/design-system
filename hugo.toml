@@ -133,4 +133,9 @@ unsafe = true
         url = "/examples/example-2/"
         parent = "Examples"
         weight = 503
+	[[menu.main]]
+        name = "Example 3"
+        url = "/examples/example-3/"
+        parent = "Examples"
+        weight = 504
     

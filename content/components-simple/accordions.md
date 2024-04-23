@@ -1,7 +1,7 @@
 ---
 title: Accordions
 name: Accordions
-parent: "Simple Components"
+parent: "Simple components"
 ---
 <h1 class="margin-top-zero">Accordions</h1>
 <p class="lead">Accordions can be a useful tool in dividing and segmenting information, if used judiciously. The design system features three variants, the transcript variant is used to provide accessible content for videos and images, the navigation option (featured on the right) allows for collapsible navigation.</p>

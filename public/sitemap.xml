@@ -8,8 +8,6 @@
   </url><url>
     <loc>http://localhost:1313/dewey-design/components-simple/accordions/</loc>
   </url><url>
-    <loc>http://localhost:1313/dewey-design/examples/anatomy/</loc>
-  </url><url>
     <loc>http://localhost:1313/dewey-design/introduction/anatomy/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/introduction/headings/</loc>
@@ -29,6 +27,8 @@
     <loc>http://localhost:1313/dewey-design/examples/example-1/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/examples/example-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/dewey-design/examples/example-3/</loc>
   </url><url>
     <loc>http://localhost:1313/dewey-design/examples/</loc>
   </url><url>

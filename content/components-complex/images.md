@@ -1,7 +1,7 @@
 ---
 title: Images
 name: Images
-parent: "Complex Components"
+parent: "Complex components"
 ---
 <h1 class="margin-top-zero">Images</h1>
 <p class="lead">Dewey offers various options in displaying images including  borders, alignment, sizing and adding captions and transcript accordions.

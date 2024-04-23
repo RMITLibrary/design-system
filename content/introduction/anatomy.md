@@ -4,14 +4,13 @@ name: Anatomy of a page
 parent: "Introduction"
 hide_buttons: true
 ---
-<nav aria-label="breadcrumbs">
-    <ul class="breadcrumbs">
-        <li><a href="/dewey-design/">Home</a></li>
-        <li><a href="">Section</a></li>
-        <li><a href="">Subsection</a></li>
-        <li><a href="">Content page</a></li>
-    </ul>
-</nav>
+<ul class="breadcrumbs">
+	<li><a href="/dewey-design/" tabindex="-1">Home</a></li>
+	<li><a href="" tabindex="-1">Section</a></li>
+	<li><a href="" tabindex="-1">Subsection</a></li>
+	<li><a href="" tabindex="-1">Content page</a></li>
+</ul>
+<a id="main-content"></a>
 <h1 class="margin-top-zero">Anatomy of a page</h1>
 <p class="lead">Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the Dewey design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. </p>
 <p>This example shows both page content here on the left and a right hand navigation. Here the page content occupies 8 bootstrap columns, while the optional navigation takes up 4 columns. Extra margin is added on the left of the navigation as the default space between columns is visually a little tight.</p>

@@ -1,7 +1,7 @@
 ---
 title: Video
 name: Video
-parent: "Complex Components"
+parent: "Complex components"
 ---
 <h1 class="margin-top-zero">Video</h1>
 <p class="lead">Video is displayed via a responsive iFrame, a transcript of the video should be displayed via an accordion to assist visually impaired users. These examples show YouTube content, it should be possible to show content from other providers with some adjustments.
