@@ -1,6 +1,6 @@
 ---
-title: Getting Started
-name: Getting Started
+title: Getting started
+name: Getting started
 parent: "Introduction"
 ---
 <h1 class="margin-top-zero">Getting started</h1>

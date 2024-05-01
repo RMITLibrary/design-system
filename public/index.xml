@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Getting Started on Dewey design system</title>
+    <title>Getting started on Dewey design system</title>
     <link>http://localhost:1313/dewey-design/</link>
-    <description>Recent content in Getting Started on Dewey design system</description>
+    <description>Recent content in Getting started on Dewey design system</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <atom:link href="http://localhost:1313/dewey-design/index.xml" rel="self" type="application/rss+xml" />
@@ -69,6 +69,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/visual/colour/</guid>
       <description>Colour The Dewey design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.&#xA;Primary text Dark Grey #333333&#xA;Primary colour for all text. RMIT Blue #000054&#xA;Used for links and titles Blue 70 #4D4D88</description>
+    </item>
+    <item>
+      <title>Example 1</title>
+      <link>http://localhost:1313/dewey-design/example-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dewey-design/example-1/</guid>
+      <description>Home Referencing Integrating ideas with reporting words Whether you are paraphrasing or quoting, integrating the ideas of others with your own argument is an important part of clear, cohesive communication. It’s easy to become repetitive, using ‘this author said’ and ‘that author said’ over and over. Reporting words tell your audience more about a person’s position on a topic, not just that they ‘said’ something.&#xA;Reporting words Reporting words are verbs that help us describe an author’s position on a topic.</description>
     </item>
     <item>
       <title>Example 1</title>
