@@ -7,7 +7,7 @@ parent: "Simple components"
 <p class="lead">Blockquotes can be useful to highlight sections of text and can also function as a navigation device. Visually, they are obviously separate from the rest of the content and can provide prominent for the information contained within.</p>
 <h2>Basic</h2>
 <p>The basic blockquote just contains text. The suggested content limit is 450 characters or 80 words.</p>
-<p>By default, each image has a margin of <strong>space-small</strong> applied top and bottom</p>
+<p>By default, each blockquote has a margin of <strong>space-small</strong> applied top and bottom. The first element inside the blockquote has no margin top applied to it. The last element inside has no bottom margin.</p>
 <blockquote>
     <div class="content">
         <p>This tutorial covers four of the most important aspects in writing a literature review: criteria to use in choosing the best sources, how to structure your literature review, writing in an appropriate style, and maintaining a voice of authority.</p>
@@ -15,24 +15,24 @@ parent: "Simple components"
 </blockquote>
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;blockquote&gt;
-    &lt;div class=&quot;content&quot;&gt;
-        &lt;p&gt;Content goes here.&lt;/p&gt;
-    &lt;/div&gt;
+<code class="language-html">&lt;blockquote&gt;  
+	&lt;p&gt;Content goes here.&lt;/p&gt;
 &lt;/blockquote&gt;</code>
 </pre></div>
 <h2>Featuring an image</h2>
 <p>The image width is 12.25rem (196px). Portrait images are supported but are best used sparingly. At X-Small and Small breakpoints, the image is stacked on top of the text.</p>
-<blockquote>
-    <div class="img-wrap"><img src="../../images/img-example-graph.png" alt="An example image" /></div>
-    <div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare consectetur tellus. Aenean non posuere tortor, pretium accumsan augue. </p></div>
+<blockquote class="complex">
+	<div class="columns">
+		<div class="img-wrap"><img src="../../images/img-example-graph.png" alt="An example image" /></div>
+		<div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare consectetur tellus. Aenean non posuere tortor, pretium accumsan augue. </p></div>
+	</div>
 </blockquote>
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;blockquote&gt;
-    &lt;div class=&quot;img-wrap&quot;&gt;&lt;img src=&rdquo;my-image.jpg&rdquo; alt=&quot;An example image&quot; /&gt;&lt;/div&gt;
-    &lt;div class=&quot;content&quot;&gt;
-		&lt;p&gt;Content goes here.&lt;/p&gt;
+<code class="language-html">&lt;blockquote class=&quot;complex&quot;&gt;
+	&lt;div class=&quot;columns&quot;&gt;
+		&lt;div class=&quot;img-wrap&quot;&gt;&lt;img src=&quot;my-image.jpg&quot; alt=&quot;An example image&quot; /&gt;&lt;/div&gt;
+		&lt;div class=&quot;content&quot;&gt;&lt;p&gt;Content goes here&lt;/p&gt;&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/blockquote&gt;</code>
 </pre></div>
@@ -49,7 +49,7 @@ parent: "Simple components"
 	<li>Extra information</li>
 	<li>Icon</li>
 </ul>
-<blockquote class="link">
+<blockquote class="complex">
 	<a href="../../visual/links">
         <div class="content">
             <p class="category">Category</p>
@@ -62,7 +62,7 @@ parent: "Simple components"
 </blockquote>
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;blockquote class=&quot;link&quot;&gt;
+<code class="language-html">&lt;blockquote class=&quot;complex&quot;&gt;
 	&lt;a href=&quot;mylink&quot;&gt;
 		&lt;div class=&quot;content&quot;&gt;
 			&lt;p class=&quot;category&quot;&gt;Category&lt;/p&gt;
@@ -78,7 +78,7 @@ parent: "Simple components"
 </pre></div>
 <p>It's unlikely (and not recommended) that all of these pieces be used at once. Here are some examples demonstrating suggested use.</p>
 <!-- START blockquote -->
-<blockquote class="link">
+<blockquote class="complex">
 	<a href="../../visual/links">
         <div class="content">
             <p class="category">Tool</p>
@@ -89,7 +89,7 @@ parent: "Simple components"
 </blockquote>
 <!-- END blockquote -->
 <!-- START blockquote -->
-<blockquote class="link">
+<blockquote class="complex">
 	<a href="../../visual/links">
         <div class="content">
             <p class="category">PDF</p>
@@ -99,7 +99,7 @@ parent: "Simple components"
 </blockquote>
 <!-- END blockquote -->
 <!-- START blockquote -->
-<blockquote class="link">
+<blockquote class="complex">
 	<a href="../../visual/links">
         <div class="content">
             <h3>Starting your first assignment</h3>
@@ -110,7 +110,7 @@ parent: "Simple components"
 </blockquote>
 <!-- END blockquote -->
 <!-- START blockquote -->
-<blockquote class="link">
+<blockquote class="complex">
 	<a href="../../visual/links">
         <div class="content">
             <h3>Assignment slammer</h3>
@@ -120,7 +120,7 @@ parent: "Simple components"
 </blockquote>
 <!-- END blockquote -->
 <!-- START blockquote -->
-<blockquote class="link">
+<blockquote class="complex">
 	<a href="../../visual/links">
         <div class="content">
             <h3>Evaluating market information</h3>
