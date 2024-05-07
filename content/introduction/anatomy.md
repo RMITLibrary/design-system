@@ -68,9 +68,11 @@ hide_buttons: true
     </div>
 </blockquote>
 <p>Blockquotes can also feature an image. The image width is 12.25rem (196px). Portrait images are supported but are best used sparingly. At X-Small and Small breakpoints, the image is stacked on top of the text.</p>
-<blockquote>
-    <div class="img-wrap"><img src="../../images/img-example-graph.png" alt="An example image" /></div>
-    <div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare consectetur tellus. Aenean non posuere tortor, pretium accumsan augue. </p></div>
+<blockquote class="complex">
+	<div class="columns">
+    	<div class="img-wrap"><img src="../../images/img-example-graph.png" alt="An example image" /></div>
+    	<div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare consectetur tellus. Aenean non posuere tortor, pretium accumsan augue. </p></div>
+	</div>
 </blockquote>
 <h3>Buttons</h3>
 <p>The default variant hews closely to Bootstrap's <code>btn-outline-secondary</code> style. When multiple buttons are used on a page, almost all of them should in this style. The primary variant should be used sparingly, ideally only one occurrence on each page. It should action something important, like submitting a form.</p>
@@ -339,7 +341,7 @@ hide_buttons: true
     <a class="btn btn-nav-next" href="" aria-label="Next page">Next page</a>
 </nav>
 <h2 class="h3 margin-top-xl">Additional links</h2>
-<blockquote class="link margin-top-xs">
+<blockquote class="complex margin-top-xs">
 	<a href="../../components-simple/blockquotes#nav">
         <div class="content">
             <p class="category">Category</p>

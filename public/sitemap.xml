@@ -2,68 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:54467/dewey-design/sandbox/</loc>
+    <loc>http://localhost:1313/dewey-design/sandbox/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/introduction/accessibility/</loc>
+    <loc>http://localhost:1313/dewey-design/introduction/accessibility/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-simple/accordions/</loc>
+    <loc>http://localhost:1313/dewey-design/components-simple/accordions/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/introduction/anatomy/</loc>
+    <loc>http://localhost:1313/dewey-design/introduction/anatomy/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/introduction/headings/</loc>
+    <loc>http://localhost:1313/dewey-design/introduction/headings/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-simple/blockquotes/</loc>
+    <loc>http://localhost:1313/dewey-design/components-simple/blockquotes/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/visual/breakpoints/</loc>
+    <loc>http://localhost:1313/dewey-design/visual/breakpoints/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-simple/buttons/</loc>
+    <loc>http://localhost:1313/dewey-design/components-simple/buttons/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/categories/</loc>
+    <loc>http://localhost:1313/dewey-design/categories/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/visual/colour/</loc>
+    <loc>http://localhost:1313/dewey-design/visual/colour/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-complex/</loc>
+    <loc>http://localhost:1313/dewey-design/components-complex/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/examples/example-1/</loc>
+    <loc>http://localhost:1313/dewey-design/example-1/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/examples/example-2/</loc>
+    <loc>http://localhost:1313/dewey-design/examples/example-1/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/examples/example-3/</loc>
+    <loc>http://localhost:1313/dewey-design/examples/example-2/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/examples/</loc>
+    <loc>http://localhost:1313/dewey-design/examples/example-3/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-complex/footer/</loc>
+    <loc>http://localhost:1313/dewey-design/examples/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/</loc>
+    <loc>http://localhost:1313/dewey-design/components-complex/footer/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/introduction/help/</loc>
+    <loc>http://localhost:1313/dewey-design/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/visual/icons/</loc>
+    <loc>http://localhost:1313/dewey-design/introduction/help/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-complex/images/</loc>
+    <loc>http://localhost:1313/dewey-design/visual/icons/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/introduction/</loc>
+    <loc>http://localhost:1313/dewey-design/components-complex/images/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-simple/layouts/</loc>
+    <loc>http://localhost:1313/dewey-design/introduction/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/visual/links/</loc>
+    <loc>http://localhost:1313/dewey-design/components-simple/layouts/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-complex/navigation/</loc>
+    <loc>http://localhost:1313/dewey-design/visual/links/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-simple/</loc>
+    <loc>http://localhost:1313/dewey-design/components-complex/navigation/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/visual/spacing/</loc>
+    <loc>http://localhost:1313/dewey-design/components-simple/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-simple/tables/</loc>
+    <loc>http://localhost:1313/dewey-design/visual/spacing/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/tags/</loc>
+    <loc>http://localhost:1313/dewey-design/components-simple/tables/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-complex/top-nav/</loc>
+    <loc>http://localhost:1313/dewey-design/tags/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/visual/typography/</loc>
+    <loc>http://localhost:1313/dewey-design/components-complex/top-nav/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/components-complex/video/</loc>
+    <loc>http://localhost:1313/dewey-design/visual/typography/</loc>
   </url><url>
-    <loc>http://localhost:54467/dewey-design/visual/</loc>
+    <loc>http://localhost:1313/dewey-design/components-complex/video/</loc>
+  </url><url>
+    <loc>http://localhost:1313/dewey-design/visual/</loc>
   </url>
 </urlset>
