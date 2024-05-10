@@ -4,10 +4,11 @@ name: Video
 parent: "Complex components"
 ---
 <h1 class="margin-top-zero">Video</h1>
-<p class="lead">Video is displayed via a responsive iFrame, a transcript of the video should be displayed via an accordion to assist visually impaired users. These examples show YouTube content, it should be possible to show content from other providers with some adjustments.
+<p class="lead">Video is displayed via a responsive iFrame, a transcript of the video should be displayed via an accordion to assist visually impaired users.</p>
+<p>These examples show YouTube content, it should be possible to show content from other providers with some adjustments. The text within the transcript is set to small (15px, 13px on smaller screens).
 </p>
 <h2>Landscape</h2>
-<p>The default aspect ratio is 16:9, content in other ratios (4:3 for instance) will be pillarboxed. The iframe is sized so as to retain the aspect ratio while remaining responsive. A max-width value is set to <span class="nowrap"><strong>44rem</strong> (704px).</span></p>
+<p>The default aspect ratio is 16:9, content in other ratios (4:3 for instance) will be pillarboxed. The iframe is sized so as to retain the aspect ratio while remaining responsive. A max-width value is set to <span class="nowrap"><strong>40rem</strong> (640px).</span></p>
 <figure class="video">
     <div class="responsive-video"><iframe src="https://www.youtube.com/embed/U5LBp4E-zWU" frameborder="0" allowfullscreen=""></iframe></div>
 <!-- START accordion item -->
@@ -50,7 +51,7 @@ parent: "Complex components"
 <!-- Portrait -->
 <a name="portrait"></a>
 <h2>Portrait</h2>
-<p>To change the aspect ratio to portrait, wrap the responsive-video div in a div with class <code>portrait-video</code>. This will display videos in a 9:16 aspect ratio. This responsive-video div has a width of <strong>80%</strong>, with the max width limited to <strong>25rem</strong> (400px). This ensures the whole video is visible along with browser chrome at smaller screen sizes.</p>
+<p>To change the aspect ratio to portrait, wrap the responsive-video div in a div with class <code>portrait-video</code>. This will display videos in a 9:16 aspect ratio. This responsive-video div has a width of <strong>80%</strong> of screen width, with the max width limited to <strong>25rem</strong> (400px). This ensures the whole video is visible along with browser chrome at smaller screen sizes.</p>
 <figure class="video">
 	<div class="portrait-video">
 		    <div class="responsive-video"><iframe src="https://www.youtube.com/embed/RcRnspPP5PE" frameborder="0" allowfullscreen=""></iframe></div>

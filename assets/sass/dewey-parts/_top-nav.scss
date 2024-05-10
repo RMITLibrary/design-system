@@ -27,7 +27,7 @@ html.nav-fixed {
 	
 	.top-nav {
 		position: fixed;
-		z-index: 5; 
+		z-index: 5;
 	}
     
     #nav-menu {
@@ -39,9 +39,10 @@ html.nav-fixed {
 }
 
 /* START top-nav */
+
 .top-nav {
     color: $white;
-    background-color: $blue;
+    background-color: $rmit-blue;
     height: $space-sm-xl;
 	width: 100%;
     
@@ -216,10 +217,7 @@ html.nav-fixed {
 #nav-menu {
     color: $white;
     background-color: $rmit-blue;
-    
-//    position: absolute;
-//    z-index: 2;
-    
+
     .nav-container {
         min-height: 100vh;
         padding-bottom: 4rem; 
@@ -227,8 +225,11 @@ html.nav-fixed {
         @include media-breakpoint-up(md) { 
             padding-bottom: 6rem; 
         }
-        
-        a {
+    }
+	
+	.not-wordpress {
+		
+		a {
             color: $white;
             text-decoration: none;
         }
@@ -238,6 +239,7 @@ html.nav-fixed {
         }
         
         ul {
+			padding-left: 2.5rem;
             margin-bottom: 0 !important;
         }
         
@@ -248,13 +250,8 @@ html.nav-fixed {
         
         @include media-breakpoint-up(md) { 
             ul {
-                padding-left: 1rem;
-                margin-bottom: 0 !important;
+                column-count: 2;
             }
         }
-    }
-    
-    .push-down {
-        min-height: auto;
-    }
+	}
 }

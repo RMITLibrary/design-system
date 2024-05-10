@@ -180,7 +180,7 @@
       <link>http://localhost:1313/dewey-design/components-complex/video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dewey-design/components-complex/video/</guid>
-      <description>Video Video is displayed via a responsive iFrame, a transcript of the video should be displayed via an accordion to assist visually impaired users. These examples show YouTube content, it should be possible to show content from other providers with some adjustments. Landscape The default aspect ratio is 16:9, content in other ratios (4:3 for instance) will be pillarboxed. The iframe is sized so as to retain the aspect ratio while remaining responsive.</description>
+      <description>Video Video is displayed via a responsive iFrame, a transcript of the video should be displayed via an accordion to assist visually impaired users.&#xA;These examples show YouTube content, it should be possible to show content from other providers with some adjustments. Landscape The default aspect ratio is 16:9, content in other ratios (4:3 for instance) will be pillarboxed. The iframe is sized so as to retain the aspect ratio while remaining responsive.</description>
     </item>
   </channel>
 </rss>

@@ -40,7 +40,7 @@ parent: "Complex components"
 </pre></div>
 <h2>Sizing</h2>
 <p>In sizing images, we look to retain responsiveness by not setting specific width and height values for images. Instead, the styles use <code>width: 100%</code> and <code>height: auto</code> to make the image fill its container. A <code class="nowrap">max-width</code> value is also set, to stop images getting too tall.</p>
-<p>A range of helper classes are available to set the max-width value. By default max-width is set to <strong class="nowrap">44rem (704px)</strong>.</p>
+<p>A range of helper classes are available to set the max-width value. By default max-width is set to <strong class="nowrap">40rem (640px)</strong>.</p>
 <table class="table table-striped">
   <thead>
     <tr>
@@ -57,8 +57,8 @@ parent: "Complex components"
     </tr>
     <tr>
       <td><code>img-width-lg</code></td>
+      <td>40rem (640px)</td>
       <td>Landscape images (default)</td>
-      <td>≥576px</td>
     </tr>
     <tr>
       <td><code>img-width-md</code></td>
@@ -67,7 +67,7 @@ parent: "Complex components"
     </tr>
     <tr>
       <td><code>img-width-sm</code></td>
-      <td>18.5rem (284px)</td>
+      <td>18.5rem (296px)</td>
       <td>Really tall portrait images</td>
     </tr>
   </tbody>
@@ -95,7 +95,7 @@ parent: "Complex components"
 &lt;/figure&gt;</code>
 </pre></div>
 <h3>Sizing - portrait images</h3>
-<p>To prevent portrait images from being too tall, wrap the img in a div with class <code>portrait</code>. This replicates the functionality of img-width-md For 9:16 images, this would give a height of 711px. Another class, <code>portrait-sm</code> is available which replicates img-width-sm. Use this for really tall portrait images.</p>
+<p>To prevent portrait images from being too tall, wrap the img in a div with class <code>portrait</code>. The max width here is <strong>25rem (400px)</strong>. For 9:16 images, this gives a height of 711px. Another class, <code>portrait-sm</code> is available, here the max width <strong>18.5rem (400px)</strong>. Use this for really tall portrait images.</p>
 <figure>
 	<div class="portrait">
     	<img src="../../images/img-example-portrait.png" alt="An example image" class="border" />
@@ -112,7 +112,7 @@ parent: "Complex components"
 <hr class="xl" />
 <h2>Captions and transcripts</h2>
 <p>Adding image captions and transcripts add some complexity to the markup required. The extra divs allow flexibility in layout and options regarding the width of captions and transcripts.</p>
-<p>Captions can provide context for the use of an image and provide a place to attribute and credit the source of an image. Captions have a default width of <strong>44rem</strong> and add a border to the bottom of the image:</p>
+<p>Captions can provide context for the use of an image and provide a place to attribute and credit the source of an image. Captions have a default width of <strong>40rem</strong> and add a border to the bottom of the image:</p>
 <p>The base figure mark-up to add a caption is as follows:</p>
 <figure>
 	<div>
