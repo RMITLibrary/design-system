@@ -1,4 +1,17 @@
 <p>grdgrdt dg drg drgdr</p>
+<div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        Accordion Item #1
+        </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+        <div class="accordion-body">
+        First item content goes here
+        </div>
+    </div>
+</div>
+
 <div class="responsive-video"><iframe src="https://www.youtube.com/embed/lfrREC5Y6h8" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 <!-- START accordion item -->
 <div class="accordion-item transcript">
