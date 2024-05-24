@@ -523,6 +523,42 @@
     &lt;/ul&gt;
 &lt;/nav&gt;</code>
 </pre></div>
+<h3>Basic menu</h3>
+<p>In some instances, a site might not need to display such a detailed hierarchy. For this flatter structure, a flatter navigation is available, dispensing with section and subsection links. Indentation on links is adjusted to suit. Use the class <strong>right-nav-simple</strong>.</p>
+<nav class="right-nav-simple margin-left-zero" aria-label="Section Menu">
+    <ul>
+        <li class="selected">Content page</li>
+        <li><a href="">Content page</a>
+            <ul>
+                <li><a href="">Content subpage</a></li>
+                <li><a href="">Content subpage</a></li>
+                <li><a href="">Content subpage</a></li>
+            </ul>
+        </li>
+        <li><a href="">Content page</a></li>
+        <li><a href="">Content page</a></li>
+        <li><a href="">Content page</a></li>
+    </ul>
+</nav>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;nav class=&quot;right-nav-simple&quot; aria-label=&quot;Section Menu&quot;&gt;
+    &lt;ul&gt;
+        &lt;li class=&quot;selected&quot;&gt;Content page&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;</code>
+</pre></div>
+<h3>Accordion</h3>
 <p>There's also a variant that uses accordions to hide navigation. It allows the user to quickly access the whole site from any page. This format only suits smaller sites with a relatively balanced structure. The section that contains the page that is currently being viewed should be expanded by default.</p>
 <nav class="right-nav-accordion margin-left-zero">
     <div class="accordion-item nav-accordion">

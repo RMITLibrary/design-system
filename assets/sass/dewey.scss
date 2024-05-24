@@ -40,6 +40,8 @@ $red: $rmit-red;
 $link-hover-color: $blue-hover;
 $link-hover-decoration: none;
 
+$input-btn-focus-color: rgba(13, 110, 253, 0.5);
+/*REMOVE THIS */
 $focus-color: rgba(13, 110, 253, 0.5);
 
 
@@ -74,6 +76,7 @@ $enable-rfs: false;             //turn off responsive font scaling
 @import "dewey-parts/space";
 @import "dewey-parts/typography";
 @import "dewey-parts/links";
+@import "dewey-parts/forms";
 
 //Simple components
 @import 'dewey-parts/button';

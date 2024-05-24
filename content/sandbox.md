@@ -1,3 +1,114 @@
+<form onsubmit="event.preventDefault();">
+				<h2 class="visually-hidden">Enter the attribution details</h2>
+				<div class="my-two-columns">
+					<div class="my-column">
+						<!-- START title -->
+						<fieldset>
+							<legend class="visually-hidden">Enter the title and its url</legend>
+							<label for="title" class="h3 margin-top-zero">Title</label>
+							<div class="input-group margin-bot-md">
+								<input type="text" name="title" id="title" class="form-control">
+								<button id="title-help-button" class="btn btn-help" type="button" data-bs-toggle="collapse" data-bs-target="#title-help" aria-expanded="false" aria-controls="title-help"><span class="visually-hidden">Help</span>
+                                <svg><use xlink:href="#help-icon" /></svg>
+                                </button>
+								<div id="title-help" class="collapse">
+									<p class="small">List the title of the work you’re adopting. If you can’t locate the title please enter a more general term, such as “this work”, “this image”, etc.</p>
+									<p class="small margin-bot-zero">Enter a URL to the original sources. If it's not available, include where you got the work. For example, in the title you might enter, “Blue Star painting from Reddit paintings”.</p>
+								</div>
+							</div>
+							<div class="input-group">
+								<label for="title-url" class="form-label">URL</label>
+								<input type="text" name="title-url" id="title-url" class="form-control">
+							</div>
+						</fieldset>
+						<!-- END title -->
+						<!-- START author -->
+						<fieldset>
+							<legend class="visually-hidden">Enter the author and their url</legend>
+							<label for="author" class="h3">Author</label>
+							<div class="input-group margin-bot-md">
+								<input type="text" name="author" id="author" class="form-control">
+								<button id="author-help-button" class="btn btn-help" type="button" data-bs-toggle="collapse" data-bs-target="#author-help" aria-expanded="false" aria-controls="author-help"><span class="visually-hidden">Help</span>
+                                <svg><use xlink:href="#help-icon" /></svg>
+                                </button>
+								<div id="author-help" class="collapse">
+									<p class="small">Name the author(s) of the material you are adopting. If you can’t locate the name, you can list the author’s screen or username.</p>
+									<p class="small">Sometimes an organization is the copyright holder and does not provide any author information. In such cases, use the organization name as the author. Alternately, you can leave the author field empty and fill in the organization field.</p>
+									<p class="small margin-bot-zero">If the author notes another person or entity they’d like to give credit, please do so. Also, if available, enter the URL to the author’s webpage or user account page.</p>
+								</div>
+							</div>
+							<div class="input-group">
+								<label for="author-url" class="form-label">URL</label>
+								<input type="text" name="author-url" id="author-url" class="form-control">
+							</div>
+						</fieldset>
+						<!-- END author -->
+					</div>
+					<div class="license-container my-column">
+						<!-- START license -->
+						<fieldset>
+						<legend class="visually-hidden">Choose a license and version</legend>
+                        <label for="license-select" class="h3">License</label>
+                        <button class="btn-help-license" type="button" data-bs-toggle="collapse" data-bs-target="#license-help" aria-expanded="false" aria-controls="license-help">
+                            <span class="visually-hidden">Help</span>
+                            <svg><use xlink:href="#help-icon" /></svg>
+                        </button>
+						<div id="license-help" class="collapse">
+                            <p class="small margin-top-zero">Choose the exact Creative Commons license given to the work you’re adopting.</p>
+                            <p class="small">If the work is in the public domain, you have the option of noting whether it’s in the general public domain (general) or if it’s officially released under the Creative Commons public domain (CC0).</p>
+                        </div>
+                        <div>
+							<select name="license-select" id="license-select" class="form-select" size="9">
+								<option selected="">Choose a license...</option>
+								<!-- other options generated via javaScript -->
+							</select>
+						</div>
+						<div class="version-drop">
+							<label for="version">Version</label>
+							<select name="version" id="version" class="form-select-sm">
+								<option selected="">4.0</option>
+								<option>3.0</option>
+								<option>2.5</option>
+								<option>2.0</option>
+								<option>1.0</option>
+							</select>
+						</div>
+					</fieldset>   
+						<!-- END license -->
+					</div>
+				</div>
+				<div class="my-two-columns">
+					<div class="my-column">
+						<fieldset>
+							<!--<legend>Derivative option</legend>-->
+                            <input type="checkbox" id="derivative-check" name="derivative-check" class="form-check-input"  data-bs-toggle="collapse" data-bs-target="#derivative-url-container" aria-expanded="false" aria-controls="derivative-url-container">
+                            <label for="derivative-check">This work is a derivative</label>
+                            <button class="btn-help-deriv" type="button" data-bs-toggle="collapse" data-bs-target="#derivative-help" aria-expanded="false" aria-controls="derivative-help">
+                                <svg><use xlink:href="#help-icon" /></svg>
+                            </button> 
+							<div id="derivative-help" class="collapse">
+								<p class="small">If you are attributing a work based on or derived from existing works, please add a link to the original.</p>
+							</div>
+							<div id="derivative-url-container" class="collapse">
+								<div class="input-group margin-top-sm">
+									<label for="derivative-url" class="form-label">URL</label>
+									<input type="text" name="derivative-url" id="derivative-url" class="form-control">
+								</div>   
+							</div>
+						</fieldset>
+					</div>
+					<div class="my-column"><!-- Blank div to preserve alignment with two columns above --></div>
+				</div> 
+				<div class="btn-container">
+					<div>
+						<button id="copy-attribution" class="btn btn-primary">Copy attribution</button>
+						<button id="copy-html" class="btn btn-default">Copy html</button>
+					</div>
+					<hr />
+					<button id="reset" class="btn btn-default">Reset</button>
+				</div>
+			</form>
+			<!-- END form -->
 <p>grdgrdt dg drg drgdr</p>
 <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
