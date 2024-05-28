@@ -1,15 +1,11 @@
 <form onsubmit="event.preventDefault();">
-				<h2 class="visually-hidden">Enter the attribution details</h2>
-				<div class="my-two-columns">
-					<div class="my-column">
 						<!-- START title -->
 						<fieldset>
 							<legend class="visually-hidden">Enter the title and its url</legend>
-							<label for="title" class="h3 margin-top-zero">Title</label>
+							<label for="title">Title</label>
 							<div class="input-group margin-bot-md">
 								<input type="text" name="title" id="title" class="form-control">
 								<button id="title-help-button" class="btn btn-help" type="button" data-bs-toggle="collapse" data-bs-target="#title-help" aria-expanded="false" aria-controls="title-help"><span class="visually-hidden">Help</span>
-                                <svg><use xlink:href="#help-icon" /></svg>
                                 </button>
 								<div id="title-help" class="collapse">
 									<p class="small">List the title of the work you’re adopting. If you can’t locate the title please enter a more general term, such as “this work”, “this image”, etc.</p>
@@ -43,8 +39,6 @@
 							</div>
 						</fieldset>
 						<!-- END author -->
-					</div>
-					<div class="license-container my-column">
 						<!-- START license -->
 						<fieldset>
 						<legend class="visually-hidden">Choose a license and version</legend>
@@ -75,10 +69,6 @@
 						</div>
 					</fieldset>   
 						<!-- END license -->
-					</div>
-				</div>
-				<div class="my-two-columns">
-					<div class="my-column">
 						<fieldset>
 							<!--<legend>Derivative option</legend>-->
                             <input type="checkbox" id="derivative-check" name="derivative-check" class="form-check-input"  data-bs-toggle="collapse" data-bs-target="#derivative-url-container" aria-expanded="false" aria-controls="derivative-url-container">
@@ -96,13 +86,10 @@
 								</div>   
 							</div>
 						</fieldset>
-					</div>
-					<div class="my-column"><!-- Blank div to preserve alignment with two columns above --></div>
-				</div> 
 				<div class="btn-container">
 					<div>
-						<button id="copy-attribution" class="btn btn-primary">Copy attribution</button>
-						<button id="copy-html" class="btn btn-default">Copy html</button>
+						<button id="copy-attribution" class="btn btn-primary" onclick="console.log('Clicked attrib');">Copy attribution</button>
+						<button id="copy-html" class="btn btn-default" onclick="console.log('Clicked html');">Copy html</button>
 					</div>
 					<hr />
 					<button id="reset" class="btn btn-default">Reset</button>

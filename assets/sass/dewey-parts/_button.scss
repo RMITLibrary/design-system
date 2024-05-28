@@ -1,3 +1,8 @@
+.btn {
+	@include default-focus;
+}
+
+
 .btn-primary {
     position: relative;
     
@@ -6,16 +11,12 @@
     margin-right: 1rem;
     padding: 0.5rem 1rem;
     
-    &:focus {
-        @include element-focus;
-    }
-    
     &:hover {
         background-color: $blue-hover;
     }
 }
 
-.btn-outline-secondary, .btn-default, button {
+.btn-outline-secondary, .btn-default {
     position: relative;
     color: $rmit-blue;
     background-color: $white;
