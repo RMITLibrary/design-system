@@ -17,9 +17,9 @@ parent: "Introduction"
 <p>Dewey extends the bootstrap framework. View <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">detailed documentation</a> about this framework.</p>
 <a href="https://rmitlibrary.github.io/dewey-design/sass/dewey.min.css" class="link-large">Compiled css</a>
 
-<div class="list-of-links margin-top-xl">
+<div class="margin-top-xl">
 	<h3>Visual language</h3>
-	<ul>
+	<ul class="link-list">
 		<li><a href="/dewey-design/visual/breakpoints/">Breakpoints and columns</a></li>
         <li><a href="/dewey-design/visual/colour/">Colour</a></li>
         <li><a href="/dewey-design/visual/icons/">Icons</a></li>
@@ -28,19 +28,19 @@ parent: "Introduction"
 		<li><a href="/dewey-design/visual/typography/">Typography</a></li>
 	</ul>
 </div>
-<div class="list-of-links">
+<div>
 	<h3>Simple components</h3>
-	<ul>
+	<ul class="link-list">
 		<li><a href="/dewey-design/components-simple/accordions/">Accordions</a></li>
         <li><a href="/dewey-design/components-simple/blockquotes/">Blockquotes</a></li>
         <li><a href="/dewey-design/components-simple/buttons/">Buttons</a></li>
         <li><a href="/dewey-design/components-simple/tables/">Tables</a></li>
 	</ul>
 </div>
-<div class="list-of-links">
+<div>
 	<h3>Complex components</h3>
-	<ul>
-		<li><a href="/dewey-design/components-complex/blockquotes/">Footer</a></li>
+	<ul class="link-list">
+		<li><a href="/dewey-design/components-complex/footer/">Footer</a></li>
         <li><a href="/dewey-design/components-complex/images/">Images</a></li>
         <li><a href="/dewey-design/components-complex/navigation/">Navigation</a></li>
 		<li><a href="/dewey-design/components-complex/navigation/">Video</a></li>

@@ -33,11 +33,10 @@ hide_footer: false
 &lt;/nav&gt;</code>
 </pre></div>
 <a name="list-links"></a>
-<h2>List links</h2>
+<h2>Link list</h2>
 <p>An option to display a list of links while giving the list more prominence than a standard unordered list.</p>
-<div class="list-of-links">
-	<h3>Optional title</h3>
-	<ul>
+<div>
+	<ul class="link-list">
 		<li><a href="">Link 1</a></li>
 		<li><a href="">Link 2</a></li>
 		<li><a href="">Link 3</a></li>
@@ -47,29 +46,13 @@ hide_footer: false
 </div>
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;div class=&quot;list-of-links&quot;&gt;
-	&lt;h3&gt;Optional title&lt;/h3&gt;
-	&lt;ul&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 5&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/div&gt;</code>
-</pre></div>
-<p>By default, the component has a border at the top and a title. The title can be easily removed while the border can be removed by adding the class <code>no-border-top</code>.</p>
-<div class="highlight">
-<pre class="chroma">
-<code class="language-html">&lt;div class=&quot;list-of-links no-border-top&quot;&gt;
-	&lt;ul&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 5&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/div&gt;</code>
+<code class="language-html">&lt;ul class=&quot;link-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</code>
 </pre></div>
 <h2>More information</h2>
 <p>Have a look at the <a href="../../components-complex/navigation/">navigation page</a> to view more complex examples of links being used in the design system.</p>

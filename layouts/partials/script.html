@@ -1,12 +1,14 @@
 <script>
-
 //If true, menu covers content
 //If false, menu pushes content down
 var menuCover = true;   
     
 /* Grab both the menu button and the page content */
 var menuButton = document.getElementById("menu-button");
-var pageContent = document.getElementById("page-content"); 
+var pageContent = document.getElementById("page-content");
+    
+/* Store content scroll position */
+var scrollPosition;
   
 /* Store display status of menu */
 var menuDisplay = false;
@@ -23,13 +25,18 @@ function showHideMenu() {
     if(menuDisplay == false)
     {
         menuDisplay = true;
-        pageContent.style.display = "none";        
+        scrollPosition = window.scrollY;    
+        pageContent.style.display = "none"; 
     }
     else
     {
         menuDisplay = false;
-        pageContent.style.display = "block"; 
-       
+        pageContent.style.display = "block";
+        
+        /* Change scroll behaviour, jump to where the user had scrolled to on the page, then revert to smooth scrolling again. */
+        document.documentElement.style.scrollBehavior = "auto";
+        window.scroll(0, scrollPosition);
+        document.documentElement.style.scrollBehavior = "smooth";
     }
 }
 

@@ -314,17 +314,14 @@ hide_buttons: true
 </figure>
 <!-- END video -->
 <h3>Navigation</h3>
-<p>List links give an option to display a list of links while giving the list more prominence than a standard unordered list. This component are usually shown towards the bottom of the page. The title and the border can be <a href="../../visual/links#list-links">removed easily</a>.</p>
-<div class="list-of-links">
-	<h3>Optional title</h3>
-	<ul>
-		<li><a href="">Link 1</a></li>
-		<li><a href="">Link 2</a></li>
-		<li><a href="">Link 3</a></li>
-		<li><a href="">Link 4</a></li>
-		<li><a href="">Link 5</a></li>
-	</ul>
-</div>
+<p>List links give an option to display a list of links while giving the list more prominence than a standard unordered list.</p>
+<ul class="link-list">
+    <li><a href="">Link 1</a></li>
+    <li><a href="">Link 2</a></li>
+    <li><a href="">Link 3</a></li>
+    <li><a href="">Link 4</a></li>
+    <li><a href="">Link 5</a></li>
+</ul>
 <h2>Bottom of the page</h2>
 <p>In this page, we are displaying all possible options. It’s likely that in many contexts, only the footer itself would be displayed. For most pages, there won’t be any additional links. Keywords are only relevant for large sites that have a tagging system implemented.</p>
 <h3>Previous and next buttons</h3>
