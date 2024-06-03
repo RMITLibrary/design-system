@@ -50,16 +50,7 @@ hide_buttons: true
 <!-- END Example -->
 <h2>h2 - Sub heading</h2>
 <p>Morbi placerat quis velit sed lacinia. Sed efficitur volutpat sapien, at pretium sapien semper non. Nunc ac nibh mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-<div class="list-of-links">
-	<h3>h3 - Optional heading</h3>
-	<ul>
-		<li><a href="">Link 1</a></li>
-		<li><a href="">Link 2</a></li>
-		<li><a href="">Link 3</a></li>
-		<li><a href="">Link 4</a></li>
-		<li><a href="">Link 5</a></li>
-	</ul>
-</div>
+
 <p>Vivamus lobortis nisl lobortis ipsum porttitor, vitae venenatis mauris hendrerit. Donec vitae lacus et lorem molestie fringilla. Donec at erat vitae est placerat condimentum sit amet vitae urna. Phasellus finibus quis ex ut cursus. Sed at odio velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 <nav class="btn-nav-container" aria-label="Previous and next buttons">
     <a class="btn btn-nav-prev" href="" aria-label="Previous page">Previous page</a>

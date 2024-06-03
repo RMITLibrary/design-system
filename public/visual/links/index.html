@@ -22,42 +22,58 @@
 <body>
 <header>
 	<a href="#main-content" class="visually-hidden">Skip to main content</a>
-	<div class="header-bar">
+	<div class="top-navigation">
 		
 		<div class="container">
 			<div class="row">
 				
-				<div class="col-auto blergh">
-					
-					<div class="rmit-logo"></div>
-					<h2><a href="/dewey-design/">Learning lab</a></h2>
-					
+				<div class="col-auto left-nav">
+					<div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
+					<a href="/dewey-design/" class="h2">Design system<span class="visually-hidden">homepage</span></a>
 				</div>
 				
 				
 				<div class="col">
-					 
+					
+					<ul>
+						<li class="hide-sm">
+							<a href="https://www.rmit.edu.au/library">Library</a>
+						</li>
+						<li class="search">
+							<a id="search2">
+								<div class="search-label">Search</div>
+								<div class="mag-glass"></div>
+							</a>
+						</li>
+						<li class="menu">
+							<button id="menu-button" 
+							class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" 
+							data-bs-target="#context-menu" data-bs-display="static" aria-expanded="false" 
+							aria-controls="context-menu">Click for main menu</button>
+						</li>
+					</ul> 
 				</div>
 				
 			</div>
 		</div>
 		
 	</div>
+	
+	
+	
 
-	<nav id="nav-menu" class="collapse" aria-label="Main Menu">
+	<nav id="context-menu" class="collapse" aria-label="Main Menu">
 		
-		<div class="container">
+		<div class="container nav-container">
 			<div class="row">
 				
 				<div class="col">  
-					<ul>
-						<li><a href="">AGLC4</a></li>
-						<li><a href="">APA 7<sup>th</sup> edition</a></li>
-						<li class="selected">Chicago A</li>
-						<li><a href="">Chicago B</a></li>
-						<li><a href="">IEEE</a></li>
-						<li><a href="">RMIT Harvard</a></li>
-						<li><a href="">Vancouver</a></li>
+					<ul class="link-list-white">
+						<li><a href="/dewey-design/">Introduction</a></li>
+						<li><a href="/dewey-design/visual/breakpoints/">Visual language</a></li>
+						<li><a href="/dewey-design/components-simple/accordions/">Simple components</a></li>
+						<li><a href="/dewey-design/components-complex/footer/">Complex components</a></li>
+						<li><a href="/dewey-design/examples/">Examples</a></li>
 					</ul>
 				</div>
 				
@@ -322,11 +338,10 @@
 &lt;/nav&gt;</code>
 </pre></div>
 <a name="list-links"></a>
-<h2>List links</h2>
+<h2>Link list</h2>
 <p>An option to display a list of links while giving the list more prominence than a standard unordered list.</p>
-<div class="list-of-links">
-	<h3>Optional title</h3>
-	<ul>
+<div>
+	<ul class="link-list">
 		<li><a href="">Link 1</a></li>
 		<li><a href="">Link 2</a></li>
 		<li><a href="">Link 3</a></li>
@@ -336,29 +351,13 @@
 </div>
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;div class=&quot;list-of-links&quot;&gt;
-	&lt;h3&gt;Optional title&lt;/h3&gt;
-	&lt;ul&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 5&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/div&gt;</code>
-</pre></div>
-<p>By default, the component has a border at the top and a title. The title can be easily removed while the border can be removed by adding the class <code>no-border-top</code>.</p>
-<div class="highlight">
-<pre class="chroma">
-<code class="language-html">&lt;div class=&quot;list-of-links no-border-top&quot;&gt;
-	&lt;ul&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 5&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/div&gt;</code>
+<code class="language-html">&lt;ul class=&quot;link-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</code>
 </pre></div>
 <h2>More information</h2>
 <p>Have a look at the <a href="../../components-complex/navigation/">navigation page</a> to view more complex examples of links being used in the design system.</p>
@@ -740,12 +739,14 @@
 <script>
 
 
-
 var menuCover = true;   
     
  
 var menuButton = document.getElementById("menu-button");
-var pageContent = document.getElementById("page-content"); 
+var pageContent = document.getElementById("page-content");
+    
+ 
+var scrollPosition;
   
  
 var menuDisplay = false;
@@ -760,13 +761,18 @@ function showHideMenu() {
     if(menuDisplay == false)
     {
         menuDisplay = true;
-        pageContent.style.display = "none";        
+        scrollPosition = window.scrollY;    
+        pageContent.style.display = "none"; 
     }
     else
     {
         menuDisplay = false;
-        pageContent.style.display = "block"; 
-       
+        pageContent.style.display = "block";
+        
+         
+        document.documentElement.style.scrollBehavior = "auto";
+        window.scroll(0, scrollPosition);
+        document.documentElement.style.scrollBehavior = "smooth";
     }
 }
 

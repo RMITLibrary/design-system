@@ -22,42 +22,58 @@
 <body>
 <header>
 	<a href="#main-content" class="visually-hidden">Skip to main content</a>
-	<div class="header-bar">
+	<div class="top-navigation">
 		
 		<div class="container">
 			<div class="row">
 				
-				<div class="col-auto blergh">
-					
-					<div class="rmit-logo"></div>
-					<h2><a href="/dewey-design/">Learning lab</a></h2>
-					
+				<div class="col-auto left-nav">
+					<div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
+					<a href="/dewey-design/" class="h2">Design system<span class="visually-hidden">homepage</span></a>
 				</div>
 				
 				
 				<div class="col">
-					 
+					
+					<ul>
+						<li class="hide-sm">
+							<a href="https://www.rmit.edu.au/library">Library</a>
+						</li>
+						<li class="search">
+							<a id="search2">
+								<div class="search-label">Search</div>
+								<div class="mag-glass"></div>
+							</a>
+						</li>
+						<li class="menu">
+							<button id="menu-button" 
+							class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" 
+							data-bs-target="#context-menu" data-bs-display="static" aria-expanded="false" 
+							aria-controls="context-menu">Click for main menu</button>
+						</li>
+					</ul> 
 				</div>
 				
 			</div>
 		</div>
 		
 	</div>
+	
+	
+	
 
-	<nav id="nav-menu" class="collapse" aria-label="Main Menu">
+	<nav id="context-menu" class="collapse" aria-label="Main Menu">
 		
-		<div class="container">
+		<div class="container nav-container">
 			<div class="row">
 				
 				<div class="col">  
-					<ul>
-						<li><a href="">AGLC4</a></li>
-						<li><a href="">APA 7<sup>th</sup> edition</a></li>
-						<li class="selected">Chicago A</li>
-						<li><a href="">Chicago B</a></li>
-						<li><a href="">IEEE</a></li>
-						<li><a href="">RMIT Harvard</a></li>
-						<li><a href="">Vancouver</a></li>
+					<ul class="link-list-white">
+						<li><a href="/dewey-design/">Introduction</a></li>
+						<li><a href="/dewey-design/visual/breakpoints/">Visual language</a></li>
+						<li><a href="/dewey-design/components-simple/accordions/">Simple components</a></li>
+						<li><a href="/dewey-design/components-complex/footer/">Complex components</a></li>
+						<li><a href="/dewey-design/examples/example-1">Examples</a></li>
 					</ul>
 				</div>
 				
@@ -781,12 +797,14 @@
 <script>
 
 
-
 var menuCover = true;   
     
  
 var menuButton = document.getElementById("menu-button");
-var pageContent = document.getElementById("page-content"); 
+var pageContent = document.getElementById("page-content");
+    
+ 
+var scrollPosition;
   
  
 var menuDisplay = false;
@@ -801,13 +819,18 @@ function showHideMenu() {
     if(menuDisplay == false)
     {
         menuDisplay = true;
-        pageContent.style.display = "none";        
+        scrollPosition = window.scrollY;    
+        pageContent.style.display = "none"; 
     }
     else
     {
         menuDisplay = false;
-        pageContent.style.display = "block"; 
-       
+        pageContent.style.display = "block";
+        
+         
+        document.documentElement.style.scrollBehavior = "auto";
+        window.scroll(0, scrollPosition);
+        document.documentElement.style.scrollBehavior = "smooth";
     }
 }
 

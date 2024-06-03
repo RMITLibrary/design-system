@@ -30,12 +30,12 @@ html.nav-fixed {
 		z-index: 5;
 	}
 	
-	/*#sub-menu {
+	#sub-menu {
 		position: fixed;
 		padding-top: 2.5rem;
 		@include media-breakpoint-up(md) { padding-top: 3.5rem; }
 		z-index: 4;
-	}*/
+	}
     
     #context-menu {
         .nav-container {
@@ -216,9 +216,13 @@ html.nav-fixed {
 /* END sub-menu */
 
 
+
 #context-menu {
     color: $white;
     background-color: $rmit-blue;
+    
+    position: absolute;
+    width: 100%;
 
     .nav-container {
         min-height: 100vh;
@@ -266,3 +270,10 @@ html.nav-fixed {
 	}
 }
 /* END logo */
+
+#page-content {
+    .top-navigation {
+        position: relative;
+        z-index: 1;
+    }
+}

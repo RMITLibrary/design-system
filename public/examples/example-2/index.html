@@ -29,7 +29,7 @@
 				
 				<div class="col-auto left-nav">
 					<div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
-					<a href="/dewey-design/" class="h2">Learning lab <span class="visually-hidden">homepage</span></a>
+					<a href="/dewey-design/" class="h2">Design system<span class="visually-hidden">homepage</span></a>
 				</div>
 				
 				
@@ -40,12 +40,11 @@
 							<a href="https://www.rmit.edu.au/library">Library</a>
 						</li>
 						<li class="search">
-							<a href="/search/">
+							<a id="search2">
 								<div class="search-label">Search</div>
 								<div class="mag-glass"></div>
 							</a>
 						</li>
-						
 						<li class="menu">
 							<button id="menu-button" 
 							class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" 
@@ -62,7 +61,6 @@
 	
 	
 	
-	
 
 	<nav id="context-menu" class="collapse" aria-label="Main Menu">
 		
@@ -70,14 +68,12 @@
 			<div class="row">
 				
 				<div class="col">  
-					<ul>
-						<li><a href="">AGLC4</a></li>
-						<li><a href="">APA 7<sup>th</sup> edition</a></li>
-						<li class="selected">Chicago A</li>
-						<li><a href="">Chicago B</a></li>
-						<li><a href="">IEEE</a></li>
-						<li><a href="">RMIT Harvard</a></li>
-						<li><a href="">Vancouver</a></li>
+					<ul class="link-list-white">
+						<li><a href="/dewey-design/">Introduction</a></li>
+						<li><a href="/dewey-design/visual/breakpoints/">Visual language</a></li>
+						<li><a href="/dewey-design/components-simple/accordions/">Simple components</a></li>
+						<li><a href="/dewey-design/components-complex/footer/">Complex components</a></li>
+						<li><a href="/dewey-design/examples/example-1">Examples</a></li>
 					</ul>
 				</div>
 				
@@ -729,12 +725,14 @@ margin-top: -30px;" alt="blockquote example with illustrated quotation marks">
 <script>
 
 
-
 var menuCover = true;   
     
  
 var menuButton = document.getElementById("menu-button");
-var pageContent = document.getElementById("page-content"); 
+var pageContent = document.getElementById("page-content");
+    
+ 
+var scrollPosition;
   
  
 var menuDisplay = false;
@@ -749,13 +747,18 @@ function showHideMenu() {
     if(menuDisplay == false)
     {
         menuDisplay = true;
-        pageContent.style.display = "none";        
+        scrollPosition = window.scrollY;    
+        pageContent.style.display = "none"; 
     }
     else
     {
         menuDisplay = false;
-        pageContent.style.display = "block"; 
-       
+        pageContent.style.display = "block";
+        
+         
+        document.documentElement.style.scrollBehavior = "auto";
+        window.scroll(0, scrollPosition);
+        document.documentElement.style.scrollBehavior = "smooth";
     }
 }
 
