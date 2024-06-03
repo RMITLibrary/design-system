@@ -22,31 +22,51 @@
 <body>
 <header>
 	<a href="#main-content" class="visually-hidden">Skip to main content</a>
-	<div class="header-bar">
+	<div class="top-navigation">
 		
 		<div class="container">
 			<div class="row">
 				
-				<div class="col-auto blergh">
-					
-					<div class="rmit-logo"></div>
-					<h2><a href="/dewey-design/">Learning lab</a></h2>
-					
+				<div class="col-auto left-nav">
+					<div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
+					<a href="/dewey-design/" class="h2">Learning lab <span class="visually-hidden">homepage</span></a>
 				</div>
 				
 				
 				<div class="col">
-					 
+					
+					<ul>
+						<li class="hide-sm">
+							<a href="https://www.rmit.edu.au/library">Library</a>
+						</li>
+						<li class="search">
+							<a href="/search/">
+								<div class="search-label">Search</div>
+								<div class="mag-glass"></div>
+							</a>
+						</li>
+						
+						<li class="menu">
+							<button id="menu-button" 
+							class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" 
+							data-bs-target="#context-menu" data-bs-display="static" aria-expanded="false" 
+							aria-controls="context-menu">Click for main menu</button>
+						</li>
+					</ul> 
 				</div>
 				
 			</div>
 		</div>
 		
 	</div>
+	
+	
+	
+	
 
-	<nav id="nav-menu" class="collapse" aria-label="Main Menu">
+	<nav id="context-menu" class="collapse" aria-label="Main Menu">
 		
-		<div class="container">
+		<div class="container nav-container">
 			<div class="row">
 				
 				<div class="col">  
