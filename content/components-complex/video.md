@@ -127,7 +127,7 @@ parent: "Complex components"
 <!-- END video -->
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;figure class=&quot;video-wrapper&quot;&gt;
+<code class="language-html">&lt;figure class=&quot;video&quot;&gt;
 	&lt;div class=&quot;responsive-video&quot;&gt;
 		&lt;iframe src=&quot;https://www.youtube.com/embed/video-id&quot; frameborder=&quot;0&quot; 
 		allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;

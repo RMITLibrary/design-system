@@ -114,13 +114,7 @@ parent: "Complex components"
 <nav class="right-nav-simple margin-left-zero" aria-label="Section Menu">
     <ul>
         <li class="selected">Content page</li>
-        <li><a href="">Content page</a>
-            <ul>
-                <li><a href="">Content subpage</a></li>
-                <li><a href="">Content subpage</a></li>
-                <li><a href="">Content subpage</a></li>
-            </ul>
-        </li>
+        <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>
