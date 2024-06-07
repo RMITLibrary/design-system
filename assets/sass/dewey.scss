@@ -101,6 +101,17 @@ $enable-rfs: false;             //turn off responsive font scaling
 @import "app-specific/code-examples";
 @import "app-specific/colour-swatch";
 @import "app-specific/sidebar";
+
+
+.alert {
+    @include type-small;
+    .btn-close {
+        flex-shrink: 0;
+    }
+  
+}
+
+
     
 
 

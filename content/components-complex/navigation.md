@@ -53,7 +53,7 @@ parent: "Complex components"
         <li>
             <a href="">Content page</a>
             <ul>
-                <li class="selected">Content subpage</li>
+                <li class="selected"><a href="">Content subpage</a></li>
                 <li><a href="">Content subpage</a></li>
                 <li><a href="">Content subpage</a></li>
             </ul>
@@ -113,7 +113,7 @@ parent: "Complex components"
 <p>In some instances, a site might not need to display such a detailed hierarchy. For this flatter structure, a flatter navigation is available, dispensing with section and subsection links. Indentation on links is adjusted to suit. Use the class <strong>right-nav-simple</strong>.</p>
 <nav class="right-nav-simple margin-left-zero" aria-label="Section Menu">
     <ul>
-        <li class="selected">Content page</li>
+        <li class="selected"><a href="">Content subpage</a></li>
         <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>

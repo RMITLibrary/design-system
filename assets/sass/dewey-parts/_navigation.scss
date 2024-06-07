@@ -58,7 +58,7 @@
         a {
             display: inline-block;
             width: 100%;
-            padding: 0.75rem 1.5rem 0.75rem 3rem;
+            padding: 0.75rem 1.5rem 0.75rem 3rem;   //here
         }
     }
 
@@ -67,6 +67,10 @@
         border-left: 0.25rem solid $red;
         padding: 0.75rem 1.5rem 0.75rem 2.75rem;	//less 0.25rem to account for border
         background-color: $underlay-selected;
+        
+        a {
+            padding: 0;
+        }
     }
     
     /* nested lists - extend padding */
@@ -138,7 +142,7 @@
         a {
             display: inline-block;
             width: 100%;
-            padding: 0.25rem 2rem 0.75rem 2rem;
+            padding: 0.75rem 2rem 0.75rem 2rem; //here
         }
     }
 
@@ -147,6 +151,10 @@
         border-left: 0.25rem solid $red;
         padding: 0.75rem 1.5rem 0.75rem 1.75rem;	//less 0.25rem to account for border
         background-color: $underlay-selected;
+        
+        a {
+            padding: 0;
+        }
     }  
 }
 
