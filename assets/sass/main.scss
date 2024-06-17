@@ -38,7 +38,7 @@ $red: $rmit-red;
 
 /* link colours */
 $link-hover-color: $blue-hover;
-$link-hover-decoration: none;
+$link-hover-decoration: none; 
 
 $input-btn-focus-color: rgba(13, 110, 253, 0.5);
 
@@ -68,28 +68,28 @@ $enable-rfs: false;             //turn off responsive font scaling
 // 5. Add additional custom code here
 
 //Everything that doesn't fit elsewhere
-@import "dewey-parts/utilities";
+@import "design-system/utilities";
 
 //Visual language
-@import "dewey-parts/space";
-@import "dewey-parts/typography";
-@import "dewey-parts/links";
-@import "dewey-parts/forms";
+@import "design-system/space";
+@import "design-system/typography";
+@import "design-system/links";
+@import "design-system/forms";
 
 //Simple components
-@import 'dewey-parts/button';
-@import "dewey-parts/accordion";
-@import "dewey-parts/blockquote";
-@import 'dewey-parts/table';
+@import 'design-system/button';
+@import "design-system/accordion";
+@import "design-system/blockquote";
+@import 'design-system/table';
 
 //Complex components
-@import 'dewey-parts/footer';
-@import "dewey-parts/breadcrumbs";
-@import "dewey-parts/navigation";
-@import "dewey-parts/top-nav";
-@import 'dewey-parts/video-image';
+@import 'design-system/footer';
+@import "design-system/breadcrumbs";
+@import "design-system/navigation";
+@import "design-system/top-nav";
+@import 'design-system/video-image';
 
-@import 'dewey-parts/layout';
+@import 'design-system/layout';
 
 
 
@@ -100,7 +100,7 @@ $enable-rfs: false;             //turn off responsive font scaling
 
 @import "app-specific/code-examples";
 @import "app-specific/colour-swatch";
-@import "app-specific/sidebar";
+@import "app-specific/sidebar"; 
 
 
 .alert {

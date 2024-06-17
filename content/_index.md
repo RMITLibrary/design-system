@@ -4,8 +4,10 @@ name: Getting started
 parent: "Introduction"
 ---
 <h1 class="margin-top-zero">Getting started</h1>
-<p class="lead">The Dewey Design System aims to provide a set of reusable components that can be used and adapted to build a wide variety of website and web applications. The intention is that these different elements work together well and can be interchanged with a degree of modularity.</p>
-<p>It provides a flexible and esy to use starting point to develop your website, but may need additional features or adaptions specific to your project.</p>
+<p class="lead">This design system aims to provide a set of reuseable components for building products in the RMIT library digital ecosystem.</p>
+<p class="lead">These components work together well and can be interchanged with a degree of modularity. The system provides a flexible and easy to use starting point to design and develop your product (additional features or adaptions specific to your project may be required).</p>
+<p>The system has been designed and developed rapidly and is by no means comprehensive. The intention is to iterate and extend the system's capabilities over time, when and where design and development resources become available.
+</p>
 <h2>Benefits</h2>
 <ul>
 	<li>Consistency across different products, creating a sense of familiarity for our users (both students and educators)</li>
@@ -13,10 +15,46 @@ parent: "Introduction"
 	<li>Quicker progression from design to development</li>
 	<li>Easier to make changes across a number of products at once</li>
 </ul>
-<h2>Usage</h2>
-<p>Dewey extends the bootstrap framework. View <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">detailed documentation</a> about this framework.</p>
+<h2>Design</h2>
+<p><a href="https://www.figma.com/design/Yz0Lo4VBsmpcXAujA3HmFV/Dewey-design-library?node-id=1239-2&t=wuVhWJLsCMTMK5al-1">An extensive figma file is available.</a> This file contains both design specific documentation and components that can be laid out and altered to produce high fidelity prototypes. Figma makes it easy for these prototypes to be shared and for people to comment and collaborate on designs. It also features a  development mode which allows front-end developers to get stylesheet and markup information.</p>
 <a href="https://rmitlibrary.github.io/dewey-design/sass/dewey.min.css" class="link-large">Compiled css</a>
-
+<h2>Development</h2>
+<p>Dewey extends the <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">bootstrap framework </a>. There are two approaches to extending bootstrap. The simplest method is to first include the <a href="https://rmitlibrary.github.io/dewey-design/sass/dewey.min.css">compiled css</a> in the <code>&lt;head&gt;</code> section of your page. Then, add your own custom css directly after and overwrite and extend the styles required.</p>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;head&gt;
+	&lt;!-- link to design system css --&gt;
+	&lt;link href=&quot;https://rmitlibrary.github.io/dewey-design/sass/dewey.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;!-- link to your own custom styles --&gt;
+	&lt;link href=&quot;path.to/custom-styles.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;/head&gt;</code>
+</pre></div>
+<!--<a href="https://rmitlibrary.github.io/dewey-design/sass/dewey.min.css" class="link-large">Compiled css</a>-->
+<p>An alternative, which provides more flexibility, is to copy and compile the design system's scss files, resulting in a single css file. You'll need a <strong>sass compiler</strong> to carry out this method.  This allows your styles to access mixins and variables from both the design system and bootstrap itself. The core scss file is structured as follows:</p>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">Import bootstrap functions
+---
+Declare colour variables
+Declare other variables
+Declare typography variables
+---
+Import bootstrap styles
+---
+Import design system styles
+---
+Import app specific styles</code>
+</pre></div>
+<p>In terms of a file structure, try using this:</p>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">your-project/
+└── sass/
+    └── main.scss
+    └── app-specific/
+    └── bootstrap/
+    └── design-system/</code>
+</pre></div>
 <div class="margin-top-xl">
 	<h3>Visual language</h3>
 	<ul class="link-list">

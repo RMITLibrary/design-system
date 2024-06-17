@@ -99,6 +99,11 @@ html.nav-fixed {
 			color: $white;
 		}
 		
+		a:not([href]):not([class]), a:not([href]):not([class]):hover {
+		  color: $white;
+		  text-decoration: none;
+		}
+		
 		/* Use flex to position search label and mag glass side by side */
 		.search a {
 			display: flex;
