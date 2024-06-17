@@ -5,7 +5,7 @@ parent: "Visual language"
 hide_footer: false
 ---
 <h1 class="margin-top-zero">Colour</h1>
-<p class="lead">The Dewey design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.</p>
+<p class="lead">The design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.</p>
 <h2>Primary text</h2>
 <!-- START row -->
 <div class="row margin-top-lg">

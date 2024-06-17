@@ -6,7 +6,7 @@ hide_footer: false
 ---
 <h1 class="margin-top-zero">Breakpoints and columns</h1>
 <h2>Breakpoints</h2>
-<p>The Dewey design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.</p>
+<p>The design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.</p>
 <table class="table table-striped">
   <thead>
     <tr>
@@ -61,7 +61,7 @@ hide_footer: false
 </ul>
 <p>The development focus should be on Extra extra large, Extra large and X-small breakpoints (95% of all users use these breakpoints)</p>
 <h2>Columns</h2>
-<p>The Dewey design system uses Bootstrap 5’s column grid: 12 columns with 24px gutters (12px left and right)</p>
+<p>The design system uses Bootstrap 5’s column grid: 12 columns with 24px gutters (12px left and right)</p>
 <figure>
     <img src="../../images/columns.png" alt="" />
 </figure>

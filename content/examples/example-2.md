@@ -4,7 +4,7 @@ name: Example 2
 parent: "Examples"
 ---
 <ul class="breadcrumbs">
-	<li><a href="/dewey-design/" tabindex="-1">Home</a></li>
+	<li><a href="/design-system/" tabindex="-1">Home</a></li>
 	<li><a href="" tabindex="-1">Referencing</a></li>
 </ul>
 <a id="main-content"></a>

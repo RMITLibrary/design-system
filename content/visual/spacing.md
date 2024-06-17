@@ -5,7 +5,7 @@ parent: "Visual language"
 hide_footer: false
 ---
 <h1 class="margin-top-zero">Spacing</h1>
-<p class="lead">Dewey aims to create a generic spacing system, in an attempt to maintain consistency across different components. Hopefully, the system will also allow for flexibility in the future.</p>
+<p class="lead">The design system aims to create a generic spacing system, in an attempt to maintain consistency across different components. Hopefully, the system will also allow for flexibility in the future.</p>
 <h2>Base units</h2>
 <p><strong>Default unit (1rem = 16px)</strong></p>
 <p>A series of units created to space elements in the page content. This system allows for responsiveness, having different values for smaller and larger screen widths.</p>

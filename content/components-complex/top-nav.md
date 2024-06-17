@@ -69,7 +69,7 @@ parent: "Complex components"
             <!-- START left hand column -->
             <div class="col-auto left-nav">
                 <div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
-                <a href="/dewey-design/" class="h2">Optional title<span class="visually-hidden">homepage</span></a>
+                <a href="/design-system/" class="h2">Optional title<span class="visually-hidden">homepage</span></a>
             </div>
             <!-- END left hand column -->
             <!-- START right hand column -->
@@ -149,7 +149,7 @@ parent: "Complex components"
             <!-- START left hand column -->
             <div class="col-auto left-nav">
                 <div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
-                <a href="/dewey-design/" class="h2">Learning lab <span class="visually-hidden">homepage</span></a>
+                <a href="/design-system/" class="h2">Learning lab <span class="visually-hidden">homepage</span></a>
             </div>
             <!-- END left hand column -->
             <!-- START right hand column -->

@@ -6,7 +6,7 @@ hide_buttons: true
 ---
 <nav aria-label="breadcrumbs">
     <ul class="breadcrumbs">
-        <li><a href="/dewey-design/">Home</a></li>
+        <li><a href="/design-system/">Home</a></li>
         <li><a href="">Section</a></li>
         <li><a href="">Subsection</a></li>
         <li><a href="">Content page</a></li>

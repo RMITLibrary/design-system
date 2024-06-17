@@ -40,7 +40,7 @@
       <link>http://localhost:1313/design-system/introduction/anatomy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/introduction/anatomy/</guid>
-      <description>Home Section Subsection Content page Anatomy of a page Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the Dewey design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. This example shows both page content here on the left and a right hand navigation.</description>
+      <description>Home Section Subsection Content page Anatomy of a page Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. This example shows both page content here on the left and a right hand navigation.</description>
     </item>
     <item>
       <title>Anatomy of a page</title>
@@ -61,7 +61,7 @@
       <link>http://localhost:1313/design-system/visual/breakpoints/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/visual/breakpoints/</guid>
-      <description>Breakpoints and columns Breakpoints The Dewey design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.&#xA;Breakpoint Class infix Dimensions X-Small None &amp;lt;576px Small sm ≥576px Medium md ≥768px Large lg ≥992px Extra large xl ≥1200px Extra extra large xxl ≥1400px For screens &amp;lt;768px width (i.e. Small and X-small breakpoints), both the typography and spacing systems use smaller sizes. An example:</description>
+      <description>Breakpoints and columns Breakpoints The design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.&#xA;Breakpoint Class infix Dimensions X-Small None &amp;lt;576px Small sm ≥576px Medium md ≥768px Large lg ≥992px Extra large xl ≥1200px Extra extra large xxl ≥1400px For screens &amp;lt;768px width (i.e. Small and X-small breakpoints), both the typography and spacing systems use smaller sizes. An example:&#xA;More detail is available on the Typography and Spacing pages.</description>
     </item>
     <item>
       <title>Buttons</title>
@@ -75,7 +75,7 @@
       <link>http://localhost:1313/design-system/visual/colour/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/visual/colour/</guid>
-      <description>Colour The Dewey design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.&#xA;Primary text Dark Grey #333333&#xA;Primary colour for all text. RMIT Blue #000054&#xA;Used for links and titles Blue 70 #4D4D88</description>
+      <description>Colour The design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.&#xA;Primary text Dark Grey #333333&#xA;Primary colour for all text. RMIT Blue #000054&#xA;Used for links and titles Blue 70 #4D4D88</description>
     </item>
     <item>
       <title>Example 1</title>
@@ -131,7 +131,7 @@
       <link>http://localhost:1313/design-system/components-complex/images/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/components-complex/images/</guid>
-      <description>Images Dewey offers various options in displaying images including borders, alignment, sizing and adding captions and transcript accordions. Markup For images used in page content, wrap all &amp;lt;img&amp;gt; tags in a &amp;lt;figure&amp;gt; tag. Remember to include an alt tag.&#xA;&amp;lt;figure&amp;gt; &amp;lt;img src=&amp;rdquo;my-image.jpg&amp;rdquo; alt=&amp;rdquo;An example image&amp;rdquo; / &amp;gt; &amp;lt;/figure&amp;gt; Spacing By default, each image has a margin of space-large applied top and bottom&#xA;Border Add a border to your image using the class border.</description>
+      <description>Images The design system offers various options in displaying images including borders, alignment, sizing and adding captions and transcript accordions. Markup For images used in page content, wrap all &amp;lt;img&amp;gt; tags in a &amp;lt;figure&amp;gt; tag. Remember to include an alt tag.&#xA;&amp;lt;figure&amp;gt; &amp;lt;img src=&amp;rdquo;my-image.jpg&amp;rdquo; alt=&amp;rdquo;An example image&amp;rdquo; / &amp;gt; &amp;lt;/figure&amp;gt; Spacing By default, each image has a margin of space-large applied top and bottom&#xA;Border Add a border to your image using the class border.</description>
     </item>
     <item>
       <title>Layouts</title>
@@ -159,7 +159,7 @@
       <link>http://localhost:1313/design-system/visual/spacing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/visual/spacing/</guid>
-      <description>Spacing Dewey aims to create a generic spacing system, in an attempt to maintain consistency across different components. Hopefully, the system will also allow for flexibility in the future.&#xA;Base units Default unit (1rem = 16px)&#xA;A series of units created to space elements in the page content. This system allows for responsiveness, having different values for smaller and larger screen widths.&#xA;Name Small (width &amp;lt; 768px) Medium, large etc. (width ≥ 768px) space-xs 1rem (16px) 1rem (16px) space-sm 1rem (16px) 1.</description>
+      <description>Spacing The design system aims to create a generic spacing system, in an attempt to maintain consistency across different components. Hopefully, the system will also allow for flexibility in the future.&#xA;Base units Default unit (1rem = 16px)&#xA;A series of units created to space elements in the page content. This system allows for responsiveness, having different values for smaller and larger screen widths.&#xA;Name Small (width &amp;lt; 768px) Medium, large etc.</description>
     </item>
     <item>
       <title>Tables</title>

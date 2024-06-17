@@ -4,7 +4,7 @@ name: Images
 parent: "Complex components"
 ---
 <h1 class="margin-top-zero">Images</h1>
-<p class="lead">Dewey offers various options in displaying images including  borders, alignment, sizing and adding captions and transcript accordions.
+<p class="lead">The design system offers various options in displaying images including  borders, alignment, sizing and adding captions and transcript accordions.
 </p>
 <h2>Markup</h2>
 <p>For images used in page content, wrap all <code>&lt;img&gt;</code> tags in a <code>&lt;figure&gt;</code> tag. Remember to include an alt tag.</p>
