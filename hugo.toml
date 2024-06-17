@@ -1,6 +1,6 @@
-baseURL = 'https://rmitlibrary.github.io/dewey-design/'
+baseURL = 'https://rmitlibrary.github.io/design-system/'
 languageCode = 'en-au'
-title = 'Dewey design system'
+title = 'Design system'
 
 [params]
 name = 'Simba'
