@@ -38,7 +38,7 @@ parent: "Complex components"
 <!-- END video -->
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;figure class=&quot;video-wrapper&quot;&gt;
+<code class="language-html">&lt;figure class=&quot;video&quot;&gt;
 	&lt;div class=&quot;responsive-video&quot;&gt;
 		&lt;iframe src=&quot;https://www.youtube.com/embed/video-id&quot; frameborder=&quot;0&quot; 
 		allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -58,12 +58,12 @@ parent: "Complex components"
 	</div>
 <!-- START accordion item -->
 <div class="accordion-item transcript">
-    <p class="accordion-header" id="Transcript-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Transcript-collapseTwo" aria-expanded="false" aria-controls="Transcript-collapseTwo">
+    <p class="accordion-header" id="Transcript-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Transcript-collapseOne" aria-expanded="false" aria-controls="Transcript-collapseOne">
         Transcript
       </button>
     </p>
-    <div id="Transcript-collapseTwo" class="accordion-collapse collapse" aria-labelledby="Transcript-headingTwo">
+    <div id="Transcript-collapseOne" class="accordion-collapse collapse" aria-labelledby="Transcript-headingOne">
       <div class="accordion-body">
 <p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
 <p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>

@@ -26,7 +26,7 @@
       <link>http://localhost:1313/design-system/introduction/accessibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/introduction/accessibility/</guid>
-      <description>Accessibility Content to be written</description>
+      <description>Accessibility The design system aims to comply with WCAG 2.0 AAA compliance, as set out in RMIT&#39;s digital accessibility framework.&#xA;Semantics Headings should be deployed with a clear hierarchy. Try to avoid using a particular heading because the size looks visually appealing. Rather, take advantage of helper classes which can override the default heading style:&#xA;A smaller heading 2 &amp;lt;h2 class=&amp;quot;h4&amp;quot;&amp;gt;A smaller heading 2&amp;lt;/h2&amp;gt; Look to use landmarks such as &amp;lt;main&amp;gt;, &amp;lt;nav&amp;gt;, &amp;lt;footer&amp;gt; and &amp;lt;section&amp;gt;.</description>
     </item>
     <item>
       <title>Accordions</title>
@@ -110,7 +110,7 @@
       <link>http://localhost:1313/design-system/components-complex/footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/components-complex/footer/</guid>
-      <description>Footer Content to be written</description>
+      <description>Footer Typically, the footer consists of three basic parts, ask the library, acknowledgment of country and the general RMIT footer. The basic structure is as follows: &amp;lt;div class=&amp;quot;footer-container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col&amp;quot;&amp;gt; &amp;lt;!-- START ask the library --&amp;gt; ... &amp;lt;!-- END ask the library --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;acknowledgement&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col&amp;quot;&amp;gt; &amp;lt;!-- START acknowledgement --&amp;gt; ... &amp;lt;!-- END acknowledgement --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;footer&amp;gt; &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col&amp;quot;&amp;gt; &amp;lt;!</description>
     </item>
     <item>
       <title>Help</title>

@@ -36,12 +36,7 @@
 						<li class="hide-sm">
 							<a href="https://www.rmit.edu.au/library">Library</a>
 						</li>
-						<li class="search">
-							<a id="search2">
-								<div class="search-label">Search</div>
-								<div class="mag-glass"></div>
-							</a>
-						</li>
+						
 						<li class="menu">
 							<button id="menu-button" 
 							class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" 
@@ -84,7 +79,7 @@
 </header>
 
 <div id="page-content">
-    <main class="container main-content">
+    <main class="container">
         <div class="row ">
 			
             <div class="col-xl-4 order-last">
@@ -92,7 +87,6 @@
 
 
 <nav class="right-nav-accordion">
-    
 
     
         
@@ -126,10 +120,6 @@
                     
                         
                         <li><a href="/design-system/introduction/anatomy/">Anatomy of a page</a></li>
-                        
-                    
-                        
-                        <li><a href="/design-system/introduction/headings/">Headings</a></li>
                         
                     
                 </ul>
@@ -304,7 +294,7 @@
             </div>
             
             
-            <div class="col-xl-8 order-first">
+            <div class="col-xl-8 order-first" id="main-content">
                 
  <h1 class="margin-top-zero">Getting started</h1>
 <p class="lead">This design system aims to provide a set of reuseable components for building products in the RMIT library digital ecosystem.</p>
@@ -320,7 +310,7 @@
 </ul>
 <h2>Design</h2>
 <p><a href="https://www.figma.com/design/Yz0Lo4VBsmpcXAujA3HmFV/Library-design-system?node-id=1239-2">An extensive figma file is available.</a> This file contains both design specific documentation and components that can be laid out and altered to produce high fidelity prototypes. Figma makes it easy for these prototypes to be shared and for people to comment and collaborate on designs. It also features a  development mode which allows front-end developers to get stylesheet and markup information.</p>
-<a href="https://rmitlibrary.github.io/design-system/sass/main.min.css" class="link-large">Compiled css</a>
+<!--<a href="https://rmitlibrary.github.io/design-system/sass/main.min.css" class="link-large">Compiled css</a>-->
 <h2>Development</h2>
 <p>The design system extends the <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">bootstrap framework </a>. There are two approaches to extending bootstrap. The simplest method is to first include the <a href="https://rmitlibrary.github.io/design-system/sass/main.min.css">compiled css</a> in the <code>&lt;head&gt;</code> section of your page. Then, add your own custom css directly after and overwrite and extend the styles required.</p>
 <div class="highlight">
@@ -413,15 +403,6 @@ Import app specific styles</code>
 					
 					
 					
-				
-				
-				
-					
-					
-					
-				
-			
-				
 				
 				
 				
@@ -637,7 +618,6 @@ Import app specific styles</code>
         </div>
     </main>
     
- 
 <div class="footer-container">
 	<div class="container">
         <div class="row">
@@ -645,7 +625,7 @@ Import app specific styles</code>
 				
 				<div class="ask-container">
 					
-					<div class="ask-the-library">
+					<section class="ask-the-library">
 						<a href="https://www.rmit.edu.au/library/about-and-contacts/ask-the-library">
 							<img src="https://rmitlibrary.github.io/cdn/image/svg/ask-the-library.svg" class="ask-logo" alt="Ask the library" />
 							<div class="ask-text">
@@ -653,7 +633,7 @@ Import app specific styles</code>
 								<p>The RMIT University Library provides study support, one-on-one consultations and peer mentoring to RMIT students.</p>
 							</div>
 						</a>
-					</div>
+					</section>
 			
 				</div>
 				
@@ -665,7 +645,7 @@ Import app specific styles</code>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="acknowledgement-container">
+                    <section class="acknowledgement-container">
                         <div class="acknowledgement-image">
                             <img src="https://www.rmit.edu.au/content/dam/rmit/images/luwaytini.png" alt="" />
                         </div>
@@ -678,7 +658,7 @@ Import app specific styles</code>
                             <p>RMIT University acknowledges the people of the Woi wurrung and Boon wurrung language groups of the eastern Kulin Nation on whose unceded lands we conduct the business of the University. RMIT University respectfully acknowledges their Ancestors and Elders, past and present. RMIT also acknowledges the Traditional Custodians and their Ancestors of the lands and waters across Australia where we conduct our business - Artwork 'Luwaytini' by Mark Cleaver, Palawa.</p>
                             <a href="#" class="link-large">More information</a>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
         </div>

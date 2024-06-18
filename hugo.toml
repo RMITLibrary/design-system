@@ -33,11 +33,7 @@ unsafe = true
         url = "/introduction/anatomy/"
         parent = "Introduction"
         weight = 105
-    [[menu.main]]
-        name = "Headings"
-        url = "/introduction/headings/"
-        parent = "Introduction"
-        weight = 106
+    
     [[menu.main]]
         name = "Visual language"
         url = "/visual/"

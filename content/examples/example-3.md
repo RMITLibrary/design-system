@@ -104,7 +104,7 @@ parent: "Examples"
 <!-- END accordion item -->
 </figure>
 <!-- END video -->
-<blockquote class="link">
+<blockquote class="complex">
 	<a href="../../visual/links">
         <div class="content">
             <h3>Evaluating market information</h3>

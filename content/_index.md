@@ -17,7 +17,7 @@ parent: "Introduction"
 </ul>
 <h2>Design</h2>
 <p><a href="https://www.figma.com/design/Yz0Lo4VBsmpcXAujA3HmFV/Library-design-system?node-id=1239-2">An extensive figma file is available.</a> This file contains both design specific documentation and components that can be laid out and altered to produce high fidelity prototypes. Figma makes it easy for these prototypes to be shared and for people to comment and collaborate on designs. It also features a  development mode which allows front-end developers to get stylesheet and markup information.</p>
-<a href="https://rmitlibrary.github.io/design-system/sass/main.min.css" class="link-large">Compiled css</a>
+<!--<a href="https://rmitlibrary.github.io/design-system/sass/main.min.css" class="link-large">Compiled css</a>-->
 <h2>Development</h2>
 <p>The design system extends the <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">bootstrap framework </a>. There are two approaches to extending bootstrap. The simplest method is to first include the <a href="https://rmitlibrary.github.io/design-system/sass/main.min.css">compiled css</a> in the <code>&lt;head&gt;</code> section of your page. Then, add your own custom css directly after and overwrite and extend the styles required.</p>
 <div class="highlight">

@@ -6,9 +6,9 @@ hide_buttons: true
 ---
 <ul class="breadcrumbs">
 	<li><a href="/design-system/" tabindex="-1">Home</a></li>
-	<li><a href="" tabindex="-1">Section</a></li>
-	<li><a href="" tabindex="-1">Subsection</a></li>
-	<li><a href="" tabindex="-1">Content page</a></li>
+	<li><a href="/design-system/" tabindex="-1">Section</a></li>
+	<li><a href="/design-system/" tabindex="-1">Subsection</a></li>
+	<li><a href="/design-system/" tabindex="-1">Content page</a></li>
 </ul>
 <a id="main-content"></a>
 <h1 class="margin-top-zero">Anatomy of a page</h1>

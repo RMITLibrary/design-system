@@ -6,7 +6,7 @@
 <body>
 {{ partial "top-nav.html" }}
 <div id="page-content">
-    <main class="container main-content">
+    <main class="container">
         <div class="row ">
 			<!-- START right nav -->
             <div class="col-xl-4 order-last">
@@ -14,7 +14,7 @@
             </div>
             <!-- END right nav -->
             <!-- START content -->
-            <div class="col-xl-8 order-first">
+            <div class="col-xl-8 order-first" id="main-content">
                 {{ block "main" . }}
                 {{ end }}
                 {{ partial "prev-next" . }}

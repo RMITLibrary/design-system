@@ -35,12 +35,7 @@
 						<li class="hide-sm">
 							<a href="https://www.rmit.edu.au/library">Library</a>
 						</li>
-						<li class="search">
-							<a id="search2">
-								<div class="search-label">Search</div>
-								<div class="mag-glass"></div>
-							</a>
-						</li>
+						
 						<li class="menu">
 							<button id="menu-button" 
 							class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" 
@@ -83,7 +78,7 @@
 </header>
 
 <div id="page-content">
-    <main class="container main-content">
+    <main class="container">
         <div class="row ">
 			
             <div class="col-xl-4 order-last">
@@ -91,7 +86,6 @@
 
 
 <nav class="right-nav-accordion">
-    
 
     
         
@@ -122,10 +116,6 @@
                     
                         
                         <li><a href="/design-system/introduction/anatomy/">Anatomy of a page</a></li>
-                        
-                    
-                        
-                        <li><a href="/design-system/introduction/headings/">Headings</a></li>
                         
                     
                 </ul>
@@ -303,7 +293,7 @@
             </div>
             
             
-            <div class="col-xl-8 order-first">
+            <div class="col-xl-8 order-first" id="main-content">
                 
  <h1 class="margin-top-zero">Colour</h1>
 <p class="lead">The design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.</p>
@@ -458,23 +448,7 @@
 	</div>
 </div>
 <!-- END row -->
-<!-- START row -->
-<div class="row">
-	<div class="col-md-6">
-		<!-- START swatch left -->
-		<div class="swatch">
-			<div class="colour colour-bg-underlay-hover"></div>
-			<div class="description">
-				<h5>Underlay Hover</h5>
-				<p class="small">
-					<code>#FAFAFA</code><br />Hover state for underlay-grey.
-				</p>
-			</div>
-		</div>
-		<!-- END swatch left -->
-	</div>
-</div>
-<!-- END row -->
+<a name="contrast-table"></a>
 <h2>Contrast ratio</h2>
 <div class="table-responsive">
 <table class="table table-striped">
@@ -535,14 +509,7 @@
 		<span class="colour-bg-sm colour-bg-underlay-grey">&nbsp;</span>
 		RMIT Blue on Underlay Grey</td>
 	<td><a href="https://www.siegemedia.com/contrast-ratio#%23000054-on-%23f5f5f5">17.07</a></td>
-</tr> 
-<tr>
-	<td>
-		<span class="colour-bg-sm colour-bg-rmit-blue">&nbsp;</span>
-		<span class="colour-bg-sm colour-bg-underlay-hover">&nbsp;</span>
-		RMIT Blue on Underlay Hover</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%23000054-on-%23fafafa">17.83</a></td>
-</tr> 
+</tr>  
 <tr>
 	<td>
 		<span class="colour-bg-sm colour-bg-rmit-blue">&nbsp;</span>
@@ -565,13 +532,6 @@
 		Blue Hover on Underlay Grey</td>
 	<td><a href="https://www.siegemedia.com/contrast-ratio#%230051A8-on-%23f5f5f5">7.02</a></td>
 </tr> 
-<tr>
-	<td>
-		<span class="colour-bg-sm colour-bg-blue-hover">&nbsp;</span>
-		<span class="colour-bg-sm colour-bg-underlay-hover">&nbsp;</span>
-		Blue Hover on Underlay Hover</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%230051A8-on-%23fafafa">7.33</a></td>
-</tr>
 <!--
 <tr>
 	<td>
@@ -675,15 +635,6 @@
 	<nav class="btn-nav-container" aria-label="Previous and next pages">
 	
 		
-			
-				
-				
-				
-				
-					
-					
-					
-				
 			
 				
 				
@@ -918,7 +869,6 @@
         </div>
     </main>
     
- 
 <div class="footer-container">
 	<div class="container">
         <div class="row">
@@ -926,7 +876,7 @@
 				
 				<div class="ask-container">
 					
-					<div class="ask-the-library">
+					<section class="ask-the-library">
 						<a href="https://www.rmit.edu.au/library/about-and-contacts/ask-the-library">
 							<img src="https://rmitlibrary.github.io/cdn/image/svg/ask-the-library.svg" class="ask-logo" alt="Ask the library" />
 							<div class="ask-text">
@@ -934,7 +884,7 @@
 								<p>The RMIT University Library provides study support, one-on-one consultations and peer mentoring to RMIT students.</p>
 							</div>
 						</a>
-					</div>
+					</section>
 			
 				</div>
 				
@@ -946,7 +896,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="acknowledgement-container">
+                    <section class="acknowledgement-container">
                         <div class="acknowledgement-image">
                             <img src="https://www.rmit.edu.au/content/dam/rmit/images/luwaytini.png" alt="" />
                         </div>
@@ -959,7 +909,7 @@
                             <p>RMIT University acknowledges the people of the Woi wurrung and Boon wurrung language groups of the eastern Kulin Nation on whose unceded lands we conduct the business of the University. RMIT University respectfully acknowledges their Ancestors and Elders, past and present. RMIT also acknowledges the Traditional Custodians and their Ancestors of the lands and waters across Australia where we conduct our business - Artwork 'Luwaytini' by Mark Cleaver, Palawa.</p>
                             <a href="#" class="link-large">More information</a>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
         </div>

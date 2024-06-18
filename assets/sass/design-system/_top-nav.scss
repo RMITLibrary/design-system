@@ -3,9 +3,10 @@ body {
 }
 
 /* Space between top nav and content if top nav is NOT fixed */
-.main-content {
+#page-content {
 	padding-top: 4rem;
 	@include media-breakpoint-down(md) { padding-top: 2.5rem; }
+	//background-color: pink;
 }
 
 #nav-menu {
@@ -20,7 +21,7 @@ html.nav-fixed {
 	scroll-padding-top: 6rem;
 	@include media-breakpoint-down(md) { scroll-padding-top: 4rem; }
 	
-	.main-content {
+	#page-content {
 		padding-top: 7.5rem;
 		@include media-breakpoint-down(md) { padding-top: 5.5rem; }
 	}
