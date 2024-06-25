@@ -40,7 +40,7 @@
       <link>http://localhost:1313/design-system/introduction/anatomy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/introduction/anatomy/</guid>
-      <description>Home Section Subsection Content page Anatomy of a page Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. This example shows both page content here on the left and a right hand navigation.</description>
+      <description>Home Section Subsection Content page Anatomy of a page Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. This example shows both page content here on the left and navigation on the right.</description>
     </item>
     <item>
       <title>Anatomy of a page</title>
@@ -153,6 +153,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/components-complex/navigation/</guid>
       <description>Navigation There are several recommended approaches to providing navigation. Using breadcrumbs at the top of the page is a simple and compact way of showing the user the website hierarchy. The right nav offers several options for providing more detailed navigation and could be useful for larger, more complex sites.&#xA;Breadcrumbs Breadcrumbs are usually placed at the top of the page, close to the page title, to help navigate sites with multiple content levels.</description>
+    </item>
+    <item>
+      <title>Page shell</title>
+      <link>http://localhost:1313/design-system/introduction/page-shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design-system/introduction/page-shell/</guid>
+      <description>Page shell This page outlines the basic structure in which various content and components can be placed. Basic structure &amp;lt;!doctype html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- Page title and stylesheets are placed here --&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;header&amp;gt; &amp;lt;!-- Top navigation is placed here --&amp;gt; &amp;lt;/header&amp;gt; &amp;lt;div id=&amp;quot;page-content&amp;quot;&amp;gt; &amp;lt;main class=&amp;quot;container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col-xl-4 order-last&amp;quot;&amp;gt; &amp;lt;!-- Right navigation is placed here --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-xl-8 order-first&amp;quot; id=&amp;quot;main-content&amp;quot;&amp;gt; &amp;lt;!-- Page content is placed here --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/main&amp;gt; &amp;lt;div class=&amp;quot;footer-container&amp;quot;&amp;gt; &amp;lt;!</description>
     </item>
     <item>
       <title>Spacing</title>

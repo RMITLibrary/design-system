@@ -12,14 +12,14 @@
       <link>http://localhost:1313/design-system/introduction/accessibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/introduction/accessibility/</guid>
-      <description>Accessibility Content to be written</description>
+      <description>Accessibility The design system aims to comply with WCAG 2.0 AAA compliance, as set out in RMIT&#39;s digital accessibility framework.&#xA;Semantics Headings should be deployed with a clear hierarchy. Try to avoid using a particular heading because the size looks visually appealing. Rather, take advantage of helper classes which can override the default heading style:&#xA;A smaller heading 2 &amp;lt;h2 class=&amp;quot;h4&amp;quot;&amp;gt;A smaller heading 2&amp;lt;/h2&amp;gt; Look to use landmarks such as &amp;lt;main&amp;gt;, &amp;lt;nav&amp;gt;, &amp;lt;footer&amp;gt; and &amp;lt;section&amp;gt;.</description>
     </item>
     <item>
       <title>Anatomy of a page</title>
       <link>http://localhost:1313/design-system/introduction/anatomy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/introduction/anatomy/</guid>
-      <description>Home Section Subsection Content page Anatomy of a page Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. This example shows both page content here on the left and a right hand navigation.</description>
+      <description>Home Section Subsection Content page Anatomy of a page Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. This example shows both page content here on the left and navigation on the right.</description>
     </item>
     <item>
       <title>Anatomy of a page</title>
@@ -34,6 +34,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/introduction/help/</guid>
       <description>Help Content to be written</description>
+    </item>
+    <item>
+      <title>Page shell</title>
+      <link>http://localhost:1313/design-system/introduction/page-shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/design-system/introduction/page-shell/</guid>
+      <description>Page shell This page outlines the basic structure in which various content and components can be placed. Basic structure &amp;lt;!doctype html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- Page title and stylesheets are placed here --&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;header&amp;gt; &amp;lt;!-- Top navigation is placed here --&amp;gt; &amp;lt;/header&amp;gt; &amp;lt;div id=&amp;quot;page-content&amp;quot;&amp;gt; &amp;lt;main class=&amp;quot;container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col-xl-4 order-last&amp;quot;&amp;gt; &amp;lt;!-- Right navigation is placed here --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-xl-8 order-first&amp;quot; id=&amp;quot;main-content&amp;quot;&amp;gt; &amp;lt;!-- Page content is placed here --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/main&amp;gt; &amp;lt;div class=&amp;quot;footer-container&amp;quot;&amp;gt; &amp;lt;!</description>
     </item>
   </channel>
 </rss>

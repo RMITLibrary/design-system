@@ -24,9 +24,9 @@ unsafe = true
         url = "/introduction/accessibility/"
         weight = 103
     [[menu.main]]
-        name = "Help"
+        name = "Page shell"
         parent = "Introduction"
-        url = "/introduction/help/"
+        url = "/introduction/page-shell/"
         weight = 104   
     [[menu.main]]
         name = "Anatomy of a page"

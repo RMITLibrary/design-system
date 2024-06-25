@@ -13,7 +13,7 @@ hide_buttons: true
 <a id="main-content"></a>
 <h1 class="margin-top-zero">Anatomy of a page</h1>
 <p class="lead">Lead paragraph (p class=”lead”). This page aims to show the basic building blocks of a page build using the design system. While different layouts will vary from this formula, this structure should be used as a starting point and altered to suit a website’s specific purpose. </p>
-<p>This example shows both page content here on the left and a right hand navigation. Here the page content occupies 8 bootstrap columns, while the optional navigation takes up 4 columns. Extra margin is added on the left of the navigation as the default space between columns is visually a little tight.</p>
+<p>This example shows both page content here on the left and navigation on the right. Here the page content occupies 8 bootstrap columns, while the optional navigation takes up 4 columns. Extra margin is added on the left of the navigation as the default space between columns is visually a little tight.</p>
 <p>Typically the <a href="../../components-complex/navigation#right-nav">right hand navigation</a> would drop below the previous and next buttons on screens smaller than 1200px (breakpoints X-Small, Small, Medium, Large).  If the right hand navigation omitted, it’s still recommended that text only occupy 8 columns at large breakpoints, to keep line length readable and easily scannable.</p>
 <a href="../../visual/breakpoints/" class="link-large">Link large (links to breakpoints)</a>
 <h2>Top navigation</h2>

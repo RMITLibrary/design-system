@@ -26,6 +26,7 @@ hide_footer: false
 </p>
 <p>Due to contrast ratio constraints, links should only be presented on white or Underlay Grey backgrounds.</p>
 <p><a href="/design-system/visual/links/" class="link-large">More information on links</a></p>
+<a name="page-structure"></a>
 <h2>Page structure</h2>
 <p>While visually, navigation is often presented to the right of the content, Semantically, navigation is listed before content to clearly describe the hierarchy of the page to a blind user. As this user traverses through the pages of the site, this can get tedious. To mitigate this, a visually hidden skip to content link should be provided. Here is an example of how this might function:</p>
 <div class="highlight">
