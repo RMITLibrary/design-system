@@ -25,3 +25,8 @@ RMIT University Collection<br />
 		<!-- lots of additional accordion code goes here -->	
 	</div>
 </figure>
+
+<figure>
+	<img src="https://learninglab.rmit.edu.au/sites/default/files/1474StevenRendallImage1.jpg" alt="An example image" />
+	<figcaption>An example caption for this image.</figcaption>
+</figure>
