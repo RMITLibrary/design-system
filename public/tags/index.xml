@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Design system</title>
-    <link>http://localhost:1313/design-system/tags/</link>
+    <link>http://localhost:65511/design-system/tags/</link>
     <description>Recent content in Tags on Design system</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <atom:link href="http://localhost:1313/design-system/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:65511/design-system/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
