@@ -22,9 +22,9 @@
                 <ul>
                     {{ range .Children }}
                         {{ if eq $pageName .Name }}
-                            <li class="selected">{{ .Name }}</li>
+							<li><a href="{{ .URL }}" class="selected" aria-current="aria-current">{{ .Name }}</a></li>
                         {{ else }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        	<li><a href="{{ .URL }}">{{ .Name }}</a></li>
                         {{ end }}
                     {{ end }}
                 </ul>
