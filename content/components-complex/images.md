@@ -246,3 +246,11 @@ parent: "Complex components"
 	&lt;!-- END accordion item --&gt;
 &lt;/figure&gt;</code>
 </pre></div>
+<!-- START figure portrait default -->
+<figure class="portrait-small">
+	<div class="image-caption-wrapper">
+		<img src="/design-system/images/tall-portrait.jpg" alt="" />
+		<figcaption>An example caption for this image.</figcaption>
+	</div>
+</figure>
+<!-- END figure portrait default -->
