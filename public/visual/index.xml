@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visual Language on Design system</title>
-    <link>http://localhost:59659/design-system/visual/</link>
+    <link>http://localhost:49905/design-system/visual/</link>
     <description>Recent content in Visual Language on Design system</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <atom:link href="http://localhost:59659/design-system/visual/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:49905/design-system/visual/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breakpoints and columns</title>
-      <link>http://localhost:59659/design-system/visual/breakpoints/</link>
+      <link>http://localhost:49905/design-system/visual/breakpoints/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59659/design-system/visual/breakpoints/</guid>
+      <guid>http://localhost:49905/design-system/visual/breakpoints/</guid>
       <description>Breakpoints and columns Breakpoints The design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.&#xA;Breakpoint Class infix Dimensions X-Small None &amp;lt;576px Small sm ≥576px Medium md ≥768px Large lg ≥992px Extra large xl ≥1200px Extra extra large xxl ≥1400px For screens &amp;lt;768px width (i.e. Small and X-small breakpoints), both the typography and spacing systems use smaller sizes. An example:&#xA;More detail is available on the Typography and Spacing pages.</description>
     </item>
     <item>
       <title>Colour</title>
-      <link>http://localhost:59659/design-system/visual/colour/</link>
+      <link>http://localhost:49905/design-system/visual/colour/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59659/design-system/visual/colour/</guid>
+      <guid>http://localhost:49905/design-system/visual/colour/</guid>
       <description>Colour The design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.&#xA;Primary text Dark Grey #333333&#xA;Primary colour for all text. RMIT Blue #000054&#xA;Used for links and titles Blue 70 #4D4D88</description>
     </item>
     <item>
       <title>Icons</title>
-      <link>http://localhost:59659/design-system/visual/icons/</link>
+      <link>http://localhost:49905/design-system/visual/icons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59659/design-system/visual/icons/</guid>
+      <guid>http://localhost:49905/design-system/visual/icons/</guid>
       <description>Icons Icons are used sparingly in the design system. Where icons are used, they should be designed to fit into one of two sizes, small (2rem square), large (6rem square).&#xA;Look to minimise the amount of colour used in icon designs, using $rmit-blue as a base colour. $rmit-red can be used either to indicate a clickable icon or as a minimal accent colour.&#xA;Large Currently, large size icons are used in certain variations of blockquotes.</description>
     </item>
     <item>
       <title>Links</title>
-      <link>http://localhost:59659/design-system/visual/links/</link>
+      <link>http://localhost:49905/design-system/visual/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59659/design-system/visual/links/</guid>
+      <guid>http://localhost:49905/design-system/visual/links/</guid>
       <description>Links Links occurring within paragraph text are displayed in RMIT Blue with an underline. The extra visibility the underline provides is important due the lack of contrast between RMIT Blue and the main text colour, Dark Grey. On hover, the colour changes to Blue Hover and the underline is removed. In other situations, no underline is displayed for links. In these situations, such as in navigation, the intent that the text acts as a link is clear and the repetition of the underlines would appear aesthetically unappealing and visually &#34;</description>
     </item>
     <item>
       <title>Spacing</title>
-      <link>http://localhost:59659/design-system/visual/spacing/</link>
+      <link>http://localhost:49905/design-system/visual/spacing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59659/design-system/visual/spacing/</guid>
+      <guid>http://localhost:49905/design-system/visual/spacing/</guid>
       <description>Spacing The design system aims to create a generic spacing system, in an attempt to maintain consistency across different components. Hopefully, the system will also allow for flexibility in the future.&#xA;Base units Default unit (1rem = 16px)&#xA;A series of units created to space elements in the page content. This system allows for responsiveness, having different values for smaller and larger screen widths.&#xA;Name Small (width &amp;lt; 768px) Medium, large etc.</description>
     </item>
     <item>
       <title>Typography</title>
-      <link>http://localhost:59659/design-system/visual/typography/</link>
+      <link>http://localhost:49905/design-system/visual/typography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59659/design-system/visual/typography/</guid>
+      <guid>http://localhost:49905/design-system/visual/typography/</guid>
       <description>Typography Type use default bootstrap scaling (1rem = 16px). On smaller screens, sizes downscale based on desktop sizes: mobile h1 takes desktop h2 values, mobile lead takes desktop lead. Intermediate heading sizes are scaled as per desktop.&#xA;Headings All headings are set in Museo 700, RMIT Blue (#000054) as per brand guidelines. This thicker weight provides good contrast with body text, making the difference between headings and body content very clear.</description>
     </item>
   </channel>

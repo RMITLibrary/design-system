@@ -50,7 +50,9 @@ parent: "Complex components"
         <div class="responsive-video">
             <iframe src="https://www.youtube.com/embed/RcRnspPP5PE" frameborder="0" allowfullscreen=""></iframe>
         </div>
+		<figcaption>An example caption for this image.</figcaption>
     </div>
+	
 <!-- START accordion item -->
 <div class="accordion-item transcript">
     <p class="accordion-header" id="Transcript-headingOne">

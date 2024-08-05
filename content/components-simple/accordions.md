@@ -153,7 +153,7 @@ parent: "Simple components"
 &lt;!-- END video --&gt;</code>
 </pre></div>
 <h3>Wide transcript</h3>
-<p>Yadda yadda yadda</p>
+<p>It's possible to have a transcript accordion that is wider than 40rem (640px):</p>
 <!-- START accordion item -->
 <div class="accordion-item transcript transcript-full-width">
     <p class="accordion-header" id="Transcript-headingThree">
@@ -172,3 +172,49 @@ parent: "Simple components"
       </div>
 </div>
 <!-- END accordion item -->
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;div class=&quot;accordion-item transcript transcript-full-width&quot;&gt;
+	&lt;p class=&quot;accordion-header&quot; id=&quot;Transcript-head&quot;&gt;
+	  &lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#Transcript-body&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;Transcript-body&quot;&gt;
+		Transcript
+	  &lt;/button&gt;
+	&lt;/p&gt;
+	&lt;div id=&quot;Transcript-body&quot; class=&quot;accordion-collapse collapse&quot; aria-labelledby=&quot;Transcript-head&quot;&gt;
+	  &lt;div class=&quot;accordion-body&quot;&gt;
+		 &lt;!-- content goes here --&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code>
+</pre></div>
+<h2>Accordion on its own</h2>
+<p>A regular accordion can be deployed on its own, margins are slightly adjusted.</p>
+<div class="accordion-item">
+	<h2 class="accordion-header" id="headingBlergh">
+	  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBlergh" aria-expanded="false" aria-controls="collapseBlergh">
+		Accordion Item #1
+	  </button>
+	</h2>
+	<div id="collapseBlergh" class="accordion-collapse collapse" aria-labelledby="headingBlergh">
+	  <div class="accordion-body">
+		This is the first item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus ipsum, semper sit amet sollicitudin sit amet, interdum et nisi. Morbi in ullamcorper nisi. Fusce eget magna vitae lacus eleifend malesuada vel eu metus. Integer eget pellentesque magna, sit amet dignissim leo. Suspendisse potenti. Cras nec eros convallis, pretium ipsum eu, luctus magna.
+	  </div>
+	</div>
+</div>
+<!-- START Code -->
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;div class=&quot;accordion-item&quot;&gt;
+    &lt;h2 class=&quot;accordion-header&quot; id=&quot;headingSolo&quot;&gt;
+      &lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#collapseSolo&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseSolo&quot;&gt;
+        Accordion Item #1
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;div id=&quot;collapseSolo&quot; class=&quot;accordion-collapse collapse&quot; aria-labelledby=&quot;headingSolo&quot;&gt;
+      &lt;div class=&quot;accordion-body&quot;&gt;
+        First item content goes here
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code>
+</pre></div>
+<!-- END Code -->

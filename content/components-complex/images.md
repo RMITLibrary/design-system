@@ -12,6 +12,7 @@ parent: "Complex components"
 	<li><a href="#captions">Captions and transcripts</a></li>
 	<li><a href="#portrait">Portrait images</a></li>
 </ul>
+ <img src="https://rmitlibrary.github.io/cdn/learninglab/images/maths-s6-1.png" alt="An example image" />
 <h2>Markup</h2>
 <p>For images used in page content, wrap all <code>&lt;img&gt;</code> tags in a <code>&lt;figure&gt;</code> tag. Remember to include an alt tag.</p>
 <figure>
