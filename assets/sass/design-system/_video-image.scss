@@ -2,6 +2,7 @@ $img-width-xl: 100%;
 $img-width-lg: 40rem;       //640px
 $img-width-md: 25rem;       //400px
 $img-width-sm: 18.5rem;     //296px
+$img-width-xs: 10rem;		//128px;
 
 /*img {
     width: 100%;
@@ -50,6 +51,10 @@ figure {
 		&sm {
 			max-width: $img-width-sm;
 		}
+		
+		&xs {
+			max-width: $img-width-xs;
+		}
 	}
 	// --- END #1 image sizing
 	
@@ -81,7 +86,7 @@ figure {
 		} 
 	}
 	
-	//portrait small - restict max with to be even smaller
+	//portrait small - restict max width to be even smaller
 	&.portrait-small {
 		@include media-breakpoint-up(md) { 
 			.image-caption-wrapper img {
@@ -172,6 +177,60 @@ figure:has(.image-caption-wrapper):not(:has(.transcript)) {
 
 // --- END #4 styles dependent on presence of figcaption, transcript
 
+
+.float-right, .float-left, .float-right-sm, .float-left-sm {
+	max-width: $img-width-xs;
+	
+	& > *:first-child {
+		margin-top: 0px;
+	}
+
+	& > *:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+.float-right, .float-left {
+	@include media-breakpoint-up(md) { 
+		max-width: $img-width-sm;
+	}
+}
+
+.float-right, .float-right-sm {
+	float: right;
+	margin: 0 0 1rem 1rem;
+}
+
+.float-left, .float-left-sm {
+	float: left;
+	margin: 0 1rem 1rem 0rem;
+}
+
+.list-overflow-hide {
+    overflow: hidden;
+}
+
+/*
+.float-right, .float-right-sm {
+	float: right;
+	margin: 0 0 1rem 1rem;
+}
+
+.float-left, .float-left-sm {
+	float: left;
+	margin: 0 1rem 1rem 0rem;
+}
+
+.float-right, .float-left {
+	max-width: $img-width-sm;
+}
+
+.float-right-sm, .float-left-sm {
+	max-width: $img-width-xs;
+}
+*/
+
+// --- START #4 video styles
 .video, .video-3-2, .video-4-3, .video-square, .video-portrait {
     border-bottom: 1px solid $interface-grey;
     

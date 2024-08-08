@@ -82,6 +82,9 @@ ul, ol {
     @include do-space(margin-top, xs);          //should we have margin-top?
     @include do-space(margin-bottom, sm, important);
     @include do-space(padding-left, sm); 
+	
+	//use overflow hidden to prevent lists overlapping with float: left
+	//overflow: hidden;
 }
 
 li {

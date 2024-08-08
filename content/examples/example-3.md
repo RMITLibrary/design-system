@@ -11,6 +11,28 @@ parent: "Examples"
 	<li><a href="" tabindex="-1">Choose valid sources</a></li>
 </ul>
 <a id="main-content"></a>
+<section style="margin: 0; padding: 0; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1 1 33%; min-width: 300px; box-sizing: border-box; padding: 10px;">
+        <div style="background-color: lightblue; padding: 20px; text-align: center;">Box 1</div>
+    </div>
+    <div style="flex: 1 1 33%; min-width: 300px; box-sizing: border-box; padding: 10px;">
+        <div style="background-color: lightcoral; padding: 20px; text-align: center;">Box 2</div>
+    </div>
+    <div style="flex: 1 1 33%; min-width: 300px; box-sizing: border-box; padding: 10px;">
+        <div style="background-color: lightgreen; padding: 20px; text-align: center;">Box 3</div>
+    </div>
+</section>
+<section style="margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 16px;">
+    <div style="min-width: 300px;">
+        <div style="background-color: lightblue; padding: 20px; text-align: center;">Box 1</div>
+    </div>
+    <div style="min-width: 300px;">
+        <div style="background-color: lightcoral; padding: 20px; text-align: center;">Box 2</div>
+    </div>
+    <div style="min-width: 300px;">
+        <div style="background-color: lightgreen; padding: 20px; text-align: center;">Box 3</div>
+    </div>
+</section>
 <h1 class="margin-top-zero">Integrating ideas with reporting words</h1>
 <p class="lead">Not all information is created equal.</p>
 <p>When you choose information for your assignments, there should be a continual evaluation process occurring. Evaluate information for its relevance and usefulness to your work, and its quality.</p>
@@ -18,8 +40,16 @@ parent: "Examples"
 <p>Evaluating information sources, whether they are from a book, scholarly database or the web, is an important step in your research. Anyone can publish online so you need to choose your information carefully.</p>
 <h2>CRAAP test</h2>
 <p>One way to evaluate an information source is to apply the CRAAP test.</p>
+<h3>Example right</h3>
+<figure class="float-right">
+    <img alt="" src="https://learninglab.rmit.edu.au/sites/default/files/01_craap_currency.png" />
+</figure>
+<h4 class="margin-top-sm">The timeliness of the information</h4>
+<p>When you choose information for your assignments, there should be a continual evaluation process occurring. Evaluate information for its relevance and usefulness to your work, and its quality.</p>
+<p>Not all information that is published is credible and reliable, especially if you find that information on the web. As a smart researcher, you need to be able to judge the value of any information you find, printed or online, before you use it.</p>
+<p>Evaluating information sources, whether they are from a book, scholarly database or the web, is an important step in your research. Anyone can publish online so you need to choose your information carefully.</p>
 <h3>Currency</h3>
-<figure class="float-right hide-sm image-sm">
+<figure class="float-right">
     <img alt="" src="https://learninglab.rmit.edu.au/sites/default/files/01_craap_currency.png" />
 </figure>
 <h4 class="margin-top-sm">The timeliness of the information</h4>
@@ -30,7 +60,7 @@ parent: "Examples"
 	<li>Are the links functional?</li>
 </ul>
 <h3>Relevance</h3>
-<figure class="float-right hide-sm image-sm">
+<figure class="float-right">
     <img alt="" src="https://learninglab.rmit.edu.au/sites/default/files/02_craap_relevance.png" />
 </figure>
 <h4 class="margin-top-sm">The importance of the information for your needs</h4>
@@ -42,7 +72,7 @@ parent: "Examples"
 	<li>Would you be comfortable citing this source in your research paper?</li>
 </ul>
 <h3>Authority</h3>
-<figure class="float-right hide-sm image-sm">
+<figure class="float-right">
     <img alt="" src="https://learninglab.rmit.edu.au/sites/default/files/03_craap_authority.png" />
 </figure>
 <h4 class="margin-top-sm">The source of the information</h4>
@@ -54,9 +84,7 @@ parent: "Examples"
 	<li>Does the URL reveal anything about the author or source? e.g. .com .edu .gov .org .net</li>
 </ul>
 <h3>Accuracy</h3>
-<figure class="float-right hide-sm image-sm">
-    <img alt="" src="https://learninglab.rmit.edu.au/sites/default/files/04_craap_accuracy.png">
-</figure>
+<img alt="" src="https://learninglab.rmit.edu.au/sites/default/files/04_craap_accuracy.png" class="float-right">
 <h4 class="margin-top-sm">The reliability, truthfulness and correctness of the content</h4>
 <ul>
 	<li>Where does the information come from?</li>
@@ -67,11 +95,11 @@ parent: "Examples"
 	<li>Are there spelling, grammar or typographical errors?</li>
 </ul>
 <h3>Purpose</h3>
-<figure class="float-right hide-sm image-sm">
+<figure class="float-left">
     <img alt="" src="https://learninglab.rmit.edu.au/sites/default/files/05_craap_purpose.png">
 </figure>
 <h4 class="margin-top-sm">The reason the information exists</h4>
-<ul>
+<ul class="list-overflow-hide">
 	<li>What is the purpose of the information? Is it to inform, teach, sell, entertain or persuade?</li>
 	<li>Do the authors/sponsors make their intentions or purpose clear?</li>
 	<li>Is the information fact, opinion or propaganda?</li>
@@ -114,3 +142,26 @@ parent: "Examples"
     </a>
 </blockquote>
 <!-- END blockquote -->
+<div class="icon-text">
+	<figure>
+		<img alt="" src="https://learninglab.rmit.edu.au/sites/default/files/05_craap_purpose.png">
+	</figure>
+	<div class="text">
+		<p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
+		<p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
+		<p>By doing this, your introduction should start broad and become more specific, focusing in on your essay topic. Basically, you’re letting the reader know what you’re going to discuss throughout the essay. Let’s have a look at this introduction as an example:</p>
+		<p>Self-confidence means possessing a positive, yet realistic, view of one’s self and abilities. Self-confident people have trust and faith in their abilities. Self-confidence can be affected by a variety of factors. This essay will argue that self-confidence develops through a complex interaction between a range of factors. The essay will firstly define self-confidence, and then analyse the interaction between various factors that affect the confidence of an individual. In particular, these are personality style, situational factors/life experiences self-efficacy and self-esteem.</p>
+	</div>
+</div>
+
+<div class="icon-text-align-top">
+	<figure>
+		<img alt="" src="https://learninglab.rmit.edu.au/sites/default/files/05_craap_purpose.png">
+	</figure>
+	<div class="text">
+		<p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
+		<p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
+		<p>By doing this, your introduction should start broad and become more specific, focusing in on your essay topic. Basically, you’re letting the reader know what you’re going to discuss throughout the essay. Let’s have a look at this introduction as an example:</p>
+		<p>Self-confidence means possessing a positive, yet realistic, view of one’s self and abilities. Self-confident people have trust and faith in their abilities. Self-confidence can be affected by a variety of factors. This essay will argue that self-confidence develops through a complex interaction between a range of factors. The essay will firstly define self-confidence, and then analyse the interaction between various factors that affect the confidence of an individual. In particular, these are personality style, situational factors/life experiences self-efficacy and self-esteem.</p>
+	</div>
+</div>

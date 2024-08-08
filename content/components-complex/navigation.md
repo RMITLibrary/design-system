@@ -53,7 +53,7 @@ parent: "Complex components"
         <li>
             <a href="">Content page</a>
             <ul>
-                <li class="selected"><a href="">Content subpage</a></li>
+				<li><a href="" class="selected" aria-current="page">Content subpage</a></li>
                 <li><a href="">Content subpage</a></li>
                 <li><a href="">Content subpage</a></li>
             </ul>
@@ -73,6 +73,7 @@ parent: "Complex components"
         &lt;li&gt;
             &lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;
             &lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;&quot; class=&quot;selected&quot; aria-current=&quot;page&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
                 &lt;li class=&quot;selected&quot;&gt;Content subpage&lt;/li&gt;
                 &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
@@ -89,7 +90,7 @@ parent: "Complex components"
 <nav class="right-nav margin-left-zero" aria-label="Section Menu">
     <h2 class="secion-link"><a href="">Section title</a></h2>
     <ul>
-        <li class="selected">Content page</li>
+        <li><a href="" class="selected" aria-current="page">Content page</a></li>
         <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>
@@ -101,7 +102,7 @@ parent: "Complex components"
 <code class="language-html">&lt;nav class=&quot;right-nav&quot; aria-label=&quot;Section Menu&quot;&gt;
     &lt;h2&gt;&lt;a href=&quot;&quot;&gt;Section title&lt;/a&gt;&lt;/h2&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;selected&quot; aria-current=&quot;page&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
@@ -113,7 +114,7 @@ parent: "Complex components"
 <p>In some instances, a site might not need to display such a detailed hierarchy. For this flatter structure, a flatter navigation is available, dispensing with section and subsection links. Indentation on links is adjusted to suit. Use the class <strong>right-nav-simple</strong>.</p>
 <nav class="right-nav-simple margin-left-zero" aria-label="Section Menu">
     <ul>
-        <li class="selected"><a href="">Content subpage</a></li>
+        <li><a href="" class="selected" aria-current="page">Content page</a></li>
         <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>
         <li><a href="">Content page</a></li>
@@ -124,14 +125,7 @@ parent: "Complex components"
 <pre class="chroma">
 <code class="language-html">&lt;nav class=&quot;right-nav-simple&quot; aria-label=&quot;Section Menu&quot;&gt;
     &lt;ul&gt;
-        &lt;li class=&quot;selected&quot;&gt;Content page&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;
-            &lt;ul&gt;
-                &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;selected&quot; aria-current=&quot;page&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
@@ -151,7 +145,7 @@ parent: "Complex components"
         <div id="nav-section1-body" class="accordion-collapse collapse show" aria-labelledby="nav-section1-head">
             <div class="accordion-body">
                 <ul>
-                    <li class="selected">Content page</li>
+                    <li><a href="" class="selected" aria-current="page">Content page</a></li>
                     <li><a href="">Content page</a></li>
                     <li><a href="">Content page</a></li>
                     <li><a href="">Content page</a></li>
@@ -210,7 +204,7 @@ parent: "Complex components"
         &lt;div id=&quot;nav-section1-body&quot; class=&quot;accordion-collapse collapse show&quot; aria-labelledby=&quot;nav-section1-head&quot;&gt;
             &lt;div class=&quot;accordion-body&quot;&gt;
                 &lt;ul&gt;
-                    &lt;li class=&quot;selected&quot;&gt;Content page&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;selected&quot; aria-current=&quot;page&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
