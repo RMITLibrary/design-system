@@ -22,8 +22,8 @@ figure {
 	//figcaption rules
 	figcaption {
 		@include type-small;
-		margin-top: 0.25rem;
-		margin-bottom: 0.5rem;
+		padding-top: 0.25rem;
+		padding-bottom: 0.5rem;
 	}
 	
 	img {
@@ -80,7 +80,7 @@ figure {
 				
                 //No margin required in this layout
 				figcaption {
-					margin: 0;
+					padding: 0;
 				}
 			}		
 		} 
@@ -147,7 +147,7 @@ figure {
 //increase border bottom on figcaption
 figure:has(figcaption):not(:has(.transcript)) {
 	figcaption {
-		margin-bottom: 1rem;
+		padding-bottom: 0.75rem;
 	}
 }
 
@@ -177,6 +177,72 @@ figure:has(.image-caption-wrapper):not(:has(.transcript)) {
 
 // --- END #4 styles dependent on presence of figcaption, transcript
 
+
+// move margins from content nsted withing float classes
+.float-right, .float-left, .float-right-sm, .float-left-sm {
+	
+    
+	& > *:first-child {
+		margin-top: 0px;
+	}
+
+	& > *:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+//Set max-width to 296px on medium screens
+.float-right, .float-left {
+    margin: 1.5rem 0 1.5rem 0;
+    
+	@include media-breakpoint-up(md) { 
+		max-width: $img-width-sm;
+	}
+}
+
+//Small classs. set max-width to 128px on all screens
+.float-right-sm, .float-left-sm {
+     max-width: $img-width-xs;
+}
+
+//float right across all sizes
+.float-right-sm {
+    float: right;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+//float right and adjust margins on medium screens
+.float-right {
+    
+    @include media-breakpoint-up(md) { 
+        float: right;
+        margin: 0.5rem 0 1rem 2rem;
+	}
+}
+
+//float left across all sizes
+.float-left-sm {
+    float: left;
+    margin: 0.5rem 1rem 0.5rem 0;
+}
+
+
+//float left and adjust margins on medium screens
+.float-left {
+	@include media-breakpoint-up(md) { 
+        float: left;
+       margin: 0.5rem 2rem 1rem 0;
+	}
+}
+
+//apply to ul or li if you want to use these with a float left image.
+//prevents overlapping
+.list-overflow-hide {
+    overflow: hidden;
+}
+
+
+/*
 
 .float-right, .float-left, .float-right-sm, .float-left-sm {
 	max-width: $img-width-xs;
@@ -210,25 +276,8 @@ figure:has(.image-caption-wrapper):not(:has(.transcript)) {
     overflow: hidden;
 }
 
-/*
-.float-right, .float-right-sm {
-	float: right;
-	margin: 0 0 1rem 1rem;
-}
-
-.float-left, .float-left-sm {
-	float: left;
-	margin: 0 1rem 1rem 0rem;
-}
-
-.float-right, .float-left {
-	max-width: $img-width-sm;
-}
-
-.float-right-sm, .float-left-sm {
-	max-width: $img-width-xs;
-}
 */
+
 
 // --- START #4 video styles
 .video, .video-3-2, .video-4-3, .video-square, .video-portrait {
