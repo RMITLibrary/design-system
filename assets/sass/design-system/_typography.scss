@@ -80,7 +80,7 @@ h6, .h6 {
 //reduce indenting on lists
 ul, ol {
     @include do-space(margin-top, xs);          //should we have margin-top?
-    @include do-space(margin-bottom, sm, important);
+    @include do-space(margin-bottom, sm);		//do we have important here???
     @include do-space(padding-left, sm); 
 	
 	//use overflow hidden to prevent lists overlapping with float: left

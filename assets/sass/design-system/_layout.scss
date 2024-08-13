@@ -22,45 +22,165 @@ $img-width-sm: 18.5rem;     //296px*/
 }
 */
 
-.icon-text, .icon-text-align-top  {
+//text options used in both icont-text and img-text
+@mixin two-col-text {
+	//allow text to fill available space
+	flex: 1;
+	margin: 0;
+
+	//remove margin from first element
+	& > *:first-child {
+		margin-top: 0;
+	}
+
+	//remove margin from first element
+	& > *:last-child {
+		margin-bottom: 0;
+	}
+
+	// Target the first heading, reduce margin
+	h1:first-of-type,
+	h2:first-of-type,
+	h3:first-of-type,
+	h4:first-of-type,
+	h5:first-of-type,
+	h6:first-of-type {
+		margin-bottom: 0.5rem;
+	}
+
+	// Target the first heading and the paragraph immediately following it, reduce margin
+	h1:first-of-type + p,
+	h2:first-of-type + p,
+	h3:first-of-type + p,
+	h4:first-of-type + p,
+	h5:first-of-type + p,
+	h6:first-of-type + p {
+		margin-top: 0.5rem;
+	}
+}
+
+
+// icon-text shows a image (usually an icon) next to text across all sizes
+.icon-text  {
 	display: flex;
-	align-items: center;
+	align-items: center;	//align to center
 	gap: 1.5rem;
 	
+	//responsive margin top and bottom for the component
 	@include do-space(margin-top, lg); 
     @include do-space(margin-bottom, lg); 
 	
+	// img is 3rem at small screens, 5rem at leager screens
 	figure {
         margin: 0;
-		max-width: 5rem;
+		max-width: 3rem;
         
         @include media-breakpoint-up(md) { 
-			max-width: 7.5rem;
+			max-width: 5rem;
 		}   
 	}
 	
-	.text {
-		flex: 1;
-		margin: 0;
+	// refer to mixin, adjusts margins for text inside text class
+	.content-text {
+		@include two-col-text;
+	}
+}
+
+
+// img-text shows a small image (usually an icon) to the right of text on medium screens and above.
+.img-text  {
+	
+	//responsive margin top and bottom for the component
+	@include do-space(margin-top, lg); 
+    @include do-space(margin-bottom, lg);
+	
+	// Adjust margins for both text and image in stacked layout for small screens
+	.content-text {
+		& > *:first-child {
+			margin-top: 0;
+		}
+	}
+	
+	figure {  
+		margin-bottom: 1.5rem;
+	}
+	
+	// use flex to do two column layout on medium screens nd above
+	@include media-breakpoint-up(md) { 
+		display: flex;
+		align-items: center;
+		gap: 1.5rem;
 		
+		// refer to mixin, adjusts margins for text inside text class
+		.content-text {
+			@include two-col-text;
+		}
+		
+		// img is 296px at medium screens, set to the right
+		figure {  
+			margin: 0;
+			max-width: $img-width-sm;
+			order: 2;
+		}
+	} 
+}
+
+.img-text-left {
+	@include media-breakpoint-up(md) {
+		figure {  
+			order: 0;
+		}
+	}
+}
+
+//Use this in conjunction with img-text and icon-text
+.align-items-top {
+	align-items: flex-start;
+}
+
+
+// Card stuff
+.card {
+	border: 0;
+	background-color: $underlay-grey;
+	
+	max-width: $img-width-lg;
+	
+	&.my-border {
+		border: 1px solid $interface-grey;
+	}
+	
+	figure {
+		margin: 0;
+	}
+	
+	.card-body {
 		& > *:first-child {
 			margin-top: 0;
 		}
 		
 		& > *:last-child {
-			margin-bottom: 0;
+			margin-bottom: 0px;
 		}
+		
+		@include type-small;
+		
+		p {
+			@include type-small;
+		}
+		
+		p.large {
+			@include type-default;
+		}
+		
+		
 	}
 }
 
-.icon-text-align-top {
-	align-items: flex-start;
+.card.float-right {
+  max-width: $img-width-sm;
 }
 
-/* Small image across all sizes */
-.img-xs {
-    figure { width: 7.5rem; }
-}
 
 // Striped list 
 // Mirrors functionality of a striped table
@@ -174,5 +294,31 @@ $img-width-sm: 18.5rem;     //296px*/
 		li:nth-last-child(1):nth-child(4n+3) {
 			grid-column: span 2;
 		}
+	}
+}
+
+
+// Generic grid
+
+.my-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+	
+	padding: 0;
+	
+    
+    @include media-breakpoint-up(md) { 
+        grid-template-columns: 1fr 1fr; 
+    }
+    
+    @include media-breakpoint-up(lg) { 
+        gap: 1.5rem;
+    }
+	
+	li.grid-item {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
 	}
 }

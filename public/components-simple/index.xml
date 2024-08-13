@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simple Components on Design system</title>
-    <link>http://localhost:58033/design-system/components-simple/</link>
+    <link>http://localhost:1313/design-system/components-simple/</link>
     <description>Recent content in Simple Components on Design system</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <atom:link href="http://localhost:58033/design-system/components-simple/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/design-system/components-simple/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:58033/design-system/components-simple/forms/</link>
+      <link>http://localhost:1313/design-system/components-simple/forms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58033/design-system/components-simple/forms/</guid>
+      <guid>http://localhost:1313/design-system/components-simple/forms/</guid>
       <description>As the context and layout can vary dramatically from project to project, margins are not added by default. Instead, write addtional styles or make use of the responsive, inbuilt spacing classes to provide space.&#xA;Title Side by side Apply input-group to the container div to allow label to be placed alongside the input field. Extra styles would need to be written to ensure alignment with severval label and field groups.</description>
     </item>
     <item>
       <title>Accordions</title>
-      <link>http://localhost:58033/design-system/components-simple/accordions/</link>
+      <link>http://localhost:1313/design-system/components-simple/accordions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58033/design-system/components-simple/accordions/</guid>
+      <guid>http://localhost:1313/design-system/components-simple/accordions/</guid>
       <description>Accordions Accordions can be a useful tool in dividing and segmenting information, if used judiciously. The design system features three variants, the transcript variant is used to provide accessible content for videos and images, the navigation option (featured on the right) allows for collapsible navigation.&#xA;Default Each accordion item is controlled by the user, they decide when each item opens and closes. While there is facility to have an accordion item open by default (see bootstrap docs), this begs the question, &#34;</description>
     </item>
     <item>
       <title>Blockquotes</title>
-      <link>http://localhost:58033/design-system/components-simple/blockquotes/</link>
+      <link>http://localhost:1313/design-system/components-simple/blockquotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58033/design-system/components-simple/blockquotes/</guid>
+      <guid>http://localhost:1313/design-system/components-simple/blockquotes/</guid>
       <description>Blockquotes Blockquotes can be useful to highlight sections of text and can also function as a navigation device. Visually, they are obviously separate from the rest of the content and can provide prominent for the information contained within.&#xA;Basic The basic blockquote just contains text. The suggested content limit is 450 characters or 80 words.&#xA;By default, each blockquote has a margin of space-small applied top and bottom. The first element inside the blockquote has no margin top applied to it.</description>
     </item>
     <item>
       <title>Buttons</title>
-      <link>http://localhost:58033/design-system/components-simple/buttons/</link>
+      <link>http://localhost:1313/design-system/components-simple/buttons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58033/design-system/components-simple/buttons/</guid>
+      <guid>http://localhost:1313/design-system/components-simple/buttons/</guid>
       <description>Buttons Two different varieties of button are available in the design system. Default state The button state hews closely to Bootstrap&#39;s btn-outline-secondary style. When multiple buttons are used on a page, almost all of them should in this style.&#xA;Default button &amp;lt;button class=&amp;quot;btn btn-default&amp;quot;&amp;gt;Button label&amp;lt;/button&amp;gt; or simply &amp;lt;button&amp;gt;Button label&amp;lt;/button&amp;gt; Primary button This style should be used sparingly, ideally only one occurrence on each page. It should action something important, like submitting a form.</description>
     </item>
     <item>
       <title>Layouts</title>
-      <link>http://localhost:58033/design-system/components-simple/layouts/</link>
+      <link>http://localhost:1313/design-system/components-simple/layouts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58033/design-system/components-simple/layouts/</guid>
-      <description>Layouts An example caption for this image. This is an issue Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed.</description>
+      <guid>http://localhost:1313/design-system/components-simple/layouts/</guid>
+      <description>Layouts Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.&#xA;Floating images Floating images can be a good way to wrap text around an image, maximising screen real estate. It&#39;s important that there&#39;s enough content to ensure enough of a text wrap.</description>
     </item>
     <item>
       <title>Tables</title>
-      <link>http://localhost:58033/design-system/components-simple/tables/</link>
+      <link>http://localhost:1313/design-system/components-simple/tables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58033/design-system/components-simple/tables/</guid>
+      <guid>http://localhost:1313/design-system/components-simple/tables/</guid>
       <description>Tables Tables allow data to be displayed with a structure. Be sure that the information being presented warrants being displayed in a table. Often, regular paragraphs of text are better way to communicate.&#xA;Default By default, tables feature a simple one pixel border. Each table is wrapped in a div, responsive-table, which allows for wide tables to horizontally scroll at smaller screen sizes.&#xA;Evidence Problem Relevant theory Solution CEO Office location on top floor &#39;mythical figure&#39; Focussed on results HealthCo is &#39;his baby&#39; CEO leadership style &#39;autocratic&#39; Weber (Bureaucratic management)</description>
     </item>
   </channel>

@@ -178,9 +178,8 @@ figure:has(.image-caption-wrapper):not(:has(.transcript)) {
 // --- END #4 styles dependent on presence of figcaption, transcript
 
 
-// move margins from content nsted withing float classes
+// remove margins from content nsted withing float classes
 .float-right, .float-left, .float-right-sm, .float-left-sm {
-	
     
 	& > *:first-child {
 		margin-top: 0px;
@@ -196,11 +195,12 @@ figure:has(.image-caption-wrapper):not(:has(.transcript)) {
     margin: 1.5rem 0 1.5rem 0;
     
 	@include media-breakpoint-up(md) { 
-		max-width: $img-width-sm;
+		// Is this the right way to do this? In use to prevent card from displaying too wide if floated.
+		max-width: $img-width-sm
 	}
 }
 
-//Small classs. set max-width to 128px on all screens
+//Small class. set max-width to 128px on all screens
 .float-right-sm, .float-left-sm {
      max-width: $img-width-xs;
 }
@@ -240,43 +240,6 @@ figure:has(.image-caption-wrapper):not(:has(.transcript)) {
 .list-overflow-hide {
     overflow: hidden;
 }
-
-
-/*
-
-.float-right, .float-left, .float-right-sm, .float-left-sm {
-	max-width: $img-width-xs;
-	
-	& > *:first-child {
-		margin-top: 0px;
-	}
-
-	& > *:last-child {
-		margin-bottom: 0px;
-	}
-}
-
-.float-right, .float-left {
-	@include media-breakpoint-up(md) { 
-		max-width: $img-width-sm;
-	}
-}
-
-.float-right, .float-right-sm {
-	float: right;
-	margin: 0 0 1rem 1rem;
-}
-
-.float-left, .float-left-sm {
-	float: left;
-	margin: 0 1rem 1rem 0rem;
-}
-
-.list-overflow-hide {
-    overflow: hidden;
-}
-
-*/
 
 
 // --- START #4 video styles
