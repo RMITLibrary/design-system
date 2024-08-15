@@ -5,8 +5,9 @@ parent: "Simple components"
 ---
 <h1 class="margin-top-zero">Layouts</h1>
 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
+<a id="floating"></a>
 <h2>Floating images</h2>
-<p>Floating images can be a good way to wrap text around an image, maximising screen real estate. It's important that there's enough content to ensure enough of a text wrap. Blocks of paragraph text are recommended. Look at your layout at screen sizes above 1400px. If the image is taller than the text, or only a tiny sit shorter, consider using the icon-text layout.</p>
+<p>"Floating images help wrap text around them, maximising screen space. Ensure there's more paragraph text than the height of the image at 1400px wide. If this works, the wrap will be effective at other screen sizes too. If the image is taller than the text, or only a tiny sit shorter, consider using the icon-text layout.</p>
 <ul>
     <li>Floated content has a width of 18.5rem (296px). </li>
     <li>On smaller screen sizes, the image is displayed at full width.</li>

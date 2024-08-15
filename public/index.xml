@@ -138,7 +138,7 @@
       <link>http://localhost:1313/design-system/components-simple/layouts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/components-simple/layouts/</guid>
-      <description>Layouts Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.&#xA;Floating images Floating images can be a good way to wrap text around an image, maximising screen real estate. It&#39;s important that there&#39;s enough content to ensure enough of a text wrap.</description>
+      <description>Layouts Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.&#xA;Floating images &#34;Floating images help wrap text around them, maximising screen space. Ensure there&#39;s more paragraph text than the height of the image at 1400px wide.</description>
     </item>
     <item>
       <title>Links</title>

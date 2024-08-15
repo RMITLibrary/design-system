@@ -322,3 +322,15 @@ $img-width-sm: 18.5rem;     //296px*/
 		list-style-type: none;
 	}
 }
+
+.my-grid-3up {
+	@include media-breakpoint-up(md) { 
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+
+.my-grid-4up {
+	@include media-breakpoint-up(lg) { 
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }
+}
