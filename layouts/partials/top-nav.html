@@ -7,7 +7,13 @@
 				<!-- START left hand column -->
 				<div class="col-auto left-nav">
 					<div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
-					<a href="/design-system/" class="h2">Design system<span class="visually-hidden"> homepage</span></a>
+                    <h2>
+                    <!-- Explicitly turn off one bit of text and turn on the other to deal with JAWS bug - https://github.com/alphagov/govuk-frontend/issues/1643 -->
+                    <a href="/design-system/">
+                        <span aria-hidden="true">Design system</span>
+                        <span class="visually-hidden">Design system homepage</span>
+                    </a>
+                </h2>  
 				</div>
 				<!-- END left hand column -->
 				<!-- START right hand column -->

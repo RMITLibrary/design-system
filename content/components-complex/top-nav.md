@@ -14,7 +14,19 @@ parent: "Complex components"
             <!-- START left hand column -->
             <div class="col-auto left-nav">
                 <div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
-                <a href="" class="h2">Optional site title <span class="visually-hidden">homepage</span></a>
+                <h2>
+                    <!-- Explicitly turn off one bit of text and turn on the other to deal with JAWS bug - https://github.com/alphagov/govuk-frontend/issues/1643 -->
+                    <a href="">
+                        <span aria-hidden="true">Optional site title</span>
+                        <span class="visually-hidden">Optional site title homepage</span>
+                    </a>
+                </h2>  
+<!--
+                <a href="#">
+  <span aria-hidden="true">Delete</span>
+  <span class="visually-hidden">Delete name</span>
+</a>
+-->
             </div>
             <!-- END left hand column -->
         </div>
@@ -29,7 +41,13 @@ parent: "Complex components"
             &lt;!-- START left hand column --&gt;
             &lt;div class=&quot;col-auto left-nav&quot;&gt;
                 &lt;div class=&quot;rmit-logo&quot;&gt;&lt;span class=&quot;visually-hidden&quot;&gt;RMIT University logo&lt;/span&gt;&lt;/div&gt;
-                &lt;a href=&quot;&quot; class=&quot;h2&quot;&gt;Optional site title &lt;span class=&quot;visually-hidden&quot;&gt;homepage&lt;/span&gt;&lt;/a&gt;
+                &lt;!-- Explicitly turn off one bit of text and turn on the other to deal with JAWS bug --&gt;
+                &lt;h2&gt;
+                    &lt;a href=&quot;&quot;&gt;
+                        &lt;span aria-hidden=&quot;true&quot;&gt;Optional site title&lt;/span&gt;
+                        &lt;span class=&quot;visually-hidden&quot;&gt;Optional site title homepage&lt;/span&gt;
+                    &lt;/a&gt;
+                &lt;/h2&gt;
             &lt;/div&gt;
             &lt;!-- END left hand column --&gt;
         &lt;/div&gt;
@@ -93,7 +111,13 @@ parent: "Complex components"
             <!-- START left hand column -->
             <div class="col-auto left-nav">
                 <div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
-                <a href="/design-system/" class="h2">Optional title<span class="visually-hidden">homepage</span></a>
+                <h2>
+                    <!-- Explicitly turn off one bit of text and turn on the other to deal with JAWS bug - https://github.com/alphagov/govuk-frontend/issues/1643 -->
+                    <a href="/design-system/">
+                        <span aria-hidden="true">Optional title</span>
+                        <span class="visually-hidden">Optional title homepage</span>
+                    </a>
+                </h2>
             </div>
             <!-- END left hand column -->
             <!-- START right hand column -->
@@ -119,7 +143,12 @@ parent: "Complex components"
             &lt;!-- START left hand column --&gt;
             &lt;div class=&quot;col-auto left-nav&quot;&gt;
                 &lt;div class=&quot;rmit-logo&quot;&gt;&lt;span class=&quot;visually-hidden&quot;&gt;RMIT University logo&lt;/span&gt;&lt;/div&gt;
-                &lt;a href=&quot;/design-system/&quot; class=&quot;h2&quot;&gt;Optional title&lt;span class=&quot;visually-hidden&quot;&gt;homepage&lt;/span&gt;&lt;/a&gt;
+                &lt;h2&gt;
+                    &lt;a href=&quot;&quot;&gt;
+                        &lt;span aria-hidden=&quot;true&quot;&gt;Optional site title&lt;/span&gt;
+                        &lt;span class=&quot;visually-hidden&quot;&gt;Optional site title homepage&lt;/span&gt;
+                    &lt;/a&gt;
+                &lt;/h2&gt;
             &lt;/div&gt;
             &lt;!-- END left hand column --&gt;
             &lt;!-- START right hand column --&gt;
@@ -270,7 +299,13 @@ function showHideMenu() {
             <!-- START left hand column -->
             <div class="col-auto left-nav">
                 <div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
-                <a href="/design-system/" class="h2">Learning lab <span class="visually-hidden">homepage</span></a>
+                <h2>
+                    <!-- Explicitly turn off one bit of text and turn on the other to deal with JAWS bug - https://github.com/alphagov/govuk-frontend/issues/1643 -->
+                    <a href="/design-system/">
+                        <span aria-hidden="true">Learning lab</span>
+                        <span class="visually-hidden">Learning lab homepage</span>
+                    </a>
+                </h2>  
             </div>
             <!-- END left hand column -->
             <!-- START right hand column -->
@@ -309,7 +344,12 @@ function showHideMenu() {
 				&lt;!-- START left hand column --&gt;
 				&lt;div class=&quot;col-auto left-nav&quot;&gt;
 					&lt;div class=&quot;rmit-logo&quot;&gt;&lt;span class=&quot;visually-hidden&quot;&gt;RMIT University logo&lt;/span&gt;&lt;/div&gt;
-					&lt;a href=&quot;/design-system/&quot; class=&quot;h2&quot;&gt;Design system&lt;span class=&quot;visually-hidden&quot;&gt; homepage&lt;/span&gt;&lt;/a&gt;
+                                        &lt;h2&gt;
+                                            &lt;a href=&quot;&quot;&gt;
+                                                &lt;span aria-hidden=&quot;true&quot;&gt;Learning lab&lt;/span&gt;
+                                                &lt;span class=&quot;visually-hidden&quot;&gt;Learning lab homepage&lt;/span&gt;
+                                            &lt;/a&gt;
+                                        &lt;/h2&gt;
 				&lt;/div&gt;
 				&lt;!-- END left hand column --&gt;
 				&lt;!-- START right hand column --&gt;

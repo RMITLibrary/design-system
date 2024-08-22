@@ -22,9 +22,10 @@ hide_footer: false
 <h2>Prev and next links</h2>
 <p>These can be used at he bottom of pages to provide page to page navigation. They can be useful if other forms of navigation are used at the top of pages (e.g. <a href="">breadcrumbs</a>) and the user scrolls through content to the bottom of a page. They avoid excessive scrolling or repeat navigation and allow the user to progress through the site easily.</p>
 <nav class="btn-nav-container" aria-label="Previous and next buttons">
-    <a class="btn btn-nav-prev" href="" aria-label="Previous page">Previous page</a>
-    <a class="btn btn-nav-next" href="" aria-label="Next page">Next page</a>
+    <h2><a class="btn btn-nav-prev" href="">Previous page</a></h2>
+    <h2><a class="btn btn-nav-next" href="">Next page</a></h2>
 </nav>
+
 <div class="highlight">
 <pre class="chroma">
 <code class="language-html">&lt;nav class=&quot;btn-nav-container&quot; aria-label=&quot;Previous and next buttons&quot;&gt;

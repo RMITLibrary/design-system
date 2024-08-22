@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="nav-fixed">
-<head><script src="/design-system/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=design-system/livereload" data-no-instant defer></script>
+<head><script src="/design-system/livereload.js?mindelay=10&amp;v=2&amp;port=62167&amp;path=design-system/livereload" data-no-instant defer></script>
         <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -25,7 +25,13 @@
 				
 				<div class="col-auto left-nav">
 					<div class="rmit-logo"><span class="visually-hidden">RMIT University logo</span></div>
-					<a href="/design-system/" class="h2">Design system<span class="visually-hidden"> homepage</span></a>
+                    <h2>
+                    
+                    <a href="/design-system/">
+                        <span aria-hidden="true">Design system</span>
+                        <span class="visually-hidden">Design system homepage</span>
+                    </a>
+                </h2>  
 				</div>
 				
 				
@@ -302,6 +308,7 @@
 <li>Each accordion item is controlled by the user, they decide when each item opens and closes.</li>
 <li>While there is facility to have an accordion item open by default (see <a href="https://getbootstrap.com/docs/5.0/components/accordion/">bootstrap docs</a>), this begs the question, "why have the content in the accordion item in the first place?".</li>
 <li>Consider the length of content within the accordion. If it is relatively short, think about not using an accordion, it is really long, perhaps a separate page is more appropriate.</li>
+<li>By default, <code>h2</code> is used in the markup, however any heading level can be used, h1-h6. Heading hierarchy is important for users of screen readers and helps them ascertain the structure of a page in an efficient manner.</li>
 </ul>
 <!-- START Example -->
 <div class="accordion" id="accordionExample">
@@ -509,6 +516,85 @@
 &lt;/div&gt;</code>
 </pre></div>
 <!-- END Code -->
+<!-- START Example -->
+<!--
+<h2>Different heading levels</h2>
+<div class="accordion" id="accordionExample2">
+  <div class="accordion-item">
+    <h1 class="accordion-header" id="h1-head">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h1-body" aria-expanded="false" aria-controls="h1-body">
+        Accordion Item #1
+      </button>
+    </h1>
+    <div id="h1-body" class="accordion-collapse collapse" aria-labelledby="h1-head">
+      <div class="accordion-body">
+        This is the first item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus ipsum, semper sit amet sollicitudin sit amet, interdum et nisi. Morbi in ullamcorper nisi. Fusce eget magna vitae lacus eleifend malesuada vel eu metus. Integer eget pellentesque magna, sit amet dignissim leo. Suspendisse potenti. Cras nec eros convallis, pretium ipsum eu, luctus magna.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="h2-head">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h2-body" aria-expanded="false" aria-controls="h2-body">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="h2-body" class="accordion-collapse collapse" aria-labelledby="h2-head">
+      <div class="accordion-body">
+        This is the second item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Aliquam sapien nibh, pretium sollicitudin convallis vitae, egestas eget velit. Vivamus faucibus auctor ultricies. Sed sed magna ante. Quisque fringilla pharetra faucibus. Phasellus non vehicula orci. In quis porttitor metus. Maecenas et nulla augue.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="h3-head">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h3-body" aria-expanded="false" aria-controls="h3-body">
+        Accordion Item #3
+      </button>
+    </h3>
+    <div id="h3-body" class="accordion-collapse collapse" aria-labelledby="h3-head">
+      <div class="accordion-body">
+        This is the third item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Nulla lacinia, lacus egestas egestas varius, eros tortor varius sem, sit amet blandit nunc enim ut nisi. Praesent non nulla neque. Vivamus non erat mattis turpis ultricies efficitur.
+      </div>
+    </div>
+  </div>
+    <div class="accordion-item">
+    <h4 class="accordion-header" id="h4-head">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h4-body" aria-expanded="false" aria-controls="h4-body">
+        Accordion Item #4
+      </button>
+    </h4>
+    <div id="h4-body" class="accordion-collapse collapse" aria-labelledby="h4-head">
+      <div class="accordion-body">
+        This is the fourth item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus ipsum, semper sit amet sollicitudin sit amet, interdum et nisi. Morbi in ullamcorper nisi. Fusce eget magna vitae lacus eleifend malesuada vel eu metus. Integer eget pellentesque magna, sit amet dignissim leo. Suspendisse potenti. Cras nec eros convallis, pretium ipsum eu, luctus magna.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h5 class="accordion-header" id="h5-head">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h5-body" aria-expanded="false" aria-controls="h5-body">
+        Accordion Item #5
+      </button>
+    </h5>
+    <div id="h5-body" class="accordion-collapse collapse" aria-labelledby="h5-head">
+      <div class="accordion-body">
+        This is the fifth item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Aliquam sapien nibh, pretium sollicitudin convallis vitae, egestas eget velit. Vivamus faucibus auctor ultricies. Sed sed magna ante. Quisque fringilla pharetra faucibus. Phasellus non vehicula orci. In quis porttitor metus. Maecenas et nulla augue.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h6 class="accordion-header" id="h6-head">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h6-body" aria-expanded="false" aria-controls="h6-body">
+        Accordion Item #6
+      </button>
+    </h6>
+    <div id="h6-body" class="accordion-collapse collapse" aria-labelledby="h6-head">
+      <div class="accordion-body">
+        This is the sixth item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Nulla lacinia, lacus egestas egestas varius, eros tortor varius sem, sit amet blandit nunc enim ut nisi. Praesent non nulla neque. Vivamus non erat mattis turpis ultricies efficitur.
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<!-- END Example -->
 
                 
 
@@ -625,14 +711,22 @@
 					
 					
 					
-						<a class="btn btn-nav-prev" aria-label="Previous page" href="/design-system/visual/typography/">Typography</a>
+						<h2>
+                            <a class="btn btn-nav-prev" aria-label="Previous page" href="/design-system/visual/typography/">
+                                Typography
+                            </a>
+                        </h2>
 					
 				
 			
 				
 				
 					
-					<a class="btn btn-nav-next" aria-label="Next page" href="/design-system/components-simple/blockquotes/">Blockquotes</a> 
+					<h2>
+                        <a class="btn btn-nav-next" aria-label="Next page" href="/design-system/components-simple/blockquotes/">
+                            Blockquotes
+                        </a>
+                    </h2>
 					
 					
 					

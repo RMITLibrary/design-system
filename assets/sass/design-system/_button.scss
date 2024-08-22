@@ -57,6 +57,12 @@
         @include do-space(padding-bottom, lg);
         border-bottom: solid 1px $interface-grey;
     }
+    
+    /*prev and nxt links wrapped in h2 tags for screen reader identification */
+    h2 {
+        margin: 0;
+        font-family: $font-family-sans-serif;
+    }
 }
 
 .btn-nav-prev, .btn-nav-next  {
