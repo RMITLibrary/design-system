@@ -21,12 +21,6 @@ parent: "Complex components"
                         <span class="visually-hidden">Optional site title homepage</span>
                     </a>
                 </h2>  
-<!--
-                <a href="#">
-  <span aria-hidden="true">Delete</span>
-  <span class="visually-hidden">Delete name</span>
-</a>
--->
             </div>
             <!-- END left hand column -->
         </div>

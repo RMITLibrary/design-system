@@ -13,8 +13,8 @@
 				<!-- if $matchFound is yes, we've gone one past matched item -->
 				{{ if eq $matchFound  "yes" }}
 					<!-- pump out next button -->
-					<h2>
-                        <a class="btn btn-nav-next" aria-label="Next page" href="{{ .URL }}">
+					<h2 class="btn-nav-next">
+                        <a aria-label="Next page" href="{{ .URL }}">
                             {{ .Name }}
                         </a>
                     </h2>
@@ -27,8 +27,8 @@
 					{{ $matchFound = "yes" }}
 					<!-- Create Prev button if prevUrl is not blank - first item in menu will be -->
 					{{if ne $prevUrl "blank" }}
-						<h2>
-                            <a class="btn btn-nav-prev" aria-label="Previous page" href="{{ $prevUrl }}">
+						<h2 class="btn-nav-prev">
+                            <a aria-label="Previous page" href="{{ $prevUrl }}">
                                 {{ $prevName }}
                             </a>
                         </h2>
