@@ -190,3 +190,16 @@
 		border-top-right-radius: 0.5rem !important;
 	}
 }
+
+// Dark mode
+@include color-mode(dark) {
+    
+    .right-nav, .right-nav-accordion, .right-nav-simple {
+        background-color: $underlay-grey-dark;
+        
+        a.selected { 
+            color: $link-color-dark;
+            background-color: $underlay-selected-dark;   
+        }
+    }
+}

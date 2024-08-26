@@ -31,7 +31,7 @@
 
 .colour-bg {
 	&-dark-grey { background-color: $dark-grey; }
-    &-text-alt { background-color: $text-alt; }
+    //&-text-alt { background-color: $text-alt; }
     &-interface-grey { background-color: $interface-grey; }
     &-underlay-selected { background-color: $underlay-selected; }
     &-underlay-grey { background-color: $underlay-grey;
@@ -57,7 +57,7 @@
 
 .colour {
 	&-dark-grey { color: $dark-grey; }
-    &-text-alt { color: $text-alt; }
+    //&-text-alt { color: $text-alt; }
     &-interface-grey { color: $interface-grey; }
     &-underlay-selected { color: $underlay-selected; }
     &-underlay-grey { color: $underlay-grey; }

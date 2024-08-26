@@ -1,21 +1,21 @@
 @mixin link-feature {
 	text-decoration: none;
-	color: $rmit-blue;
+	//color: $rmit-blue;
 }
 
 @mixin link-feature-hover {
 	text-decoration: underline;
-	color: $blue-hover;
+	//color: $blue-hover;
 }
 
 @mixin link-normal {
 	text-decoration: underline;
-	color: $rmit-blue;
+	//color: $rmit-blue;
 }
 
 @mixin link-normal-hover {
 	text-decoration: none;
-	color: $blue-hover;
+	//color: $blue-hover;
 }
 
 a {
@@ -27,7 +27,7 @@ a:hover {
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
-  color: $rmit-blue;
+  //color: $rmit-blue;
   text-decoration: none;
 }
 

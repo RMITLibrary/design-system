@@ -10,7 +10,7 @@
 /* core design system colours */
 
 $dark-grey: #333;               //primary text colour
-$text-alt: #525252;             //Not in use - due to Triple AAA accessibility requirement?
+//$text-alt: #525252;             //Not in use - due to Triple AAA accessibility requirement?
 $interface-grey: #BFBFBF;
 $underlay-selected: #E6E6E6;    //use sparingly
 $underlay-grey: #f5f5f5;
@@ -22,6 +22,9 @@ $blue-hover: #0051A8;
 $rmit-red: #E61E2A;
 $correct-green: #009969;
 
+/* Dark mode colour vars */
+
+
 
 /* map our colours to bootstrap variables - is it worth mapping all grey vars? */
 
@@ -31,20 +34,38 @@ $gray-400: $interface-grey;
 $gray-600: $interface-grey;
 $gray-900: $dark-grey;
 
+$primary-bg-subtle: $underlay-grey;
+
 $blue: $rmit-blue;
 $green: $correct-green;
 $red: $rmit-red;
 
+$headings-color: $blue;
 
 /* link colours */
+$link-color: $blue;
 $link-hover-color: $blue-hover;
 $link-hover-decoration: none; 
+
+// gfdgfdgdf
+$body-color-dark: #dfe2e6;
+
+$body-bg-dark: #222529;
+
+$link-color-dark: #FAC800;
+$headings-color-dark: #b6c2ce;
+
+$underlay-grey-dark: #1c1f21;
+$underlay-selected-dark: #15171a;
 
 $input-btn-focus-color: rgba(13, 110, 253, 0.5);
 
 
 /* tables */
 $table-striped-bg: $underlay-grey;
+
+
+
 
 /* END COLOUR */
 
@@ -63,6 +84,9 @@ $lead-font-weight: 500;
 $enable-rfs: false;             //turn off responsive font scaling
 
 @import "bootstrap/bootstrap";
+
+
+
 
 
 // 5. Add additional custom code here

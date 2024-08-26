@@ -243,3 +243,16 @@ footer * {
 	}
 }
 
+// Dark mode
+@include color-mode(dark) {
+    .ask-the-library {
+        p {
+            color: $body-color-dark;
+        }
+    }
+    
+    .acknowledgement {
+        background-color: $underlay-grey-dark;
+    }
+}
+
