@@ -334,8 +334,8 @@ hide_buttons: true
 <h3>Footer</h3>
 <p>In this example the footer has two sections, <!-- Ask the library,--> Acknowledgement of country and the RMIT footer itself. In certain contexts it may be appropriate to omit the Ask the library and the Acknowledgement of country sections. The RMIT footer may also contain links such as About or Contact us specific to the relevant in addition to the global Terms and Privacy links.</p>
 <nav class="btn-nav-container" aria-label="Previous and next buttons">
-    <a class="btn btn-nav-prev" href="" aria-label="Previous page">Previous page</a>
-    <a class="btn btn-nav-next" href="" aria-label="Next page">Next page</a>
+    <h2 class="btn-nav-prev"><a href="" aria-label="Previous page">Previous page</a></h2>
+    <h2 class="btn-nav-next"><a href="" aria-label="Next page">Next page</a></h2>
 </nav>
 <h2 class="h3 margin-top-xl">Additional links</h2>
 <blockquote class="complex margin-top-xs">

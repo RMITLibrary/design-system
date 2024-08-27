@@ -45,3 +45,16 @@ ul.breadcrumbs {
 		}
 	}
 }
+
+// Dark mode
+@include color-mode(dark) {
+	ul.breadcrumbs {
+	color: $link-color-dark;
+	
+		a {
+			color: $link-color-dark;
+		}
+		
+	}
+	
+}

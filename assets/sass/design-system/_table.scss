@@ -60,3 +60,10 @@ table, .table {
 .table-striped>tbody>tr:nth-of-type(odd) {
     background-color: $underlay-grey;
 }
+
+// Dark mode
+@include color-mode(dark) {
+	.table-striped>tbody>tr:nth-of-type(odd) {
+		background-color: $underlay-grey-dark;
+	}
+}

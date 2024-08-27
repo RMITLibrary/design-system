@@ -14,7 +14,7 @@ $dark-grey: #333;               //primary text colour
 $interface-grey: #BFBFBF;
 $underlay-selected: #E6E6E6;    //use sparingly
 $underlay-grey: #f5f5f5;
-$underlay-hover: #fafafa;
+$underlay-hover: #fafafa;		//get rid
 
 $rmit-blue: #000054;
 $blue-70: #4D4D88;
@@ -22,7 +22,35 @@ $blue-hover: #0051A8;
 $rmit-red: #E61E2A;
 $correct-green: #009969;
 
-/* Dark mode colour vars */
+/* 
+Light mode colour vars
+
+$body-color: #333;			//text
+$body-bg: #fff;				//bg
+
+$headings-color-dark: $rmit-blue;	//headings, currently a little different from text
+
+$link-color: #FAC800;				//Currently rmit-blue, should be something different?
+$link-color-hover?;					//need to put this in place???
+
+$underlay-grey: #1c1f21;		//counterpoint to $body-color-dark - boxes
+$underlay-selected: #15171a;	//slightly darker again
+
+
+Dark mode colour vars 
+
+$body-color-dark: #dfe2e6;			//text
+$body-bg-dark: #222529;				//bg
+
+$headings-color-dark: #b6c2ce;		//headings, currently a little different from text
+
+$link-color-dark: #FAC800;			//yellow?
+$link-color-dark-hover;				//need to put this in place???
+
+$underlay-grey-dark: #1c1f21;		//counterpoint to $body-color-dark - boxes
+$underlay-selected-dark: #15171a;	//slightly darker again
+
+*/
 
 
 
@@ -40,6 +68,10 @@ $blue: $rmit-blue;
 $green: $correct-green;
 $red: $rmit-red;
 
+
+$body-color: #333;					//text
+$body-bg: #fff;						//bg
+
 $headings-color: $blue;
 
 /* link colours */
@@ -47,7 +79,7 @@ $link-color: $blue;
 $link-hover-color: $blue-hover;
 $link-hover-decoration: none; 
 
-// gfdgfdgdf
+// dark
 $body-color-dark: #dfe2e6;
 
 $body-bg-dark: #222529;
@@ -58,13 +90,8 @@ $headings-color-dark: #b6c2ce;
 $underlay-grey-dark: #1c1f21;
 $underlay-selected-dark: #15171a;
 
+
 $input-btn-focus-color: rgba(13, 110, 253, 0.5);
-
-
-/* tables */
-$table-striped-bg: $underlay-grey;
-
-
 
 
 /* END COLOUR */

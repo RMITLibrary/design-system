@@ -10,6 +10,12 @@ $img-width-xs: 10rem;		//128px;
     height: auto;
 }*/
 
+// Dark mode
+@include color-mode(dark) {
+	img {
+        filter: brightness(0.9) contrast(0.9);
+    }
+}
 
 figure {
     

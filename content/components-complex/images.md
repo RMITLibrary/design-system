@@ -51,7 +51,7 @@ parent: "Complex components"
 <h2>Sizing</h2>
 <p>By default the max-width is set to <strong class="nowrap">40rem (640px)</strong>.</p>
 <p>A range of helper classes are available to override the max-width value:</p>
-<table class="table table-striped">
+<table class="table-striped">
   <thead>
     <tr>
       <th>Class name</th>

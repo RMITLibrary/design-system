@@ -143,3 +143,53 @@ blockquote.complex {
     }
 	
 }
+
+// Dark mode
+@include color-mode(dark) {
+	
+	blockquote {
+		border-left: 0.25rem solid $link-color-dark;
+    	background: $underlay-grey-dark;
+		
+		.content {
+			p, small {
+				 color: $body-color-dark;
+			}
+		}
+	}
+	
+	.blergh-item {
+		
+		
+		.accordion-button:not(.collapsed) {
+			color: $link-color-dark;
+			//color: $headings-color-dark;
+			background-color: $body-bg-dark;
+		}
+		
+
+		.accordion-button:focus {
+			background-color: $underlay-grey-dark;
+		}
+	}
+	
+	
+	.transcript {
+		.accordion-button {
+			&:hover {
+				background-color: $body-bg-dark !important;	
+			}
+		}
+	}
+	
+	.nav-accordion {
+		
+		.accordion-button {
+			background-color: $underlay-grey-dark !important; 
+		}
+
+		.accordion-body {
+			background-color: $underlay-grey-dark;
+		}
+	}
+}

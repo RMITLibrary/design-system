@@ -132,3 +132,66 @@
 .btn-nav-prev a::before {
     transform: rotate(90deg);
 }
+
+
+// Dark mode
+@include color-mode(dark) {
+	// Consider hover state for dark mode????
+	.btn-primary {
+		color: $body-bg-dark;
+		background-color: $link-color-dark;
+		&:hover {
+			background-color: $link-color-dark;
+		}
+	}
+	
+	.btn-outline-secondary, .btn-default {
+		color: $link-color-dark;
+		background-color: $body-bg-dark;
+		border-color: $link-color-dark;
+
+		&:hover {
+			background-color: $body-bg-dark;
+			border-color: $link-color-dark;
+		}
+	}
+	
+	.accordion-item {
+		/* Accordion titles yellow? Is this the right move??? */
+		h1, h2, h3, h4, h5, h6,
+		.h1, .h2, .h3, .h4, .h5, .h6, button {
+			color: $link-color-dark;
+		}
+		
+		.accordion-button:not(.collapsed) {
+			color: $link-color-dark;
+			//color: $headings-color-dark;
+			background-color: $body-bg-dark;
+		}
+		
+
+		.accordion-button:focus {
+			background-color: $underlay-grey-dark;
+		}
+	}
+	
+	
+	.transcript {
+		.accordion-button {
+			&:hover {
+				background-color: $body-bg-dark !important;	
+			}
+		}
+	}
+	
+	.nav-accordion {
+		
+		.accordion-button {
+			background-color: $underlay-grey-dark !important; 
+		}
+
+		.accordion-body {
+			background-color: $underlay-grey-dark;
+		}
+	}
+}
