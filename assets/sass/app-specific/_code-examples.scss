@@ -2,18 +2,11 @@
     @include do-space(margin-top, lg); 
     @include do-space(margin-bottom, lg); 
 	
-	background-color: $underlay-grey;
+	background-color: var(--bs-primary-bg-subtle);
     //background-color: $primary-bg-subtle;
 	
 	padding: 1rem;
 }
-
-@include color-mode(dark) {
-    .highlight {
-        background-color:  $underlay-grey-dark;
-    }
-}
-
 
 .hljs-string {
 	color: $red;

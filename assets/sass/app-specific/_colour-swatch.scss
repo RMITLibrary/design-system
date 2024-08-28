@@ -31,23 +31,16 @@
 
 .colour-bg {
 	&-dark-grey { background-color: $dark-grey; }
-    //&-text-alt { background-color: $text-alt; }
     &-interface-grey { background-color: $interface-grey; }
     &-underlay-selected { background-color: $underlay-selected; }
     &-underlay-grey { background-color: $underlay-grey;
 	border: 1px solid $interface-grey; }
     
     &-rmit-blue { background-color: $rmit-blue; }
-    &-blue-70 { background-color: $blue-70; }
     &-blue-hover { background-color: $blue-hover; }
     
     &-rmit-red { background-color: $rmit-red; }
-    &-correct-green { background-color: $correct-green; }
-    
-	&-underlay-hover { 
-        background-color: $underlay-hover;
-        border: 1px solid $interface-grey;
-    }   
+    &-correct-green { background-color: $correct-green; }  
 	
     &-white { 
         background-color: $white;
@@ -57,15 +50,11 @@
 
 .colour {
 	&-dark-grey { color: $dark-grey; }
-    //&-text-alt { color: $text-alt; }
     &-interface-grey { color: $interface-grey; }
     &-underlay-selected { color: $underlay-selected; }
     &-underlay-grey { color: $underlay-grey; }
-	&-underlay-hover { color: $underlay-hover; }
     
     &-rmit-blue { color: $rmit-blue; }
-    &-blue-70 { color: $blue-70; }
-    &-blue-hover { color: $blue-hover; }
     
     &-rmit-red { color: $rmit-red; }
     &-correct-green { color: $correct-green; }

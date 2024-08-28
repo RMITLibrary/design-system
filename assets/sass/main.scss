@@ -3,98 +3,10 @@
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "bootstrap/functions";
 
-// 2. Include any default variable overrides here
+// 2. Create colour variables, override bootstrap defaults, dark mode mapping
+@import "design-system/colour";
 
-/* START COLOUR */
-
-/* core design system colours */
-
-$dark-grey: #333;               //primary text colour
-//$text-alt: #525252;             //Not in use - due to Triple AAA accessibility requirement?
-$interface-grey: #BFBFBF;
-$underlay-selected: #E6E6E6;    //use sparingly
-$underlay-grey: #f5f5f5;
-$underlay-hover: #fafafa;		//get rid
-
-$rmit-blue: #000054;
-$blue-70: #4D4D88;
-$blue-hover: #0051A8;
-$rmit-red: #E61E2A;
-$correct-green: #009969;
-
-/* 
-Light mode colour vars
-
-$body-color: #333;			//text
-$body-bg: #fff;				//bg
-
-$headings-color-dark: $rmit-blue;	//headings, currently a little different from text
-
-$link-color: #FAC800;				//Currently rmit-blue, should be something different?
-$link-color-hover?;					//need to put this in place???
-
-$underlay-grey: #1c1f21;		//counterpoint to $body-color-dark - boxes
-$underlay-selected: #15171a;	//slightly darker again
-
-
-Dark mode colour vars 
-
-$body-color-dark: #dfe2e6;			//text
-$body-bg-dark: #222529;				//bg
-
-$headings-color-dark: #b6c2ce;		//headings, currently a little different from text
-
-$link-color-dark: #FAC800;			//yellow?
-$link-color-dark-hover;				//need to put this in place???
-
-$underlay-grey-dark: #1c1f21;		//counterpoint to $body-color-dark - boxes
-$underlay-selected-dark: #15171a;	//slightly darker again
-
-*/
-
-
-
-/* map our colours to bootstrap variables - is it worth mapping all grey vars? */
-
-$gray-100: $underlay-grey;
-$gray-300: $interface-grey;
-$gray-400: $interface-grey;
-$gray-600: $interface-grey;
-$gray-900: $dark-grey;
-
-$primary-bg-subtle: $underlay-grey;
-
-$blue: $rmit-blue;
-$green: $correct-green;
-$red: $rmit-red;
-
-
-$body-color: #333;					//text
-$body-bg: #fff;						//bg
-
-$headings-color: $blue;
-
-/* link colours */
-$link-color: $blue;
-$link-hover-color: $blue-hover;
 $link-hover-decoration: none; 
-
-// dark
-$body-color-dark: #dfe2e6;
-
-$body-bg-dark: #222529;
-
-$link-color-dark: #FAC800;
-$headings-color-dark: #b6c2ce;
-
-$underlay-grey-dark: #1c1f21;
-$underlay-selected-dark: #15171a;
-
-
-$input-btn-focus-color: rgba(13, 110, 253, 0.5);
-
-
-/* END COLOUR */
 
 /* START TYPOGRAPHY variables */
 
@@ -126,7 +38,6 @@ $enable-rfs: false;             //turn off responsive font scaling
 @import "design-system/typography";
 @import "design-system/links";
 @import "design-system/forms";
-@import "design-system/colour";
 
 //Simple components
 @import 'design-system/button';
