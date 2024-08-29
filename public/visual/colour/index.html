@@ -41,7 +41,17 @@
 						<li class="hide-sm">
 							<a href="https://www.rmit.edu.au/library">Library</a>
 						</li>
-						
+						<li class="search">
+							<a id="search2">
+								<div class="search-label">Search</div>
+								<div class="mag-glass"></div>
+							</a>
+						</li>
+                        <li class="search">
+							<a id="search3">
+								<div class="mag-glass"></div>
+							</a>
+						</li>
 						<li class="menu">
 							<button id="menu-button" 
 							class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" 
@@ -309,11 +319,11 @@
                 
  <h1 class="margin-top-zero">Colour</h1>
 <p class="lead">The design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.</p>
+<p>A dark mode has been implemented.</p>
+<!--
 <h2>Primary text</h2>
-<!-- START row -->
 <div class="row margin-top-lg">
 	<div class="col-md-6">
-		<!-- START swatch left -->
 		<div class="swatch">
 			<div class="colour colour-bg-dark-grey"></div>
 			<div class="description">
@@ -323,10 +333,8 @@
 				</p>
 			</div>
 		</div>
-		<!-- END swatch left -->
 	</div>
 	<div class="col-md-6"> 
-		<!-- START swatch right -->
 		<div class="swatch">
 			<div class="colour colour-bg-rmit-blue"></div>
 			<div class="description">
@@ -338,11 +346,8 @@
 		</div>
 	</div>
 </div>
-<!-- END row -->
-<!-- START row -->
 <div class="row">
 	<div class="col-md-6">
-		<!-- START swatch left -->
 		<div class="swatch">
 			<div class="colour colour-bg-blue-70"></div>
 			<div class="description">
@@ -352,10 +357,8 @@
 				</p>
 			</div>
 		</div>
-		<!-- END swatch left -->
 	</div>
 	<div class="col-md-6"> 
-		<!-- START swatch right -->
 		<div class="swatch">
 			<div class="colour colour-bg-blue-hover"></div>
 			<div class="description">
@@ -365,15 +368,11 @@
 				</p>
 			</div>
 		</div>
-		<!-- END swatch right -->
 	</div>
 </div>
-<!-- END row -->
 <h2>Other</h2>
-<!-- START row -->
 <div class="row margin-top-lg">
 	<div class="col-md-6">
-		<!-- START swatch left -->
 		<div class="swatch">
 			<div class="colour colour-bg-rmit-red"></div>
 			<div class="description">
@@ -383,10 +382,8 @@
 				</p>
 			</div>
 		</div>
-		<!-- END swatch left -->
 	</div>
 	<div class="col-md-6"> 
-		<!-- START swatch right -->
 		<div class="swatch">
 			<div class="colour colour-bg-correct-green"></div>
 			<div class="description">
@@ -396,14 +393,10 @@
 				</p>
 			</div>
 		</div>
-		<!-- END swatch right -->
 	</div>
 </div>
-<!-- END row -->
-<!-- START row -->
 <div class="row">
 	<div class="col-md-6">
-		<!-- START swatch left -->
 		<div class="swatch">
 			<div class="colour colour-bg-white"></div>
 			<div class="description">
@@ -413,10 +406,8 @@
 				</p>
 			</div>
 		</div>
-		<!-- END swatch left -->
 	</div>
 	<div class="col-md-6"> 
-		<!-- START swatch right -->
 		<div class="swatch">
 			<div class="colour colour-bg-interface-grey"></div>
 			<div class="description">
@@ -426,14 +417,10 @@
 				</p>
 			</div>
 		</div>
-		<!-- END swatch right -->
 	</div>
 </div>
-<!-- END row -->
-<!-- START row -->
 <div class="row">
 	<div class="col-md-6">
-		<!-- START swatch left -->
 		<div class="swatch">
 			<div class="colour colour-bg-underlay-grey"></div>
 			<div class="description">
@@ -443,10 +430,8 @@
 				</p>
 			</div>
 		</div>
-		<!-- END swatch left -->
 	</div>
 	<div class="col-md-6"> 
-		<!-- START swatch right -->
 		<div class="swatch">
 			<div class="colour colour-bg-underlay-selected"></div>
 			<div class="description">
@@ -456,13 +441,185 @@
 				</p>
 			</div>
 		</div>
-		<!-- END swatch right -->
 	</div>
 </div>
-<!-- END row -->
-<a name="contrast-table"></a>
-<h2>Contrast ratio</h2>
+ -->
 <div class="table-responsive">
+<table class="table table-striped sick-of-this">
+<thead>
+<tr>
+	<th></th>
+	<th>Light mode</th>
+	<th>Dark mode</th>
+	<th>Bootstrap/CSS var</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<th>Background</th>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-white">&nbsp;</div>
+			<div class="small">White<br /><code>#ffffff</code></div>
+		</div>
+	</td>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-bg-dark">&nbsp;</div>
+			<div class="small">Bg dark<br /><code>#222529</code></div>
+		</div>
+	</td>
+	<td class="small">--bs-body-bg-color</td>
+</tr>
+<tr>
+	<th>Text</th>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-dark-grey">&nbsp;</div>
+			<div class="small">Dark grey<br /><code>#333333</code></div>
+		</div>
+	</td>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-text-dark">&nbsp;</div>
+			<div class="small">Text dark<br /><code>#dfe2e6</code></div>
+		</div>
+	</td>
+	<td class="small">--bs-body-color</td>
+</tr>
+<tr>
+	<th>Link</th>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-rmit-blue">&nbsp;</div>
+			<div class="small">RMIT blue<br /><code>#000054</code></div>
+		</div>
+	</td>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-link-dark">&nbsp;</div>
+			<div class="small">Mid blue<br /><code>#6FB7FF</code></div>
+		</div>
+	</td>
+	<td class="small">--bs-link-color-rgb</td>
+</tr>
+<tr>
+	<th>Link hover</th>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-blue-hover">&nbsp;</div>
+			<div class="small">Blue hover<br /><code>#0051A8</code></div>
+		</div>
+	</td>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-link-hover-dark">&nbsp;</div>
+			<div class="small">Mid blue hover<br /><code>#98c3fa</code></div>
+		</div>
+	</td>
+	<td class="small">--bs-link-hover-color-rgb</td>
+</tr>
+<tr>
+	<th>Headings</th>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-rmit-blue">&nbsp;</div>
+			<div class="small">RMIT blue<br /><code>#000054</code></div>
+		</div>
+	</td>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-text-dark">&nbsp;</div>
+			<div class="small">Text dark<br /><code>#dfe2e6</code></div>
+		</div>
+	</td>
+	<td class="small">--bs-link-hover-color-rgb</td>
+</tr>
+<tr>
+	<th>Underlay</th>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-underlay-grey">&nbsp;</div>
+			<div class="small">Underlay grey<br /><code>#F5F5F5</code></div>
+		</div>
+	</td>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-underlay-dark">&nbsp;</div>
+			<div class="small">Underlay dark<br /><code>#1c1f21</code></div>
+		</div>
+	</td>
+	<td class="small">--bs-primary-bg-subtle</td>
+</tr>
+<tr>
+	<th>Underlay selected</th>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-underlay-selected">&nbsp;</div>
+			<div class="small">Underlay selected<br /><code>#E6E6E6</code></div>
+		</div>
+	</td>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-underlay-selected-dark">&nbsp;</div>
+			<div class="small">Underlay selected dark<br /><code>#15171a</code></div>
+		</div>
+	</td>
+	<td class="small">$underlay-selected<br />$underlay-selected-dark<br /></td>
+</tr>
+<tr>
+	<th>Interface</th>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-interface-grey">&nbsp;</div>
+			<div class="small">Interface grey<br /><code>#BFBFBF</code></div>
+		</div>
+	</td>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-interface-grey">&nbsp;</div>
+			<div class="small">Interface grey<br /><code>#BFBFBF</code></div>
+		</div>
+	</td>
+	<td class="small">$interface-grey<br />Common across both modes</td>
+</tr>
+<tr>
+	<th>Accent</th>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-rmit-red">&nbsp;</div>
+			<div class="small">RMIT red<br /><code>#E61E2A</code></div>
+		</div>
+	</td>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-accent-dark">&nbsp;</div>
+			<div class="small">Accent dark<br /><code>#E6636A</code></div>
+		</div>
+	</td>
+	<td class="small">$accent-color<br />$accent-color-dark</td>
+</tr>
+<tr>
+	<th>Correct icons</th>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-correct-green">&nbsp;</div>
+			<div class="small">Correct green<br /><code>#009969</code></div>
+		</div>
+	</td>
+	<td>
+		<div class="swatch2">
+			<div class="colour-md colour-bg-correct-green">&nbsp;</div>
+			<div class="small">Correct green<br /><code>#009969</code></div>
+		</div>
+	</td>
+	<td class="small">$green<br />Common across both modes.</td>
+</tr>
+</tbody>
+</table>
+<a name="contrast-table"></a>
+<h2 class="h3 margin-top-xl">Contrast ratio - light mode</h2>
+<div class="table-responsive margin-top-zero">
 <table class="table table-striped">
 <thead>
 <tr>
@@ -492,22 +649,6 @@
 		Dark Grey on Underlay Selected</td>
 	<td><a href="https://www.siegemedia.com/contrast-ratio#%23333333-on-%23E6E6E6">10.12</a></td>
 </tr>
-<!--
-<tr>
-	<td>
-		<span class="colour-bg-sm colour-bg-text-alt">&nbsp;</span>
-		<span class="colour-bg-sm colour-bg-white">&nbsp;</span>
-		Text Alt on White</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%23525252-on-white">7.81</a></td>
-</tr>
-<tr>
-	<td>
-		<span class="colour-bg-sm colour-bg-text-alt">&nbsp;</span>
-		<span class="colour-bg-sm colour-bg-underlay-grey">&nbsp;</span>
-		Text Alt on Underlay Selected</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%23525252-on-%23f5f5f5">7.16</a></td>
-</tr>
--->
 <tr>
 	<td>
 		<span class="colour-bg-sm colour-bg-rmit-blue">&nbsp;</span>
@@ -522,56 +663,58 @@
 		RMIT Blue on Underlay Grey</td>
 	<td><a href="https://www.siegemedia.com/contrast-ratio#%23000054-on-%23f5f5f5">17.07</a></td>
 </tr>  
+</tbody>
+</table>
+</div>
+<h2 class="h3 margin-top-xl">Contrast ratio - dark mode</h2>
+<div class="table-responsive margin-top-zero">
+<table class="table table-striped">
+<thead>
 <tr>
-	<td>
-		<span class="colour-bg-sm colour-bg-rmit-blue">&nbsp;</span>
-		<span class="colour-bg-sm colour-bg-underlay-selected">&nbsp;</span>
-		RMIT Blue on Underlay Selected</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%23000054-on-%23E6E6E6">14.91</a></td>
+	<th>Colour combination</th>
+	<th>Contrast ratio</th>
 </tr>
-<!-- -->
+</thead>
+<tbody>
 <tr>
 	<td>
-		<span class="colour-bg-sm colour-bg-blue-hover">&nbsp;</span>
-		<span class="colour-bg-sm colour-bg-white">&nbsp;</span>
-		Blue Hover on White</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%230051A8-on-white">7.65</a></td>
-</tr>
-<tr>
-	<td>
-		<span class="colour-bg-sm colour-bg-blue-hover">&nbsp;</span>
-		<span class="colour-bg-sm colour-bg-underlay-grey">&nbsp;</span>
-		Blue Hover on Underlay Grey</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%230051A8-on-%23f5f5f5">7.02</a></td>
-</tr> 
-<!--
-<tr>
-	<td>
-		<span class="colour-bg-sm colour-bg-blue-hover">&nbsp;</span>
-		<span class="colour-bg-sm colour-bg-underlay-selected">&nbsp;</span>
-		Blue Hover on Underlay Selected</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%230F2699-on-%23E6E6E6">9.57</a></td>
-</tr> 
--->
-<!-- -->
-<tr>
-	<td>
-		<span class="colour-bg-sm colour-bg-blue-70">&nbsp;</span>
-		<span class="colour-bg-sm colour-bg-white">&nbsp;</span>
-		Blue 70 on White</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%234D4D88-on-white">7.68</a></td>
+		<span class="colour-bg-sm colour-bg-text-dark">&nbsp;</span>
+		<span class="colour-bg-sm colour-bg-bg-dark">&nbsp;</span>
+		Text dark on bg dark</td>
+	<td><a href="https://www.siegemedia.com/contrast-ratio#%23dfe2e6-on-white">11.84</a></td>
 </tr>
 <tr>
 	<td>
-		<span class="colour-bg-sm colour-bg-blue-70">&nbsp;</span>
-		<span class="colour-bg-sm colour-bg-underlay-grey">&nbsp;</span>
-		Blue 70 on Underlay Grey</td>
-	<td><a href="https://www.siegemedia.com/contrast-ratio#%234D4D88-on-%23f5f5f5">7.04</a></td>
+		<span class="colour-bg-sm colour-bg-text-dark">&nbsp;</span>
+		<span class="colour-bg-sm colour-bg-underlay-dark">&nbsp;</span>
+		Text dark on underlay dark</td>
+	<td><a href="https://www.siegemedia.com/contrast-ratio#%23dfe2e6-on-%231c1f21">12.75</a></td>
+</tr>
+<tr>
+	<td>
+		<span class="colour-bg-sm colour-bg-text-dark">&nbsp;</span>
+		<span class="colour-bg-sm colour-bg-underlay-selected-dark">&nbsp;</span>
+		Text dark on underlay selected dark</td>
+	<td><a href="https://www.siegemedia.com/contrast-ratio#%23dfe2e6-on-%2315171a">13.81</a></td>
+</tr>
+<tr>
+	<td>
+		<span class="colour-bg-sm colour-bg-link-dark">&nbsp;</span>
+		<span class="colour-bg-sm colour-bg-bg-dark">&nbsp;</span>
+		Mid blue on bg dark</td>
+	<td><a href="https://www.siegemedia.com/contrast-ratio#%236FB7FF-on-white">7.24</a></td>
+</tr>
+<tr>
+	<td>
+		<span class="colour-bg-sm colour-bg-link-dark">&nbsp;</span>
+		<span class="colour-bg-sm colour-bg-underlay-dark">&nbsp;</span>
+		Mid blue on underlay dark</td>
+	<td><a href="https://www.siegemedia.com/contrast-ratio#%236FB7FF-on-%231c1f21">7.8</a></td>
 </tr> 
 </tbody>
 </table>
 </div>
-<h2>Highlighted text</h2>
+<h2 class="h3 margin-top-xl">Highlighted text</h3>
 <p>It may be neccesary to mark text to highlight certain words or phrases. It's important to remember to never use colour alone to convey information, due to visual impairments such as colour blindness.</p>
 <p>If you want a sequence of colours more distinguishable to people with colour-bg-blindness, follow this pattern:</p>
 <p><span class="color-teal">teal</span>, <span class="color-pink">pink</span>, <span class="color-green">green</span>, <span class="color-purple">purple</span>, <span class="color-brown">brown</span>, <span class="color-blue">blue</span>, <span class="color-red">red</span>, <span class="color-yellow">yellow</span></p>

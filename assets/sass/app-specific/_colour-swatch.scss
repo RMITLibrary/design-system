@@ -11,6 +11,13 @@
         height: 5rem;
         border-radius: 2.5rem;
         margin-right: 1rem;
+		background: $green;
+    }
+	
+	.colour-md {
+        width: 5rem;
+        height: 5rem;
+		background: $red;
     }
     
     h5 {
@@ -30,22 +37,45 @@
 }
 
 .colour-bg {
+	//light
 	&-dark-grey { background-color: $dark-grey; }
-    &-interface-grey { background-color: $interface-grey; }
     &-underlay-selected { background-color: $underlay-selected; }
     &-underlay-grey { background-color: $underlay-grey;
 	border: 1px solid $interface-grey; }
+	&-white { background-color: $white;
+        border: 1px solid $interface-grey; }   
     
     &-rmit-blue { background-color: $rmit-blue; }
     &-blue-hover { background-color: $blue-hover; }
-    
-    &-rmit-red { background-color: $rmit-red; }
-    &-correct-green { background-color: $correct-green; }  
+	&-rmit-red { background-color: $rmit-red; }
 	
-    &-white { 
-        background-color: $white;
-        border: 1px solid $interface-grey;
-    }   
+	//dark
+	&-text-dark { background-color: $body-color-dark; }
+	&-bg-dark { background-color: $body-bg-dark; }
+	&-underlay-selected-dark { background-color: $underlay-selected-dark; }
+	&-underlay-dark { background-color: $underlay-grey-dark; }
+	
+	&-link-dark { background-color: $link-color-dark; }
+	&-link-hover-dark { background-color: $link-color-hover-dark; }
+	&-accent-dark { background-color: $accent-color-dark; }
+	
+	
+	// dark
+/*$body-color-dark: #dfe2e6;
+
+$headings-color-dark: #dfe2e6; //#b6c2ce;
+
+$link-color-dark: #6FB7FF;          // link colours dark
+$link-color-hover-dark: #f5d456;
+$accent-color-dark: #E6636A;
+
+$underlay-grey-dark: #1c1f21;       //  used for boxes, panels etc.
+$underlay-selected-dark: #15171a;*/
+	
+	//common
+	&-interface-grey { background-color: $interface-grey; }
+    &-correct-green { background-color: $correct-green; }  
+
 }
 
 .colour {
@@ -59,6 +89,35 @@
     &-rmit-red { color: $rmit-red; }
     &-correct-green { color: $correct-green; }
 }
+
+
+.sick-of-this {
+	th {
+		vertical-align: middle;
+		border-width: 0 !important;
+		border-bottom-color: $interface-grey;
+	}
+	
+	td {
+		vertical-align: middle;
+	}
+	
+	.swatch2 {
+		display: flex;
+		align-items: center;
+
+		.colour-md {
+			flex-shrink: 0; 
+			width: 3.5rem;
+			height: 3.5rem;
+			border-radius: 1.75rem;
+			margin-right: 1rem;
+			//background: $red;
+		}
+	}
+}
+
+
 
 //$dark-grey: #333;               //primary text colour
 //$text-alt: #525252;             //Not in use - due to Triple AAA accessibility requirement?
