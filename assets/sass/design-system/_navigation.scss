@@ -189,7 +189,15 @@
 
 // Dark mode
 @include color-mode(dark) {
-    
+	
+	.right-nav, .right-nav-simple {
+
+		h3.selected {
+			border-left: 0.25rem solid $accent-color-dark;
+			background-color: $underlay-selected-dark;
+		}
+	}
+   
     .right-nav, .right-nav-accordion, .right-nav-simple {
         
         a.selected { 

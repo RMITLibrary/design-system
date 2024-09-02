@@ -224,7 +224,7 @@ $img-width-sm: 18.5rem;     //296px*/
 		//select the third and second items of every set of four items, apply a white bg
 		li:nth-child(4n+3),
 		li:nth-child(4n+4) {
-		  background-color: var(--bs-body-color);
+		  background-color: var(--bs-body-bg-color);
 		}
 		
 		// span across both columns if the number of items is odd
@@ -247,7 +247,7 @@ $img-width-sm: 18.5rem;     //296px*/
 		li:nth-child(6n+4),
 		li:nth-child(6n+5),
 		li:nth-child(6n+6) {
-		  background-color: var(--bs-body-color);
+		  background-color: var(--bs-body-bg-color);
 		}
 		
 		//span last item all columns if the there's one item on last row
@@ -277,7 +277,7 @@ $img-width-sm: 18.5rem;     //296px*/
 		li:nth-child(8n+6),
 		li:nth-child(8n+7),
 		li:nth-child(8n+8){
-		  background-color: var(--bs-body-color);
+		  background-color: var(--bs-body-bg-color);
 		}
 		
 		//span last item all columns if the there's one item on last row

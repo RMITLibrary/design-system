@@ -19,7 +19,7 @@
       <link>http://localhost:1313/design-system/visual/colour/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/visual/colour/</guid>
-      <description>Colour The design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.&#xA;Primary text Dark Grey #333333&#xA;Primary colour for all text. RMIT Blue #000054&#xA;Used for links and titles Blue 70 #4D4D88</description>
+      <description>Colour The design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.&#xA;A dark mode has been implemented.&#xA;Light mode Dark mode Bootstrap/CSS var Background &amp;nbsp; White&#xA;#ffffff &amp;nbsp; Bg dark&#xA;#222529 --bs-body-bg-color Text &amp;nbsp; Dark grey</description>
     </item>
     <item>
       <title>Icons</title>

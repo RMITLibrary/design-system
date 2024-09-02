@@ -22,6 +22,11 @@
     border-color: $interface-grey;
     border-left: 0px;
     border-right: 0px;
+	
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6, button {
+		color: $link-color;
+	}
     
     .accordion-header {
         margin: 0px;    //suppress the 40px margin-top found by default
@@ -229,7 +234,7 @@ and last child has no margin bottom
 @include color-mode(dark) {
 	
 	.accordion-item {
-		/* Accordion titles yellow? Is this the right move??? */
+		
 		h1, h2, h3, h4, h5, h6,
 		.h1, .h2, .h3, .h4, .h5, .h6, button {
 			color: $link-color-dark;
@@ -239,10 +244,20 @@ and last child has no margin bottom
 			color: $link-color-dark;
 		}
         
-        //yellow carat instead of red???
         .accordion-button::before {
             @include carat-dark;
         }
+	}
+	
+	.accordion-white {
+		 .accordion-button, .accordion-button:hover, .accordion-button:not(.collapsed):hover {
+			color: $white !important;
+			background-color: $rmit-blue;
+		}
+
+		.accordion-button::before {
+			@include carat-white;
+		}
 	}
 
 }
