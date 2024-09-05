@@ -34,7 +34,7 @@ body {
 It's debatable whether to include margin top for p, ul, ol etc.
 Worth consideringsome css trickery to remove margin if p is the first element???
 */
-p {
+p, p.default {
     @include media-breakpoint-up(md) { font-size: 1.125rem; } 
     @include do-space(margin-top, xs);      //should we have margin-top?
     @include do-space(margin-bottom, xs);

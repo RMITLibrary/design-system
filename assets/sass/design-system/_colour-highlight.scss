@@ -1,0 +1,17 @@
+//set-colours mixin in _colours.scss
+
+.highlight-1 { @include set-colours($body-color, #fac800); }
+.highlight-2 { @include set-colours($body-color, #70cfff); }
+.highlight-3 { @include set-colours(#000000, #f174b7); }
+.highlight-4 { @include set-colours($body-color, #81e996); }
+.highlight-5 { @include set-colours(#000000, #f5904d); }
+.highlight-6 { @include set-colours(#000000, #e66cef); }
+
+@include color-mode(dark) {
+
+/*.hightlight-3 { @include set-colours($body-color, #C6F1E4); }
+.hightlight-4 { @include set-colours($body-color, #C6F1E4); }
+.hightlight-5 { @include set-colours($body-color, #C6F1E4); }*/
+	
+	
+}
