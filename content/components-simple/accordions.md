@@ -198,7 +198,10 @@ parent: "Simple components"
 	</h2>
 	<div id="collapseBlergh" class="accordion-collapse collapse" aria-labelledby="headingBlergh">
 	  <div class="accordion-body">
+    <h3>This is a header</h3>
+    <p>
 		This is the first item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus ipsum, semper sit amet sollicitudin sit amet, interdum et nisi. Morbi in ullamcorper nisi. Fusce eget magna vitae lacus eleifend malesuada vel eu metus. Integer eget pellentesque magna, sit amet dignissim leo. Suspendisse potenti. Cras nec eros convallis, pretium ipsum eu, luctus magna.
+    </p>
 	  </div>
 	</div>
 </div>

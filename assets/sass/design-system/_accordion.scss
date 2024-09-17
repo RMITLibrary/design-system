@@ -25,11 +25,12 @@
 	
 	h1, h2, h3, h4, h5, h6,
 	.h1, .h2, .h3, .h4, .h5, .h6, button {
-		color: $link-color;
+		//color: $link-color;
 	}
     
     .accordion-header {
         margin: 0px;    //suppress the 40px margin-top found by default
+        color: $link-color;
     }
 
     .accordion-button {
@@ -242,8 +243,12 @@ and last child has no margin bottom
 		
 		h1, h2, h3, h4, h5, h6,
 		.h1, .h2, .h3, .h4, .h5, .h6, button {
-			color: $link-color-dark;
+			//color: $link-color-dark;
 		}
+
+        .accordion-header {
+            color: $link-color-dark;
+        }
 		
 		.accordion-button:not(.collapsed) {
 			color: $link-color-dark;
