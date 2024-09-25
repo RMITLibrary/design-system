@@ -374,7 +374,7 @@
 </ul>
 <h3>Float right example</h3>
 <figure class="float-right">
-    <img src="https://rmitlibrary.github.io/cdn/learninglab/illustration/uni-essentials.png"  alt="An example image" />
+    <img src="https://rmitlibrary.github.io/cdn/learninglab/illustration/landing/uni-essentials.png"  alt="An example image" />
     <figcaption>An example caption for this image.</figcaption>
 </figure>
 <p>The figure in this example has the class <code>float-right</code> applied. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
@@ -418,7 +418,7 @@
 </ul>
 <h3>Float right small example</h3>
 <figure class="float-right-sm">
-    <img src="https://rmitlibrary.github.io/cdn/learninglab/illustration/uni-essentials.png"  alt="An example image" />
+    <img src="https://rmitlibrary.github.io/cdn/learninglab/illustration/landing/uni-essentials.png"  alt="An example image" />
     <figcaption>An example caption for this image.</figcaption>
 </figure>
 <p>The figure in this example has the class <code>float-right-sm</code> applied. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
@@ -502,7 +502,7 @@
 <!-- END code example -->
 <div class="img-text align-items-top">
 	<figure>
-		<img alt="" src="https://rmitlibrary.github.io/cdn/learninglab/illustration/uni-essentials.png">
+		<img alt="" src="https://rmitlibrary.github.io/cdn/learninglab/illustration/landing/uni-essentials.png">
 	</figure>
 	<div class="content-text">
 		<h3 class="margin-top-zero">Example 3</h3>
@@ -585,34 +585,51 @@
 &lt;/div&gt;</code>
 </pre></div>
 <!-- END code example -->
+<p><a id="cards"></a></p>
+<h2>Cards</h2>
+<p>Cards can be useful to seperate information from the main content flow. They have a max width of 40rem (640px), though it is unliokely that they would be displayed inline. It's more likely that they would be floated to the right of a series of paragraphs or displayed in a basic grid using the class <code>my-grid</code>.</p>
+<ul>
+	<li>By default, paragraph text is displayed at small size</li>
+	<li>Use <code>&lt;p class="large"&gt;</code> to display it a the default partagraph size</li>
+	<li>By default, a border is displayed around the card.</li>
+	<li>Use <code>class="no-border"</code> to remover the border</li>
+	<li>Look to reduce the size of titles by ast least one size for space reasons. If h3 is required semantically, use <code>class="h4"</code> to reduce the size of the text.</li>
+</ul>
+<div class="card">
+	<figure>
+		<img src="https://rmitlibrary.github.io/cdn/learninglab/illustration/landing/uni-essentials.png" class="card-img-top" alt="">
+	</figure>
+	<div class="card-body">
+		<h3 class="card-title h4">h3 displayed as h4</h3>
+		<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed.</p>
+	</div>
+</div>
+<!-- START code example -->
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;div class=&quot;card&quot;&gt;
+	&lt;figure&gt;
+		&lt;img src=&rdquo;my-image.jpg&rdquo; alt=&rdquo;An example image&rdquo; class=&quot;card-img-top&quot;&gt;
+	&lt;/figure&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h3 class=&quot;card-title h4&quot;&gt;Title goes here&lt;/h3&gt;
+		&lt;p class=&quot;card-text&quot;&gt;Content goes here.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code>
+</pre></div>
+<!-- END code example -->
 <!-- CARD float-right -->
 <h3>Float right card example</h3>
 <div class="card float-right my-border">
-<!--<figure>
-  <img src="https://rmitlibrary.github.io/cdn/learninglab/illustration/uni-essentials.png" class="card-img-top" alt="...">
-</figure>-->
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed.</p>
   </div>
 </div>
-<p>The figure in this example has the class <code>float-right</code> applied. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien.</p>
+<p>The card in this example has the class <code>float-right</code> applied. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Its width is limited to 160rem (160px). Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien.</p>
 <!-- CARD float right -->
-<h3>Card example</h3>
-<div class="card">
-<figure>
-  <img src="https://rmitlibrary.github.io/cdn/learninglab/illustration/uni-essentials.png" class="card-img-top" alt="...">
-</figure>
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-<p>The following example uses four fictional sources to show how you might take notes and then synthesise the ideas in a piece of writing.</p>
-<h3>Note-taking for synthesis</h3>
-<p>Read each source and take notes on the main ideas in dot point format.</p>
-<h3>Topic: English is the dominant world language</h3>
+<h3>Cards in a grid</h3>
+<p>Here's an example of using cards in a grid</p>
 <div class="my-grid">
 	<!-- START card -->
 	<div class="card">
@@ -663,6 +680,191 @@
 	</div>
 	<!-- END card -->	
 </div>
+<!-- START code example -->
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">code example here</code>
+</pre></div>
+<!-- END code example -->
+<a id="grids"></a>
+<h2>Grids</h2>
+<p>As shown above, grid classes are available. Any content can be placed inside. By default, at screens larger than t5654px, the grid will be have two columns with a 1rem (16px) gap. At smaller screens, content in stacked in one column</p>
+By default grids take up 100% of the avaialble screen wisth. Mention gap stuf. Arrrrrrghjgjghgh!
+<div class="my-grid gap-lg">
+	<!-- START table -->
+	<table>
+		<thead>
+		<tr>
+		<th>Meaning</th>
+		<th>Symbol</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td>causes / leads to</td>
+		<td>→</td>
+		</tr>
+		<tr>
+		<td>an increase</td>
+		<td>↑</td>
+		</tr>
+		<tr>
+		<td>greater than</td>
+		<td>&gt;</td>
+		</tr>
+		<tr>
+		<td>a decrease</td>
+		<td>↓</td>
+		</tr>
+		<tr>
+		<td>and</td>
+		<td>&amp;</td>
+		</tr>
+		<tr>
+		<td>equals</td>
+		<td>=</td>
+		</tr>
+		<tr>
+		<td>is not equal to</td>
+		<td>≠</td>
+		</tr>
+		<tr>
+		<td>positive</td>
+		<td>+</td>
+		</tr>
+		<tr>
+		<td>less than</td>
+		<td>&lt;</td>
+		</tr>
+		</tbody>
+	</table>
+	<!-- END table -->
+	<!-- START table -->
+	<table>
+		<thead>
+		<tr>
+		<th>Meaning</th>
+		<th>Abbreviation</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td>for example</td>
+		<td>eg</td>
+		</tr>
+		<tr>
+		<td>concerning / about</td>
+		<td>re</td>
+		</tr>
+		<tr>
+		<td>note well</td>
+		<td>NB</td>
+		</tr>
+		<tr>
+		<td>therefore</td>
+		<td>∴</td>
+		</tr>
+		<tr>
+		<td>that is</td>
+		<td>ie</td>
+		</tr>
+		<tr>
+		<td>and others</td>
+		<td>et al</td>
+		</tr>
+		<tr>
+		<td>negative</td>
+		<td>-ve</td>
+		</tr>
+		<tr>
+		<td>compared with</td>
+		<td>cf</td>
+		</tr>
+		</tbody>
+	</table>
+	<!-- END table -->
+</div>
+<!-- START code example -->
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html"></code>
+</pre></div>
+<!-- END code example -->
+<p>To use a three column gride, use the class my-grid-3up. The width of the grid can also be restricted using the following classes:</p>
+<div class="my-grid my-grid-3up grid-width-md">
+	<div>
+		<h4 class="margin-top-zero">Gas</h4>
+		<ul>
+			<li>water vapour</li>
+			<li>steam</li>
+		</ul>
+	</div>
+	<div>
+		<h4 class="margin-top-zero">Solid</h4>
+		<ul>
+			<li>frost</li>
+			<li>snow</li>
+			<li>ice</li>
+		</ul>
+	</div>
+	<div>
+		<h4 class="margin-top-zero">Liquid</h4>
+		<ul>
+			<li>cloud</li>
+			<li>rain</li>
+			<li>fog</li>
+			<li>mist</li>
+			<li>stream</li>
+			<li>dew</li>
+		</ul>
+	</div>
+</div>
+<!-- START code example -->
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">code example here</code>
+</pre></div>
+<!-- END code example -->
+<div class="my-grid my-grid-4up">
+	<!-- START card 1 -->
+	<div class="card">
+		<div class="card-body">
+			<h3 class="card-title h4">Title 1</h3>
+			<p>Did you know kangaroos can't walk backwards? It's a fun fact about these amazing Australian animals.</p>
+		</div>
+	</div>
+	<!-- END card 1 -->
+	<!-- START card 2 -->
+	<div class="card">
+		<div class="card-body">
+			<h3 class="card-title h4">Title 2</h3>
+			<p>Bananas are berries, but strawberries aren't. This quirky fact might surprise your friends!</p>
+		</div>
+	</div>
+	<!-- END card 2 -->
+	<!-- START card 3 -->
+	<div class="card my-border">
+		<div class="card-body">
+			<h3 class="card-title h4">Title 3</h3>
+			<p>Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old!</p>
+		</div>
+	</div>
+	<!-- END card 3 -->
+	<!-- START card 4 -->
+	<div class="card">
+		<div class="card-body">
+			<h3 class="card-title h4">Title 4</h3>
+			<p>Octopuses have three hearts. Two pump blood to the gills, while the third pumps it to the rest of the body.</p>
+		</div>
+	</div>
+	<!-- END card 4 -->
+</div>
+<!-- START code example -->
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">code example here</code>
+</pre></div>
+<!-- END code example -->
 
                 
 
