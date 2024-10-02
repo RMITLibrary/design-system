@@ -13,6 +13,40 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/html.min.js"></script> 
 
+ 
+  <script>
+    (function() {
+      'use strict';
+
+      
+      const getStoredTheme = () => localStorage.getItem('theme');
+
+      
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme(); 
+        if (storedTheme) {
+          return storedTheme; 
+        }
+        
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      };
+
+      
+      const setTheme = theme => {
+        if (theme === 'auto') {
+          
+          document.documentElement.setAttribute('data-bs-theme', (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+        } else {
+          
+          document.documentElement.setAttribute('data-bs-theme', theme);
+        }
+      };
+
+      
+      setTheme(getPreferredTheme());
+    })();
+  </script>
+
 
 </head>
 <body>
@@ -44,11 +78,6 @@
 						<li class="search">
 							<a id="search2">
 								<div class="search-label">Search</div>
-								<div class="mag-glass"></div>
-							</a>
-						</li>
-                        <li class="search">
-							<a id="search3">
 								<div class="mag-glass"></div>
 							</a>
 						</li>
@@ -84,23 +113,7 @@
 					</ul>
 					
 					
-					<div id="theme-switcher">
-						<h2 class="h5">Theme</h2>
-						<div class="theme-bg">
-							<div class="form-check form-check-inline">
-								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" data-bs-theme-value="auto" value="option1">
-								<label class="form-check-label" for="inlineRadio1">System</label>
-							</div>
-							<div class="form-check form-check-inline">
-								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" data-bs-theme-value="light" value="option2">
-								<label class="form-check-label" for="inlineRadio2">Light</label>
-							</div>
-							<div class="form-check form-check-inline">
-								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" data-bs-theme-value="dark" value="option3">
-								<label class="form-check-label" for="inlineRadio3">Dark</label>
-							</div>
-						</div>
-					</div>
+
 					
 				</div>
 				
@@ -322,12 +335,23 @@
 
 </nav>
 
-                <div style="margin: 24px;">
-    <button type="button" class="btn btn-default" data-bs-theme-value="light" aria-pressed="false">Light</button>
-    <button type="button" class="btn btn-default" data-bs-theme-value="dark" aria-pressed="false">Dark</button>
-    <button type="button" class="btn btn-default" data-bs-theme-value="auto" aria-pressed="true">Auto</button>
+                <div id="theme-switcher">
+	<h2 class="h5">Theme</h2>
+	<div>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" data-bs-theme-value="auto" value="option1">
+			<label class="form-check-label" for="inlineRadio1">System</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" data-bs-theme-value="light" value="option2">
+			<label class="form-check-label" for="inlineRadio2">Light</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" data-bs-theme-value="dark" value="option3">
+			<label class="form-check-label" for="inlineRadio3">Dark</label>
+		</div>
+	</div>
 </div>
-
 
 
             </div>
@@ -335,7 +359,14 @@
             
             <div class="col-xl-8 order-first" id="main-content">
                 
- <nav class="right-nav" aria-label="Section Menu">
+ <div class="checklist">
+	<div><input class="form-check-input" type="checkbox" id="checkbox1"><label for="checkbox1">Are all parts of your assignment task covered? In relevant sections?</label></div>
+	<div><input class="form-check-input" type="checkbox" id="checkbox2"><label for="checkbox2">Have you used conventional report format and structure?</label></div>
+	<div><input class="form-check-input" type="checkbox" id="checkbox3"><label for="checkbox3">Are there well-structured sections where the information is organised logically under content headings? Do headings clearly indicate the ideas that follow?</label></div>
+	<div><input class="form-check-input" type="checkbox" id="checkbox4"><label for="checkbox4">Are there clear headings and sub-headings for each section? Have you used heading styles to format the headings?</label></div>
+	<div><input class="form-check-input" type="checkbox" id="checkbox5"><label for="checkbox5">Are there clear, structured paragraphs?</label></div>
+</div>
+<nav class="right-nav" aria-label="Section Menu">
     <h2><a href="">Section title</a></h2>
     <h3><a href="" class="selected">Subsection title</a></h3>
     <ul>
@@ -782,6 +813,8 @@ RMIT University Collection<br />
 <script>hljs.highlightAll();</script>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+
+
 <script>
 
 
@@ -823,84 +856,76 @@ function showHideMenu() {
 }
     
 
-    
- (() => {
-  'use strict'  
 
-  
-  const getStoredTheme = () => localStorage.getItem('theme')
+(function() {
+      'use strict';
 
-  
-  const setStoredTheme = theme => localStorage.setItem('theme', theme)
-
-  
-  const getPreferredTheme = () => {
-    const storedTheme = getStoredTheme() 
-    if (storedTheme) {
-      return storedTheme 
-    }
-
-    
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-  }
-
-  
-  const setTheme = theme => {
-    if (theme === 'auto') {
       
-      document.documentElement.setAttribute('data-bs-theme', (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'))
-    } else {
+      const getStoredTheme = () => localStorage.getItem('theme');
+
       
-      document.documentElement.setAttribute('data-bs-theme', theme)
-    }
-  }
+      const setStoredTheme = theme => localStorage.setItem('theme', theme);
 
-  
-  setTheme(getPreferredTheme())
+      
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme(); 
+        if (storedTheme) {
+          return storedTheme; 
+        }
+        
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      };
 
-  
-  const showActiveTheme = theme => {
-    const themeSwitcher = document.querySelector('#theme-switcher')
+      
+      const setTheme = theme => {
+        if (theme === 'auto') {
+          
+          document.documentElement.setAttribute('data-bs-theme', (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+        } else {
+          
+          document.documentElement.setAttribute('data-bs-theme', theme);
+        }
+      };
 
-    if (!themeSwitcher) {
-      return 
-    }
+      
+      const showActiveTheme = theme => {
+        const themeSwitcher = document.querySelector('#theme-switcher');
+        if (!themeSwitcher) {
+          return; 
+        }
+        
+        document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+          element.checked = false;
+        });
+        
+        const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`);
+        if (btnToActive) {
+          btnToActive.checked = true;
+        }
+      };
 
-    
-    document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
-      element.checked = false
-    })
+      
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+        const storedTheme = getStoredTheme();
+        if (storedTheme !== 'light' && storedTheme !== 'dark') {
+          setTheme(getPreferredTheme()); 
+        }
+      });
 
-    
-    const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
-    if (btnToActive) {
-      btnToActive.checked = true
-    }
-  }
-
-  
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-    const storedTheme = getStoredTheme()
-    if (storedTheme !== 'light' && storedTheme !== 'dark') {
-      setTheme(getPreferredTheme()) 
-    }
-  })
-
-  
-  window.addEventListener('DOMContentLoaded', () => {
-    showActiveTheme(getPreferredTheme()) 
-
-    
-    document.querySelectorAll('[data-bs-theme-value]').forEach(toggle => {
-      toggle.addEventListener('change', () => {
-        const theme = toggle.getAttribute('data-bs-theme-value')
-        setStoredTheme(theme) 
-        setTheme(theme) 
-        showActiveTheme(theme) 
-      })
-    })
-  })
-})()
+      
+      window.addEventListener('DOMContentLoaded', () => {
+        showActiveTheme(getPreferredTheme()); 
+        
+        document.querySelectorAll('[data-bs-theme-value]').forEach(toggle => {
+          toggle.addEventListener('change', () => {
+            const theme = toggle.getAttribute('data-bs-theme-value');
+            setStoredTheme(theme); 
+            setTheme(theme); 
+            showActiveTheme(theme); 
+          });
+        });
+      });
+    })();
 
 </script>
 </body>

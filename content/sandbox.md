@@ -1,3 +1,12 @@
+<div class="checklist">
+	<div><input class="form-check-input" type="checkbox" id="checkbox1"><label for="checkbox1">Are all parts of your assignment task covered? In relevant sections?</label></div>
+	<div><input class="form-check-input" type="checkbox" id="checkbox2"><label for="checkbox2">Have you used conventional report format and structure?</label></div>
+	<div><input class="form-check-input" type="checkbox" id="checkbox3"><label for="checkbox3">Are there well-structured sections where the information is organised logically under content headings? Do headings clearly indicate the ideas that follow?</label></div>
+	<div><input class="form-check-input" type="checkbox" id="checkbox4"><label for="checkbox4">Are there clear headings and sub-headings for each section? Have you used heading styles to format the headings?</label></div>
+	<div><input class="form-check-input" type="checkbox" id="checkbox5"><label for="checkbox5">Are there clear, structured paragraphs?</label></div>
+</div>
+
+
 <nav class="right-nav" aria-label="Section Menu">
     <h2><a href="">Section title</a></h2>
     <h3><a href="" class="selected">Subsection title</a></h3>
