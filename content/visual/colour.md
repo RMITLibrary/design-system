@@ -404,9 +404,9 @@ hide_footer: false
 </div>
 <h2 class="h3 margin-top-xl">Highlighted text</h3>
 <p>It may be neccesary to mark text to highlight certain words or phrases. It's important to remember to never use colour alone to convey information, due to visual impairments such as colour blindness.</p>
-<p>If you want a sequence of colours more distinguishable to people with colour blindness, follow this pattern:</p>
+<p>If you want a sequence of colours more distinguishable to people with colour blindness, use the highlights sequentially:</p>
 <p><span class="highlight-1">yellow</span>, <span class="highlight-2">cyan</span>, <span class="highlight-3">teal</span>, <span class="highlight-4">pink</span>, <span class="highlight-5">orange</span>, <span class="highlight-6">purple</span></p>
-<p>Consider breaking your content up further if you find you have more than six highlights.</p>
+<p>Consider breaking your content up further if you find you have more than nine highlights.</p>
 
 <div class="table-responsive">
 <table class="table table-striped">
@@ -454,6 +454,24 @@ hide_footer: false
 	<td>#000000</td>
 	<td>#e66cef</td>
 	<td><span class="highlight-6">Highlighted text</span></td>
+</tr>
+<tr>
+	<td><code>highlight-7</code></td>
+	<td>#000000</td>
+	<td>#00F2B6</td>
+	<td><span class="highlight-7">Highlighted text</span></td>
+</tr>
+<tr>
+	<td><code>highlight-8</code></td>
+	<td>#000000</td>
+	<td>#99AFFF</td>
+	<td><span class="highlight-8">Highlighted text</span></td>
+</tr>
+<tr>
+	<td><code>highlight-9</code></td>
+	<td>#000000</td>
+	<td>#CEF218</td>
+	<td><span class="highlight-9">Highlighted text</span></td>
 </tr>
 </tbody>
 </table>
