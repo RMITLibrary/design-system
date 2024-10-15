@@ -311,6 +311,9 @@ $img-width-sm: 18.5rem;     //296px*/
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+
+	@include do-space(margin-top, lg); 
+    @include do-space(margin-bottom, lg);
 	
 	padding: 0;
 	
