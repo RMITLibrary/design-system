@@ -240,7 +240,7 @@ parent: "Simple components"
 </ul>
 <div class="card">
 	<figure>
-		<img src="https://rmitlibrary.github.io/cdn/learninglab/illustration/landing/uni-essentials.png" class="card-img-top" alt="">
+		<img src="https://rmitlibrary.github.io/cdn/learninglab/illustration/landing/uni-essentials.png"  alt="">
 	</figure>
 	<div class="card-body">
 		<h3 class="card-title h4">h3 displayed as h4</h3>
