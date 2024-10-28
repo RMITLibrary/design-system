@@ -56,6 +56,11 @@
 	@include media-breakpoint-up(md) {
     	display: flex;
     	justify-content: space-between;
+
+		// Align to the right if only the next button is visible
+        .btn-nav-next:only-child {
+            margin-left: auto;
+        }
     }
 
 	//At a large breakpoint, add in a seperator line

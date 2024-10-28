@@ -25,7 +25,6 @@ hide_footer: false
     <h2 class="btn-nav-prev"><a href="">Previous page</a></h2>
     <h2 class="btn-nav-next"><a href="">Next page</a></h2>
 </nav>
-
 <div class="highlight">
 <pre class="chroma">
 <code class="language-html">&lt;nav class=&quot;btn-nav-container&quot; aria-label=&quot;Previous and next buttons&quot;&gt;
@@ -33,6 +32,14 @@ hide_footer: false
     &lt;a class=&quot;btn btn-nav-next&quot; href=&quot;&quot; aria-label=&quot;Next page&quot;&gt;Next page&lt;/a&gt;
 &lt;/nav&gt;</code>
 </pre></div>
+<p>If you only have a back button, do this:</p>
+<nav class="btn-nav-container" aria-label="Previous and next buttons">
+    <h2 class="btn-nav-prev"><a href="">Previous page</a></h2>
+</nav>
+<p>If you only have a next button, do this:</p>
+<nav class="btn-nav-container" aria-label="Previous and next buttons">
+    <h2 class="btn-nav-next"><a href="">Next page</a></h2>
+</nav>
 <a name="list-links"></a>
 <h2>Link list</h2>
 <p>An option to display a list of links while giving the list more prominence than a standard unordered list.</p>
