@@ -6,6 +6,31 @@
 	<div><input class="form-check-input" type="checkbox" id="checkbox5"><label for="checkbox5">Are there clear, structured paragraphs?</label></div>
 </div>
 
+<h3>Matter: Anything that has mass and occupies space</h3>
+<p>Are properties and composition constant?</p>
+<h4 class="margin-top-sm">Yes</h4>
+<p>Pure substance (a substance that has a uniform chemical composition throughout, e.g. water, sugar, table salt).</p>
+<p>Can the pure substance be broken into simpler substances?</p>
+<ul>
+    <li>
+        <strong>Yes - Chemical compound</strong> (Can be chemically broken down into constituent elements, e.g. water, sugar, table salt.)
+    </li>
+    <li>
+        <strong>No - Element</strong> (Cannot be broken down into simpler substances by chemical or physical means, e.g. hydrogen, oxygen, sulphur.)
+    </li>
+</ul>
+<h4 class="margin-top-sm">No</h4>
+<p>Mixture (A physical combination of two or more pure substances, e.g. salt–sand mixture, seawater, concrete.)</p>
+<p>Does the mixture have a uniform composition throughout?</p>
+<ul>
+    <li>
+        <strong>Yes - Homogeneous mixture</strong> (One visible phase which has uniform composition throughout, e.g. coffee, air, rainwater.)
+    </li>
+    <li>
+        <strong>No - Heterogeneous mixture</strong> (Two or more visible phases which have non-uniform composition throughout, e.g. vegetable stew, meat pie, salad.)
+    </li>
+</ul>
+
 
 <nav class="right-nav" aria-label="Section Menu">
     <h2><a href="">Section title</a></h2>
