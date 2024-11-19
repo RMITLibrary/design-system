@@ -232,18 +232,16 @@ parent: "Simple components"
 <h2>Cards</h2>
 <p>Cards can be useful to seperate information from the main content flow. They have a max width of 40rem (640px), though it is unliokely that they would be displayed inline. It's more likely that they would be floated to the right of a series of paragraphs or displayed in a basic grid using the class <code>my-grid</code>.</p>
 <ul>
-	<li>By default, paragraph text is displayed at small size</li>
-	<li>Use <code>&lt;p class="large"&gt;</code> to display it a the default partagraph size</li>
 	<li>By default, a border is displayed around the card.</li>
-	<li>Use <code>class="no-border"</code> to remover the border</li>
-	<li>Look to reduce the size of titles by ast least one size for space reasons. If h3 is required semantically, use <code>class="h4"</code> to reduce the size of the text.</li>
+	<li>Use <code>class="no-border"</code> to remove the border</li>
+	<li>Look to reduce the size of titles by at least one size for space reasons. If h3 is required semantically, use <code>class="h4"</code> to reduce the size of the text.</li>
 </ul>
 <div class="card">
 	<figure>
 		<img src="https://rmitlibrary.github.io/cdn/learninglab/illustration/landing/uni-essentials.png"  alt="">
 	</figure>
 	<div class="card-body">
-		<h3 class="card-title h4">h3 displayed as h4</h3>
+		<h3 class="card-title">h3 displayed as h4</h3>
 		<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed.</p>
 	</div>
 </div>
@@ -255,27 +253,26 @@ parent: "Simple components"
 		&lt;img src=&rdquo;my-image.jpg&rdquo; alt=&rdquo;An example image&rdquo; class=&quot;card-img-top&quot;&gt;
 	&lt;/figure&gt;
 	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h3 class=&quot;card-title h4&quot;&gt;Title goes here&lt;/h3&gt;
+		&lt;h3 class=&quot;card-title&quot;&gt;Title goes here&lt;/h3&gt;
 		&lt;p class=&quot;card-text&quot;&gt;Content goes here.&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</code>
 </pre></div>
 <!-- END code example -->
 <!-- CARD float-right -->
-
 <h3>Float right card example</h3>
 <div class="card float-right my-border">
   <div class="card-body">
     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed.</p>
   </div>
 </div>
-<p>The card in this example has the class <code>float-right</code> applied. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Its width is limited to 160rem (160px). Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac.</p>
+<p>The card in this example has the class <code>float-right</code> applied. Its width is limited to 160rem (160px) and text size to set to small by default. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien cursus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper elit, non dignissim dolor iaculis sed. Fusce gravida, turpis at pulvinar feugiat, elit tortor convallis urna, sit amet sollicitudin augue ex a velit. Curabitur varius sapien ligula, sit amet porta sapien.</p>
 
 <!-- CARD float right -->
 
 <h3>Cards in a grid</h3>
-<p>Here's an example of using cards in a grid</p>
+<p>Here's an example of using cards in a grid. Any html element can be used inside a containing div with class <code>my-grid</code>.</p>
 <div class="my-grid">
 	<!-- START card -->
 	<div class="card">
@@ -329,13 +326,106 @@ parent: "Simple components"
 <!-- START code example -->
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">code example here</code>
+<code class="language-html">&lt;div class=&quot;my-grid&quot;&gt;
+	&lt;div class=&quot;item1&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;item2&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;item3&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;item4&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code>
+</pre></div>
+<!-- END code example -->
+<h3>Cards displaying right and wrong</h3>
+<p>Here's an example of using cards in a grid</p>
+<div class="my-grid">
+	<!-- START card -->
+	<div class="card">
+		<div class="card-body trim-top-wrong">
+			<h3 class="card-title h4">Sentence 1a</h3>
+			<p>The implementation of the plan went ahead as scheduled.</p>
+		</div>
+	</div>
+	<!-- END card -->
+	<!-- START card -->
+	<div class="card">
+		<div class="card-body trim-top-right">
+			<h3 class="card-title h4">Sentence 1b</h3>
+			<p>The plan was implemented as scheduled.</p>
+		</div>
+	</div>
+	<!-- END card -->
+	<!-- START card -->
+	<div class="card">
+		<div class="card-body trim-top-wrong">
+			<h3 class="card-title h4">Sentence 2a</h3>
+			<p>China and America will hold discussions on trade when they meet next February.</p>
+		</div>
+	</div>
+	<!-- END card -->
+	<!-- START card -->
+	<div class="card">
+		<div class="card-body trim-top-right">
+			<h3 class="card-title h4">Sentence 2b</h3>
+			<p>China and America will discuss trade when they meet next February.</p>
+		</div>
+	</div>
+	<!-- END card -->
+</div>
+<p>There's also a neutral option available:</p>
+<div class="my-grid">
+	<!-- START card -->
+	<div class="card">
+		<div class="card-body trim-top-neutral">
+			<h3 class="card-title h4">Before</h3>
+			<p>Engineers cannot avoid utilising complex and difficult technical terms in order to clearly analyse requirements and describe them in a precise and meaningful way.</p>
+		</div>
+	</div>
+	<!-- END card -->
+	<!-- START card -->
+	<div class="card">
+		<div class="card-body trim-top-right">
+			<h3 class="card-title h4">After</h3>
+			<p>Engineers must use technical terms when writing clear requirements specifications.</p>
+		</div>
+	</div>
+	<!-- END card -->
+</div>
+<p><strong>Note:</strong> It's essential to either restate the purpose of the box in the title (e.g., "Right: Sentence 1a" or "Wrong: Too wordy") or apply a "visually-hidden" class for screen reader users. Here's the code:</p>
+<!-- START code example -->
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;!-- Right and wrong cards --&gt;
+&lt;div class=&quot;my-grid&quot;&gt;
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-body trim-top-wrong&quot;&gt;
+			&lt;!-- content here --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-body trim-top-right&quot;&gt;
+			&lt;!-- content here --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&nbsp;
+&lt;!-- Neutral and right cards --&gt;
+&lt;div class=&quot;my-grid&quot;&gt;
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-body trim-top-neutral&quot;&gt;
+			&lt;!-- content here --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-body trim-top-right&quot;&gt;
+			&lt;!-- content here --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code>
 </pre></div>
 <!-- END code example -->
 <a id="grids"></a>
 <h2>Grids</h2>
-<p>As shown above, grid classes are available. Any content can be placed inside. By default, at screens larger than t5654px, the grid will be have two columns with a 1rem (16px) gap. At smaller screens, content in stacked in one column</p>
-By default grids take up 100% of the avaialble screen wisth. Mention gap stuf. Arrrrrrghjgjghgh!
+<p>As shown above, grid classes are available. Any content can be placed inside. By default, at screens ≥ 768px, the grid will be have two columns with a 1rem (16px) gap. At smaller screens, content in stacked in one column</p>
+<p>By default grids take up 100% of the availble screen width. Adding the class <code>gap-lg</code> increases the gap between grid items from 1.5rem to 2.5rem.</p>
 <div class="my-grid gap-lg">
 	<!-- START table -->
 	<table>
@@ -430,13 +520,7 @@ By default grids take up 100% of the avaialble screen wisth. Mention gap stuf. A
 	</table>
 	<!-- END table -->
 </div>
-<!-- START code example -->
-<div class="highlight">
-<pre class="chroma">
-<code class="language-html"></code>
-</pre></div>
-<!-- END code example -->
-<p>To use a three column gride, use the class my-grid-3up. The width of the grid can also be restricted using the following classes:</p>
+<p>To use a three column gride, use the class <code>my-grid-3up</code>. The width of the grid can also be restricted using the following classes: <code>grid-width-sm, grid-width-md, grid-width-lg</code>. These widths match those of images.</p>
 <div class="my-grid my-grid-3up grid-width-md">
 	<div>
 		<h4 class="margin-top-zero">Gas</h4>
@@ -468,7 +552,17 @@ By default grids take up 100% of the avaialble screen wisth. Mention gap stuf. A
 <!-- START code example -->
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">code example here</code>
+<code class="language-html">&lt;div class=&quot;my-grid my-grid-3up grid-width-md&quot;&gt;
+	&lt;div&gt;
+		&lt;!-- content goes here --&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;!-- content goes here --&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;!-- content goes here --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code>
 </pre></div>
 <!-- END code example -->
 <div class="my-grid my-grid-4up">
@@ -508,6 +602,19 @@ By default grids take up 100% of the avaialble screen wisth. Mention gap stuf. A
 <!-- START code example -->
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">code example here</code>
+<code class="language-html">&lt;div class=&quot;my-grid my-grid-4up&quot;&gt;
+	&lt;div&gt;
+		&lt;!-- content goes here --&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;!-- content goes here --&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;!-- content goes here --&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;!-- content goes here --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code>
 </pre></div>
 <!-- END code example -->
