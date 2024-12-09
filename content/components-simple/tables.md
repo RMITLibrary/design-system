@@ -7,15 +7,18 @@ parent: "Simple components"
 <p class="lead">Tables allow data to be displayed with a structure. Be sure that the information being presented warrants being displayed in a table. Often, regular paragraphs of text are  better way to communicate.</p>
 <h2>Default</h2>
 <p>By default, tables feature a simple one pixel border. Each table is wrapped in a div, <code>responsive-table</code>, which allows for wide tables to horizontally scroll at smaller screen sizes.</p>
+<p>Make sure to include <code>thead</code> and <code>tbody</code> sections as <code><th></code> tags are vertically aligned to the bottom only within a <code>thead</code> tag.
 <div class="table-responsive">
 <table>
-	<tbody>
+	<thead>
 		<tr>
 			<th>Evidence</th>
 			<th>Problem</th>
 			<th>Relevant theory</th>
 			<th>Solution</th>
 		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td>CEO
 				<ul>
@@ -122,13 +125,15 @@ parent: "Simple components"
 <pre class="chroma">
 <code class="language-html">&lt;div class=&quot;table-responsive&quot;&gt;
 	&lt;table&gt;
-	&lt;tbody&gt;
+	&lt;thead&gt;
 		&lt;tr&gt;
 			&lt;th&gt;Column heading 1&lt;/th&gt;
 			&lt;th&gt;Column heading 2&lt;/th&gt;
 			&lt;th&gt;Column heading 3&lt;/th&gt;
 			&lt;th&gt;Column heading 4&lt;/th&gt;
 		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
 		&lt;tr&gt;
 			&lt;th&gt;Column content 1&lt;/th&gt;
 			&lt;th&gt;Column content 2&lt;/th&gt;
@@ -189,11 +194,13 @@ parent: "Simple components"
 <pre class="chroma">
 <code class="language-html">&lt;div class=&quot;table-responsive&quot;&gt;
 	&lt;table class=&quot;table-striped&quot;&gt;
-	&lt;tbody&gt;
+	&lt;thead&gt;
 		&lt;tr&gt;
 			&lt;th&gt;Column heading 1&lt;/th&gt;
 			&lt;th&gt;Column heading 2&lt;/th&gt;
 		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
 		&lt;tr&gt;
 			&lt;th&gt;Column content 1&lt;/th&gt;
 			&lt;th&gt;Column content 2&lt;/th&gt;

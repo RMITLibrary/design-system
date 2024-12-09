@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visual Language on Design system</title>
-    <link>http://localhost:1313/design-system/visual/</link>
+    <link>http://localhost:49440/design-system/visual/</link>
     <description>Recent content in Visual Language on Design system</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-au</language>
-    <atom:link href="http://localhost:1313/design-system/visual/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:49440/design-system/visual/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breakpoints and columns</title>
-      <link>http://localhost:1313/design-system/visual/breakpoints/</link>
+      <link>http://localhost:49440/design-system/visual/breakpoints/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/design-system/visual/breakpoints/</guid>
-      <description>Breakpoints and columns Breakpoints The design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.&#xA;Breakpoint Class infix Dimensions X-Small None &amp;lt;576px Small sm ≥576px Medium md ≥768px Large lg ≥992px Extra large xl ≥1200px Extra extra large xxl ≥1400px For screens &amp;lt;768px width (i.e. Small and X-small breakpoints), both the typography and spacing systems use smaller sizes. An example:&#xA;More detail is available on the Typography and Spacing pages.</description>
+      <guid>http://localhost:49440/design-system/visual/breakpoints/</guid>
+      <description>&lt;h1 class=&#34;margin-top-zero&#34;&gt;Breakpoints and columns&lt;/h1&gt;&#xA;&lt;h2&gt;Breakpoints&lt;/h2&gt;&#xA;&lt;p&gt;The design system is built using the Bootstrap 5 framework. As such, the system employs the following default bootstrap breakpoints.&lt;/p&gt;&#xA;&lt;table class=&#34;table table-striped&#34;&gt;&#xA;  &lt;thead&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;th&gt;Breakpoint&lt;/th&gt;&#xA;      &lt;th&gt;Class infix&lt;/th&gt;&#xA;      &lt;th&gt;Dimensions&lt;/th&gt;&#xA;    &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;X-Small&lt;/td&gt;&#xA;      &lt;td&gt;&lt;em&gt;None&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;td&gt;&amp;lt;576px&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Small&lt;/td&gt;&#xA;      &lt;td&gt;&lt;code&gt;sm&lt;/code&gt;&lt;/td&gt;&#xA;      &lt;td&gt;≥576px&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Medium&lt;/td&gt;&#xA;      &lt;td&gt;&lt;code&gt;md&lt;/code&gt;&lt;/td&gt;&#xA;      &lt;td&gt;≥768px&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Large&lt;/td&gt;&#xA;      &lt;td&gt;&lt;code&gt;lg&lt;/code&gt;&lt;/td&gt;&#xA;      &lt;td&gt;≥992px&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Extra large&lt;/td&gt;&#xA;      &lt;td&gt;&lt;code&gt;xl&lt;/code&gt;&lt;/td&gt;&#xA;      &lt;td&gt;≥1200px&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;Extra extra large&lt;/td&gt;&#xA;      &lt;td&gt;&lt;code&gt;xxl&lt;/code&gt;&lt;/td&gt;&#xA;      &lt;td&gt;≥1400px&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;For screens &amp;lt;768px width (i.e. Small and X-small breakpoints), both the typography and spacing systems use smaller sizes. An example:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Colour</title>
-      <link>http://localhost:1313/design-system/visual/colour/</link>
+      <link>http://localhost:49440/design-system/visual/colour/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/design-system/visual/colour/</guid>
-      <description>Colour The design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.&#xA;A dark mode has been implemented.&#xA;Light mode Dark mode Bootstrap/CSS var Background &amp;nbsp; White&#xA;#ffffff &amp;nbsp; Bg dark&#xA;#222529 --bs-body-bg-color Text &amp;nbsp; Dark grey</description>
+      <guid>http://localhost:49440/design-system/visual/colour/</guid>
+      <description>&lt;h1 class=&#34;margin-top-zero&#34;&gt;Colour&lt;/h1&gt;&#xA;&lt;p class=&#34;lead&#34;&gt;The design system uses colour sparingly. As the site aims to meet a WCAG 2.0 Triple A standard, colour contrast is paramount. However, this can limit options to provide contrast between colours, for example between text and links. Choices are made in typography to help mitigate these issues.&lt;/p&gt;&#xA;&lt;p&gt;A dark mode has been implemented.&lt;/p&gt;&#xA;&lt;!--&#xA;&lt;h2&gt;Primary text&lt;/h2&gt;&#xA;&lt;div class=&#34;row margin-top-lg&#34;&gt;&#xA;&#x9;&lt;div class=&#34;col-md-6&#34;&gt;&#xA;&#x9;&#x9;&lt;div class=&#34;swatch&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;div class=&#34;colour colour-bg-dark-grey&#34;&gt;&lt;/div&gt;&#xA;&#x9;&#x9;&#x9;&lt;div class=&#34;description&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;h5&gt;Dark Grey&lt;/h5&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;p class=&#34;small&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;code&gt;#333333&lt;/code&gt;&lt;br /&gt;Primary colour for all text.&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/p&gt;&#xA;&#x9;&#x9;&#x9;&lt;/div&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#x9;&lt;/div&gt;&#xA;&#x9;&lt;div class=&#34;col-md-6&#34;&gt; &#xA;&#x9;&#x9;&lt;div class=&#34;swatch&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;div class=&#34;colour colour-bg-rmit-blue&#34;&gt;&lt;/div&gt;&#xA;&#x9;&#x9;&#x9;&lt;div class=&#34;description&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;h5&gt;RMIT Blue&lt;/h5&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;p class=&#34;small&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;code&gt;#000054&lt;/code&gt;&lt;br /&gt;Used for links and titles&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Icons</title>
-      <link>http://localhost:1313/design-system/visual/icons/</link>
+      <link>http://localhost:49440/design-system/visual/icons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/design-system/visual/icons/</guid>
-      <description>Icons Icons are used sparingly in the design system. Where icons are used, they should be designed to fit into one of two sizes, small (2rem square), large (6rem square).&#xA;Look to minimise the amount of colour used in icon designs, using $rmit-blue as a base colour. $rmit-red can be used either to indicate a clickable icon or as a minimal accent colour.&#xA;Large Currently, large size icons are used in certain variations of blockquotes.</description>
+      <guid>http://localhost:49440/design-system/visual/icons/</guid>
+      <description>&lt;h1 class=&#34;margin-top-zero&#34;&gt;Icons&lt;/h1&gt;&#xA;&lt;p class=&#34;lead&#34;&gt;Icons are used sparingly in the design system. Where icons are used, they should be designed to fit into one of two sizes, small (2rem square), large (6rem square).&lt;/p&gt;&#xA;&lt;p&gt;Look to minimise the amount of colour used in icon designs, using &lt;code&gt;$rmit-blue&lt;/code&gt; as a base colour. &lt;code&gt;$rmit-red&lt;/code&gt; can be used either to indicate a clickable icon or as a minimal accent colour.&lt;/p&gt;&#xA;&lt;h2&gt;Large&lt;/h2&gt;&#xA;&lt;p&gt;Currently, large size icons are used in certain variations of blockquotes. They are designed on a 6rem (96px) square. Look to leave padding of 1.5rem (12px) around the icon content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Links</title>
-      <link>http://localhost:1313/design-system/visual/links/</link>
+      <link>http://localhost:49440/design-system/visual/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/design-system/visual/links/</guid>
-      <description>Links Links occurring within paragraph text are displayed in RMIT Blue with an underline. The extra visibility the underline provides is important due the lack of contrast between RMIT Blue and the main text colour, Dark Grey. On hover, the colour changes to Blue Hover and the underline is removed. In other situations, no underline is displayed for links. In these situations, such as in navigation, the intent that the text acts as a link is clear and the repetition of the underlines would appear aesthetically unappealing and visually &#34;</description>
+      <guid>http://localhost:49440/design-system/visual/links/</guid>
+      <description>&lt;h1 class=&#34;margin-top-zero&#34;&gt;Links&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;&#34;&gt;Links&lt;/a&gt; occurring within paragraph text are displayed in &lt;strong class=&#34;colour-rmit-blue&#34;&gt;RMIT Blue&lt;/strong&gt; with an underline. The extra visibility the underline provides is important due the lack of contrast between &lt;strong class=&#34;colour-rmit-blue&#34;&gt;RMIT Blue&lt;/strong&gt; and the main text colour, &lt;strong class=&#34;colour-dark-grey&#34;&gt;Dark Grey&lt;/strong&gt;. On hover, the colour changes to &lt;strong class=&#34;colour-blue-hover&#34;&gt;Blue Hover&lt;/strong&gt; and the underline is removed.&#xA;&lt;/p&gt;&#xA;&lt;p&gt;In other situations, no underline is displayed for links. In these situations, such as in navigation, the intent that the text acts as a link is clear and the repetition of the underlines would appear aesthetically unappealing and visually &#34;heavy&#34;. A red carat is sometimes used to help denote that a link is present. On hover, the colour generally changes to &lt;strong class=&#34;colour-blue-hover&#34;&gt;Blue Hover&lt;/strong&gt; and the underline is displayed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spacing</title>
-      <link>http://localhost:1313/design-system/visual/spacing/</link>
+      <link>http://localhost:49440/design-system/visual/spacing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/design-system/visual/spacing/</guid>
-      <description>Spacing The design system aims to create a generic spacing system, in an attempt to maintain consistency across different components. Hopefully, the system will also allow for flexibility in the future.&#xA;Base units Default unit (1rem = 16px)&#xA;A series of units created to space elements in the page content. This system allows for responsiveness, having different values for smaller and larger screen widths.&#xA;Name Small (width &amp;lt; 768px) Medium, large etc.</description>
+      <guid>http://localhost:49440/design-system/visual/spacing/</guid>
+      <description>&lt;h1 class=&#34;margin-top-zero&#34;&gt;Spacing&lt;/h1&gt;&#xA;&lt;p class=&#34;lead&#34;&gt;The design system aims to create a generic spacing system, in an attempt to maintain consistency across different components. Hopefully, the system will also allow for flexibility in the future.&lt;/p&gt;&#xA;&lt;h2&gt;Base units&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Default unit (1rem = 16px)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A series of units created to space elements in the page content. This system allows for responsiveness, having different values for smaller and larger screen widths.&lt;/p&gt;&#xA;&lt;table class=&#34;table table-striped&#34;&gt;&#xA;  &lt;thead&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;th&gt;Name&lt;/th&gt;&#xA;      &lt;th&gt;Small (width &amp;lt; 768px)&lt;/th&gt;&#xA;      &lt;th&gt;Medium, large etc. (width ≥ 768px)&lt;/th&gt;&#xA;    &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;space-xs&lt;/td&gt;&#xA;      &lt;td&gt;1rem (16px)&lt;/td&gt;&#xA;      &lt;td&gt;1rem (16px)&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;space-sm&lt;/td&gt;&#xA;      &lt;td&gt;1rem (16px)&lt;/td&gt;&#xA;      &lt;td&gt;1.5rem (24px)&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;&#x9;&lt;tr&gt;&#xA;      &lt;td&gt;space-md&lt;/td&gt;&#xA;      &lt;td&gt;1.5rem (24px)&lt;/td&gt;&#xA;      &lt;td&gt;2rem (32px)&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;&#x9;&lt;tr&gt;&#xA;      &lt;td&gt;space-lg&lt;/td&gt;&#xA;      &lt;td&gt;2rem (32px)&lt;/td&gt;&#xA;      &lt;td&gt;2.5rem (40px)&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;&#x9;&lt;tr&gt;&#xA;      &lt;td&gt;space-xl&lt;/td&gt;&#xA;      &lt;td&gt;3rem (48px)&lt;/td&gt;&#xA;      &lt;td&gt;4rem (64px)&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;&#x9;&lt;tr&gt;&#xA;      &lt;td&gt;space-zero&lt;/td&gt;&#xA;      &lt;td&gt;0&lt;/td&gt;&#xA;      &lt;td&gt;0&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2&gt;Base units&lt;/h2&gt;&#xA;&lt;p&gt;For headings&lt;/p&gt;</description>
     </item>
     <item>
       <title>Typography</title>
-      <link>http://localhost:1313/design-system/visual/typography/</link>
+      <link>http://localhost:49440/design-system/visual/typography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/design-system/visual/typography/</guid>
-      <description>Typography Type use default bootstrap scaling (1rem = 16px). On smaller screens, sizes downscale based on desktop sizes: mobile h1 takes desktop h2 values, mobile lead takes desktop lead. Intermediate heading sizes are scaled as per desktop.&#xA;Headings All headings are set in Museo 700, RMIT Blue (#000054) as per brand guidelines. This thicker weight provides good contrast with body text, making the difference between headings and body content very clear.</description>
+      <guid>http://localhost:49440/design-system/visual/typography/</guid>
+      <description>&lt;h1 class=&#34;margin-top-zero&#34;&gt;Typography&lt;/h1&gt;&#xA;&lt;p class=&#34;lead&#34;&gt;Type use default bootstrap scaling (1rem = 16px). On smaller screens, sizes downscale based on desktop sizes: mobile h1 takes desktop h2 values, mobile lead takes desktop lead. Intermediate heading sizes are scaled as per desktop.&lt;/p&gt;&#xA;&lt;h2&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;All headings are set in Museo 700, RMIT Blue (#000054) as per brand guidelines. This thicker weight provides good contrast with body text, making the difference between headings and body content very clear.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
