@@ -1,5 +1,3 @@
-/* Styles specific to the design system go here */
-
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "bootstrap/functions";
 
@@ -30,7 +28,7 @@ $accordion-border-radius: 0;
 
 
 
-// 5. Add additional custom code here
+// 3. Add additional custom code here
 
 //Everything that doesn't fit elsewhere
 @import "design-system/utilities";
@@ -61,7 +59,7 @@ $accordion-border-radius: 0;
 
 
 
-// 5. Styles specific to documentation go here (might be worth having a completely seperate stylesheet)
+// 4. Styles specific to documentation go here (might be worth having a completely seperate stylesheet)
 
 @import "app-specific/code-examples";
 @import "app-specific/colour-swatch";
