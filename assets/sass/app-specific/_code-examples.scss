@@ -9,9 +9,15 @@
 }
 
 .hljs-string {
-	color: $red;
+	color: $accent-color;
 }
 
 pre {
     margin: 0;
+}
+
+@include color-mode(dark) {
+    .hljs-string {
+        color: $accent-color-dark;
+    }
 }
