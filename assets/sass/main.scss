@@ -28,7 +28,7 @@ $accordion-border-radius: 0;
 
 
 
-// 3. Add additional custom code here
+// 3. Add additional code here
 
 //Everything that doesn't fit elsewhere
 @import "design-system/utilities";
@@ -44,6 +44,7 @@ $accordion-border-radius: 0;
 @import "design-system/accordion";
 @import "design-system/blockquote";
 @import 'design-system/table';
+
 
 //Complex components
 @import 'design-system/footer';
