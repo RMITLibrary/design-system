@@ -90,7 +90,7 @@ parent: "Complex components"
 &lt;!-- END acknowledgement --&gt;</code>
 </pre></div>
 <h2>RMIT footer</h2>
-<p>Finally, the RMIT footer is pasted below. This code can be placed with the <code>&lt;!-- footer --&gt;</code> comment tags. This markup is copied form RMIT's main website ecosystem.  Optional links can be added in the marked section.</p>
+<p>Finally, the RMIT footer is pasted below. This code can be placed with the <code>&lt;!-- footer --&gt;</code> comment tags. This markup is copied form RMIT's main website ecosystem, with some minor adjustments to gain greater control over spacing. Optional links can be added in the marked section.</p>
 <div class="highlight">
 <pre class="chroma"><code class="language-html">&lt;!-- START logo --&gt;    
 &lt;a aria-label=&quot;Royal Melbourne Institute of Technology University Logo&quot; href=&quot;https://www.rmit.edu.au/&quot;&gt;
@@ -107,22 +107,20 @@ parent: "Complex components"
 &lt;/ul&gt;
 &lt;!-- END optional links --&gt;
 &lt;!-- START legal-social --&gt;
-&lt;div class=&quot;footerlegalShareItems&quot;&gt;
-	&lt;!-- START legal --&gt;
 	&lt;div class=&quot;footer-legal&quot;&gt;
 	&lt;ul&gt;
-		&lt;li&gt;Copyright &copy; 2024 RMIT University&lt;span&gt; | &lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;https://www.rmit.edu.au/utilities/terms&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Terms&lt;/span&gt;&lt;/a&gt;&lt;span&gt; | &lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;https://www.rmit.edu.au/utilities/privacy&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Privacy&lt;/span&gt;&lt;/a&gt;&lt;span&gt; | &lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;https://www.rmit.edu.au/utilities/accessibility&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Accessibility&lt;/span&gt;&lt;/a&gt; &lt;span&gt; | &lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a data-analytics-type=&quot;footerlink&quot; data-analytics-value=&quot;Website feedback&quot; href=&quot;https://www.rmit.edu.au/utilities/website-feedback&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Website feedback&lt;/span&gt;&lt;/a&gt;&lt;span&gt; | &lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a data-analytics-type=&quot;footerlink&quot; data-analytics-value=&quot;Complaints&quot; href=&quot;https://www.rmit.edu.au/utilities/complaints&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Complaints&lt;/span&gt;&lt;/a&gt;&lt;span&gt; | &lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;ABN 49 781 030 034&lt;span&gt; | &lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;CRICOS provider number: 00122A&lt;span&gt; | &lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;TEQSA provider number: PRV12145&lt;span&gt; | &lt;/span&gt;&lt;/li&gt;
-		&lt;li&gt;RTO Code: 3046&lt;span&gt; | &lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;Copyright &copy; 2024 RMIT University&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;https://www.rmit.edu.au/utilities/terms&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Terms&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;https://www.rmit.edu.au/utilities/privacy&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Privacy&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;https://www.rmit.edu.au/utilities/accessibility&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Accessibility&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a data-analytics-type=&quot;footerlink&quot; data-analytics-value=&quot;Website feedback&quot; href=&quot;https://www.rmit.edu.au/utilities/website-feedback&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Website feedback&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a data-analytics-type=&quot;footerlink&quot; data-analytics-value=&quot;Complaints&quot; href=&quot;https://www.rmit.edu.au/utilities/complaints&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Complaints&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;ABN 49 781 030 034&lt;/li&gt;
+		&lt;li&gt;CRICOS provider number: 00122A&lt;/li&gt;
+		&lt;li&gt;TEQSA provider number: PRV12145&lt;/li&gt;
+		&lt;li&gt;RTO Code: 3046&lt;/li&gt;
 		&lt;li&gt;&lt;a href=&quot;https://www.open.edu.au/online-courses/rmit-university&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Open Universities Australia&lt;/span&gt;&lt;/a&gt; &lt;/li&gt;
-	  &lt;/ul&gt;
+	&lt;/ul&gt;
 	&lt;/div&gt;
 	&lt;!-- END legal --&gt;
 	&lt;!-- START social --&gt;
