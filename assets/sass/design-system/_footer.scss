@@ -14,6 +14,13 @@ footer {
         @include media-breakpoint-down(md) { margin-left: 0.75rem; }
 
     }
+
+    @include color-mode(dark) {
+        img {
+            filter: none;
+            background-color: none;		
+        }
+    }
     
     
     /* These styles differ from RMIT.edu.au to provide more space between items */

@@ -4,41 +4,37 @@
         <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-        <title>Tables</title>
+        <title>Theme switcher</title>
     
-    
-	<link rel="stylesheet" href="/design-system/sass/main.min.css">
+
+
+<link rel="stylesheet" href="/design-system/sass/main.min.76e9cbd5cc5dc8f22259644e2570cc2823a920848f9f683454a31231d289d9ee.css">
  
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/html.min.js"></script> 
 
- 
-  <script>
-      (function() {
-        'use strict';
-  
-        const getStoredTheme = () => localStorage.getItem('theme');
-  
-        const getPreferredTheme = () => {
-          const storedTheme = getStoredTheme();
-          if (storedTheme) {
-            return storedTheme;
-          }
-          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        };
-  
-        const setTheme = theme => {
-          if (theme === 'auto') {
-            document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-          } else {
-            document.documentElement.setAttribute('data-bs-theme', theme);
-          }
-        };
-  
-        setTheme(getPreferredTheme());
-      })();
+
+<script>
+  (function() {
+    'use strict';
+
+    const getStoredTheme = () => localStorage.getItem('theme');
+
+    const getPreferredTheme = () => {
+      const storedTheme = getStoredTheme();
+      return storedTheme ? storedTheme : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    };
+
+    const setTheme = theme => {
+      const themeToSet = theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme;
+      document.documentElement.setAttribute('data-bs-theme', themeToSet);
+    };
+
+    setTheme(getPreferredTheme());
+  })();
 </script>
+
 
 </head>
 <body>
@@ -122,7 +118,8 @@
         <div class="row ">
 			
             <div class="col-xl-4 order-last">
-                
+                <div class="sticky-nav">
+                    
 
 
 <nav class="right-nav-accordion">
@@ -216,16 +213,13 @@
         
         
         
-            
-            
-        
     <div class="accordion-item nav-accordion">
         <h2 class="accordion-header" id="nav-accord-head-Simplecomponents">
-            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-Simplecomponents" aria-expanded="false" aria-controls="nav-accord-body-Simplecomponents">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-Simplecomponents" aria-expanded="false" aria-controls="nav-accord-body-Simplecomponents">
             Simple components
             </button>
         </h2>
-        <div id="nav-accord-body-Simplecomponents" class="accordion-collapse collapse show" aria-labelledby="nav-accord-head-Simplecomponents">
+        <div id="nav-accord-body-Simplecomponents" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-Simplecomponents">
             <div class="accordion-body">
                 <ul>
                     
@@ -242,7 +236,7 @@
                         
                     
                         
-							<li><a href="/design-system/components-simple/tables/" class="selected" aria-current="page">Tables</a></li>
+                        	<li><a href="/design-system/components-simple/tables/">Tables</a></li>
                         
                     
                 </ul>
@@ -257,13 +251,16 @@
         
         
         
+            
+            
+        
     <div class="accordion-item nav-accordion">
         <h2 class="accordion-header" id="nav-accord-head-Complexcomponents">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-Complexcomponents" aria-expanded="false" aria-controls="nav-accord-body-Complexcomponents">
+            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#nav-accord-body-Complexcomponents" aria-expanded="false" aria-controls="nav-accord-body-Complexcomponents">
             Complex components
             </button>
         </h2>
-        <div id="nav-accord-body-Complexcomponents" class="accordion-collapse collapse hide" aria-labelledby="nav-accord-head-Complexcomponents">
+        <div id="nav-accord-body-Complexcomponents" class="accordion-collapse collapse show" aria-labelledby="nav-accord-head-Complexcomponents">
             <div class="accordion-body">
                 <ul>
                     
@@ -330,237 +327,110 @@
 
 </nav>
 
-                
+                    
 <form class="theme-switch theme-compact theme-right-nav">
-    <h2>Theme</h2>
-    <div class="bg">
+  <h2>Theme</h2>
+  <div class="bg">
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" data-bs-theme-value="auto" value="option1">
-        <label class="form-check-label" for="inlineRadio1">System</label>
+          <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto">
+          <label class="form-check-label">System</label>
       </div>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" data-bs-theme-value="light" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Light</label>
+          <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light">
+          <label class="form-check-label">Light</label>
       </div>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" data-bs-theme-value="dark" value="option3">
-        <label class="form-check-labe" for="inlineRadio3">Dark</label>
+          <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark">
+          <label class="form-check-label">Dark</label>
       </div>
-    </div>
+  </div>
 </form>
 
+                </div>
             </div>
             
             
             <div class="col-xl-8 order-first" id="main-content">
                 
- <h1 class="margin-top-zero">Tables</h1>
-<p class="lead">Tables allow data to be displayed with a structure. Be sure that the information being presented warrants being displayed in a table. Often, regular paragraphs of text are  better way to communicate.</p>
-<h2>Default</h2>
-<p>By default, tables feature a simple one pixel border. Each table is wrapped in a div, <code>responsive-table</code>, which allows for wide tables to horizontally scroll at smaller screen sizes.</p>
-<p>Make sure to include <code>thead</code> and <code>tbody</code> sections as <code><th></code> tags are vertically aligned to the bottom only within a <code>thead</code> tag.
-<div class="table-responsive">
-<table>
-	<thead>
-		<tr>
-			<th>Evidence</th>
-			<th>Problem</th>
-			<th>Relevant theory</th>
-			<th>Solution</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>CEO
-				<ul>
-					<li>Office location on top floor</li>
-					<li>'mythical figure'</li>
-					<li>Focussed on results</li>
-					<li>HealthCo is 'his baby'</li>
-				</ul>
-			</td>
-			<td>CEO leadership style
-				<ul>
-					<li>'autocratic'</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li><em>Weber (Bureaucratic management)</em><br>
-						(Houghton 2010)</li>
-					<li><em>Taylor (Scientific theory of management)</em><br>
-						(Van Vugt et al. 2004</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li><em>Mintzberg Management roles model </em>
-						<ul>
-							<li><em>interpersonal</em></li>
-							<li><em>...</em></li>
-							<li><em>...</em></li>
-						</ul>
-						<em>(Mintzberg 2004)</em></li>
-				</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<ul>
-					<li>No respect for staff ('only a number)</li>
-					<li>No rewards ... only punishment ('super snoops')</li>
-					<li>No initiative allowed
-						<ul>
-							<li>staff leaving</li>
-						</ul>
-					</li>
-				</ul>
-			</td>
-			<td>Management culture
-				<ul>
-					<li>'distrustful'</li>
-					<li>controlling</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li><em>Mechanistic</em></li>
-					<li><em>Autocratic leadership style</em><br>
-						(Bass &amp; Bass 2008)</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Fayol's Principles (Administritive theory)
-						<ul>
-							<li>equity, ..., etc.</li>
-						</ul>
-						(Houghton 2010)</li>
-					<li>Human Performance System
-						<ul>
-							<li>feedback</li>
-							<li>...</li>
-						</ul>
-						(Baker 2010)</li>
-				</ul>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<ul>
-					<li>Communication 'top down'</li>
-				</ul>
-			</td>
-			<td>Communication
-				<ul>
-					<li>memos only</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li><em>Impersonal communication style</em><br>
-						(De Hoog et al. 2015)</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Good communication key to unified work environment.<br>
-						(Kessler 2010)</li>
-				</ul>
-			</td>
-		</tr>
-	</tbody>
-</table>
-</div>
-<div class="highlight">
-<pre class="chroma">
-<code class="language-html">&lt;div class=&quot;table-responsive&quot;&gt;
-	&lt;table&gt;
-	&lt;thead&gt;
-		&lt;tr&gt;
-			&lt;th&gt;Column heading 1&lt;/th&gt;
-			&lt;th&gt;Column heading 2&lt;/th&gt;
-			&lt;th&gt;Column heading 3&lt;/th&gt;
-			&lt;th&gt;Column heading 4&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-		&lt;tr&gt;
-			&lt;th&gt;Column content 1&lt;/th&gt;
-			&lt;th&gt;Column content 2&lt;/th&gt;
-			&lt;th&gt;Column content 3&lt;/th&gt;
-			&lt;th&gt;Column content 4&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;/div&gt;</code>
-</pre></div>
-<h2>Striped</h2>
-<p>Another option is a striped table, add the class <code>table-striped</code> to activate it. This form of table is useful when the amount of content in each cell is minimal and the comparison between data entries is important.</p>
-<div class="table-responsive">
-<table class="table-striped">
-	<thead>
-		<tr>
-			<th width="30%">
-				Most common form
-			</th>
-			<th>
-				Other words in the family
-			</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>analysis</td>
-			<td>analyse, analysed, analyser, analysers, analyses, analysing, analyst, analysts, analytic, analytical, analytically</td>
-		</tr>
-		<tr>
-			<td>approach</td>
-			<td>approachable, approached, approaches, approaching, unapproachable</td>
-		</tr>
-		<tr>
-			<td>area</td>
-			<td>areas</td>
-		</tr>
-		<tr>
-			<td>assessment</td>
-			<td>assess, assessable, assessed, assesses, assessing, assessments, reassess, reassessed, reassessing, reassessment, unassessed</td>
-		</tr>
-		<tr>
-			<td>assume</td>
-			<td>assumed, assumes, assuming, assumption, assumptions</td>
-		</tr>
-		<tr>
-			<td>authority</td>
-			<td>authoritative, authorities</td>
-		</tr>
-		<tr>
-			<td>available</td>
-			<td>availability, unavailable</td>
-		</tr>
-	</tbody>
-</table>
-</div>
-<div class="highlight">
-<pre class="chroma">
-<code class="language-html">&lt;div class=&quot;table-responsive&quot;&gt;
-	&lt;table class=&quot;table-striped&quot;&gt;
-	&lt;thead&gt;
-		&lt;tr&gt;
-			&lt;th&gt;Column heading 1&lt;/th&gt;
-			&lt;th&gt;Column heading 2&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-		&lt;tr&gt;
-			&lt;th&gt;Column content 1&lt;/th&gt;
-			&lt;th&gt;Column content 2&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;/div&gt;</code>
-</pre></div>
-
+ <h1 class="margin-top-zero">Footer</h1>
+<p>Typically, the footer consists of three basic parts, ask the library, acknowledgment of country and the general RMIT footer. The basic structure is as follows:
+</p>
+<!-- Start theme switcher -->
+<form class="theme-switch">
+    <h2>Theme</h2>
+    <div class="bg">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto">
+            <label class="form-check-label">System</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light">
+            <label class="form-check-label">Light</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark">
+            <label class="form-check-label">Dark</label>
+        </div>
+    </div>
+</form>
+<!-- End theme switcher -->
+<!-- Start theme switcher -->
+<form class="theme-switch hamburger-menu">
+    <h2>Theme</h2>
+    <div class="bg">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto">
+            <label class="form-check-label">System</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light">
+            <label class="form-check-label">Light</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark">
+            <label class="form-check-label">Dark</label>
+        </div>
+    </div>
+</form>
+<!-- End theme switcher -->
+<!-- Start theme switcher -->
+<form class="theme-switch theme-compact">
+    <h2>Theme</h2>
+    <div class="bg">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto">
+            <label class="form-check-label">System</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light">
+            <label class="form-check-label">Light</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark">
+            <label class="form-check-label">Dark</label>
+        </div>
+    </div>
+</form>
+<!-- End theme switcher -->
+<!-- Start theme switcher -->
+<form class="theme-switch theme-compact theme-right-nav">
+    <h2>Theme</h2>
+    <div class="bg">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto">
+            <label class="form-check-label">System</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light">
+            <label class="form-check-label">Light</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark">
+            <label class="form-check-label">Dark</label>
+        </div>
+    </div>
+</form>
+<!-- End theme switcher -->
 
                 
 
@@ -704,12 +574,6 @@
 					
 					
 					
-						<h2 class="btn-nav-prev">
-                            <a aria-label="Previous page" href="/design-system/components-simple/buttons/">
-                                Buttons
-                            </a>
-                        </h2>
-					
 				
 			
 		
@@ -717,16 +581,6 @@
 		
 			
 				
-				
-					
-					<h2 class="btn-nav-next">
-                        <a aria-label="Next page" href="/design-system/components-complex/footer/">
-                            Footer
-                        </a>
-                    </h2>
-					
-					
-					
 				
 				
 				
@@ -977,60 +831,50 @@ function showHideMenu() {
     
 
 
-(function() {
-  'use strict';
+  (function() {
+    'use strict';
 
-  const getStoredTheme = () => localStorage.getItem('theme');
+    const getStoredTheme = () => localStorage.getItem('theme');
 
-  const setStoredTheme = theme => localStorage.setItem('theme', theme);
+    const setStoredTheme = theme => localStorage.setItem('theme', theme);
 
-  const getPreferredTheme = () => {
-    const storedTheme = getStoredTheme();
-    if (storedTheme) {
-      return storedTheme;
-    }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  };
+    const getPreferredTheme = () => {
+      const storedTheme = getStoredTheme();
+      return storedTheme ? storedTheme : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    };
 
-  const setTheme = theme => {
-    if (theme === 'auto') {
-      document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    } else {
-      document.documentElement.setAttribute('data-bs-theme', theme);
-    }
-  };
+    const setTheme = theme => {
+      const themeToSet = theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme;
+      document.documentElement.setAttribute('data-bs-theme', themeToSet);
+    };
 
-  const showActiveTheme = theme => {
-    document.querySelectorAll('.theme-switch').forEach(themeSwitcher => {
-      document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
-        element.checked = false;
+    const showActiveTheme = theme => {
+      document.querySelectorAll('.theme-switch').forEach(themeSwitcher => {
+        themeSwitcher.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+          element.checked = (element.getAttribute('data-bs-theme-value') === theme);
+        });
       });
-      const btnToActive = themeSwitcher.querySelector(`[data-bs-theme-value="${theme}"]`);
-      if (btnToActive) {
-        btnToActive.checked = true;
+    };
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      const storedTheme = getStoredTheme();
+      if (storedTheme !== 'light' && storedTheme !== 'dark') {
+        setTheme(getPreferredTheme());
       }
     });
-  };
 
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-    const storedTheme = getStoredTheme();
-    if (storedTheme !== 'light' && storedTheme !== 'dark') {
-      setTheme(getPreferredTheme());
-    }
-  });
-
-  window.addEventListener('DOMContentLoaded', () => {
-    showActiveTheme(getPreferredTheme());
-    document.querySelectorAll('.theme-switch [data-bs-theme-value]').forEach(toggle => {
-      toggle.addEventListener('change', () => {
-        const theme = toggle.getAttribute('data-bs-theme-value');
-        setStoredTheme(theme);
-        setTheme(theme);
-        showActiveTheme(theme);
+    window.addEventListener('DOMContentLoaded', () => {
+      showActiveTheme(getPreferredTheme());
+      document.querySelectorAll('.theme-switch [data-bs-theme-value]').forEach(toggle => {
+        toggle.addEventListener('change', () => {
+          const theme = toggle.getAttribute('data-bs-theme-value');
+          setStoredTheme(theme);
+          setTheme(theme);
+          showActiveTheme(theme);
+        });
       });
     });
-  });
-})();
+  })();
 </script>
 </body>
 </html>

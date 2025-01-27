@@ -10,8 +10,10 @@
         <div class="row ">
 			<!-- START right nav -->
             <div class="col-xl-4 order-last">
-                {{ partial "right-nav" . }}
-                {{ partial "dark-mode-switcher" . }}
+                <div class="sticky-nav">
+                    {{ partial "right-nav" . }}
+                    {{ partial "dark-mode-switcher" . }}
+                </div>
             </div>
             <!-- END right nav -->
             <!-- START content -->
@@ -23,8 +25,8 @@
             <!-- END content -->   
         </div>
     </main>
+    {{ partial "footer.html" . }}
 </div>
-{{ partial "footer.html" . }}
 {{ partial "script.html" . }}
 </body>
 </html>
