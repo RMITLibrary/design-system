@@ -14,6 +14,12 @@
     Print chapter<span class="visually-hidden"> - print this chapter of the style guide (opens new window)</span>
 </button>
 
+<hr>
+
+<button class="btn-default" id="printthistype" type="button" tabindex="0">
+    Print chapter<span class="visually-hidden"> - print this chapter of the style guide (opens new window)</span>
+</button>
+
 <div class="my-grid">
 	<div class="card ">
 <div class="card-body">

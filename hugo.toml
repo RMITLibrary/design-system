@@ -109,6 +109,11 @@ unsafe = true
         url = "/components-complex/navigation/"
         parent = "Complex components"
         weight = 415
+    [[menu.main]]
+        name = "Theme switcher"
+        url = "/components-complex/theme-switcher/"
+        parent = "Complex components"
+        weight = 416
 	[[menu.main]]
         name = "Top navigation"
         url = "/components-complex/top-nav/"

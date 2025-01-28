@@ -73,7 +73,7 @@ parent: "Complex components"
         &lt;li&gt;
             &lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;
             &lt;ul&gt;
-				&lt;li&gt;&lt;a href=&quot;&quot; class=&quot;selected&quot; aria-current=&quot;page&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;selected&quot; aria-current=&quot;page&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
                 &lt;li class=&quot;selected&quot;&gt;Content subpage&lt;/li&gt;
                 &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
@@ -133,6 +133,15 @@ parent: "Complex components"
 &lt;/nav&gt;</code>
 </pre></div>
 
+<h3>Sticky navigation</h3>
+<p>To create a sticky navigation bar, add the class sticky-nav to your navigation element. This will fix the navigation to the top of the viewport as the page scrolls. Once the footer comes into view, the navigation will return to its normal scrolling behavior. </p>
+<p>Note: The default top attribute is set to 7.5rem (120px), which positions the navigation 120px below the top of the viewport. You may need to override this value to align with your layout requirements.</p>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;nav class=&quot;right-nav sticky-nav&quot;&gt;
+    ...
+&lt;/nav&gt;</code>
+</pre></div>
 <h3>Accordion</h3>
 <p>There's also a variant that uses accordions to hide navigation. It allows the user to quickly access the whole site from any page. This format only suits smaller sites with a relatively balanced structure. The section that contains the page that is currently being viewed should be expanded by default.</p>
 <nav class="right-nav-accordion margin-left-zero">

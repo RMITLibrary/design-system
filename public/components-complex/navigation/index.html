@@ -8,7 +8,7 @@
     
 
 
-<link rel="stylesheet" href="/design-system/sass/main.min.735d5af16635595911d88a8680bc122e65c4b24d106b073cbe0d671d07fbc3fb.css">
+<link rel="stylesheet" href="/design-system/sass/main.min.83d7f52f7501c4a6e36752e37fd40ec7079b14d6bf6832e94c4886492b870df7.css">
  
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
@@ -118,7 +118,8 @@
         <div class="row ">
 			
             <div class="col-xl-4 order-last">
-                
+                <div class="sticky-nav">
+                    
 
 
 <nav class="right-nav-accordion">
@@ -276,6 +277,10 @@
                         
                     
                         
+                        	<li><a href="/design-system/components-complex/theme-switcher/">Theme switcher</a></li>
+                        
+                    
+                        
                         	<li><a href="/design-system/components-complex/top-nav/">Top navigation</a></li>
                         
                     
@@ -326,7 +331,7 @@
 
 </nav>
 
-                
+                    
 <form class="theme-switch theme-compact theme-right-nav">
   <h2>Theme</h2>
   <div class="bg">
@@ -345,6 +350,7 @@
   </div>
 </form>
 
+                </div>
             </div>
             
             
@@ -420,7 +426,7 @@
         &lt;li&gt;
             &lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;
             &lt;ul&gt;
-				&lt;li&gt;&lt;a href=&quot;&quot; class=&quot;selected&quot; aria-current=&quot;page&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;selected&quot; aria-current=&quot;page&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
                 &lt;li class=&quot;selected&quot;&gt;Content subpage&lt;/li&gt;
                 &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content subpage&lt;/a&gt;&lt;/li&gt;
@@ -477,6 +483,15 @@
         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Content page&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
+&lt;/nav&gt;</code>
+</pre></div>
+<h3>Sticky navigation</h3>
+<p>To create a sticky navigation bar, add the class sticky-nav to your navigation element. This will fix the navigation to the top of the viewport as the page scrolls. Once the footer comes into view, the navigation will return to its normal scrolling behavior. </p>
+<p>Note: The default top attribute is set to 7.5rem (120px), which positions the navigation 120px below the top of the viewport. You may need to override this value to align with your layout requirements.</p>
+<div class="highlight">
+<pre class="chroma">
+<code class="language-html">&lt;nav class=&quot;right-nav sticky-nav&quot;&gt;
+    ...
 &lt;/nav&gt;</code>
 </pre></div>
 <h3>Accordion</h3>
@@ -775,13 +790,22 @@
 				
 					
 					<h2 class="btn-nav-next">
-                        <a aria-label="Next page" href="/design-system/components-complex/top-nav/">
-                            Top navigation
+                        <a aria-label="Next page" href="/design-system/components-complex/theme-switcher/">
+                            Theme switcher
                         </a>
                     </h2>
 					
 					
 					
+				
+				
+				
+					
+					
+					
+				
+			
+				
 				
 				
 				

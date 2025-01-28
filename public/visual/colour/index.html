@@ -6,46 +6,34 @@
     
         <title>Colour</title>
     
-    
-	<link rel="stylesheet" href="/design-system/sass/main.min.css">
+
+
+<link rel="stylesheet" href="/design-system/sass/main.min.83d7f52f7501c4a6e36752e37fd40ec7079b14d6bf6832e94c4886492b870df7.css">
  
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/html.min.js"></script> 
 
- 
-  <script>
-    (function() {
-      'use strict';
 
-      
-      const getStoredTheme = () => localStorage.getItem('theme');
+<script>
+  (function() {
+    'use strict';
 
-      
-      const getPreferredTheme = () => {
-        const storedTheme = getStoredTheme(); 
-        if (storedTheme) {
-          return storedTheme; 
-        }
-        
-        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      };
+    const getStoredTheme = () => localStorage.getItem('theme');
 
-      
-      const setTheme = theme => {
-        if (theme === 'auto') {
-          
-          document.documentElement.setAttribute('data-bs-theme', (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
-        } else {
-          
-          document.documentElement.setAttribute('data-bs-theme', theme);
-        }
-      };
+    const getPreferredTheme = () => {
+      const storedTheme = getStoredTheme();
+      return storedTheme ? storedTheme : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    };
 
-      
-      setTheme(getPreferredTheme());
-    })();
-  </script>
+    const setTheme = theme => {
+      const themeToSet = theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme;
+      document.documentElement.setAttribute('data-bs-theme', themeToSet);
+    };
+
+    setTheme(getPreferredTheme());
+  })();
+</script>
 
 
 </head>
@@ -130,7 +118,8 @@
         <div class="row ">
 			
             <div class="col-xl-4 order-last">
-                
+                <div class="sticky-nav">
+                    
 
 
 <nav class="right-nav-accordion">
@@ -288,6 +277,10 @@
                         
                     
                         
+                        	<li><a href="/design-system/components-complex/theme-switcher/">Theme switcher</a></li>
+                        
+                    
+                        
                         	<li><a href="/design-system/components-complex/top-nav/">Top navigation</a></li>
                         
                     
@@ -338,25 +331,26 @@
 
 </nav>
 
-                <div id="theme-switcher">
-	<h2 class="h5">Theme</h2>
-	<div>
-		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" data-bs-theme-value="auto" value="option1">
-			<label class="form-check-label" for="inlineRadio1">System</label>
-		</div>
-		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" data-bs-theme-value="light" value="option2">
-			<label class="form-check-label" for="inlineRadio2">Light</label>
-		</div>
-		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" data-bs-theme-value="dark" value="option3">
-			<label class="form-check-label" for="inlineRadio3">Dark</label>
-		</div>
-	</div>
-</div>
+                    
+<form class="theme-switch theme-compact theme-right-nav">
+  <h2>Theme</h2>
+  <div class="bg">
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto">
+          <label class="form-check-label">System</label>
+      </div>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light">
+          <label class="form-check-label">Light</label>
+      </div>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark">
+          <label class="form-check-label">Dark</label>
+      </div>
+  </div>
+</form>
 
-
+                </div>
             </div>
             
             
@@ -1043,6 +1037,15 @@
 					
 				
 			
+				
+				
+				
+				
+					
+					
+					
+				
+			
 		
 	
 		
@@ -1084,8 +1087,7 @@
                
         </div>
     </main>
-</div>
-
+    
 <div class="footer-container">
 	<div class="container">
         <div class="row">
@@ -1204,6 +1206,7 @@
 
 
 <script>hljs.highlightAll();</script>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
 
 
@@ -1249,76 +1252,50 @@ function showHideMenu() {
     
 
 
-(function() {
-      'use strict';
+  (function() {
+    'use strict';
 
-      
-      const getStoredTheme = () => localStorage.getItem('theme');
+    const getStoredTheme = () => localStorage.getItem('theme');
 
-      
-      const setStoredTheme = theme => localStorage.setItem('theme', theme);
+    const setStoredTheme = theme => localStorage.setItem('theme', theme);
 
-      
-      const getPreferredTheme = () => {
-        const storedTheme = getStoredTheme(); 
-        if (storedTheme) {
-          return storedTheme; 
-        }
-        
-        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      };
+    const getPreferredTheme = () => {
+      const storedTheme = getStoredTheme();
+      return storedTheme ? storedTheme : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    };
 
-      
-      const setTheme = theme => {
-        if (theme === 'auto') {
-          
-          document.documentElement.setAttribute('data-bs-theme', (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
-        } else {
-          
-          document.documentElement.setAttribute('data-bs-theme', theme);
-        }
-      };
+    const setTheme = theme => {
+      const themeToSet = theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme;
+      document.documentElement.setAttribute('data-bs-theme', themeToSet);
+    };
 
-      
-      const showActiveTheme = theme => {
-        const themeSwitcher = document.querySelector('#theme-switcher');
-        if (!themeSwitcher) {
-          return; 
-        }
-        
-        document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
-          element.checked = false;
-        });
-        
-        const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`);
-        if (btnToActive) {
-          btnToActive.checked = true;
-        }
-      };
-
-      
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-        const storedTheme = getStoredTheme();
-        if (storedTheme !== 'light' && storedTheme !== 'dark') {
-          setTheme(getPreferredTheme()); 
-        }
-      });
-
-      
-      window.addEventListener('DOMContentLoaded', () => {
-        showActiveTheme(getPreferredTheme()); 
-        
-        document.querySelectorAll('[data-bs-theme-value]').forEach(toggle => {
-          toggle.addEventListener('change', () => {
-            const theme = toggle.getAttribute('data-bs-theme-value');
-            setStoredTheme(theme); 
-            setTheme(theme); 
-            showActiveTheme(theme); 
-          });
+    const showActiveTheme = theme => {
+      document.querySelectorAll('.theme-switch').forEach(themeSwitcher => {
+        themeSwitcher.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+          element.checked = (element.getAttribute('data-bs-theme-value') === theme);
         });
       });
-    })();
+    };
 
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      const storedTheme = getStoredTheme();
+      if (storedTheme !== 'light' && storedTheme !== 'dark') {
+        setTheme(getPreferredTheme());
+      }
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      showActiveTheme(getPreferredTheme());
+      document.querySelectorAll('.theme-switch [data-bs-theme-value]').forEach(toggle => {
+        toggle.addEventListener('change', () => {
+          const theme = toggle.getAttribute('data-bs-theme-value');
+          setStoredTheme(theme);
+          setTheme(theme);
+          showActiveTheme(theme);
+        });
+      });
+    });
+  })();
 </script>
 </body>
 </html>
