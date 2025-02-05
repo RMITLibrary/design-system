@@ -8,41 +8,45 @@ parent: "Complex components"
 <h2>Default</h2>
 <!-- Start theme switcher -->
 <form class="theme-switch">
-<h2>Theme</h2>
-<div class="bg">
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto">
-<label class="form-check-label">System</label>
-</div>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light">
-<label class="form-check-label">Light</label>
-</div>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark">
-<label class="form-check-label">Dark</label>
-</div>
-</div>
+  <fieldset>
+      <legend>Theme</legend>
+      <div class="bg">
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto" aria-label="System">
+              <span class="form-check-label">System</span>
+          </div>
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light" aria-label="Light">
+              <span class="form-check-label">Light</span>
+          </div> 
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark" aria-label="Dark">
+              <span class="form-check-label">Dark</span>
+          </div>
+      </div>
+  </fieldset>
 </form>
 <!-- End theme switcher -->
 <div class="highlight wrap-code">
 <pre class="chroma">
 <code class="language-html">&lt;form class=&quot;theme-switch&quot;&gt;
-&lt;h2&gt;Theme&lt;/h2&gt;
-&lt;div class=&quot;bg&quot;&gt;
-&lt;div class=&quot;form-check form-check-inline&quot;&gt;
-&lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;themeOptions&quot; data-bs-theme-value=&quot;auto&quot;&gt;
-&lt;label class=&quot;form-check-label&quot;&gt;System&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;form-check form-check-inline&quot;&gt;
-&lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;themeOptions&quot; data-bs-theme-value=&quot;light&quot;&gt;
-&lt;label class=&quot;form-check-label&quot;&gt;Light&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;form-check form-check-inline&quot;&gt;
-&lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;themeOptions&quot; data-bs-theme-value=&quot;dark&quot;&gt;
-&lt;label class=&quot;form-check-label&quot;&gt;Dark&lt;/label&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+  &lt;fieldset&gt;
+      &lt;legend&gt;Theme&lt;/legend&gt;
+      &lt;div class=&quot;bg&quot;&gt;
+          &lt;div class=&quot;form-check form-check-inline&quot;&gt;
+              &lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;themeOptions&quot; data-bs-theme-value=&quot;auto&quot; aria-label=&quot;System&quot;&gt;
+              &lt;span class=&quot;form-check-label&quot;&gt;System&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;form-check form-check-inline&quot;&gt;
+              &lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;themeOptions&quot; data-bs-theme-value=&quot;light&quot; aria-label=&quot;Light&quot;&gt;
+              &lt;span class=&quot;form-check-label&quot;&gt;Light&lt;/span&gt;
+          &lt;/div&gt; 
+          &lt;div class=&quot;form-check form-check-inline&quot;&gt;
+              &lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;themeOptions&quot; data-bs-theme-value=&quot;dark&quot; aria-label=&quot;Dark&quot;&gt;
+              &lt;span class=&quot;form-check-label&quot;&gt;Dark&lt;/span&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/fieldset&gt;
 &lt;/form&gt;</code>
 </pre></div>
 
@@ -51,21 +55,23 @@ parent: "Complex components"
 <div style="background-color: #000056; padding: 1px 2rem 1rem 2rem;">
 <!-- Start theme switcher -->
 <form class="theme-switch hamburger-menu">
-    <h2>Theme</h2>
-    <div class="bg">
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto">
-            <label class="form-check-label">System</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light">
-            <label class="form-check-label">Light</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark">
-            <label class="form-check-label">Dark</label>
-        </div>
-    </div>
+  <fieldset>
+      <legend>Theme</legend>
+      <div class="bg">
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto" aria-label="System">
+              <span class="form-check-label">System</span>
+          </div>
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light" aria-label="Light">
+              <span class="form-check-label">Light</span>
+          </div> 
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark" aria-label="Dark">
+              <span class="form-check-label">Dark</span>
+          </div>
+      </div>
+  </fieldset>
 </form>
 <!-- End theme switcher -->
 </div>
@@ -79,21 +85,23 @@ parent: "Complex components"
 <p>In this variant, all the options presented slightly smaller and inline. A thin divider is present at the top of the switcher</p>
 <!-- Start theme switcher -->
 <form class="theme-switch theme-compact">
-    <h2>Theme</h2>
-    <div class="bg">
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto">
-            <label class="form-check-label">System</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light">
-            <label class="form-check-label">Light</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark">
-            <label class="form-check-label">Dark</label>
-        </div>
-    </div>
+  <fieldset>
+      <legend>Theme</legend>
+      <div class="bg">
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto" aria-label="System">
+              <span class="form-check-label">System</span>
+          </div>
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light" aria-label="Light">
+              <span class="form-check-label">Light</span>
+          </div> 
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark" aria-label="Dark">
+              <span class="form-check-label">Dark</span>
+          </div>
+      </div>
+  </fieldset>
 </form>
 <!-- End theme switcher -->
 <div class="highlight">
