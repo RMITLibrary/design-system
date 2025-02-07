@@ -46,15 +46,18 @@ The main SCSS file is structured as follows:
 // Import bootstrap styles
 // Import design system styles
 // Import app specific styles
+```
 
 File structure as follows:
 
+```
 your-project/
 └── sass/
     ├── main.scss
     ├── app-specific/
     ├── bootstrap/
     └── design-system/
+```
 
 ## Setting Up Hugo
 
