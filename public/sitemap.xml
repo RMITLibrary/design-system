@@ -2,76 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:60391/design-system/components-simple/forms/</loc>
+    <loc>http://localhost:1313/design-system/components-simple/forms/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/sandbox/</loc>
+    <loc>http://localhost:1313/design-system/sandbox/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/introduction/accessibility/</loc>
+    <loc>http://localhost:1313/design-system/introduction/accessibility/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-simple/accordions/</loc>
+    <loc>http://localhost:1313/design-system/components-simple/accordions/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/introduction/anatomy/</loc>
+    <loc>http://localhost:1313/design-system/introduction/anatomy/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/introduction/headings/</loc>
+    <loc>http://localhost:1313/design-system/introduction/headings/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-simple/blockquotes/</loc>
+    <loc>http://localhost:1313/design-system/components-simple/blockquotes/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/visual/breakpoints/</loc>
+    <loc>http://localhost:1313/design-system/visual/breakpoints/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-simple/buttons/</loc>
+    <loc>http://localhost:1313/design-system/components-simple/buttons/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/categories/</loc>
+    <loc>http://localhost:1313/design-system/categories/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/visual/colour/</loc>
+    <loc>http://localhost:1313/design-system/visual/colour/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-complex/</loc>
+    <loc>http://localhost:1313/design-system/components-complex/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/example-1/</loc>
+    <loc>http://localhost:1313/design-system/example-1/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/examples/example-1/</loc>
+    <loc>http://localhost:1313/design-system/examples/example-1/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/examples/example-2/</loc>
+    <loc>http://localhost:1313/design-system/examples/example-2/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/examples/example-3/</loc>
+    <loc>http://localhost:1313/design-system/examples/example-3/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/examples/</loc>
+    <loc>http://localhost:1313/design-system/examples/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-complex/footer/</loc>
+    <loc>http://localhost:1313/design-system/components-complex/footer/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/</loc>
+    <loc>http://localhost:1313/design-system/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/introduction/help/</loc>
+    <loc>http://localhost:1313/design-system/introduction/help/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/visual/icons/</loc>
+    <loc>http://localhost:1313/design-system/visual/icons/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-complex/images/</loc>
+    <loc>http://localhost:1313/design-system/components-complex/images/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/introduction/</loc>
+    <loc>http://localhost:1313/design-system/introduction/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-simple/layouts/</loc>
+    <loc>http://localhost:1313/design-system/components-simple/layouts/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/visual/links/</loc>
+    <loc>http://localhost:1313/design-system/visual/links/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-complex/navigation/</loc>
+    <loc>http://localhost:1313/design-system/components-complex/navigation/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/introduction/page-shell/</loc>
+    <loc>http://localhost:1313/design-system/introduction/page-shell/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-simple/</loc>
+    <loc>http://localhost:1313/design-system/components-simple/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/visual/spacing/</loc>
+    <loc>http://localhost:1313/design-system/visual/spacing/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-simple/tables/</loc>
+    <loc>http://localhost:1313/design-system/components-simple/tables/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/tags/</loc>
+    <loc>http://localhost:1313/design-system/tags/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-complex/theme-switcher/</loc>
+    <loc>http://localhost:1313/design-system/components-complex/theme-switcher/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-complex/top-nav/</loc>
+    <loc>http://localhost:1313/design-system/components-complex/top-nav/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/visual/typography/</loc>
+    <loc>http://localhost:1313/design-system/visual/typography/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/components-complex/video/</loc>
+    <loc>http://localhost:1313/design-system/components-complex/video/</loc>
   </url><url>
-    <loc>http://localhost:60391/design-system/visual/</loc>
+    <loc>http://localhost:1313/design-system/visual/</loc>
   </url>
 </urlset>

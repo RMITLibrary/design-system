@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Components-Complexes on Design system</title>
-    <link>http://localhost:60391/design-system/components-complex/</link>
+    <link>http://localhost:1313/design-system/components-complex/</link>
     <description>Recent content in Components-Complexes on Design system</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <atom:link href="http://localhost:60391/design-system/components-complex/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/design-system/components-complex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Footer</title>
-      <link>http://localhost:60391/design-system/components-complex/footer/</link>
+      <link>http://localhost:1313/design-system/components-complex/footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60391/design-system/components-complex/footer/</guid>
+      <guid>http://localhost:1313/design-system/components-complex/footer/</guid>
       <description>Footer Typically, the footer consists of three basic parts, ask the library, acknowledgment of country and the general RMIT footer. The basic structure is as follows: &amp;lt;div class=&amp;quot;footer-container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col&amp;quot;&amp;gt; &amp;lt;!-- START ask the library --&amp;gt; ... &amp;lt;!-- END ask the library --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;acknowledgement&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col&amp;quot;&amp;gt; &amp;lt;!-- START acknowledgement --&amp;gt; ... &amp;lt;!-- END acknowledgement --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;footer&amp;gt; &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col&amp;quot;&amp;gt; &amp;lt;!</description>
     </item>
     <item>
       <title>Images</title>
-      <link>http://localhost:60391/design-system/components-complex/images/</link>
+      <link>http://localhost:1313/design-system/components-complex/images/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60391/design-system/components-complex/images/</guid>
+      <guid>http://localhost:1313/design-system/components-complex/images/</guid>
       <description>Images The design system offers various options in displaying images including borders, alignment, sizing and adding captions and transcript accordions. Image options Sizing Captions and transcripts Portrait images Markup For images used in page content, wrap all &amp;lt;img&amp;gt; tags in a &amp;lt;figure&amp;gt; tag. Remember to include an alt tag.&#xA;&amp;lt;figure&amp;gt; &amp;lt;img src=&amp;rdquo;my-image.jpg&amp;rdquo; alt=&amp;rdquo;An example image&amp;rdquo; / &amp;gt; &amp;lt;/figure&amp;gt; Defaults Each image has a margin of space-large applied top and bottom The default max width for images is 640px (40rem) Images are aligned to the left by default Image options Use the class my-border to add a border.</description>
     </item>
     <item>
       <title>Navigation</title>
-      <link>http://localhost:60391/design-system/components-complex/navigation/</link>
+      <link>http://localhost:1313/design-system/components-complex/navigation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60391/design-system/components-complex/navigation/</guid>
+      <guid>http://localhost:1313/design-system/components-complex/navigation/</guid>
       <description>Navigation There are several recommended approaches to providing navigation. Using breadcrumbs at the top of the page is a simple and compact way of showing the user the website hierarchy. The right nav offers several options for providing more detailed navigation and could be useful for larger, more complex sites.&#xA;Breadcrumbs Breadcrumbs are usually placed at the top of the page, close to the page title, to help navigate sites with multiple content levels.</description>
     </item>
     <item>
       <title>Theme switcher</title>
-      <link>http://localhost:60391/design-system/components-complex/theme-switcher/</link>
+      <link>http://localhost:1313/design-system/components-complex/theme-switcher/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60391/design-system/components-complex/theme-switcher/</guid>
+      <guid>http://localhost:1313/design-system/components-complex/theme-switcher/</guid>
       <description>Theme switcher The Theme Switcher lets users toggle between light, dark, and system themes, with the latter adapting to the device&#39;s preference. It&#39;s powered by two JavaScript scripts—one in the head section and one at the bottom of the page—to ensure smooth transitions. Several variants cater to different UI needs.&#xA;Default Theme System Light Dark &amp;lt;form class=&amp;quot;theme-switch&amp;quot;&amp;gt; &amp;lt;fieldset&amp;gt; &amp;lt;legend&amp;gt;Theme&amp;lt;/legend&amp;gt; &amp;lt;div class=&amp;quot;bg&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;form-check form-check-inline&amp;quot;&amp;gt; &amp;lt;input class=&amp;quot;form-check-input&amp;quot; type=&amp;quot;radio&amp;quot; name=&amp;quot;themeOptions&amp;quot; data-bs-theme-value=&amp;quot;auto&amp;quot; aria-label=&amp;quot;System&amp;quot;&amp;gt; &amp;lt;span class=&amp;quot;form-check-label&amp;quot;&amp;gt;System&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;form-check form-check-inline&amp;quot;&amp;gt; &amp;lt;input class=&amp;quot;form-check-input&amp;quot; type=&amp;quot;radio&amp;quot; name=&amp;quot;themeOptions&amp;quot; data-bs-theme-value=&amp;quot;light&amp;quot; aria-label=&amp;quot;Light&amp;quot;&amp;gt; &amp;lt;span class=&amp;quot;form-check-label&amp;quot;&amp;gt;Light&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;form-check form-check-inline&amp;quot;&amp;gt; &amp;lt;input class=&amp;quot;form-check-input&amp;quot; type=&amp;quot;radio&amp;quot; name=&amp;quot;themeOptions&amp;quot; data-bs-theme-value=&amp;quot;dark&amp;quot; aria-label=&amp;quot;Dark&amp;quot;&amp;gt; &amp;lt;span class=&amp;quot;form-check-label&amp;quot;&amp;gt;Dark&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/fieldset&amp;gt; &amp;lt;/form&amp;gt; Hamburger menu This variant is designed to sit on a blue background and can be used in a site&#39;s context or hamburger menu.</description>
     </item>
     <item>
       <title>Top navigation</title>
-      <link>http://localhost:60391/design-system/components-complex/top-nav/</link>
+      <link>http://localhost:1313/design-system/components-complex/top-nav/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60391/design-system/components-complex/top-nav/</guid>
+      <guid>http://localhost:1313/design-system/components-complex/top-nav/</guid>
       <description>Top navigation As a component, top navigation will require a more customisation according to the context of the site. Options are available for fixing the navigation to the top of screen, hamburger menus and more.&#xA;Simple The optional site name provides a link to the home page. At small screen sizes (width &amp;lt; 768px), this type is scaled to fit the available space. That being said, site titles should remain relatively short.</description>
     </item>
     <item>
       <title>Video</title>
-      <link>http://localhost:60391/design-system/components-complex/video/</link>
+      <link>http://localhost:1313/design-system/components-complex/video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60391/design-system/components-complex/video/</guid>
+      <guid>http://localhost:1313/design-system/components-complex/video/</guid>
       <description>Video Video is displayed via a responsive iFrame, a transcript of the video should be displayed via an accordion to assist visually impaired users.&#xA;These examples show YouTube content, it should be possible to show content from other providers with some adjustments. The text within the transcript is set to small (15px, 13px on smaller screens). Landscape The default aspect ratio is 16:9. The iframe is sized so as to retain the aspect ratio while remaining responsive.</description>
     </item>
   </channel>
