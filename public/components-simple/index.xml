@@ -33,7 +33,7 @@
       <link>http://localhost:1313/design-system/components-simple/buttons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/design-system/components-simple/buttons/</guid>
-      <description>Buttons Two different varieties of button are available in the design system.&#xA;Primary button Use sparingly, ideally only once per page. Ideal for important actions like form submission. For H5P content, all buttons use this style due to limitations. Primary button &amp;lt;button class=&amp;quot;btn btn-primary&amp;quot; &amp;gt;Primary button&amp;lt;/button&amp;gt; Default state Follows Bootstrap&#39;s btn-outline-secondary style. Use for most buttons on a page. Default button &amp;lt;button class=&amp;quot;btn btn-default&amp;quot;&amp;gt;Button label&amp;lt;/button&amp;gt; Small Button Best for less prominent actions.</description>
+      <description>Buttons Two different varieties of button are available in the design system.&#xA;Primary button Use sparingly, ideally only once per page. Ideal for important actions like form submission. For H5P content, all buttons use this style due to limitations. Primary button &amp;lt;button class=&amp;quot;btn btn-primary&amp;quot; &amp;gt;Primary button&amp;lt;/button&amp;gt; Default state Follows Bootstrap&#39;s btn-outline-secondary style. Use for most buttons on a page. Default button &amp;lt;button class=&amp;quot;btn btn-default&amp;quot;&amp;gt;Button label&amp;lt;/button&amp;gt; Secondary Button Best for less prominent actions.</description>
     </item>
     <item>
       <title>Layouts</title>
