@@ -26,17 +26,17 @@ parent: "Simple components"
 <pre class="chroma">
 <code class="language-html">&lt;button class=&quot;btn btn-default&quot;&gt;Button label&lt;/button&gt;</code>
 </pre></div>
-<h2>Small Button</h2>
+<h2>Secondary Button</h2>
 <ul>
     <li>Best for less prominent actions.</li>
-    <li>Features slightly smaller height.</li>
     <li>Uses interface-grey for the border.</li>
     <li>Rollovers match the default state.</li>
+    <li>Sized to match height of other buttons. Override height to create more compact buttons</li>
 </ul>
-<button class="btn btn-sm">Small button</button> 
+<button class="btn btn-secondary">Secondary button</button> 
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;button class=&quot;btn btn-sm&quot;&gt;Button label&lt;/button&gt;</code>
+<code class="language-html">&lt;button class=&quot;btn btn-secondary&quot;&gt;Button label&lt;/button&gt;</code>
 </pre></div>
 <h2>Icon Button</h2>
 <ul>
