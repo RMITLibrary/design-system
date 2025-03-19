@@ -222,82 +222,82 @@ parent: "Simple components"
 &lt;/div&gt;</code>
 </pre></div>
 <!-- END Code -->
-<!-- START Example -->
-<!--
-<h2>Different heading levels</h2>
-<div class="accordion" id="accordionExample2">
-  <div class="accordion-item">
-    <h1 class="accordion-header" id="h1-head">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h1-body" aria-expanded="false" aria-controls="h1-body">
-        Accordion Item #1
-      </button>
-    </h1>
-    <div id="h1-body" class="accordion-collapse collapse" aria-labelledby="h1-head">
-      <div class="accordion-body">
-        This is the first item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus ipsum, semper sit amet sollicitudin sit amet, interdum et nisi. Morbi in ullamcorper nisi. Fusce eget magna vitae lacus eleifend malesuada vel eu metus. Integer eget pellentesque magna, sit amet dignissim leo. Suspendisse potenti. Cras nec eros convallis, pretium ipsum eu, luctus magna.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="h2-head">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h2-body" aria-expanded="false" aria-controls="h2-body">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="h2-body" class="accordion-collapse collapse" aria-labelledby="h2-head">
-      <div class="accordion-body">
-        This is the second item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Aliquam sapien nibh, pretium sollicitudin convallis vitae, egestas eget velit. Vivamus faucibus auctor ultricies. Sed sed magna ante. Quisque fringilla pharetra faucibus. Phasellus non vehicula orci. In quis porttitor metus. Maecenas et nulla augue.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h3 class="accordion-header" id="h3-head">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h3-body" aria-expanded="false" aria-controls="h3-body">
-        Accordion Item #3
-      </button>
-    </h3>
-    <div id="h3-body" class="accordion-collapse collapse" aria-labelledby="h3-head">
-      <div class="accordion-body">
-        This is the third item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Nulla lacinia, lacus egestas egestas varius, eros tortor varius sem, sit amet blandit nunc enim ut nisi. Praesent non nulla neque. Vivamus non erat mattis turpis ultricies efficitur.
-      </div>
-    </div>
-  </div>
-    <div class="accordion-item">
-    <h4 class="accordion-header" id="h4-head">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h4-body" aria-expanded="false" aria-controls="h4-body">
-        Accordion Item #4
-      </button>
-    </h4>
-    <div id="h4-body" class="accordion-collapse collapse" aria-labelledby="h4-head">
-      <div class="accordion-body">
-        This is the fourth item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus ipsum, semper sit amet sollicitudin sit amet, interdum et nisi. Morbi in ullamcorper nisi. Fusce eget magna vitae lacus eleifend malesuada vel eu metus. Integer eget pellentesque magna, sit amet dignissim leo. Suspendisse potenti. Cras nec eros convallis, pretium ipsum eu, luctus magna.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h5 class="accordion-header" id="h5-head">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h5-body" aria-expanded="false" aria-controls="h5-body">
-        Accordion Item #5
-      </button>
-    </h5>
-    <div id="h5-body" class="accordion-collapse collapse" aria-labelledby="h5-head">
-      <div class="accordion-body">
-        This is the fifth item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Aliquam sapien nibh, pretium sollicitudin convallis vitae, egestas eget velit. Vivamus faucibus auctor ultricies. Sed sed magna ante. Quisque fringilla pharetra faucibus. Phasellus non vehicula orci. In quis porttitor metus. Maecenas et nulla augue.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h6 class="accordion-header" id="h6-head">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#h6-body" aria-expanded="false" aria-controls="h6-body">
-        Accordion Item #6
-      </button>
-    </h6>
-    <div id="h6-body" class="accordion-collapse collapse" aria-labelledby="h6-head">
-      <div class="accordion-body">
-        This is the sixth item's accordion body. Any HTML can go within the <code>.accordion-body</code>. Nulla lacinia, lacus egestas egestas varius, eros tortor varius sem, sit amet blandit nunc enim ut nisi. Praesent non nulla neque. Vivamus non erat mattis turpis ultricies efficitur.
-      </div>
-    </div>
-  </div>
-</div>
--->
-<!-- END Example -->
+
+<!-- white accordions -->
+<div class="blue">
+				<div class="accordion accordion-white" id="context-menu-accordion">	
+						<div class="accordion-item">
+<h2 class="accordion-header" id="accordion-head-6823">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-body-6823" aria-expanded="false" aria-controls="accordion-body-6823">University essentials</button>
+</h2>
+<div id="accordion-body-6823" class="accordion-collapse collapse" aria-labelledby="accordion-head-6823">
+<div class="accordion-body"><ul><li class="page_item page-item-2501 page_item_has_children"><a href="https://lab.bitma.app/university-essentials/getting-started/">Getting started with Uni</a></li>
+<li class="page_item page-item-3117 page_item_has_children"><a href="https://lab.bitma.app/university-essentials/critical-thinking-and-argument-analysis/">Critical thinking</a></li>
+<li class="page_item page-item-3097 page_item_has_children"><a href="https://lab.bitma.app/university-essentials/group-work/">Group work</a></li>
+<li class="page_item page-item-3175 page_item_has_children"><a href="https://lab.bitma.app/university-essentials/online-learning-skills/">Online learning skills</a></li>
+<li class="page_item page-item-3347 page_item_has_children"><a href="https://lab.bitma.app/university-essentials/artificial-intelligence-tools/">Artificial intelligence</a></li>
+<li class="page_item page-item-3313 page_item_has_children"><a href="https://lab.bitma.app/university-essentials/sustainability/">Sustainability</a></li>
+<li class="page_item page-item-6844 page_item_has_children"><a href="https://lab.bitma.app/university-essentials/study-essentials/">Study essentials</a></li>
+<li class="page_item page-item-3339 page_item_has_children"><a href="https://lab.bitma.app/university-essentials/acting-academic-integrity/">Academic integrity</a></li>
+</ul></div></div></div><div class="accordion-item">
+<h2 class="accordion-header" id="accordion-head-6825">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-body-6825" aria-expanded="false" aria-controls="accordion-body-6825">Writing fundamentals</button>
+</h2>
+<div id="accordion-body-6825" class="accordion-collapse collapse" aria-labelledby="accordion-head-6825">
+<div class="accordion-body"><ul><li class="page_item page-item-2522 page_item_has_children"><a href="https://lab.bitma.app/writing-fundamentals/academic-style/">Academic style</a></li>
+<li class="page_item page-item-2534 page_item_has_children"><a href="https://lab.bitma.app/writing-fundamentals/academic-word-list-tool/">Academic word list tool</a></li>
+<li class="page_item page-item-3107 page_item_has_children"><a href="https://lab.bitma.app/writing-fundamentals/writing-paragraphs/">Writing paragraphs</a></li>
+<li class="page_item page-item-2520 page_item_has_children"><a href="https://lab.bitma.app/writing-fundamentals/writing-sentences/">Writing sentences</a></li>
+<li class="page_item page-item-2521"><a href="https://lab.bitma.app/writing-fundamentals/spelling-tips/">Spelling tips</a></li>
+<li class="page_item page-item-2855 page_item_has_children"><a href="https://lab.bitma.app/writing-fundamentals/writing-workplace/">Writing for the workplace</a></li>
+</ul></div></div></div><div class="accordion-item">
+<h2 class="accordion-header" id="accordion-head-6828">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-body-6828" aria-expanded="false" aria-controls="accordion-body-6828">Assessments</button>
+</h2>
+<div id="accordion-body-6828" class="accordion-collapse collapse" aria-labelledby="accordion-head-6828">
+<div class="accordion-body"><ul><li class="page_item page-item-7168 page_item_has_children"><a href="https://lab.bitma.app/assessments/getting-started-with-assignments/">Getting started with assignments</a></li>
+<li class="page_item page-item-2516 page_item_has_children"><a href="https://lab.bitma.app/assessments/essays/">Essays</a></li>
+<li class="page_item page-item-2580 page_item_has_children"><a href="https://lab.bitma.app/assessments/reflective-writing/">Academic reflection</a></li>
+<li class="page_item page-item-7204 page_item_has_children"><a href="https://lab.bitma.app/assessments/presentations/">Presentations</a></li>
+<li class="page_item page-item-2578 page_item_has_children"><a href="https://lab.bitma.app/assessments/case-studies/">Case studies</a></li>
+<li class="page_item page-item-2544 page_item_has_children"><a href="https://lab.bitma.app/assessments/reports/">Reports</a></li>
+<li class="page_item page-item-12254 page_item_has_children"><a href="https://lab.bitma.app/assessments/literature-reviews/">Literature reviews</a></li>
+<li class="page_item page-item-2617"><a href="https://lab.bitma.app/assessments/annotated-bibliographies/">Annotated bibliographies</a></li>
+</ul></div></div></div><div class="accordion-item">
+<h2 class="accordion-header" id="accordion-head-2545">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-body-2545" aria-expanded="false" aria-controls="accordion-body-2545">Referencing</button>
+</h2>
+<div id="accordion-body-2545" class="accordion-collapse collapse" aria-labelledby="accordion-head-2545">
+<div class="accordion-body"><ul><li class="page_item page-item-3329"><a href="https://lab.bitma.app/referencing/using-other-peoples-ideas/">What is referencing?</a></li>
+<li class="page_item page-item-3346"><a href="https://lab.bitma.app/referencing/understanding-citations/">Understanding citations</a></li>
+<li class="page_item page-item-3330"><a href="https://lab.bitma.app/referencing/when-referencing-isnt-needed/">When referencing isn't needed</a></li>
+<li class="page_item page-item-3331"><a href="https://lab.bitma.app/referencing/quoting/">Quoting</a></li>
+<li class="page_item page-item-3337"><a href="https://lab.bitma.app/referencing/paraphrasing/">Paraphrasing</a></li>
+<li class="page_item page-item-3333"><a href="https://lab.bitma.app/referencing/integrating-ideas-reporting-words/">Integrating ideas with reporting words</a></li>
+<li class="page_item page-item-3336"><a href="https://lab.bitma.app/referencing/getting-help-referencing/">Easy Cite and referencing help</a></li>
+<li class="page_item page-item-13422"><a href="https://lab.bitma.app/referencing/copyright/">Copyright</a></li>
+</ul></div></div></div>						<!-- START Subject support
+                        special case. Effectively each of the child pages here is a section page. For the nav, however, we want toshow these under the banner of subject support. -->
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-head-subject-support">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-body-subject-support" aria-expanded="false" aria-controls="accordion-body-subject-support">
+								Subject support
+							  	</button>
+							</h2>
+							<div id="accordion-body-subject-support" class="accordion-collapse collapse" aria-labelledby="accordion-head-subject-support" style="">
+								<div class="accordion-body">
+									<ul>
+										<li><a href="/art-and-design/">Art and design</a></li>
+										<li><a href="/chemistry/">Chemistry</a></li>
+										<li><a href="/law/">Law</a></li>
+										<li><a href="/maths-statistics/">Mathematics and statistics</a></li>
+										<li><a href="/nursing/">Nursing</a></li>
+										<li><a href="/physics/">Physics</a></li>
+										<!-- <li><a href="//">Life sciences</a></li> -->
+									</ul>
+								</div>
+							  </div>
+						</div>
+						<!-- END subject support - special case -->
+                </div>	
+            </div>
