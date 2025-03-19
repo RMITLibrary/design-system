@@ -1,3 +1,7 @@
+<div class="frog">
+    Are we sure?
+</div>
+
 <button class="btn btn-print partprint" id="printthistype" type="button" tabindex="0">
     Print chapter<span class="visually-hidden"> - print this chapter of the style guide (opens new window)</span>
 </button>
