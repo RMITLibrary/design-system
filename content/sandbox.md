@@ -2,6 +2,70 @@
     Are we sure?
 </div>
 
+<div class="hscroll">
+    <div class="my-grid  my-grid-4up grid-width-sm">
+        <div class="card ">
+            <div class="card-body ">
+            <h4 class="card-title ">Item 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper.</p>
+            <p>	
+            </p></div>
+        </div>
+        <div class="card ">
+            <div class="card-body ">
+            <h4 class="card-title ">Item 2</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper.</p>
+            <p>	
+            </p></div>
+        </div>
+        <div class="card ">
+            <div class="card-body ">
+            <h4 class="card-title ">Item 3</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper.</p>
+            <p>	
+            </p></div>
+        </div>
+        <div class="card ">
+            <div class="card-body ">
+            <h4 class="card-title ">Item 4</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper.</p>
+            <p>	
+            </p></div>
+        </div>
+    </div>
+</div>
+
+<div class="my-grid  my-grid-4up grid-width-xl">
+        <div class="card ">
+            <div class="card-body ">
+            <h4 class="card-title ">Blergh 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper.</p>
+            <p>	
+            </p></div>
+        </div>
+        <div class="card ">
+            <div class="card-body ">
+            <h4 class="card-title ">Item 2</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper.</p>
+            <p>	
+            </p></div>
+        </div>
+        <div class="card ">
+            <div class="card-body ">
+            <h4 class="card-title ">Item 3</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper.</p>
+            <p>	
+            </p></div>
+        </div>
+        <div class="card ">
+            <div class="card-body ">
+            <h4 class="card-title ">Item 4</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum semper.</p>
+            <p>	
+            </p></div>
+        </div>
+    </div>
+
 <button class="btn btn-print partprint" id="printthistype" type="button" tabindex="0">
     Print chapter<span class="visually-hidden"> - print this chapter of the style guide (opens new window)</span>
 </button>
