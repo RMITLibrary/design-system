@@ -9,7 +9,7 @@ parent: "Complex components"
 
 <div class="highlight">
 <pre class="chroma">
-<code class="language-html">&lt;div class=&quot;footer-container&quot;&gt;
+<code class="language-html">&lt;div class=&quot;footer-container&quot; id=&quot;footer&quot;&gt;
 	&lt;div class=&quot;container&quot;&gt;
 		&lt;div class=&quot;row&quot;&gt;
 			&lt;div class=&quot;col&quot;&gt;
@@ -49,13 +49,13 @@ parent: "Complex components"
 <div class="highlight">
 <pre class="chroma">
 <code class="language-html">&lt;!-- START ask the library --&gt;
-&lt;div class=&quot;ask-container&quot;&gt;
+&lt;div class=&quot;ask-container&quot;&gt;	
 	&lt;section class=&quot;ask-the-library&quot;&gt;
 		&lt;a href=&quot;https://www.rmit.edu.au/library/about-and-contacts/ask-the-library&quot;&gt;
-			&lt;img src=&quot;https://rmitlibrary.github.io/cdn/image/svg/ask-the-library.svg&quot; class=&quot;ask-logo&quot; alt=&quot;Ask the library&quot; /&gt;
+			&lt;img src=&quot;https://rmitlibrary.github.io/cdn/footer/ask-library-icon-round.svg&quot; class=&quot;ask-logo&quot; alt=&quot;&quot; /&gt;
 			&lt;div class=&quot;ask-text&quot;&gt;
-				&lt;p class=&quot;lead&quot;&gt;Still can't find what you need?&lt;/p&gt;
-				&lt;p&gt;The RMIT University Library provides study support, one-on-one consultations and peer mentoring to RMIT students.&lt;/p&gt;
+				&lt;h2 class=&quot;h3 margin-top-zero&quot;&gt;Ask the library&lt;/h2&gt;
+				&lt;p&gt;Get help with finding information, referencing, and using the Library.&lt;/p&gt;
 			&lt;/div&gt;
 		&lt;/a&gt;
 	&lt;/section&gt;
@@ -72,15 +72,15 @@ parent: "Complex components"
 		&lt;div class=&quot;row&quot;&gt;
 			&lt;div class=&quot;col&quot;&gt;
 				&lt;section class=&quot;acknowledgement-container&quot;&gt;
-					&lt;div class=&quot;acknowledgement-image&quot;&gt;
-						&lt;img src=&quot;https://www.rmit.edu.au/content/dam/rmit/images/luwaytini.png&quot; alt=&quot;&quot; /&gt;
-					&lt;/div&gt;
 					&lt;div class=&quot;content&quot;&gt;
 						&lt;img alt=&quot;aboriginal flag&quot; src=&quot;https://www.rmit.edu.au/content/dam/rmit/au/en/news/homepage/flag-red.png&quot; /&gt;
-						&lt;img alt=&quot;torres strait flag&quot; src=&quot;https://www.rmit.edu.au/content/dam/rmit/au/en/news/homepage/flag-green.png&quot;&gt;
+						&lt;img alt=&quot;torres strait flag&quot; src=&quot;https://www.rmit.edu.au/content/dam/rmit/au/en/news/homepage/flag-green.png&quot;&gt;    
 						&lt;h2 class=&quot;h4 margin-top-zero&quot;&gt;Acknowledgement of Country&lt;/h2&gt;
-						&lt;p&gt;RMIT University acknowledges the people of the Woi wurrung and Boon wurrung language groups of the eastern Kulin Nation on whose unceded lands we conduct the business of the University. RMIT University respectfully acknowledges their Ancestors and Elders, past and present. RMIT also acknowledges the Traditional Custodians and their Ancestors of the lands and waters across Australia where we conduct our business - Artwork 'Luwaytini' by Mark Cleaver, Palawa.&lt;/p&gt;
-						&lt;a href=&quot;#&quot; class=&quot;link-large&quot;&gt;More information&lt;/a&gt;
+						&lt;p&gt;RMIT University acknowledges the people of the Woi wurrung and Boon wurrung language groups of the eastern Kulin Nation on whose unceded lands we conduct the business of the University. RMIT University respectfully acknowledges their Ancestors and Elders, past and present. RMIT also acknowledges the Traditional Custodians and their Ancestors of the lands and waters across Australia where we conduct our business&lt;span class=&quot;img-credit&quot;&gt; - Artwork 'Sentient' by Hollie Johnson, Gunaikurnai and Monero Ngarigo&lt;/span&gt;.&lt;/p&gt;
+						&lt;a href=&quot;https://www.rmit.edu.au/about/our-values/respect-for-australian-indigenous-cultures&quot; class=&quot;link-large&quot;&gt;More information&lt;/a&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;acknowledgement-image&quot;&gt;
+						&lt;img src=&quot;https://www.rmit.edu.au/content/dam/rmit/images/sentient-hollie-johnson.jpg&quot; alt=&quot;&quot; /&gt;
 					&lt;/div&gt;
 				&lt;/section&gt;
 			&lt;/div&gt;
@@ -100,13 +100,15 @@ parent: "Complex components"
 &lt;!-- END logo --&gt;
 &lt;!-- START optional links --&gt;
 &lt;ul class=&quot;footer-links&quot;&gt;
-	&lt;li&gt;&lt;a href=&quot;optional link&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;optional link&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;optional link&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;optional link&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- END optional links --&gt;
 &lt;!-- START legal-social --&gt;
+&lt;div class=&quot;footerlegalShareItems&quot;&gt;
+	&lt;!-- START legal --&gt;
 	&lt;div class=&quot;footer-legal&quot;&gt;
 	&lt;ul&gt;
 		&lt;li&gt;Copyright &copy; 2024 RMIT University&lt;/li&gt;
@@ -120,7 +122,7 @@ parent: "Complex components"
 		&lt;li&gt;TEQSA provider number: PRV12145&lt;/li&gt;
 		&lt;li&gt;RTO Code: 3046&lt;/li&gt;
 		&lt;li&gt;&lt;a href=&quot;https://www.open.edu.au/online-courses/rmit-university&quot;&gt;&lt;span class=&quot;no-focus&quot; tabindex=&quot;-1&quot;&gt;Open Universities Australia&lt;/span&gt;&lt;/a&gt; &lt;/li&gt;
-	&lt;/ul&gt;
+		&lt;/ul&gt;
 	&lt;/div&gt;
 	&lt;!-- END legal --&gt;
 	&lt;!-- START social --&gt;
