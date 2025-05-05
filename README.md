@@ -62,3 +62,19 @@ your-project/
 ## Setting Up Hugo
 
 For detailed instructions on installing Hugo, please refer to this [beginner tutorial by CloudCannon](https://cloudcannon.com/tutorial/2021/11/08/getting-started-with-hugo/).
+
+
+#### © RMIT University Library
+
+###### Developed by RMIT Library Digital Learning
+
+## Contact
+
+- Repo Admin: Jack Dunstan ([jack.dunstan@rmit.edu.au](mailto:jack.dunstan@rmit.edu.au))
+- Main Contact: Sandy Houston ([sandy.houston@rmit.edu.au](mailto:sandy.houston@rmit.edu.au))
+- Additional Contact: [digital.learning.library@rmit.edu.au](mailto:digital.learning.library@rmit.edu.au)
+
+## Resources
+
+- [Active RMIT Library GitHub](https://github.com/RMITLibrary)
+- [Archived RMIT Library GitHub](https://github.com/RMITLibrary-Archived) 
