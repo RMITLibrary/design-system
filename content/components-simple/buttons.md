@@ -47,11 +47,13 @@ parent: "Simple components"
 <div style="display: flex; gap: 1.5rem;">
 <button class="btn btn-print">Print</button>
 <button class="btn btn-embed">Embed</button>
+<button class="btn btn-share">Share</button>
 </div>
 <div class="highlight">
 <pre class="chroma">
 <code class="language-html">&lt;button class=&quot;btn btn-print&quot;&gt;Print&lt;/button&gt;
-&lt;button class=&quot;btn btn-embed&quot;&gt;Embed&lt;/button&gt;</code>
+&lt;button class=&quot;btn btn-embed&quot;&gt;Embed&lt;/button&gt;
+&lt;button class=&quot;btn btn-share&quot;&gt;Share&lt;/button&gt;</code>
 </pre></div>
 <h3>Creating a New Icon Button</h3>
 <h4>Design Icons:</h4>
