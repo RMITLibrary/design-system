@@ -1,3 +1,18 @@
+<h2 class="title-icon aboriginal-flag">H2 icon title - aboriginal</h2>
+<p>This is a test paragraph</p>
+
+<h3 class="title-icon torres-strait-flag">H2 icon title - first nations</h3>
+<p>This is a test paragraph</p>
+
+<h4 class="title-icon quiz-icon">H2 icon title - quiz. Let's try a rather long title and see what heepens</h3>
+<p>This is a test paragraph</p>
+
+<h5 class="title-icon aboriginal-flag">H2H5 icon title - aboriginal</h5>
+<p>This is a test paragraph</p>
+
+<h6 class="title-icon torres-strait-flag">H2 icon title - first nations</h6>
+<p>This is a test paragraph</p>
+
 <div class="frog">
     Are we sure?
 </div>
