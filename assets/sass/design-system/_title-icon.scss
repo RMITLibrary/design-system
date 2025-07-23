@@ -28,6 +28,7 @@ h2.title-icon {
 }
 
 .title-icon.aboriginal-flag::before {
+    content: '' / 'First Nations content';
     background-image: url('https://www.rmit.edu.au/content/dam/rmit/au/en/news/homepage/flag-red.png');
 }
 
@@ -39,6 +40,7 @@ h2.title-icon {
 }
 
 .title-icon.torres-strait-flag::before {
+    content: '' / 'Torres Strait Island content';
     background-image: url('https://www.rmit.edu.au/content/dam/rmit/au/en/news/homepage/flag-green.png');
 }
 
