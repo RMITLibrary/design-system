@@ -138,6 +138,7 @@
     .accordion-button:not(.collapsed) {
         background-color: $rmit-blue;
         color: $white;
+		box-shadow: 0 0 !important;
     }
     
     .accordion-body {
